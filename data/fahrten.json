@@ -1,0 +1,742 @@
+{
+ "stand": "2026-11-21",
+ "veranstalter": {
+  "dfb": {
+   "n": "Dampfbahn Furka-Bergstrecke",
+   "k": "UR/VS",
+   "w": "https://www.dfb.ch",
+   "p": "Saison Juni–September, Do–So, Realp–Gletsch–Oberwald. Zahnrad-Dampfzüge über den Furkapass, buchbar auch über SwissPass-Verkaufsstellen."
+  },
+  "bc": {
+   "n": "Chemin de fer-musée Blonay-Chamby",
+   "k": "VD",
+   "w": "https://www.blonay-chamby.ch",
+   "p": "Museumsbahn mit Depot Chaulin. Sa/So von Mai bis Oktober; Fahrtage 2027 noch nicht publiziert. Tageskarte 2026: CHF 24, Kinder CHF 10."
+  },
+  "dvzo": {
+   "n": "Dampfbahn-Verein Zürcher Oberland",
+   "k": "ZH",
+   "w": "https://dvzo.ch/oeffentliche-fahrten/",
+   "p": "Bauma–Bäretswil–Hinwil. 2026: Dampf am 1./3. Sonntag Mai–Juli, jeden Sonntag Sept./Okt.; dazwischen Elektro-Baumwoll-Express. Kinder bis 16 gratis."
+  },
+  "zmb": {
+   "n": "Zürcher Museums-Bahn",
+   "k": "ZH",
+   "w": "https://www.museumsbahn.ch",
+   "p": "Sihltalbahn Zürich HB/Wiedikon–Sihlbrugg mit Dampflok «Schnaaggi-Schaaggi» (1899), jeweils letzter Sonntag April–Oktober; dazu Oster- und Samichlausfahrten."
+  },
+  "bdb": {
+   "n": "Brünig Dampfbahn",
+   "k": "BE/OW",
+   "w": "https://bruenig-dampfbahn.ch",
+   "p": "Ab Interlaken Ost über Meiringen und den Brünig nach Giswil, rund ein Sonntag pro Monat Mai–September. Kinder unter 16 gratis."
+  },
+  "dbb": {
+   "n": "Verein Dampfbahn Bern",
+   "k": "BE",
+   "w": "https://www.dbb.ch",
+   "p": "Normalspur-Dampf ab Konolfingen und Bern; Themenfahrten durch Emmental und Aaretal."
+  },
+  "rhb": {
+   "n": "RhB Nostalgiefahrten (Historic RhB)",
+   "k": "GR",
+   "w": "https://www.rhb.ch/de/nostalgiefahrten",
+   "p": "Dampffahrten mit G 3/4 11 «Heidi», G 4/5 107 «Albula» und 108; Bewirtung durch Club 1889 und Dampffreunde RhB. Auskunft: RhB Railservice 081 288 65 65."
+  },
+  "sbbh": {
+   "n": "SBB Historic",
+   "k": "national",
+   "w": "https://sbbhistoric.ch/events/agenda/",
+   "p": "Erlebnisfahrten über die Gotthard-Bergstrecke, mit dem TEE und Dampf am alten Hauenstein. Anmeldung erforderlich."
+  },
+  "bls": {
+   "n": "BLS-Stiftung (bls.historic)",
+   "k": "BE",
+   "w": "https://www.bls.ch/de/historic/angebot",
+   "p": "Extrafahrten mit dem «Blauen Pfeil» und historischen Loks ab Depot Burgdorf."
+  },
+  "rigi": {
+   "n": "Rigi Bahnen – Dampffahrten",
+   "k": "LU/SZ",
+   "w": "https://shop.rigi.ch/en/stories/steam-lok16",
+   "p": "Zahnrad-Dampflok 16 und Lok 7 «Körbli». 2027 fährt Lok 16 als Überfahrt abwechselnd ab Vitznau und Goldau. Lok-7-Daten 2027 folgen."
+  },
+  "brb": {
+   "n": "Brienz Rothorn Bahn",
+   "k": "BE",
+   "w": "https://brienz-rothorn-bahn.ch",
+   "p": "Täglicher Dampf-Zahnradbetrieb im Sommer. 2026: Vorsaison bis Planalp 9.5.–5.6., Gipfel 6.6.–25.10. Saison 2027 noch nicht publiziert."
+  },
+  "mg": {
+   "n": "Ferrovia Monte Generoso",
+   "k": "TI",
+   "w": "https://www.montegeneroso.ch",
+   "p": "Dampfzug der Lok 2 von 1890 an einzelnen Tagen Juni–September, Capolago–Vetta. 2026: CHF 80, Kinder CHF 50."
+  },
+  "vvt": {
+   "n": "Vapeur Val-de-Travers",
+   "k": "NE",
+   "w": "https://www.vvt.ch",
+   "p": "St-Sulpice–Travers und Neuenburg; Fondue-, Brunch- und Halloween-Züge. Saison Mai–November."
+  },
+  "trac": {
+   "n": "La Traction",
+   "k": "JU",
+   "w": "https://www.la-traction.ch",
+   "p": "Dampfzug der Franches-Montagnes auf dem CJ-Netz, rund zwanzig Betriebstage Juni–September, mit «Zugüberfall». Reservation über die CJ obligatorisch."
+  },
+  "emb": {
+   "n": "Emmentalbahn (Museumsbahn Emmental)",
+   "k": "BE",
+   "w": "https://www.emmentalbahn.ch",
+   "p": "Huttwil–Sumiswald-Grünen–Wasen i.E., meist 2. Sonntag April–Oktober. Winter-Dampffahrten wegen Tunnelbau auf 2027 verschoben. Kinder unter 16 gratis."
+  },
+  "mthb": {
+   "n": "Historische Mittel-Thurgau-Bahn",
+   "k": "TG",
+   "w": "https://www.mthb.ch",
+   "p": "«Mostindien-Express» am letzten Sonntag Mai–Oktober ab Romanshorn; Ausflüge mit dem «Thurgauer Zug». Billette im Zug, ohne GA/Halbtax."
+  },
+  "ev": {
+   "n": "Eurovapor",
+   "k": "TG",
+   "w": "https://www.eurovapor.ch",
+   "p": "Extrafahrten ab Remise Sulgen, u. a. mit der Gotthard-Dampflok C 5/6 2969 «Elefant» (seit November 2026 wieder in Betrieb)."
+  },
+  "st": {
+   "n": "Sursee-Triengen-Bahn",
+   "k": "LU",
+   "w": "https://www.sursee-triengen-bahn.ch",
+   "p": "Dampfzug am letzten Sonntag Mai–Oktober, Sursee ab 11.20, 14.20, 16.20 Uhr. Daten 2027 folgen."
+  },
+  "etz": {
+   "n": "Museumsbahn Etzwilen–Singen",
+   "k": "TG/SH",
+   "w": "https://www.etzwilen-singen.ch",
+   "p": "Grenzüberschreitende Dampf- und Dieselzüge Etzwilen–Ramsen–Singen, ab Etzwilen 9, 12 und 15 Uhr. Billette im Zug."
+  },
+  "schbb": {
+   "n": "Schinznacher Baumschulbahn",
+   "k": "AG",
+   "w": "https://www.schbb.ch",
+   "p": "600-mm-Dampfbahn im Baumschulpark, Mitte April–Mitte Oktober; im Advent «Nordpol-Express»."
+  },
+  "oebb": {
+   "n": "OeBB Historic / Dampfgruppe Balsthal",
+   "k": "SO",
+   "w": "https://www.oebb.ch",
+   "p": "Ausflugsfahrten mit Salonwagen und Dampfloks ab Balsthal über das Schweizer Netz."
+  },
+  "f241": {
+   "n": "Dampflok-Depot Full (241-A-65)",
+   "k": "AG",
+   "w": "https://www.241a65.ch",
+   "p": "Extrazüge mit nostalgischen Schnellzugwagen aus der Nordwestschweiz."
+  },
+  "verb": {
+   "n": "Verbano Express",
+   "k": "TI",
+   "w": "https://www.verbanoexpress.com",
+   "p": "Verein aus Luino (I); Oldtimerzug über den Gotthard mit Halt in Bellinzona."
+  }
+ },
+ "fahrten": [
+  {
+   "o": "dbb",
+   "t": "Glühdampf",
+   "d": [
+    "2026-11-22"
+   ],
+   "r": "Konolfingen–Grosshöchstetten",
+   "tr": "Dampf",
+   "th": [
+    "Kulinarik",
+    "Advent"
+   ],
+   "x": "Kurze, steile Fahrt mit Lok «Lise»; offener Wagen oder geheizter Personenwagen, danach Chäsbrägu und Glühwein.",
+   "pr": "CHF 30 inkl. Essen und Getränk, unter 16 gratis",
+   "b": "https://www.dbb.ch",
+   "s": "d"
+  },
+  {
+   "o": "bls",
+   "t": "Mit dem «Blauen Pfeil» an den Huttwiler Weihnachtsmarkt",
+   "d": [
+    "2026-11-28"
+   ],
+   "h": "12.56",
+   "r": "Bern–Burgdorf–Langenthal–Huttwil, zurück 18.42",
+   "tr": "Elektro",
+   "th": [
+    "Advent"
+   ],
+   "x": "Historischer Triebwagen der BLS-Stiftung; Anmeldung bis 24. November.",
+   "pr": "CHF 40, Kinder CHF 25",
+   "b": "https://www.bls.ch/de/freizeit-und-ferien/events/historic-blauer-pfeil-zum-huttwiler-weihnachtsmarkt",
+   "s": "v",
+   "st": "anm"
+  },
+  {
+   "o": "mthb",
+   "t": "Adventsfahrt zum Einsiedler Weihnachtsmarkt",
+   "d": [
+    "2026-11-28"
+   ],
+   "h": "08.40",
+   "r": "Romanshorn–Kreuzlingen–Einsiedeln",
+   "tr": "Elektro",
+   "th": [
+    "Advent"
+   ],
+   "x": "Im «Thurgauer Zug», Zustieg u. a. in Kreuzlingen und Berg TG.",
+   "b": "https://www.mthb.ch",
+   "s": "d",
+   "st": "anm"
+  },
+  {
+   "o": "ev",
+   "t": "Chlausfahrten Adventsmarkt Bischofszell",
+   "d": [
+    "2026-11-29"
+   ],
+   "h": "11.14",
+   "r": "Bischofszell Stadt–Hauptwil–Bischofszell Nord",
+   "tr": "Dampf",
+   "th": [
+    "Advent",
+    "Familie"
+   ],
+   "x": "Fünf Fahrten à 50 Minuten (11.14 bis 16.14 Uhr) mit Dampflok «Elefant»; Samichlaus und Schmutzli verteilen Chlaussäckli.",
+   "pr": "CHF 18, Kinder 3–16 CHF 10",
+   "b": "https://www.eurovapor.ch/fahrten-und-mehr/jahresprogramm-2026/chlausfahrten-2026/",
+   "s": "v",
+   "st": "zug"
+  },
+  {
+   "o": "verb",
+   "t": "Oldtimerzug an den Einsiedler Weihnachtsmarkt",
+   "d": [
+    "2026-11-29"
+   ],
+   "h": "08.10",
+   "r": "Luino–Bellinzona–Einsiedeln",
+   "tr": "Elektro",
+   "th": [
+    "Advent",
+    "Bergstrecke"
+   ],
+   "x": "Über die Gotthard-Bergstrecke; Rückfahrt ab Einsiedeln 16.49 Uhr.",
+   "pr": "€ 65, Kinder 6–12 € 35",
+   "b": "https://www.verbanoexpress.com",
+   "s": "d"
+  },
+  {
+   "o": "f241",
+   "t": "Extrazug an den Weihnachtsmarkt Konstanz",
+   "d": [
+    "2026-12-05"
+   ],
+   "r": "Stein-Säckingen–Laufenburg–Koblenz–Bad Zurzach–Konstanz",
+   "tr": "Elektro",
+   "th": [
+    "Advent"
+   ],
+   "x": "Nostalgische Schnellzugwagen mit Re 421 379.",
+   "b": "https://www.241a65.ch",
+   "s": "v"
+  },
+  {
+   "o": "rhb",
+   "t": "Samiklaus-Express",
+   "d": [
+    "2026-12-06"
+   ],
+   "r": "ab Landquart Richtung Filisur",
+   "tr": "Dampf",
+   "th": [
+    "Advent",
+    "Familie"
+   ],
+   "x": "Mit G 4/5 107 «Albula», Märlifeen, Gerstensuppe und Klaussäckli.",
+   "b": "https://www.rhb.ch/de/nostalgiefahrten/samiklaus-express/",
+   "s": "v",
+   "st": "voll"
+  },
+  {
+   "o": "sbbh",
+   "t": "Mit dem «TEE» an den Weihnachtsmarkt",
+   "d": [
+    "2026-12-12"
+   ],
+   "h": "11.31",
+   "r": "ab Olten, Biel, Neuchâtel, Yverdon, Lausanne, Montreux",
+   "tr": "Elektro",
+   "th": [
+    "Advent",
+    "Kulinarik"
+   ],
+   "x": "Erlebnisfahrt im RAe TEE II 1053 mit Verpflegung.",
+   "b": "https://sbbhistoric.ch/produkt/mit-dem-tee-an-den-weihnachtsmarkt-261212/",
+   "s": "v",
+   "st": "anm"
+  },
+  {
+   "o": "verb",
+   "t": "Oldtimerzug an den Christkindlimärt Rapperswil",
+   "d": [
+    "2026-12-13"
+   ],
+   "h": "07.14",
+   "r": "Luino–Bellinzona–Rapperswil",
+   "tr": "Elektro",
+   "th": [
+    "Advent",
+    "Bergstrecke"
+   ],
+   "x": "Rückfahrt ab Rapperswil 16.40 Uhr.",
+   "pr": "€ 65, Kinder 6–12 € 35",
+   "b": "https://www.verbanoexpress.com",
+   "s": "d"
+  },
+  {
+   "o": "rhb",
+   "t": "Engadiner Dampffahrt nach Scuol",
+   "d": [
+    "2027-01-02"
+   ],
+   "r": "Samedan–Scuol-Tarasp",
+   "tr": "Dampf",
+   "th": [
+    "Familie"
+   ],
+   "x": "Winterfahrt dem Inn entlang; 1. Klasse im Belle-Époque-Coupé ab CHF 20 Aufpreis.",
+   "b": "https://www.rhb.ch/en/nostalgic-trips/steam-trainride-scuol/",
+   "s": "v"
+  },
+  {
+   "o": "rhb",
+   "t": "Engadiner Dampffahrt nach Zernez",
+   "d": [
+    "2027-01-03",
+    "2027-02-14",
+    "2027-10-31"
+   ],
+   "r": "Samedan–Zernez–Samedan",
+   "tr": "Dampf",
+   "th": [
+    "Familie"
+   ],
+   "x": "Mit G 4/5 108; Mittagshalt in Zernez.",
+   "pr": "2026: CHF 90, Halbtax/GA CHF 70",
+   "b": "https://www.rhb.ch/en/nostalgic-trips/steam-train-ride-zernez/",
+   "s": "v"
+  },
+  {
+   "o": "ev",
+   "t": "Glarner Schabziger und Schoggiland",
+   "d": [
+    "2027-01-16"
+   ],
+   "r": "Ostschweiz–Glarnerland",
+   "tr": "Elektro",
+   "th": [
+    "Kulinarik"
+   ],
+   "x": "Winterliche Nostalgiefahrt mit Glarner Spezialitäten.",
+   "b": "https://www.eurovapor.ch/fahrten-und-mehr/jahresprogramm-2026/glarnertag-2027/",
+   "s": "v",
+   "st": "anm"
+  },
+  {
+   "o": "rigi",
+   "t": "Dampflok 16: Vitznau–Rigi Kulm–Goldau",
+   "d": [
+    "2027-01-24",
+    "2027-03-21",
+    "2027-05-16",
+    "2027-08-01",
+    "2027-08-29",
+    "2027-09-19",
+    "2027-11-28"
+   ],
+   "h": "10.51",
+   "r": "Vitznau–Rigi Kulm (an 12.15), ab 14.10 nach Goldau",
+   "tr": "Dampf",
+   "th": [
+    "Zahnrad",
+    "Bergstrecke"
+   ],
+   "x": "Überfahrt über den Berg; am 16. Mai und 1. August Rigi-Historic-Tag.",
+   "pr": "2026: ab CHF 69",
+   "b": "https://shop.rigi.ch/en/stories/steam-lok16",
+   "s": "v",
+   "st": "anm"
+  },
+  {
+   "o": "rigi",
+   "t": "Dampflok 16: Goldau–Rigi Kulm–Vitznau",
+   "d": [
+    "2027-02-21",
+    "2027-04-25",
+    "2027-06-06",
+    "2027-06-27",
+    "2027-08-22",
+    "2027-09-05",
+    "2027-10-24",
+    "2027-12-12"
+   ],
+   "h": "10.00",
+   "r": "Goldau–Rigi Kulm (an 11.22), ab 14.15 nach Vitznau",
+   "tr": "Dampf",
+   "th": [
+    "Zahnrad",
+    "Bergstrecke"
+   ],
+   "pr": "2026: ab CHF 69",
+   "b": "https://shop.rigi.ch/en/stories/steam-lok16",
+   "s": "v",
+   "st": "anm"
+  },
+  {
+   "o": "sbbh",
+   "t": "Dampf am alten Hauenstein",
+   "d": [
+    "2027-04-24",
+    "2027-04-25"
+   ],
+   "h": "10.00",
+   "r": "Olten–Läufelfingen–Sissach",
+   "tr": "Dampf",
+   "b": "https://sbbhistoric.ch/produkt/dampf-am-alten-hauenstein-270424/",
+   "s": "v",
+   "st": "anm"
+  },
+  {
+   "o": "sbbh",
+   "t": "Muttertagsfahrt im Trans Europ Express",
+   "d": [
+    "2027-05-09"
+   ],
+   "h": "09.00",
+   "r": "ab Zürich und Olten",
+   "tr": "Elektro",
+   "th": [
+    "Kulinarik"
+   ],
+   "b": "https://sbbhistoric.ch/produkt/muttertagsfahrt-im-trans-europ-express-270509/",
+   "s": "v",
+   "st": "anm"
+  },
+  {
+   "o": "sbbh",
+   "t": "Erlebniszug San Gottardo",
+   "d": [
+    "2027-06-12",
+    "2027-07-10",
+    "2027-08-14"
+   ],
+   "h": "09.00",
+   "r": "Erstfeld–Göschenen–Airolo–Bodio",
+   "tr": "Elektro",
+   "th": [
+    "Bergstrecke"
+   ],
+   "x": "Über die Gotthard-Bergstrecke; zusätzlich Kombis mit Treno Gottardo, Tremola-Postauto, Führerstandsfahrt und (14.8.) Sasso San Gottardo.",
+   "pr": "2026 Kombi ab CHF 125",
+   "b": "https://sbbhistoric.ch/events/agenda/",
+   "s": "v",
+   "st": "anm"
+  },
+  {
+   "o": "dfb",
+   "t": "Dampfbahn Furka-Bergstrecke, Saison 2027",
+   "rg": [
+    "2027-06-17",
+    "2027-09-26"
+   ],
+   "wd": "Do–So",
+   "r": "Realp DFB–Furka–Gletsch–Oberwald",
+   "tr": "Dampf",
+   "th": [
+    "Zahnrad",
+    "Bergstrecke"
+   ],
+   "x": "18 km Zahnradstrecke vorbei am Rhonegletscher. Halbtax und GA geben Ermässigung.",
+   "b": "https://www.dfb.ch",
+   "s": "v"
+  },
+  {
+   "o": "sbbh",
+   "t": "Erlebnisfahrt an den Rheinfall",
+   "d": [
+    "2027-06-26"
+   ],
+   "h": "09.00",
+   "r": "ab Rapperswil oder Winterthur nach Schaffhausen/Neuhausen",
+   "tr": "Elektro",
+   "x": "Auch als Führerstandsfahrt buchbar.",
+   "b": "https://sbbhistoric.ch/produkt/erlebnisfahrt-an-den-rheinfall-ab-winterthur-270626/",
+   "s": "v",
+   "st": "anm"
+  },
+  {
+   "o": "sbbh",
+   "t": "Erlebniszug San Gottardo und Furka-Dampfbahn",
+   "d": [
+    "2027-07-10"
+   ],
+   "h": "11.00",
+   "r": "Erstfeld–Göschenen–Realp–Oberwald (oder umgekehrt ab Oberwald)",
+   "tr": "Dampf",
+   "th": [
+    "Zahnrad",
+    "Bergstrecke"
+   ],
+   "x": "Kooperation SBB Historic, Matterhorn Gotthard Bahn und DFB.",
+   "pr": "2026: CHF 165, Halbtax 131, GA 125",
+   "b": "https://sbbhistoric.ch/produkt/erlebniszug-san-gottardo-und-furka-dampfbahn-ab-erstfeld-270710/",
+   "s": "v",
+   "st": "anm"
+  },
+  {
+   "o": "bls",
+   "t": "Treberwurst-Fahrt mit dem «Blauen Pfeil»",
+   "d": [
+    "2026-01-11"
+   ],
+   "r": "Burgdorf–Lyss–Biel–Twann",
+   "tr": "Elektro",
+   "th": [
+    "Kulinarik"
+   ],
+   "b": "https://www.bls.ch/de/historic/angebot",
+   "s": "v"
+  },
+  {
+   "o": "emb",
+   "t": "Öffentliche Fahrtage",
+   "d": [
+    "2026-04-06",
+    "2026-05-10",
+    "2026-06-13",
+    "2026-06-14",
+    "2026-07-12",
+    "2026-08-09",
+    "2026-09-13",
+    "2026-10-11"
+   ],
+   "r": "Huttwil–Sumiswald-Grünen–Wasen i.E.",
+   "tr": "Dampf",
+   "th": [
+    "Familie"
+   ],
+   "b": "https://www.emmentalbahn.ch",
+   "s": "v"
+  },
+  {
+   "o": "dvzo",
+   "t": "Dampfzüge Bauma–Hinwil",
+   "d": [
+    "2026-05-03",
+    "2026-05-17",
+    "2026-06-07",
+    "2026-06-21",
+    "2026-07-05",
+    "2026-07-19",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04",
+    "2026-10-11",
+    "2026-10-18",
+    "2026-10-25"
+   ],
+   "r": "Bauma–Bäretswil–Hinwil",
+   "tr": "Dampf",
+   "th": [
+    "Familie"
+   ],
+   "pr": "retour CHF 40, Kinder gratis",
+   "b": "https://dvzo.ch/oeffentliche-fahrten/",
+   "s": "d"
+  },
+  {
+   "o": "bc",
+   "t": "Festival Suisse de la Vapeur",
+   "d": [
+    "2026-05-23",
+    "2026-05-24",
+    "2026-05-25"
+   ],
+   "r": "Vevey/Blonay–Chamby–Chaulin",
+   "tr": "Dampf",
+   "pr": "Tageskarte CHF 33, Kinder CHF 12",
+   "b": "https://www.blonay-chamby.ch",
+   "s": "v"
+  },
+  {
+   "o": "bdb",
+   "t": "Dampffahrten über den Brünig",
+   "d": [
+    "2026-05-24",
+    "2026-06-28",
+    "2026-07-11",
+    "2026-07-26",
+    "2026-08-30",
+    "2026-09-27"
+   ],
+   "r": "Interlaken Ost–Meiringen–Brünig–Giswil",
+   "tr": "Dampf",
+   "th": [
+    "Zahnrad",
+    "Bergstrecke"
+   ],
+   "pr": "ab CHF 43, unter 16 gratis",
+   "b": "https://bruenig-dampfbahn.ch",
+   "s": "d"
+  },
+  {
+   "o": "brb",
+   "t": "Brienz Rothorn Bahn, Saison 2026",
+   "rg": [
+    "2026-06-06",
+    "2026-10-25"
+   ],
+   "wd": "täglich",
+   "r": "Brienz–Planalp–Rothorn Kulm",
+   "tr": "Dampf",
+   "th": [
+    "Zahnrad",
+    "Bergstrecke"
+   ],
+   "b": "https://brienz-rothorn-bahn.ch",
+   "s": "d"
+  },
+  {
+   "o": "dfb",
+   "t": "Dampfbahn Furka-Bergstrecke, Saison 2026",
+   "rg": [
+    "2026-06-18",
+    "2026-09-27"
+   ],
+   "wd": "Do–So",
+   "r": "Realp DFB–Furka–Gletsch–Oberwald",
+   "tr": "Dampf",
+   "th": [
+    "Zahnrad",
+    "Bergstrecke"
+   ],
+   "b": "https://www.dfb.ch",
+   "s": "v"
+  },
+  {
+   "o": "bls",
+   "t": "125 Jahre: Jubiläums-Extrafahrt «Blauer Pfeil»",
+   "d": [
+    "2026-06-06",
+    "2026-06-07"
+   ],
+   "r": "Neuchâtel–Bern–Thun",
+   "tr": "Elektro",
+   "b": "https://www.bls.ch/de/freizeit-und-ferien/events/historic-jubilaeums-extrafahrt-mit-dem-blauen-pfeil",
+   "s": "v"
+  },
+  {
+   "o": "mg",
+   "t": "Treno a vapore",
+   "d": [
+    "2026-08-15",
+    "2026-09-19"
+   ],
+   "h": "09.45",
+   "r": "Capolago–Monte Generoso Vetta",
+   "tr": "Dampf",
+   "th": [
+    "Zahnrad"
+   ],
+   "pr": "CHF 80, Kinder CHF 50",
+   "b": "https://www.montegeneroso.ch",
+   "s": "d"
+  },
+  {
+   "o": "trac",
+   "t": "Train à vapeur «Raclette»",
+   "d": [
+    "2026-08-29"
+   ],
+   "r": "Pré-Petitjean–Saignelégier",
+   "tr": "Dampf",
+   "th": [
+    "Kulinarik"
+   ],
+   "b": "https://www.la-traction.ch",
+   "s": "v",
+   "st": "anm"
+  },
+  {
+   "o": "vvt",
+   "t": "Trains Fondue",
+   "d": [
+    "2026-09-05",
+    "2026-09-06",
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "r": "St-Sulpice–Travers",
+   "tr": "Dampf",
+   "th": [
+    "Kulinarik"
+   ],
+   "b": "https://www.vvt.ch",
+   "s": "d"
+  },
+  {
+   "o": "rhb",
+   "t": "Dampffahrt Engadin–Albula",
+   "d": [
+    "2026-09-26",
+    "2026-10-24"
+   ],
+   "r": "Samedan–Albula–Landwasser",
+   "tr": "Dampf",
+   "th": [
+    "Bergstrecke"
+   ],
+   "b": "https://www.rhb.ch/en/nostalgic-trips/steam-train-ride-engadin-albula/",
+   "s": "v"
+  },
+  {
+   "o": "sbbh",
+   "t": "Durch den Gotthard ins Tessin",
+   "d": [
+    "2026-10-10"
+   ],
+   "h": "09.45",
+   "r": "Erstfeld–Göschenen–Bellinzona–Lugano",
+   "tr": "Elektro",
+   "th": [
+    "Bergstrecke"
+   ],
+   "pr": "CHF 129, Kinder CHF 65",
+   "b": "https://sbbhistoric.ch/events/agenda/",
+   "s": "v"
+  },
+  {
+   "o": "bls",
+   "t": "Weinfahrt mit dem «Blauen Pfeil»",
+   "d": [
+    "2026-11-15"
+   ],
+   "r": "Thun–Brig–Thun",
+   "tr": "Elektro",
+   "th": [
+    "Kulinarik"
+   ],
+   "b": "https://www.bls.ch/de/freizeit-und-ferien/events/historic-weinfahrt-blauer-pfeil",
+   "s": "v"
+  }
+ ]
+}
