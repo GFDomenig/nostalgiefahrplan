@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="robots" content="noindex,nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nostalgiefahrplan Schweiz</title>
+<title>Bahnkultur Historic RhB</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
@@ -158,8 +158,8 @@ footer p{max-width:80ch}
 <header class="hero">
  <img src="img/titel-1200.jpg" srcset="img/titel-800.jpg 800w, img/titel-1200.jpg 1200w, img/titel-2400.jpg 2400w" sizes="100vw" alt="Braune historische Elektrolok 182 der Rhätischen Bahn mit Schneepflug und blau-crèmefarbenen Pullman-Wagen auf der Alp Grüm an der Berninalinie, im Herbst mit gelben Lärchen und blauem Himmel" fetchpriority="high">
  <div class="herotext">
-  <h1>Nostalgiefahrplan Schweiz</h1>
-  <p class="lede">Öffentliche Fahrten historischer Eisenbahnen in der ganzen Schweiz. Gebucht wird direkt beim Veranstalter.</p>
+  <h1>Bahnkultur Historic RhB</h1>
+  <p class="lede">Fahrten, News und Geschichte der historischen Bahnen in Graubünden und der ganzen Schweiz.</p>
  </div>
  <img class="logo" src="img/logo-160.png" srcset="img/logo-160.png 1x, img/logo-320.png 2x" width="104" height="104" alt="Logo Historic RhB – Die Bündner Kulturbahn">
  <p class="credit">Historic RhB – Lok 182 mit Pullman-Wagen auf der Alp Grüm</p>
@@ -274,7 +274,7 @@ const vNews=()=>{const st=NN.filter(n=>n.q.includes("stiftung")),o=NN.filter(n=>
 const vOps=()=>`<p class="note" style="margin:16px 0">${Object.keys(OPS).length} Veranstalter erfasst. Wo noch keine Daten für 2027 vorliegen, steht das übliche Angebot.</p><div class="ops">${Object.entries(OPS).filter(([id,o])=>!st.kt||o.k.split("/").includes(st.kt)).map(([id,o])=>{const n=OCC.filter(oc=>T[oc.i].o===id&&oc.end>=TODAY).length;return `<div class="op${o.hr?" hro":""}"><h3>${esc(o.n)}</h3><div class="note">${o.hr?'<span class="chip hr">Historic RhB</span> ':""}${o.k} · ${n?n+" kommende Termine":"Daten 2027 folgen"}</div><p>${esc(o.p)}</p><div class="links"><a class="btn p" href="${o.w}">Website &amp; Buchung</a>${OCC.some(oc=>T[oc.i].o===id)?`<button class="btn" data-op="${id}">Fahrten anzeigen</button>`:""}</div></div>`}).join("")}</div>`;
 
 const ics=(t,day)=>{const z=s=>s.replace(/[,;\\]/g,m=>"\\"+m).replace(/\n/g,"\\n");const d=day.replace(/-/g,""),e=pd(day);e.setDate(e.getDate()+1);const e2=e.getFullYear()+String(e.getMonth()+1).padStart(2,"0")+String(e.getDate()).padStart(2,"0");
- return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Nostalgiefahrplan Schweiz//DE","BEGIN:VEVENT","UID:"+t.id+"-"+d+"@nostalgiefahrplan","DTSTAMP:"+new Date().toISOString().replace(/[-:]/g,"").slice(0,15)+"Z","DTSTART;VALUE=DATE:"+d,"DTEND;VALUE=DATE:"+e2,"SUMMARY:"+z(t.t),"LOCATION:"+z(t.r),"DESCRIPTION:"+z(OPS[t.o].n+(t.h?" · Abfahrt "+t.h:"")+(t.x?"\n"+t.x:"")+"\nBuchung: "+t.b),"URL:"+t.b,"END:VEVENT","END:VCALENDAR"].join("\r\n")};
+ return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Bahnkultur Historic RhB//DE","BEGIN:VEVENT","UID:"+t.id+"-"+d+"@nostalgiefahrplan","DTSTAMP:"+new Date().toISOString().replace(/[-:]/g,"").slice(0,15)+"Z","DTSTART;VALUE=DATE:"+d,"DTEND;VALUE=DATE:"+e2,"SUMMARY:"+z(t.t),"LOCATION:"+z(t.r),"DESCRIPTION:"+z(OPS[t.o].n+(t.h?" · Abfahrt "+t.h:"")+(t.x?"\n"+t.x:"")+"\nBuchung: "+t.b),"URL:"+t.b,"END:VEVENT","END:VCALENDAR"].join("\r\n")};
 const nextDay=t=>{const ds=t.rg?[t.rg[0]]:t.d;return ds.find(x=>x>=TODAY)||ds[0]};
 const vDetail=id=>{const i=TID[id];if(i===undefined)return `<p class="empty">Diese Fahrt ist nicht (mehr) im Fahrplan. <a href="#liste">Zu allen Fahrten</a></p>`;
  const t=T[i],o=OPS[t.o],nd=nextDay(t),past=(t.rg?t.rg[1]:t.d[t.d.length-1])<TODAY;
@@ -314,10 +314,10 @@ const render=()=>{const v=document.getElementById("view");
  if(MAP){MAP.remove();MAP=null}
  v.innerHTML=isD?vDetail(st.v.slice(6)):st.v==="liste"?vList():st.v==="kalender"?vCal():st.v==="karte"?vMap():st.v==="news"?vNews():vOps();
  if(st.v==="karte")drawMap();
- if(isD){const t=T[TID[st.v.slice(6)]];document.title=(t?t.t+" – ":"")+"Nostalgiefahrplan Schweiz";const T2=document.getElementById("toast");
+ if(isD){const t=T[TID[st.v.slice(6)]];document.title=(t?t.t+" – ":"")+"Bahnkultur Historic RhB";const T2=document.getElementById("toast");
   const ib=document.getElementById("icsb");if(ib)ib.onclick=()=>{const b=new Blob([ics(t,nextDay(t))],{type:"text/calendar"}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=t.id+".ics";document.body.appendChild(a);a.click();a.remove();T2.textContent="Kalenderdatei heruntergeladen – öffnen, um den Termin einzutragen."};
   const cb=document.getElementById("cpy");if(cb)cb.onclick=()=>{const u=location.href;navigator.clipboard.writeText(u).then(()=>T2.textContent="Link kopiert.",()=>T2.textContent=u)};
-  window.scrollTo({top:v.getBoundingClientRect().top+scrollY-document.querySelector(".bar").offsetHeight-8,behavior:"smooth"})} else document.title="Nostalgiefahrplan Schweiz";
+  window.scrollTo({top:v.getBoundingClientRect().top+scrollY-document.querySelector(".bar").offsetHeight-8,behavior:"smooth"})} else document.title="Bahnkultur Historic RhB";
  if(st.v==="news")document.getElementById("nf").onchange=e=>{nf=e.target.value;render()};
  if(st.v==="kalender"){document.getElementById("pm").onclick=()=>{st.cm=new Date(st.cm.getFullYear(),st.cm.getMonth()-1,1);render()};
   document.getElementById("nm").onclick=()=>{st.cm=new Date(st.cm.getFullYear(),st.cm.getMonth()+1,1);render()};

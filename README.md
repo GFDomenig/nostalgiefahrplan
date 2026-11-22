@@ -1,6 +1,6 @@
-# Nostalgiefahrplan Schweiz
+# Bahnkultur Historic RhB
 
-Öffentliche Fahrten historischer Eisenbahnen in der Schweiz, mit Direktlinks zur Buchung beim Veranstalter.
+Portal zur historischen Bahnkultur: öffentliche Fahrten historischer Eisenbahnen in Graubünden und der ganzen Schweiz mit Direktlinks zur Buchung, News der Stiftung Bahnkultur RhB und der Mitglieder von Historic RhB, Karte der Strecken. (Repository-Name: nostalgiefahrplan)
 
 Pilotbetrieb unter https://fahrplan.belimmo.ch (für Suchmaschinen gesperrt). Geplanter definitiver Betrieb unter www.bahnkultur-rhb.ch.
 
