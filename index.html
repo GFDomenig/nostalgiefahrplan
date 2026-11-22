@@ -50,6 +50,11 @@ h1,h2,h3,.cond{font-family:"Barlow Condensed",Barlow,sans-serif;letter-spacing:-
 .nitem a{font-weight:600;font-size:15px}
 .vlist{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
 .vlist a{font-size:14px;border:1px solid var(--line);border-radius:99px;padding:4px 10px;text-decoration:none}
+.ncard.st{border:2px solid var(--red);background:color-mix(in srgb,var(--red) 7%,var(--bg));padding-top:0;overflow:hidden}
+.ncard .sthead{display:flex;align-items:center;gap:8px;margin:0 -16px 8px;padding:7px 16px;background:var(--red);color:#fff;font-size:14px;font-weight:600}
+.ncard .sthead img{width:22px;height:22px;border-radius:50%;background:#fff}
+.stbox{border-width:3px}
+.stbox .stlabel{display:inline-block;background:var(--red);color:#fff;font-size:13px;font-weight:600;padding:2px 8px;border-radius:4px;margin-bottom:6px}
 body.nv .flt{display:none!important}
 @media(max-width:600px){.nitem{grid-template-columns:minmax(0,1fr)}.stbox{grid-template-columns:48px minmax(0,1fr)}.stbox img{width:48px;height:48px}}
 .statsband{padding-top:16px;padding-bottom:16px;border-bottom:1px solid var(--line)}
@@ -161,15 +166,17 @@ footer p{max-width:80ch}
 </header>
 <div class="band statsband"><div class="wrap"><div class="stats" id="stats"></div></div></div>
 
+<section class="band newsband" aria-labelledby="nh"><div class="wrap">
+ <div class="boardhead"><h2 id="nh" style="font-size:26px">Aktuell</h2><a href="#news" class="more">Alle Meldungen</a></div>
+ <div class="nteaser" id="nteaser"></div>
+</div></section>
+
 <section class="boardband" aria-labelledby="bh"><div class="wrap">
  <div class="boardhead"><h2 id="bh">Nächste Abfahrten</h2><span id="stand"></span></div>
  <div id="board"></div>
 </div></section>
 
-<section class="band newsband" aria-labelledby="nh"><div class="wrap">
- <div class="boardhead"><h2 id="nh" style="font-size:26px">Neues aus Historic RhB</h2><a href="#news" class="more">Alle Meldungen</a></div>
- <div class="nteaser" id="nteaser"></div>
-</div></section>
+
 
 <nav class="bar" aria-label="Filter"><div class="wrap">
  <div class="tabs" role="tablist">
@@ -255,12 +262,12 @@ const vCal=()=>{const y=st.cm.getFullYear(),m=st.cm.getMonth(),first=new Date(y,
 const nDate=n=>n.dl?n.dl:n.d?fd(n.d)+pd(n.d).getFullYear():"";
 const nSrc=n=>n.q.map(k=>NQ[k]?NQ[k].n:k).join(" · ");
 const teaser=()=>{const l=[...NN.filter(n=>n.q.includes("stiftung")).slice(0,1),...NN.filter(n=>n.d&&!n.q.includes("stiftung"))].slice(0,3);
- document.getElementById("nteaser").innerHTML=l.map(n=>`<a class="ncard${n.q.includes("stiftung")?" st":""}" href="${n.u||"#news"}"><span class="nq">${esc(nDate(n))} · ${esc(nSrc(n))}</span><b>${esc(n.t)}</b><p>${esc(n.x)}</p></a>`).join("")};
+ document.getElementById("nteaser").innerHTML=l.map(n=>`<a class="ncard${n.q.includes("stiftung")?" st":""}" href="${n.u||"#news"}">${n.q.includes("stiftung")?'<span class="sthead"><img src="img/logo-160.png" alt="">Mitteilung der Stiftung Bahnkultur RhB</span>':""}<span class="nq">${esc(nDate(n))} · ${esc(nSrc(n))}</span><b>${esc(n.t)}</b><p>${esc(n.x)}</p></a>`).join("")};
 let nf="";
 const nItem=n=>`<article class="nitem"><div class="dt">${esc(nDate(n))||'<small>ohne Datum</small>'}</div><div><div class="nq">${esc(nSrc(n))}${n.s==="d"?' · <span class="chip d3">Drittquelle</span>':''}</div><h3 style="margin:2px 0 4px">${esc(n.t)}</h3><p>${esc(n.x)}</p>${n.u?`<a href="${n.u}">Weiterlesen beim Absender</a>`:""}</div></article>`;
 const vNews=()=>{const st=NN.filter(n=>n.q.includes("stiftung")),o=NN.filter(n=>!n.q.includes("stiftung")&&(!nf||n.q.includes(nf)));
  const vs=Object.entries(NQ).filter(([k])=>k!=="stiftung");
- return `<section class="stbox"><img src="img/logo-160.png" width="72" height="72" alt=""><div><h2>Stiftung Bahnkultur RhB</h2>${st.length?st.map(nItem).join(""):'<p class="note" style="margin:0">Mitteilungen der Stiftung erscheinen hier, sobald sie veröffentlicht sind.</p>'}</div></section>
+ return `<section class="stbox"><img src="img/logo-160.png" width="72" height="72" alt=""><div><span class="stlabel">Mitteilungen</span><h2>Stiftung Bahnkultur RhB</h2>${st.length?st.map(nItem).join(""):'<p class="note" style="margin:0">Mitteilungen der Stiftung erscheinen hier, sobald sie veröffentlicht sind.</p>'}</div></section>
  <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:22px 0 4px"><h2 class="month" style="margin:0;border:0;flex:1 1 auto">Aus den Vereinen und Stiftungen</h2><select id="nf" aria-label="Absender"><option value="">Alle Absender</option>${vs.map(([k,q])=>`<option value="${k}"${k===nf?" selected":""}>${esc(q.n)}</option>`).join("")}</select></div>
  ${o.map(nItem).join("")||'<p class="empty">Keine Meldungen von diesem Absender.</p>'}
  <h2 class="month">Beteiligte Vereine und Stiftungen</h2><div class="vlist">${vs.map(([k,q])=>`<a href="${q.w}">${esc(q.n)}</a>`).join("")}</div>`};
