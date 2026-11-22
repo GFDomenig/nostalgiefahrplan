@@ -11,12 +11,15 @@ Pilotbetrieb unter https://fahrplan.belimmo.ch (für Suchmaschinen gesperrt). Ge
 - `impressum.html`: Impressum und Datenschutz
 - `robots.txt`: sperrt die Pilotseite für Suchmaschinen
 - `CNAME`: Domain für GitHub Pages
+- `vendor/leaflet`: Kartenbibliothek Leaflet 1.9.4 (BSD-Lizenz), lokal eingebunden
+- Karte: swisstopo Landeskarte grau, Ersatz OpenStreetMap
 
 ## Datenformat `data/fahrten.json`
 
 - `stand`: Datum der letzten Prüfung (JJJJ-MM-TT)
-- `veranstalter`: Kürzel → `n` Name, `k` Kanton(e), `w` Website, `p` übliches Angebot
+- `veranstalter`: Kürzel → `n` Name, `k` Kanton(e), `w` Website, `p` übliches Angebot, `hr` true = gehört zu Historic RhB (rot hervorgehoben), `geo` Liste von [Breite, Länge] der wichtigsten Stationen für die schematische Karte
 - `fahrten`: Liste von Fahrten
+  - `id` feste Kennung für die Detailseite (#fahrt-id); einmal vergeben nie ändern, da Links geteilt werden
   - `o` Kürzel des Veranstalters, `t` Titel, `r` Strecke
   - `d` Liste von Daten oder `rg` [von, bis] mit `wd` (Wochentage) für Saisonbetrieb
   - `h` Abfahrtszeit, `tr` Dampf / Elektro / Diesel, `th` Themen (Advent, Kulinarik, Familie, Zahnrad, Bergstrecke)

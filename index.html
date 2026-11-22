@@ -7,6 +7,8 @@
 <title>Nostalgiefahrplan Schweiz</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<script src="vendor/leaflet/leaflet.js"></script>
 <style>
 /* HERO photo band above the departure board
    VOICE everyday, quietly authoritative like a timetable
@@ -73,7 +75,8 @@ h1 .plus{display:inline-grid;place-items:center;width:.82em;height:.82em;backgro
 .full{color:#ffb4b4;font-size:14px;white-space:nowrap}
 .bar{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 94%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:10px max(5vw,16px)}
 .bar .wrap{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.tabs{display:flex;gap:4px;background:var(--soft);padding:4px;border-radius:8px}
+.tabs{display:flex;gap:4px;background:var(--soft);padding:4px;border-radius:8px;max-width:100%;overflow-x:auto;scrollbar-width:none}
+.tabs button{flex:none}
 .tabs button{border:0;background:none;color:var(--ink);font:600 16px "Barlow Condensed",sans-serif;padding:8px 14px;border-radius:6px;min-height:40px;cursor:pointer}
 .tabs button[aria-selected=true]{background:var(--ink);color:var(--bg)}
 input,select{font:16px Barlow,sans-serif;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px 10px;min-height:42px}
@@ -114,10 +117,36 @@ main{padding-top:20px}
 .op p{margin:0;font-size:15px}
 .op .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:8px}
 .note{font-size:14px;color:var(--mut)}
+.chip.hr{background:var(--red);border-color:var(--red);color:#fff;font-weight:600}
+label.hrchk{border:1px solid var(--red);border-radius:6px;padding:0 10px;color:var(--red);font-weight:600}
+.trip h3 a,.dep .t a{text-decoration:none}
+.trip h3 a:hover,.dep .t a:hover{text-decoration:underline}
+.trip.hrt{box-shadow:inset 3px 0 0 var(--red);padding-left:12px}
+.op.hro{border:2px solid var(--red)}
+#map{height:min(72vh,640px);border-radius:10px;border:1px solid var(--line);margin-top:16px;z-index:0}
+.maplegend{display:flex;flex-wrap:wrap;gap:16px;margin-top:10px;font-size:14px;color:var(--mut)}
+.maplegend i{display:inline-block;width:22px;height:4px;border-radius:2px;vertical-align:middle;margin-right:6px}
+.leaflet-popup-content{font:15px/1.4 Barlow,sans-serif;margin:12px 14px}
+.leaflet-popup-content b{font:600 18px/1.15 "Barlow Condensed",sans-serif;display:block;margin-bottom:4px}
+.leaflet-popup-content .btn{margin-top:8px;padding:6px 10px;font-size:14px;color:#fff}
+.det{max-width:860px;padding-top:12px}
+.det .back{display:inline-block;margin:6px 0 14px;font-weight:600;text-decoration:none}
+.det h2{font-size:clamp(30px,4vw,44px);line-height:1.05;margin:6px 0 8px}
+.det .meta{font-size:17px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:12px;margin:20px 0}
+.facts div{background:var(--soft);border-radius:8px;padding:12px 14px}
+.facts span{display:block;font-size:13px;color:var(--mut)}
+.facts b{font-size:17px}
+.dates{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 18px}
+.dates span{border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-weight:600;white-space:nowrap}
+.dates span.p{opacity:.45;text-decoration:line-through}
+.acts{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.btn{cursor:pointer;background:none;color:inherit;font-family:inherit}
+.toast{font-size:14px;color:var(--mut);min-height:20px}
 footer.band{border-top:1px solid var(--line);margin-top:40px;font-size:14px;color:var(--mut)}
 footer p{max-width:80ch}
 @media(max-width:700px){.trip{grid-template-columns:4.4em minmax(0,1fr)}.act{grid-column:2;flex-direction:row;flex-wrap:wrap;align-items:center}.price{text-align:left}.cal div{min-height:64px;padding:3px}.cal button{font-size:0;height:8px;padding:0;border-left:0;background:var(--red)}.dep{grid-template-columns:minmax(0,6em) minmax(0,1fr)}.dep .act2{grid-column:2}}
-@media(max-width:600px){.hero img.logo{top:auto;bottom:12px;right:16px;width:64px}.credit{left:16px;right:auto;max-width:calc(100% - 104px)}.statsband .stats{gap:14px;flex-wrap:nowrap;justify-content:space-between}.statsband .stat b{font-size:28px}.statsband .stat span{font-size:13px;line-height:1.25;display:block}}
+@media(max-width:600px){.tabs button{padding:8px 10px}.hero img.logo{top:auto;bottom:12px;right:16px;width:64px}.credit{left:16px;right:auto;max-width:calc(100% - 104px)}.statsband .stats{gap:14px;flex-wrap:nowrap;justify-content:space-between}.statsband .stat b{font-size:28px}.statsband .stat span{font-size:13px;line-height:1.25;display:block}}
 </style>
 </head>
 <body>
@@ -146,6 +175,7 @@ footer p{max-width:80ch}
  <div class="tabs" role="tablist">
   <button role="tab" id="t-liste" data-v="liste" aria-selected="true">Fahrten</button>
   <button role="tab" id="t-kalender" data-v="kalender" aria-selected="false">Kalender</button>
+  <button role="tab" id="t-karte" data-v="karte" aria-selected="false">Karte</button>
   <button role="tab" id="t-veranstalter" data-v="veranstalter" aria-selected="false">Veranstalter</button>
   <button role="tab" id="t-news" data-v="news" aria-selected="false">News</button>
  </div>
@@ -153,6 +183,8 @@ footer p{max-width:80ch}
  <select id="kt" aria-label="Kanton"><option value="">Alle Kantone</option></select>
  <select id="tr" aria-label="Traktion"><option value="">Alle Traktionen</option><option>Dampf</option><option>Elektro</option><option>Diesel</option></select>
  <select id="th" aria-label="Thema"><option value="">Alle Themen</option><option>Advent</option><option>Kulinarik</option><option>Familie</option><option>Zahnrad</option><option>Bergstrecke</option></select>
+ <select id="op" aria-label="Veranstalter"><option value="">Alle Veranstalter</option></select>
+ <label class="chk hrchk"><input type="checkbox" id="hr"> Nur Historic RhB</label>
  <label class="chk"><input type="checkbox" id="past"> Saison 2026 zeigen</label></span>
 </div></nav>
 
@@ -178,18 +210,23 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 const OCC=[];
 T.forEach((t,i)=>{if(t.rg)OCC.push({i,day:t.rg[0],end:t.rg[1]});else t.d.forEach(day=>OCC.push({i,day,end:day}))});
 OCC.sort((a,b)=>a.day.localeCompare(b.day));
-const st={v:"liste",q:"",kt:"",tr:"",th:"",past:false,cm:pd(TODAY)};
+const st={v:"liste",q:"",kt:"",tr:"",th:"",op:"",hr:false,past:false,cm:pd(TODAY)};
+const HR=id=>!!(OPS[id]&&OPS[id].hr);
+const TID={};T.forEach((t,i)=>TID[t.id]=i);
 try{const s=JSON.parse(localStorage.getItem("nfp")||"{}");if(s.past)st.past=true}catch(e){}
 const ks=[...new Set(Object.values(OPS).flatMap(o=>o.k.split("/")))].filter(k=>k!=="national").sort();
 document.getElementById("kt").innerHTML+=ks.map(k=>`<option>${k}</option>`).join("");
 document.getElementById("past").checked=st.past;
+document.getElementById("op").innerHTML+=Object.entries(OPS).sort((a,b)=>a[1].n.localeCompare(b[1].n,"de")).map(([k,o])=>`<option value="${k}">${esc(o.n)}</option>`).join("");
 const match=t=>{const o=OPS[t.o];
  if(st.kt&&!o.k.split("/").includes(st.kt)&&o.k!=="national")return false;
+ if(st.op&&t.o!==st.op)return false;
+ if(st.hr&&!HR(t.o))return false;
  if(st.tr&&t.tr!==st.tr)return false;
  if(st.th&&!(t.th||[]).includes(st.th))return false;
  if(st.q){const h=(t.t+" "+o.n+" "+t.r+" "+(t.x||"")).toLowerCase();if(!st.q.toLowerCase().split(/\s+/).every(w=>h.includes(w)))return false}
  return true};
-const chips=t=>{let c=`<span class="chip ${t.tr==="Dampf"?"dampf":t.tr==="Elektro"?"elektro":""}">${t.tr}</span>`;
+const chips=t=>{let c=(HR(t.o)?`<span class="chip hr">Historic RhB</span>`:"")+`<span class="chip ${t.tr==="Dampf"?"dampf":t.tr==="Elektro"?"elektro":""}">${t.tr}</span>`;
  (t.th||[]).forEach(x=>c+=`<span class="chip">${x}</span>`);
  if(t.st==="voll")c+=`<span class="chip voll">ausgebucht</span>`;
  if(t.st==="zug")c+=`<span class="chip">Billette im Zug</span>`;
@@ -200,7 +237,7 @@ const more=t=>t.d&&t.d.length>1?`<div class="note">Weitere Daten: ${t.d.map(fd).
 const tripHTML=(oc)=>{const t=T[oc.i],o=OPS[t.o],d=pd(oc.day),past=oc.end<TODAY;
  const date=t.rg?`${fd(t.rg[0])}<small>bis ${fd(t.rg[1])} · ${t.wd}</small>`:`${d.getDate()}.${d.getMonth()+1}.<small>${WD[d.getDay()]}${t.h?" · "+t.h:""}</small>`;
  const bk=t.st==="voll"?`<a class="btn" href="${t.b}">Warteliste / Info</a>`:past?`<a class="btn" href="${t.b}">Zum Veranstalter</a>`:`<a class="btn p" href="${t.b}">Tickets buchen</a>`;
- return `<article class="trip${past?" past":""}"><div class="dt">${date}</div><div><h3>${esc(t.t)}</h3><div class="meta">${esc(o.n)} · ${esc(t.r)}</div>${t.x?`<p class="desc">${esc(t.x)}</p>`:""}<div class="chips">${chips(t)}</div></div><div class="act">${bk}${t.pr?`<div class="price">${esc(t.pr)}</div>`:""}</div></article>`};
+ return `<article class="trip${past?" past":""}${HR(t.o)?" hrt":""}"><div class="dt">${date}</div><div><h3><a href="#fahrt-${t.id}">${esc(t.t)}</a></h3><div class="meta">${esc(o.n)} · ${esc(t.r)}</div>${t.x?`<p class="desc">${esc(t.x)}</p>`:""}<div class="chips">${chips(t)}</div></div><div class="act">${bk}${t.pr?`<div class="price">${esc(t.pr)}</div>`:""}</div></article>`};
 const visible=()=>OCC.filter(oc=>match(T[oc.i])&&(st.past||oc.end>=TODAY));
 const vList=()=>{let seen=new Set(),out="",cur="";
  visible().forEach(oc=>{const t=T[oc.i];
@@ -227,26 +264,67 @@ const vNews=()=>{const st=NN.filter(n=>n.q.includes("stiftung")),o=NN.filter(n=>
  <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:22px 0 4px"><h2 class="month" style="margin:0;border:0;flex:1 1 auto">Aus den Vereinen und Stiftungen</h2><select id="nf" aria-label="Absender"><option value="">Alle Absender</option>${vs.map(([k,q])=>`<option value="${k}"${k===nf?" selected":""}>${esc(q.n)}</option>`).join("")}</select></div>
  ${o.map(nItem).join("")||'<p class="empty">Keine Meldungen von diesem Absender.</p>'}
  <h2 class="month">Beteiligte Vereine und Stiftungen</h2><div class="vlist">${vs.map(([k,q])=>`<a href="${q.w}">${esc(q.n)}</a>`).join("")}</div>`};
-const vOps=()=>`<p class="note" style="margin:16px 0">${Object.keys(OPS).length} Veranstalter erfasst. Wo noch keine Daten für 2027 vorliegen, steht das übliche Angebot.</p><div class="ops">${Object.entries(OPS).filter(([id,o])=>!st.kt||o.k.split("/").includes(st.kt)).map(([id,o])=>{const n=OCC.filter(oc=>T[oc.i].o===id&&oc.end>=TODAY).length;return `<div class="op"><h3>${esc(o.n)}</h3><div class="note">${o.k} · ${n?n+" kommende Termine":"Daten 2027 folgen"}</div><p>${esc(o.p)}</p><div class="links"><a class="btn p" href="${o.w}">Website &amp; Buchung</a></div></div>`}).join("")}</div>`;
+const vOps=()=>`<p class="note" style="margin:16px 0">${Object.keys(OPS).length} Veranstalter erfasst. Wo noch keine Daten für 2027 vorliegen, steht das übliche Angebot.</p><div class="ops">${Object.entries(OPS).filter(([id,o])=>!st.kt||o.k.split("/").includes(st.kt)).map(([id,o])=>{const n=OCC.filter(oc=>T[oc.i].o===id&&oc.end>=TODAY).length;return `<div class="op${o.hr?" hro":""}"><h3>${esc(o.n)}</h3><div class="note">${o.hr?'<span class="chip hr">Historic RhB</span> ':""}${o.k} · ${n?n+" kommende Termine":"Daten 2027 folgen"}</div><p>${esc(o.p)}</p><div class="links"><a class="btn p" href="${o.w}">Website &amp; Buchung</a>${OCC.some(oc=>T[oc.i].o===id)?`<button class="btn" data-op="${id}">Fahrten anzeigen</button>`:""}</div></div>`}).join("")}</div>`;
+
+const ics=(t,day)=>{const z=s=>s.replace(/[,;\\]/g,m=>"\\"+m).replace(/\n/g,"\\n");const d=day.replace(/-/g,""),e=pd(day);e.setDate(e.getDate()+1);const e2=e.getFullYear()+String(e.getMonth()+1).padStart(2,"0")+String(e.getDate()).padStart(2,"0");
+ return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Nostalgiefahrplan Schweiz//DE","BEGIN:VEVENT","UID:"+t.id+"-"+d+"@nostalgiefahrplan","DTSTAMP:"+new Date().toISOString().replace(/[-:]/g,"").slice(0,15)+"Z","DTSTART;VALUE=DATE:"+d,"DTEND;VALUE=DATE:"+e2,"SUMMARY:"+z(t.t),"LOCATION:"+z(t.r),"DESCRIPTION:"+z(OPS[t.o].n+(t.h?" · Abfahrt "+t.h:"")+(t.x?"\n"+t.x:"")+"\nBuchung: "+t.b),"URL:"+t.b,"END:VEVENT","END:VCALENDAR"].join("\r\n")};
+const nextDay=t=>{const ds=t.rg?[t.rg[0]]:t.d;return ds.find(x=>x>=TODAY)||ds[0]};
+const vDetail=id=>{const i=TID[id];if(i===undefined)return `<p class="empty">Diese Fahrt ist nicht (mehr) im Fahrplan. <a href="#liste">Zu allen Fahrten</a></p>`;
+ const t=T[i],o=OPS[t.o],nd=nextDay(t),past=(t.rg?t.rg[1]:t.d[t.d.length-1])<TODAY;
+ const dates=t.rg?`<span>${fd(t.rg[0])}${pd(t.rg[0]).getFullYear()} bis ${fd(t.rg[1])}${pd(t.rg[1]).getFullYear()} · ${t.wd}</span>`:t.d.map(x=>`<span class="${x<TODAY?"p":""}">${WD[pd(x).getDay()]} ${fd(x)}${pd(x).getFullYear()}</span>`).join("");
+ const url=location.href.split("#")[0]+"#fahrt-"+t.id,msg=t.t+" ("+o.n+"): "+url;
+ return `<div class="det"><a class="back" href="#liste">← Alle Fahrten</a>
+ <div class="chips">${chips(t)}</div><h2>${esc(t.t)}</h2><div class="meta">${esc(o.n)}</div>
+ ${t.x?`<p class="desc" style="font-size:17px">${esc(t.x)}</p>`:""}
+ <div class="facts"><div><span>Strecke</span><b>${esc(t.r)}</b></div>${t.h?`<div><span>Abfahrt</span><b>${t.h} Uhr</b></div>`:""}<div><span>Traktion</span><b>${t.tr}</b></div>${t.pr?`<div><span>Preis</span><b>${esc(t.pr)}</b></div>`:""}</div>
+ <h3 style="margin:0">${t.rg?"Saison":t.d.length>1?"Daten":"Datum"}</h3><div class="dates">${dates}</div>
+ <div class="acts">${past?`<a class="btn" href="${t.b}">Zum Veranstalter</a>`:t.st==="voll"?`<a class="btn" href="${t.b}">Ausgebucht · Info beim Veranstalter</a>`:`<a class="btn p" href="${t.b}">Tickets buchen</a>`}
+ ${past?"":`<button class="btn" id="icsb">In meinen Kalender (${fd(nd)})</button>`}
+ <button class="btn" id="cpy">Link kopieren</button>
+ <a class="btn" href="https://wa.me/?text=${encodeURIComponent(msg)}">WhatsApp</a>
+ <a class="btn" href="mailto:?subject=${encodeURIComponent(t.t)}&body=${encodeURIComponent(msg)}">E-Mail</a></div>
+ <div class="toast" id="toast"></div>
+ <p class="note">Angaben laut ${t.s==="d"?"Tourismusportal bzw. Drittquelle":"Website des Veranstalters"}, ohne Gewähr. Massgebend sind die Angaben von <a href="${o.w}">${esc(o.n)}</a>.</p>
+ <h3 style="margin-top:28px">Über den Veranstalter</h3><p>${esc(o.p)}</p></div>`};
+let MAP=null;
+const vMap=()=>`<div id="map" role="img" aria-label="Karte der Schweiz mit den Strecken der Veranstalter"></div><div class="maplegend"><span><i style="background:#d0021b"></i>Historic RhB</span><span><i style="background:#1b1d1f"></i>Weitere Veranstalter</span><span>Strecken schematisch; Klick auf eine Linie oder einen Punkt zeigt die Fahrten.</span></div>`;
+const drawMap=()=>{if(!window.L){document.getElementById("map").innerHTML='<p class="empty" style="padding:20px">Die Karte konnte nicht geladen werden.</p>';return}
+ MAP=L.map("map",{scrollWheelZoom:false}).setView([46.8,8.25],8);
+ const sw=L.tileLayer("https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-grau/default/current/3857/{z}/{x}/{y}.jpeg",{maxZoom:17,attribution:'© <a href="https://www.swisstopo.admin.ch">swisstopo</a>'}).addTo(MAP);
+ let fb=0;sw.on("tileerror",()=>{if(fb++)return;MAP.removeLayer(sw);L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:17,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(MAP)});
+ const all=[];Object.entries(OPS).forEach(([k,o])=>{if(!o.geo)return;if(st.hr&&!o.hr)return;const c=o.hr?"#d0021b":"#1b1d1f",n=OCC.filter(oc=>T[oc.i].o===k&&oc.end>=TODAY).length;
+  const pop=`<b>${esc(o.n)}</b>${n?n+" kommende Termine":"Daten 2027 folgen"}<br>${n?`<a class="btn p" href="#liste" data-op="${k}">Fahrten anzeigen</a> `:""}<a href="${o.w}">Website</a>`;
+  if(o.geo.length>1)L.polyline(o.geo,{color:c,weight:o.hr?6:4,opacity:.9}).bindPopup(pop).addTo(MAP);
+  L.circleMarker(o.geo[0],{radius:o.hr?8:6,color:"#fff",weight:2,fillColor:c,fillOpacity:1}).bindPopup(pop).bindTooltip(o.n).addTo(MAP);all.push(...o.geo)});
+ if(all.length)MAP.fitBounds(all,{padding:[24,24]})};
 const board=()=>{const seen=new Set(),up=OCC.filter(oc=>oc.end>=TODAY).filter(oc=>{if(seen.has(oc.i))return false;seen.add(oc.i);return true}).slice(0,5);
- document.getElementById("board").innerHTML=up.map(oc=>{const t=T[oc.i],d=pd(oc.day);return `<div class="dep"><div class="d">${d.getDate()}. ${MO[d.getMonth()].slice(0,3)}.<small>${WD[d.getDay()]}${t.h?" · "+t.h:""}</small></div><div><div class="t">${esc(t.t)}</div><div class="o">${esc(OPS[t.o].n)} · ${esc(t.r)}</div></div><div class="act2">${t.st==="voll"?`<span class="full">ausgebucht</span>`:`<a class="go" href="${t.b}">Buchen</a>`}</div></div>`}).join("")};
+ document.getElementById("board").innerHTML=up.map(oc=>{const t=T[oc.i],d=pd(oc.day);return `<div class="dep"><div class="d">${d.getDate()}. ${MO[d.getMonth()].slice(0,3)}.<small>${WD[d.getDay()]}${t.h?" · "+t.h:""}</small></div><div><div class="t"><a href="#fahrt-${t.id}">${esc(t.t)}</a></div><div class="o">${esc(OPS[t.o].n)} · ${esc(t.r)}</div></div><div class="act2">${t.st==="voll"?`<span class="full">ausgebucht</span>`:`<a class="go" href="${t.b}">Buchen</a>`}</div></div>`}).join("")};
 const stats=()=>{const up=OCC.filter(oc=>oc.end>=TODAY);document.getElementById("stats").innerHTML=`<div class="stat"><b>${up.length}</b><span>kommende Termine</span></div><div class="stat"><b>${Object.keys(OPS).length}</b><span>Veranstalter</span></div><div class="stat"><b>${new Set(up.filter(oc=>oc.day<"2027-01-01").map(oc=>oc.i)).size}</b><span>Fahrten im Advent</span></div>`};
 const render=()=>{const v=document.getElementById("view");
  document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.v===st.v));
- document.body.classList.toggle("nv",st.v==="news");
- v.innerHTML=st.v==="liste"?vList():st.v==="kalender"?vCal():st.v==="news"?vNews():vOps();
+ const isD=st.v.startsWith("fahrt-");
+ document.body.classList.toggle("nv",st.v==="news"||isD);
+ if(MAP){MAP.remove();MAP=null}
+ v.innerHTML=isD?vDetail(st.v.slice(6)):st.v==="liste"?vList():st.v==="kalender"?vCal():st.v==="karte"?vMap():st.v==="news"?vNews():vOps();
+ if(st.v==="karte")drawMap();
+ if(isD){const t=T[TID[st.v.slice(6)]];document.title=(t?t.t+" – ":"")+"Nostalgiefahrplan Schweiz";const T2=document.getElementById("toast");
+  const ib=document.getElementById("icsb");if(ib)ib.onclick=()=>{const b=new Blob([ics(t,nextDay(t))],{type:"text/calendar"}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=t.id+".ics";document.body.appendChild(a);a.click();a.remove();T2.textContent="Kalenderdatei heruntergeladen – öffnen, um den Termin einzutragen."};
+  const cb=document.getElementById("cpy");if(cb)cb.onclick=()=>{const u=location.href;navigator.clipboard.writeText(u).then(()=>T2.textContent="Link kopiert.",()=>T2.textContent=u)};
+  window.scrollTo({top:v.getBoundingClientRect().top+scrollY-document.querySelector(".bar").offsetHeight-8,behavior:"smooth"})} else document.title="Nostalgiefahrplan Schweiz";
  if(st.v==="news")document.getElementById("nf").onchange=e=>{nf=e.target.value;render()};
  if(st.v==="kalender"){document.getElementById("pm").onclick=()=>{st.cm=new Date(st.cm.getFullYear(),st.cm.getMonth()-1,1);render()};
   document.getElementById("nm").onclick=()=>{st.cm=new Date(st.cm.getFullYear(),st.cm.getMonth()+1,1);render()};
   v.querySelectorAll(".cal button").forEach(b=>b.onclick=()=>{const i=+b.dataset.i,oc=OCC.find(o=>o.i===i&&o.end>=TODAY)||OCC.find(o=>o.i===i);document.getElementById("cdet").innerHTML=tripHTML(oc)+more(T[i]);document.getElementById("cdet").scrollIntoView({behavior:"smooth",block:"nearest"})})}};
 const setV=v=>{st.v=v;if(location.hash!=="#"+v)history.replaceState(null,"","#"+v);render()};
 document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>setV(b.dataset.v));
-["q","kt","tr","th"].forEach(id=>document.getElementById(id).addEventListener("input",e=>{st[id]=e.target.value;render()}));
+document.addEventListener("click",e=>{const b=e.target.closest("[data-op]");if(!b)return;e.preventDefault();st.op=b.dataset.op;document.getElementById("op").value=st.op;setV("liste")});
+document.getElementById("hr").onchange=e=>{st.hr=e.target.checked;render()};
+["q","kt","tr","th","op"].forEach(id=>document.getElementById(id).addEventListener("input",e=>{st[id]=e.target.value;render()}));
 document.getElementById("past").onchange=e=>{st.past=e.target.checked;try{localStorage.setItem("nfp",JSON.stringify({past:st.past}))}catch(x){}render()};
-const fromHash=()=>{const h=location.hash.slice(1);if(["liste","kalender","veranstalter","news"].includes(h))st.v=h;render()};
+const fromHash=()=>{const h=location.hash.slice(1);if(["liste","kalender","karte","veranstalter","news"].includes(h)||h.startsWith("fahrt-"))st.v=h;render()};
 window.addEventListener("hashchange",fromHash);
 board();stats();teaser();fromHash();
-}).catch(e=>{document.getElementById('view').innerHTML='<p class="empty">Die Fahrplandaten konnten nicht geladen werden.</p>'});
+}).catch(e=>{console.error(e);document.getElementById('view').innerHTML='<p class="empty">Die Fahrplandaten konnten nicht geladen werden.</p>'});
 }
 </script>
 </body>
