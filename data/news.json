@@ -18,7 +18,7 @@
    "w": "https://www.albula-bahn-club.ch"
   },
   "gc": {
-   "n": "Stiftung Grün & Chrom",
+   "n": "Grün & Chrom",
    "w": "https://www.gruen-und-chrom.ch"
   },
   "dfrhb": {
@@ -43,6 +43,15 @@
   }
  },
  "news": [
+  {
+   "q": [
+    "stiftung"
+   ],
+   "d": "2026-11-22",
+   "t": "Unsere neue Webseite ist da",
+   "x": "Wir werden regelmässig aus den Sitzungen des Stiftungsrats orientieren. Zudem berichtet unsere Webseite laufend über alle Aktivitäten der Mitglieder von Historic RhB. Weiter informieren wir laufend und möglichst vollständig über alle historischen Fahrten der RhB, der Mitglieder von Historic RhB und weiterer schweizerischer Veranstalter.",
+   "s": "v"
+  },
   {
    "q": [
     "igzl"
@@ -70,7 +79,7 @@
    ],
    "d": "2026-10-10",
    "t": "Ge 6/6 II 702 «Curia» vor dem Verkehrshaus",
-   "x": "Die Lok der Stiftung wurde optisch aufgefrischt und steht nun vor dem Verkehrshaus der Schweiz in Luzern.",
+   "x": "Die Lok von Grün & Chrom wurde optisch aufgefrischt und steht nun vor dem Verkehrshaus der Schweiz in Luzern.",
    "u": "https://www.gruen-und-chrom.ch",
    "s": "v"
   },
@@ -101,7 +110,7 @@
    ],
    "d": "2026-08-31",
    "t": "Rückblick auf die Graubünden-Rundreise",
-   "x": "Die Stiftung blickt auf ihre Rundreise über das RhB-Netz zurück, die sie zusammen mit den Dampffreunden und der Modellbahnzeitschrift LOKI durchgeführt hat.",
+   "x": "Grün & Chrom blickt auf die Rundreise über das RhB-Netz zurück, die sie zusammen mit den Dampffreunden und der Modellbahnzeitschrift LOKI durchgeführt hat.",
    "u": "https://www.gruen-und-chrom.ch",
    "s": "v"
   },
@@ -137,7 +146,7 @@
   },
   {
    "q": [
-    "hrhb"
+    "vps"
    ],
    "t": "Rollout des Salonwagens As 1141",
    "x": "Der restaurierte Salonwagen As 1141 ist im Einsatz; er ist dem Andenken an Willy Hochstrasser gewidmet.",

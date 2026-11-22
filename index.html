@@ -218,9 +218,9 @@ const vCal=()=>{const y=st.cm.getFullYear(),m=st.cm.getMonth(),first=new Date(y,
 const nDate=n=>n.dl?n.dl:n.d?fd(n.d)+pd(n.d).getFullYear():"";
 const nSrc=n=>n.q.map(k=>NQ[k]?NQ[k].n:k).join(" · ");
 const teaser=()=>{const l=[...NN.filter(n=>n.q.includes("stiftung")).slice(0,1),...NN.filter(n=>n.d&&!n.q.includes("stiftung"))].slice(0,3);
- document.getElementById("nteaser").innerHTML=l.map(n=>`<a class="ncard${n.q.includes("stiftung")?" st":""}" href="${n.u}"><span class="nq">${esc(nDate(n))} · ${esc(nSrc(n))}</span><b>${esc(n.t)}</b><p>${esc(n.x)}</p></a>`).join("")};
+ document.getElementById("nteaser").innerHTML=l.map(n=>`<a class="ncard${n.q.includes("stiftung")?" st":""}" href="${n.u||"#news"}"><span class="nq">${esc(nDate(n))} · ${esc(nSrc(n))}</span><b>${esc(n.t)}</b><p>${esc(n.x)}</p></a>`).join("")};
 let nf="";
-const nItem=n=>`<article class="nitem"><div class="dt">${esc(nDate(n))||'<small>ohne Datum</small>'}</div><div><div class="nq">${esc(nSrc(n))}${n.s==="d"?' · <span class="chip d3">Drittquelle</span>':''}</div><h3 style="margin:2px 0 4px">${esc(n.t)}</h3><p>${esc(n.x)}</p><a href="${n.u}">Weiterlesen beim Absender</a></div></article>`;
+const nItem=n=>`<article class="nitem"><div class="dt">${esc(nDate(n))||'<small>ohne Datum</small>'}</div><div><div class="nq">${esc(nSrc(n))}${n.s==="d"?' · <span class="chip d3">Drittquelle</span>':''}</div><h3 style="margin:2px 0 4px">${esc(n.t)}</h3><p>${esc(n.x)}</p>${n.u?`<a href="${n.u}">Weiterlesen beim Absender</a>`:""}</div></article>`;
 const vNews=()=>{const st=NN.filter(n=>n.q.includes("stiftung")),o=NN.filter(n=>!n.q.includes("stiftung")&&(!nf||n.q.includes(nf)));
  const vs=Object.entries(NQ).filter(([k])=>k!=="stiftung");
  return `<section class="stbox"><img src="img/logo-160.png" width="72" height="72" alt=""><div><h2>Stiftung Bahnkultur RhB</h2>${st.length?st.map(nItem).join(""):'<p class="note" style="margin:0">Mitteilungen der Stiftung erscheinen hier, sobald sie veröffentlicht sind.</p>'}</div></section>
