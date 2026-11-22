@@ -50,7 +50,25 @@
    "d": "2026-11-22",
    "t": "Unsere neue Webseite ist da",
    "x": "Wir werden regelmässig aus den Sitzungen des Stiftungsrats orientieren. Zudem berichtet unsere Webseite laufend über alle Aktivitäten der Mitglieder von Historic RhB. Weiter informieren wir laufend und möglichst vollständig über alle historischen Fahrten der RhB, der Mitglieder von Historic RhB und weiterer schweizerischer Veranstalter.",
-   "s": "v"
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Notre nouveau site est en ligne",
+     "x": "Nous informerons régulièrement des séances du conseil de fondation. Notre site rendra aussi compte en continu de toutes les activités des membres d’Historic RhB. Nous informerons en outre, de manière continue et aussi complète que possible, sur tous les voyages historiques des RhB, des membres d’Historic RhB et d’autres organisateurs suisses."
+    },
+    "it": {
+     "t": "Il nostro nuovo sito è online",
+     "x": "Informeremo regolarmente sulle sedute del consiglio di fondazione. Il nostro sito riferirà inoltre costantemente su tutte le attività dei membri di Historic RhB. Informeremo infine, in modo continuo e il più completo possibile, su tutti i viaggi storici della Ferrovia retica, dei membri di Historic RhB e di altri organizzatori svizzeri."
+    },
+    "en": {
+     "t": "Our new website is live",
+     "x": "We will report regularly on the meetings of the Board of Trustees. Our website will also cover all activities of the members of Historic RhB on an ongoing basis. In addition, we aim to provide continuous and as complete information as possible on all heritage trips of the RhB, of Historic RhB members and of other Swiss operators."
+    },
+    "rm": {
+     "t": "Nossa nova website è qua",
+     "x": "Nus vegnin ad orientar regularmain davart las sesidas dal cussegl da fundaziun. Plinavant rapporta nossa website cuntinuadamain davart tut las activitads dals commembers da Historic RhB. Ultra da quai infurmain nus cuntinuadamain e uschè cumplet sco pussaivel davart tut ils viadis istorics da la Viafier retica, dals commembers da Historic RhB e d’ulteriurs organisaturs svizzers."
+    }
+   }
   },
   {
    "q": [
@@ -60,7 +78,21 @@
    "t": "Zügenstrasse über den Winter gesperrt",
    "x": "Seit dem 18. November ist die alte Zügenstrasse wegen Lawinen- und Steinschlaggefahr geschlossen; sie öffnet erst im Frühjahr wieder.",
    "u": "https://www.igzl.ch/newsdetail/70.html",
-   "s": "v"
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Route de la Zügen fermée pour l’hiver",
+     "x": "Depuis le 18 novembre, l’ancienne route de la Zügen est fermée en raison du risque d’avalanches et de chutes de pierres ; elle rouvrira au printemps."
+    },
+    "it": {
+     "t": "Strada della Zügen chiusa per l’inverno",
+     "x": "Dal 18 novembre la vecchia strada della Zügen è chiusa per pericolo di valanghe e caduta massi; riaprirà in primavera."
+    },
+    "en": {
+     "t": "Zügen road closed for the winter",
+     "x": "Since 18 November the old Zügen road has been closed due to avalanche and rockfall risk; it reopens in spring."
+    }
+   }
   },
   {
    "q": [
@@ -71,7 +103,21 @@
    "t": "Betriebsferien im Bahnmuseum Albula",
    "x": "Das Museum in Bergün bleibt vom 23. November bis 10. Dezember 2026 geschlossen; danach gelten wieder die normalen Öffnungszeiten.",
    "u": "https://www.bahnmuseum-albula.ch",
-   "s": "d"
+   "s": "d",
+   "i18n": {
+    "fr": {
+     "t": "Fermeture annuelle du Bahnmuseum Albula",
+     "x": "Le musée de Bergün est fermé du 23 novembre au 10 décembre 2026 ; les horaires habituels reprennent ensuite."
+    },
+    "it": {
+     "t": "Chiusura per ferie del Bahnmuseum Albula",
+     "x": "Il museo di Bergün è chiuso dal 23 novembre al 10 dicembre 2026; poi tornano gli orari abituali."
+    },
+    "en": {
+     "t": "Albula Railway Museum closed for holidays",
+     "x": "The museum in Bergün is closed from 23 November to 10 December 2026; normal opening hours resume afterwards."
+    }
+   }
   },
   {
    "q": [
@@ -81,7 +127,21 @@
    "t": "Ge 6/6 II 702 «Curia» vor dem Verkehrshaus",
    "x": "Die Lok von Grün & Chrom wurde optisch aufgefrischt und steht nun vor dem Verkehrshaus der Schweiz in Luzern.",
    "u": "https://www.gruen-und-chrom.ch",
-   "s": "v"
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "La Ge 6/6 II 702 «Curia» devant le Musée des transports",
+     "x": "La locomotive de Grün & Chrom a été rafraîchie et se trouve désormais devant le Musée suisse des transports à Lucerne."
+    },
+    "it": {
+     "t": "La Ge 6/6 II 702 «Curia» davanti al Museo dei trasporti",
+     "x": "La locomotiva di Grün & Chrom è stata rinfrescata ed è ora esposta davanti al Museo svizzero dei trasporti a Lucerna."
+    },
+    "en": {
+     "t": "Ge 6/6 II 702 «Curia» outside the Transport Museum",
+     "x": "Grün & Chrom’s locomotive has been cosmetically refreshed and now stands outside the Swiss Museum of Transport in Lucerne."
+    }
+   }
   },
   {
    "q": [
@@ -92,7 +152,21 @@
    "t": "Dampflok Nr. 1 «Rhætia» ist zurück",
    "x": "Die älteste RhB-Lok von 1889 wurde am 19./20. September in Schiers mit einer eigens komponierten Operette eingeweiht. Finanziert hat die Restaurierung eine Projektgruppe aus Club 1889 und Dampffreunden unter dem Dach von Historic RhB.",
    "u": "https://www.historic-rhb.ch/details/53.html",
-   "s": "v"
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "La locomotive à vapeur n° 1 «Rhætia» est de retour",
+     "x": "La plus ancienne locomotive des RhB, de 1889, a été inaugurée les 19 et 20 septembre à Schiers avec une opérette composée pour l’occasion. Un groupe de projet du Club 1889 et des Dampffreunde a financé la restauration sous l’égide d’Historic RhB."
+    },
+    "it": {
+     "t": "La locomotiva a vapore n. 1 «Rhætia» è tornata",
+     "x": "La più antica locomotiva della Ferrovia retica, del 1889, è stata inaugurata il 19/20 settembre a Schiers con un’operetta composta per l’occasione. Il restauro è stato finanziato da un gruppo di progetto del Club 1889 e dei Dampffreunde sotto l’egida di Historic RhB."
+    },
+    "en": {
+     "t": "Steam locomotive no. 1 «Rhætia» is back",
+     "x": "The RhB’s oldest locomotive, built in 1889, was rededicated in Schiers on 19/20 September with a specially composed operetta. A project group from Club 1889 and the Dampffreunde financed the restoration under the umbrella of Historic RhB."
+    }
+   }
   },
   {
    "q": [
@@ -102,7 +176,21 @@
    "t": "Sonderausstellung «Bauen im UNESCO Welterbe»",
    "x": "Die neue Ausstellung zeigt, wie Bauvorhaben mit dem Schutz des Welterbes abgestimmt werden, mit Schwerpunkt auf der RhB in der Landschaft Albula/Bernina.",
    "u": "https://www.historic-rhb.ch/details/62.html",
-   "s": "v"
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Exposition temporaire «Construire dans le patrimoine mondial de l’UNESCO»",
+     "x": "La nouvelle exposition montre comment les projets de construction sont coordonnés avec la protection du patrimoine mondial, avec un accent sur les RhB dans le paysage Albula/Bernina."
+    },
+    "it": {
+     "t": "Mostra temporanea «Costruire nel patrimonio mondiale UNESCO»",
+     "x": "La nuova mostra illustra come i progetti edilizi vengono coordinati con la tutela del patrimonio mondiale, con particolare attenzione alla Ferrovia retica nel paesaggio Albula/Bernina."
+    },
+    "en": {
+     "t": "Special exhibition «Building in a UNESCO World Heritage Site»",
+     "x": "The new exhibition shows how construction projects are coordinated with World Heritage protection, focusing on the RhB in the Albula/Bernina landscape."
+    }
+   }
   },
   {
    "q": [
@@ -112,7 +200,21 @@
    "t": "Rückblick auf die Graubünden-Rundreise",
    "x": "Grün & Chrom blickt auf die Rundreise über das RhB-Netz zurück, die sie zusammen mit den Dampffreunden und der Modellbahnzeitschrift LOKI durchgeführt hat.",
    "u": "https://www.gruen-und-chrom.ch",
-   "s": "v"
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Retour sur le circuit des Grisons",
+     "x": "Grün & Chrom revient sur son circuit à travers le réseau des RhB, organisé avec les Dampffreunde et la revue de modélisme LOKI."
+    },
+    "it": {
+     "t": "Retrospettiva sul giro dei Grigioni",
+     "x": "Grün & Chrom ripercorre il giro sulla rete della Ferrovia retica organizzato con i Dampffreunde e la rivista di modellismo LOKI."
+    },
+    "en": {
+     "t": "Looking back on the Graubünden tour",
+     "x": "Grün & Chrom looks back on its tour of the RhB network, organised with the Dampffreunde and the model railway magazine LOKI."
+    }
+   }
   },
   {
    "q": [
@@ -122,7 +224,21 @@
    "t": "Bahnhof Bonaduz wechselt zu Historic RhB",
    "x": "Seit Anfang 2026 betreibt der Dachverband den Ticket-Corner im Bahnhof Bonaduz.",
    "u": "https://www.historic-rhb.ch/details/50.html",
-   "s": "v"
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "La gare de Bonaduz passe à Historic RhB",
+     "x": "Depuis début 2026, l’association faîtière exploite le guichet de billets de la gare de Bonaduz."
+    },
+    "it": {
+     "t": "La stazione di Bonaduz passa a Historic RhB",
+     "x": "Dall’inizio del 2026 l’associazione mantello gestisce lo sportello biglietti della stazione di Bonaduz."
+    },
+    "en": {
+     "t": "Bonaduz station moves to Historic RhB",
+     "x": "Since the start of 2026 the umbrella association has been running the ticket corner at Bonaduz station."
+    }
+   }
   },
   {
    "q": [
@@ -133,7 +249,21 @@
    "t": "Workshop Modulunterhalt in Thusis",
    "x": "Der Verein trifft sich zur Wartung seiner Modulanlagen; das Jahresprogramm 2026 ist online.",
    "u": "https://schmalspur.ch/jahresprogramm-2026/",
-   "s": "v"
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Atelier d’entretien des modules à Thusis",
+     "x": "L’association se réunit pour l’entretien de ses installations modulaires ; le programme 2026 est en ligne."
+    },
+    "it": {
+     "t": "Workshop di manutenzione dei moduli a Thusis",
+     "x": "L’associazione si riunisce per la manutenzione dei suoi impianti modulari; il programma 2026 è online."
+    },
+    "en": {
+     "t": "Module maintenance workshop in Thusis",
+     "x": "The association meets to maintain its modular layouts; the 2026 programme is online."
+    }
+   }
   },
   {
    "q": [
@@ -142,7 +272,21 @@
    "t": "Winterpause in der Zügenschlucht",
    "x": "Nostalgiezug und Zügabeizli ruhen bis zum Frühjahr 2027.",
    "u": "https://www.igzl.ch/newsdetail/67.html",
-   "s": "v"
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Pause hivernale dans les gorges de la Zügen",
+     "x": "Le train nostalgique et le Zügabeizli font relâche jusqu’au printemps 2027."
+    },
+    "it": {
+     "t": "Pausa invernale nella gola della Zügen",
+     "x": "Il treno nostalgico e lo Zügabeizli si fermano fino alla primavera 2027."
+    },
+    "en": {
+     "t": "Winter break in the Zügen gorge",
+     "x": "The nostalgia train and the Zügabeizli are resting until spring 2027."
+    }
+   }
   },
   {
    "q": [
@@ -151,7 +295,21 @@
    "t": "Rollout des Salonwagens As 1141",
    "x": "Der restaurierte Salonwagen As 1141 ist im Einsatz; er ist dem Andenken an Willy Hochstrasser gewidmet.",
    "u": "https://www.historic-rhb.ch/details/68.html",
-   "s": "v"
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Présentation de la voiture-salon As 1141",
+     "x": "La voiture-salon As 1141 restaurée est en service ; elle est dédiée à la mémoire de Willy Hochstrasser."
+    },
+    "it": {
+     "t": "Presentazione della carrozza salone As 1141",
+     "x": "La carrozza salone As 1141 restaurata è in servizio; è dedicata alla memoria di Willy Hochstrasser."
+    },
+    "en": {
+     "t": "Roll-out of saloon car As 1141",
+     "x": "The restored saloon car As 1141 is in service; it is dedicated to the memory of Willy Hochstrasser."
+    }
+   }
   },
   {
    "q": [
@@ -160,7 +318,21 @@
    "t": "C 114 «La Bucunada»: Restaurierung kommt voran",
    "x": "Der Club 1889 arbeitet zusammen mit der RhB an der Aufarbeitung dieses historischen Fahrzeugs.",
    "u": "https://www.historic-rhb.ch/details/c-114-la-bucunada.html",
-   "s": "v"
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "C 114 «La Bucunada» : la restauration progresse",
+     "x": "Le Club 1889 travaille avec les RhB à la remise en état de ce véhicule historique."
+    },
+    "it": {
+     "t": "C 114 «La Bucunada»: il restauro procede",
+     "x": "Il Club 1889 lavora con la Ferrovia retica al restauro di questo veicolo storico."
+    },
+    "en": {
+     "t": "C 114 «La Bucunada»: restoration progressing",
+     "x": "Club 1889 is working with the RhB to restore this historic vehicle."
+    }
+   }
   },
   {
    "q": [
@@ -169,7 +341,21 @@
    "t": "Buch: Filisur kämpft für Albula- und Davoserlinie",
    "x": "Stefan Barandun beschreibt, wie sich die Gemeinde Filisur für den Bau der beiden RhB-Linien einsetzte.",
    "u": "https://www.historic-rhb.ch/details/66.html",
-   "s": "v"
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Livre : Filisur se bat pour les lignes de l’Albula et de Davos",
+     "x": "Stefan Barandun décrit comment la commune de Filisur s’est engagée pour la construction des deux lignes des RhB."
+    },
+    "it": {
+     "t": "Libro: Filisur lotta per le linee dell’Albula e di Davos",
+     "x": "Stefan Barandun descrive come il comune di Filisur si è impegnato per la costruzione delle due linee della Ferrovia retica."
+    },
+    "en": {
+     "t": "Book: Filisur fights for the Albula and Davos lines",
+     "x": "Stefan Barandun describes how the municipality of Filisur campaigned for the construction of the two RhB lines."
+    }
+   }
   }
  ]
 }

@@ -39,6 +39,12 @@ Pilotbetrieb unter https://fahrplan.belimmo.ch (für Suchmaschinen gesperrt). Ge
 
 Eigene News der Stiftung: Eintrag mit `"q":["stiftung"]` ergänzen; er erscheint hervorgehoben im News-Bereich und auf der Startseite.
 
+## Mehrsprachigkeit
+
+- Oberfläche: `js/i18n.js` mit Deutsch, Französisch, Italienisch, Englisch und Rumantsch Grischun (Rumantsch: Entwurf, Prüfung durch Muttersprachige empfohlen).
+- Inhalte: Fahrten, Veranstalter und News haben ein Feld `i18n` mit Übersetzungen je Sprache (`fr`, `it`, `en`, optional `rm`) für `t`, `x`, `r`, `pr` (Fahrten), `p` (Veranstalter) bzw. `t`, `x` (News). Fehlt eine Übersetzung, erscheint der deutsche Text.
+- Die gewählte Sprache wird im Browser gespeichert; beim ersten Besuch gilt die Browsersprache.
+
 ## Aktualisierung
 
 Wöchentlich prüft eine geplante Aufgabe die Websites der Veranstalter, passt `data/fahrten.json` an und eröffnet einen Pull Request. Nach Durchsicht und Merge ist die Änderung innert Minuten online.
@@ -50,6 +56,7 @@ Regeln für Aktualisierungen (Fahrten und News):
 4. Vergangene Fahrten bleiben bis Ende des folgenden Jahres in der Datei (Rückblick).
 5. `stand` auf das Prüfdatum setzen.
 6. News: keine Texte oder Bilder übernehmen, nur eigene Zusammenfassung mit Link. Meldungen älter als 12 Monate entfernen. Bei Meldungen ohne Datum kein Datum erfinden.
+8. Neue oder geänderte Einträge erhalten Übersetzungen in `i18n` (fr, it, en).
 7. News der Stiftung (`stiftung`) nie automatisch erfassen oder ändern; sie kommen nur vom Stiftungsrat.
 
 ## Umzug auf bahnkultur-rhb.ch

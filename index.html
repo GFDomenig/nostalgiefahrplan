@@ -152,68 +152,97 @@ footer.band{border-top:1px solid var(--line);margin-top:40px;font-size:14px;colo
 footer p{max-width:80ch}
 @media(max-width:700px){.trip{grid-template-columns:4.4em minmax(0,1fr)}.act{grid-column:2;flex-direction:row;flex-wrap:wrap;align-items:center}.price{text-align:left}.cal div{min-height:64px;padding:3px}.cal button{font-size:0;height:8px;padding:0;border-left:0;background:var(--red)}.dep{grid-template-columns:minmax(0,6em) minmax(0,1fr)}.dep .act2{grid-column:2}}
 @media(max-width:600px){.tabs button{padding:8px 10px}.hero img.logo{top:auto;bottom:12px;right:16px;width:64px}.credit{left:16px;right:auto;max-width:calc(100% - 104px)}.statsband .stats{gap:14px;flex-wrap:nowrap;justify-content:space-between}.statsband .stat b{font-size:28px}.statsband .stat span{font-size:13px;line-height:1.25;display:block}}
+.brand{position:absolute;z-index:2;top:clamp(16px,3vw,36px);right:max(3vw,16px);display:flex;flex-direction:column;align-items:center;gap:12px}
+.brand img.logo{position:static;width:clamp(72px,8vw,112px);height:auto;filter:drop-shadow(0 3px 10px rgba(0,0,0,.35))}
+.langs{display:flex;gap:6px;background:rgba(10,20,35,.45);padding:6px;border-radius:10px;backdrop-filter:blur(4px)}
+.langs button{display:flex;flex-direction:column;align-items:center;gap:3px;border:0;background:none;padding:3px 3px 2px;border-radius:6px;cursor:pointer;color:#fff;font:600 12px/1 Barlow,sans-serif;min-width:44px}
+.langs svg,.langs .tx{width:38px;height:26px;border-radius:3px;box-shadow:0 0 0 1px rgba(255,255,255,.55)}
+.langs .tx{display:grid;place-items:center;background:#fff;color:#1b1d1f;font:700 14px/1 "Barlow Condensed",sans-serif}
+.langs button[aria-pressed=true]{background:rgba(255,255,255,.22)}
+.langs button[aria-pressed=true] svg,.langs button[aria-pressed=true] .tx{box-shadow:0 0 0 2px #fff}
+.langs button:focus-visible{outline:3px solid #ffbf47}
+.flnote{font-size:14px;color:var(--mut);margin:8px 0 0}
+@media(max-width:600px){.brand{top:auto;bottom:12px;right:16px}.brand img.logo{width:64px}.langs{position:absolute;top:auto;bottom:0;right:76px;gap:2px;padding:4px}.langs button{min-width:38px}.langs svg,.langs .tx{width:30px;height:20px}.credit{bottom:62px!important;max-width:calc(100% - 32px)!important}}
 </style>
+<script src="js/i18n.js"></script>
 </head>
 <body>
 <header class="hero">
- <img src="img/titel-1200.jpg" srcset="img/titel-800.jpg 800w, img/titel-1200.jpg 1200w, img/titel-2400.jpg 2400w" sizes="100vw" alt="Braune historische Elektrolok 182 der Rhätischen Bahn mit Schneepflug und blau-crèmefarbenen Pullman-Wagen auf der Alp Grüm an der Berninalinie, im Herbst mit gelben Lärchen und blauem Himmel" fetchpriority="high">
+ <img id="heroimg" src="img/titel-1200.jpg" srcset="img/titel-800.jpg 800w, img/titel-1200.jpg 1200w, img/titel-2400.jpg 2400w" sizes="100vw" alt="" fetchpriority="high">
  <div class="herotext">
   <h1>Bahnkultur Historic RhB</h1>
-  <p class="lede">Fahrten, News und Geschichte der historischen Bahnen in Graubünden und der ganzen Schweiz.</p>
+  <p class="lede" data-i="lede"></p>
  </div>
- <img class="logo" src="img/logo-160.png" srcset="img/logo-160.png 1x, img/logo-320.png 2x" width="104" height="104" alt="Logo Historic RhB – Die Bündner Kulturbahn">
- <p class="credit">Historic RhB – Lok 182 mit Pullman-Wagen auf der Alp Grüm</p>
+ <div class="brand">
+  <img class="logo" id="logo" src="img/logo-160.png" srcset="img/logo-160.png 1x, img/logo-320.png 2x" width="104" height="104" alt="">
+  <div class="langs" role="group" aria-label="Sprache / Langue / Lingua / Language / Lingua">
+   <button data-l="de" title="Deutsch" aria-label="Deutsch"><span class="tx">DE</span>DE</button>
+   <button data-l="fr" title="Français" aria-label="Français"><svg viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#002395"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ed2939"/></svg> FR</button>
+   <button data-l="it" title="Italiano" aria-label="Italiano"><svg viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ce2b37"/></svg> IT</button>
+   <button data-l="en" title="English" aria-label="English"><svg viewBox="0 0 60 30" preserveAspectRatio="none" aria-hidden="true"><clipPath id="uks"><path d="M0,0v30h60V0z"/></clipPath><clipPath id="ukt"><path d="M30,15h30v15zv15H0zH0V0zV0h30z"/></clipPath><g clip-path="url(#uks)"><path d="M0,0v30h60V0z" fill="#012169"/><path d="M0,0L60,30M60,0L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0L60,30M60,0L0,30" clip-path="url(#ukt)" stroke="#C8102E" stroke-width="4"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#C8102E" stroke-width="6"/></g></svg> EN</button>
+   <button data-l="rm" title="Rumantsch" aria-label="Rumantsch"><span class="tx">RM</span>RM</button>
+  </div>
+ </div>
+ <p class="credit" data-i="credit"></p>
 </header>
-<div class="band statsband"><div class="wrap"><div class="stats" id="stats"></div></div></div>
+<div class="band statsband"><div class="wrap"><div class="stats" id="stats"></div><p class="flnote" id="flnote" hidden></p></div></div>
 
 <section class="band newsband" aria-labelledby="nh"><div class="wrap">
- <div class="boardhead"><h2 id="nh" style="font-size:26px">Aktuell</h2><a href="#news" class="more">Alle Meldungen</a></div>
+ <div class="boardhead"><h2 id="nh" style="font-size:26px" data-i="aktuell"></h2><a href="#news" class="more" data-i="all_news"></a></div>
  <div class="nteaser" id="nteaser"></div>
 </div></section>
 
 <section class="boardband" aria-labelledby="bh"><div class="wrap">
- <div class="boardhead"><h2 id="bh">Nächste Abfahrten</h2><span id="stand"></span></div>
+ <div class="boardhead"><h2 id="bh" data-i="next"></h2><span id="stand"></span></div>
  <div id="board"></div>
 </div></section>
 
-
-
 <nav class="bar" aria-label="Filter"><div class="wrap">
  <div class="tabs" role="tablist">
-  <button role="tab" id="t-liste" data-v="liste" aria-selected="true">Fahrten</button>
-  <button role="tab" id="t-kalender" data-v="kalender" aria-selected="false">Kalender</button>
-  <button role="tab" id="t-karte" data-v="karte" aria-selected="false">Karte</button>
-  <button role="tab" id="t-veranstalter" data-v="veranstalter" aria-selected="false">Veranstalter</button>
-  <button role="tab" id="t-news" data-v="news" aria-selected="false">News</button>
+  <button role="tab" id="t-liste" data-v="liste" data-i="tab_liste"></button>
+  <button role="tab" id="t-kalender" data-v="kalender" data-i="tab_kalender"></button>
+  <button role="tab" id="t-karte" data-v="karte" data-i="tab_karte"></button>
+  <button role="tab" id="t-veranstalter" data-v="veranstalter" data-i="tab_veranstalter"></button>
+  <button role="tab" id="t-news" data-v="news" data-i="tab_news"></button>
  </div>
- <span class="flt" style="display:contents"><input type="search" id="q" placeholder="Suchen: Ort, Lok, Veranstalter …" aria-label="Suchen">
- <select id="kt" aria-label="Kanton"><option value="">Alle Kantone</option></select>
- <select id="tr" aria-label="Traktion"><option value="">Alle Traktionen</option><option>Dampf</option><option>Elektro</option><option>Diesel</option></select>
- <select id="th" aria-label="Thema"><option value="">Alle Themen</option><option>Advent</option><option>Kulinarik</option><option>Familie</option><option>Zahnrad</option><option>Bergstrecke</option></select>
- <select id="op" aria-label="Veranstalter"><option value="">Alle Veranstalter</option></select>
- <label class="chk hrchk"><input type="checkbox" id="hr"> Nur Historic RhB</label>
- <label class="chk"><input type="checkbox" id="past"> Saison 2026 zeigen</label></span>
+ <span class="flt" style="display:contents"><input type="search" id="q">
+ <select id="kt"></select>
+ <select id="tr"></select>
+ <select id="th"></select>
+ <select id="op"></select>
+ <label class="chk hrchk"><input type="checkbox" id="hr"> <span data-i="hr_only"></span></label>
+ <label class="chk"><input type="checkbox" id="past"> <span data-i="past"></span></label></span>
 </div></nav>
 
 <main class="band" style="padding-top:8px"><div class="wrap" id="view"></div></main>
 
 <footer class="band"><div class="wrap">
- <p><b>Angaben ohne Gewähr.</b> Alle Daten stammen von den Websites der Veranstalter, ergänzt durch Tourismusportale (gestrichelt markiert). Fahrplan, Traktion und Preise können sich kurzfristig ändern, etwa bei Waldbrandgefahr. Massgebend ist immer die Seite des Veranstalters.</p>
- <p style="display:flex;gap:14px;align-items:center"><img src="img/logo-160.png" width="56" height="56" alt="" style="flex:none">Ein Pilotprojekt im Umfeld der Stiftung Bahnkultur RhB. Der definitive Betrieb unter bahnkultur-rhb.ch ist in Vorbereitung.</p>
- <p>Fehlt eine Fahrt? Veranstalter können ihre Daten melden. Pilotbetrieb. <a href="impressum.html">Impressum und Datenschutz</a></p>
+ <p><b data-i="f1b"></b> <span data-i="f1"></span></p>
+ <p style="display:flex;gap:14px;align-items:center"><img src="img/logo-160.png" width="56" height="56" alt="" style="flex:none"><span data-i="f2"></span></p>
+ <p><span data-i="f3"></span> <a href="impressum.html" data-i="imp"></a></p>
 </div></footer>
-
 <script>
 {
+const LANGS=["de","fr","it","en","rm"];
+let LG="de";
+try{const s=localStorage.getItem("lang");if(LANGS.includes(s))LG=s;else{const n=(navigator.language||"de").slice(0,2).toLowerCase();if(LANGS.includes(n))LG=n}}catch(e){}
+const L=(k,v)=>{let s=(I18N[LG]&&I18N[LG][k]!==undefined)?I18N[LG][k]:I18N.de[k];if(v&&typeof s==="string")for(const x in v)s=s.replace("{"+x+"}",v[x]);return s};
+const LT=(o,f)=>(o&&o.i18n&&o.i18n[LG]&&o.i18n[LG][f])||o[f];
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const statics=()=>{document.documentElement.lang=LG==="de"?"de-CH":LG;
+ document.querySelectorAll("[data-i]").forEach(e=>e.textContent=L(e.dataset.i));
+ document.getElementById("heroimg").alt=L("alt");document.getElementById("logo").alt=L("logo");
+ document.getElementById("q").placeholder=L("q");document.getElementById("q").setAttribute("aria-label",L("q"));
+ document.querySelectorAll(".langs button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===LG));
+ const fl=document.getElementById("flnote");fl.textContent=L("fl");fl.hidden=!L("fl")};
+statics();
 Promise.all([fetch('data/fahrten.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/news.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>({quellen:{},news:[]}))]).then(([DATA,ND])=>{
 const OPS=DATA.veranstalter,T=DATA.fahrten,NQ=ND.quellen,NN=ND.news.slice().sort((a,b)=>(b.d||'').localeCompare(a.d||''));
 const _n=new Date(),TODAY=_n.getFullYear()+'-'+String(_n.getMonth()+1).padStart(2,'0')+'-'+String(_n.getDate()).padStart(2,'0');
-const _s=DATA.stand.split('-');document.getElementById('stand').textContent='Datenstand '+(+_s[2])+'. '+['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'][_s[1]-1]+' '+_s[0];
-const WD=["So","Mo","Di","Mi","Do","Fr","Sa"],MO=["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
 const pd=s=>{const[a,b,c]=s.split("-").map(Number);return new Date(a,b-1,c)};
 const fd=s=>{const d=pd(s);return d.getDate()+"."+(d.getMonth()+1)+"."};
-const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-// expand to occurrences
+const WD=()=>L("WD"),MO=()=>L("MO");
+const TRL=x=>L("tr")[x]||x,THL=x=>L("th")[x]||x,WDL=x=>L("wd")[x]||x;
 const OCC=[];
 T.forEach((t,i)=>{if(t.rg)OCC.push({i,day:t.rg[0],end:t.rg[1]});else t.d.forEach(day=>OCC.push({i,day,end:day}))});
 OCC.sort((a,b)=>a.day.localeCompare(b.day));
@@ -222,91 +251,97 @@ const HR=id=>!!(OPS[id]&&OPS[id].hr);
 const TID={};T.forEach((t,i)=>TID[t.id]=i);
 try{const s=JSON.parse(localStorage.getItem("nfp")||"{}");if(s.past)st.past=true}catch(e){}
 const ks=[...new Set(Object.values(OPS).flatMap(o=>o.k.split("/")))].filter(k=>k!=="national").sort();
-document.getElementById("kt").innerHTML+=ks.map(k=>`<option>${k}</option>`).join("");
+const opts=()=>{const sel=(id,first,list)=>{const e=document.getElementById(id);e.innerHTML=`<option value="">${esc(first)}</option>`+list.map(([v,t])=>`<option value="${esc(v)}">${esc(t)}</option>`).join("");e.value=st[id];e.setAttribute("aria-label",first)};
+ sel("kt",L("kt_all"),ks.map(k=>[k,k]));
+ sel("tr",L("tr_all"),["Dampf","Elektro","Diesel"].map(k=>[k,TRL(k)]));
+ sel("th",L("th_all"),["Advent","Kulinarik","Familie","Zahnrad","Bergstrecke"].map(k=>[k,THL(k)]));
+ sel("op",L("op_all"),Object.entries(OPS).sort((a,b)=>a[1].n.localeCompare(b[1].n,"de")).map(([k,o])=>[k,o.n]))};
+const standTxt=()=>{const p=DATA.stand.split('-');document.getElementById('stand').textContent=L("stand")+' '+(+p[2])+'. '+MO()[p[1]-1]+' '+p[0]};
 document.getElementById("past").checked=st.past;
-document.getElementById("op").innerHTML+=Object.entries(OPS).sort((a,b)=>a[1].n.localeCompare(b[1].n,"de")).map(([k,o])=>`<option value="${k}">${esc(o.n)}</option>`).join("");
 const match=t=>{const o=OPS[t.o];
  if(st.kt&&!o.k.split("/").includes(st.kt)&&o.k!=="national")return false;
  if(st.op&&t.o!==st.op)return false;
  if(st.hr&&!HR(t.o))return false;
  if(st.tr&&t.tr!==st.tr)return false;
  if(st.th&&!(t.th||[]).includes(st.th))return false;
- if(st.q){const h=(t.t+" "+o.n+" "+t.r+" "+(t.x||"")).toLowerCase();if(!st.q.toLowerCase().split(/\s+/).every(w=>h.includes(w)))return false}
+ if(st.q){const h=(t.t+" "+LT(t,"t")+" "+o.n+" "+t.r+" "+LT(t,"r")+" "+(t.x||"")+" "+(LT(t,"x")||"")).toLowerCase();if(!st.q.toLowerCase().split(/\s+/).every(w=>h.includes(w)))return false}
  return true};
-const chips=t=>{let c=(HR(t.o)?`<span class="chip hr">Historic RhB</span>`:"")+`<span class="chip ${t.tr==="Dampf"?"dampf":t.tr==="Elektro"?"elektro":""}">${t.tr}</span>`;
- (t.th||[]).forEach(x=>c+=`<span class="chip">${x}</span>`);
- if(t.st==="voll")c+=`<span class="chip voll">ausgebucht</span>`;
- if(t.st==="zug")c+=`<span class="chip">Billette im Zug</span>`;
- if(t.st==="anm")c+=`<span class="chip">Anmeldung nötig</span>`;
- if(t.s==="d")c+=`<span class="chip d3" title="Angaben aus Tourismusportal oder Drittquelle">Drittquelle</span>`;
+const chips=t=>{let c=(HR(t.o)?`<span class="chip hr">Historic RhB</span>`:"")+`<span class="chip ${t.tr==="Dampf"?"dampf":t.tr==="Elektro"?"elektro":""}">${TRL(t.tr)}</span>`;
+ (t.th||[]).forEach(x=>c+=`<span class="chip">${THL(x)}</span>`);
+ if(t.st==="voll")c+=`<span class="chip voll">${L("full")}</span>`;
+ if(t.st==="zug")c+=`<span class="chip">${L("train")}</span>`;
+ if(t.st==="anm")c+=`<span class="chip">${L("reg")}</span>`;
+ if(t.s==="d")c+=`<span class="chip d3" title="${esc(L("d3t"))}">${L("d3")}</span>`;
  return c};
-const more=t=>t.d&&t.d.length>1?`<div class="note">Weitere Daten: ${t.d.map(fd).join(", ")}</div>`:"";
+const tm=t=>t.h?(L("h")?t.h+" "+L("h"):t.h):"";
+const more=t=>t.d&&t.d.length>1?`<div class="note">${L("more")}: ${t.d.map(fd).join(", ")}</div>`:"";
 const tripHTML=(oc)=>{const t=T[oc.i],o=OPS[t.o],d=pd(oc.day),past=oc.end<TODAY;
- const date=t.rg?`${fd(t.rg[0])}<small>bis ${fd(t.rg[1])} · ${t.wd}</small>`:`${d.getDate()}.${d.getMonth()+1}.<small>${WD[d.getDay()]}${t.h?" · "+t.h:""}</small>`;
- const bk=t.st==="voll"?`<a class="btn" href="${t.b}">Warteliste / Info</a>`:past?`<a class="btn" href="${t.b}">Zum Veranstalter</a>`:`<a class="btn p" href="${t.b}">Tickets buchen</a>`;
- return `<article class="trip${past?" past":""}${HR(t.o)?" hrt":""}"><div class="dt">${date}</div><div><h3><a href="#fahrt-${t.id}">${esc(t.t)}</a></h3><div class="meta">${esc(o.n)} · ${esc(t.r)}</div>${t.x?`<p class="desc">${esc(t.x)}</p>`:""}<div class="chips">${chips(t)}</div></div><div class="act">${bk}${t.pr?`<div class="price">${esc(t.pr)}</div>`:""}</div></article>`};
+ const date=t.rg?`${fd(t.rg[0])}<small>${L("until")} ${fd(t.rg[1])} · ${WDL(t.wd)}</small>`:`${d.getDate()}.${d.getMonth()+1}.<small>${WD()[d.getDay()]}${t.h?" · "+t.h:""}</small>`;
+ const bk=t.st==="voll"?`<a class="btn" href="${t.b}">${L("wait")}</a>`:past?`<a class="btn" href="${t.b}">${L("to_op")}</a>`:`<a class="btn p" href="${t.b}">${L("book")}</a>`;
+ const x=LT(t,"x"),pr=LT(t,"pr");
+ return `<article class="trip${past?" past":""}${HR(t.o)?" hrt":""}"><div class="dt">${date}</div><div><h3><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a></h3><div class="meta">${esc(o.n)} · ${esc(LT(t,"r"))}</div>${x?`<p class="desc">${esc(x)}</p>`:""}<div class="chips">${chips(t)}</div></div><div class="act">${bk}${pr?`<div class="price">${esc(pr)}</div>`:""}</div></article>`};
 const visible=()=>OCC.filter(oc=>match(T[oc.i])&&(st.past||oc.end>=TODAY));
 const vList=()=>{let seen=new Set(),out="",cur="";
  visible().forEach(oc=>{const t=T[oc.i];
   const key=oc.i+(oc.end<TODAY?"p":"f");if(seen.has(key))return;seen.add(key);
-  const d=pd(oc.day),m=MO[d.getMonth()]+" "+d.getFullYear();if(m!==cur){cur=m;out+=`<h2 class="month">${m}</h2>`}
+  const d=pd(oc.day),m=MO()[d.getMonth()]+" "+d.getFullYear();if(m!==cur){cur=m;out+=`<h2 class="month">${m.charAt(0).toUpperCase()+m.slice(1)}</h2>`}
   out+=tripHTML(oc)+(oc.end>=TODAY&&t.d&&t.d.length>1?more(t):"")});
- return out||`<p class="empty">Keine Fahrten für diese Auswahl. Filter zurücksetzen oder «Saison 2026 zeigen» aktivieren.</p>`};
+ return out||`<p class="empty">${L("empty")}</p>`};
 const vCal=()=>{const y=st.cm.getFullYear(),m=st.cm.getMonth(),first=new Date(y,m,1),off=(first.getDay()+6)%7,days=new Date(y,m+1,0).getDate();
  const byDay={};OCC.filter(oc=>match(T[oc.i])).forEach(oc=>{let d=pd(oc.day),e=pd(oc.end);const t=T[oc.i];
   for(;d<=e;d.setDate(d.getDate()+1)){if(t.rg&&t.wd==="Do–So"&&![4,5,6,0].includes(d.getDay()))continue;if(d.getFullYear()===y&&d.getMonth()===m)(byDay[d.getDate()]??=[]).push(oc.i)}});
- let g=["Mo","Di","Mi","Do","Fr","Sa","So"].map(x=>`<div class="h">${x}</div>`).join("");
+ const w=WD();let g=[1,2,3,4,5,6,0].map(i=>`<div class="h">${w[i]}</div>`).join("");
  for(let k=0;k<off;k++)g+=`<div class="x"></div>`;
- for(let d=1;d<=days;d++){const l=byDay[d]||[];g+=`<div><span class="n">${d}</span>${l.slice(0,3).map(i=>`<button data-i="${i}" title="${esc(T[i].t)}">${esc(T[i].t)}</button>`).join("")}${l.length>3?`<span class="note">+${l.length-3}</span>`:""}</div>`}
- return `<div class="calnav"><button id="pm" aria-label="Vorheriger Monat">‹</button><b>${MO[m]} ${y}</b><button id="nm" aria-label="Nächster Monat">›</button></div><div class="cal">${g}</div><div id="cdet"></div>`};
+ for(let d=1;d<=days;d++){const l=byDay[d]||[];g+=`<div><span class="n">${d}</span>${l.slice(0,3).map(i=>`<button data-i="${i}" title="${esc(LT(T[i],"t"))}">${esc(LT(T[i],"t"))}</button>`).join("")}${l.length>3?`<span class="note">+${l.length-3}</span>`:""}</div>`}
+ const mn=MO()[m];return `<div class="calnav"><button id="pm" aria-label="${L("prev")}">‹</button><b>${mn.charAt(0).toUpperCase()+mn.slice(1)} ${y}</b><button id="nm" aria-label="${L("next_m")}">›</button></div><div class="cal">${g}</div><div id="cdet"></div>`};
 const nDate=n=>n.dl?n.dl:n.d?fd(n.d)+pd(n.d).getFullYear():"";
 const nSrc=n=>n.q.map(k=>NQ[k]?NQ[k].n:k).join(" · ");
 const teaser=()=>{const l=[...NN.filter(n=>n.q.includes("stiftung")).slice(0,1),...NN.filter(n=>n.d&&!n.q.includes("stiftung"))].slice(0,3);
- document.getElementById("nteaser").innerHTML=l.map(n=>`<a class="ncard${n.q.includes("stiftung")?" st":""}" href="${n.u||"#news"}">${n.q.includes("stiftung")?'<span class="sthead"><img src="img/logo-160.png" alt="">Mitteilung der Stiftung Bahnkultur RhB</span>':""}<span class="nq">${esc(nDate(n))} · ${esc(nSrc(n))}</span><b>${esc(n.t)}</b><p>${esc(n.x)}</p></a>`).join("")};
+ document.getElementById("nteaser").innerHTML=l.map(n=>`<a class="ncard${n.q.includes("stiftung")?" st":""}" href="${n.u||"#news"}">${n.q.includes("stiftung")?`<span class="sthead"><img src="img/logo-160.png" alt="">${L("st_head")}</span>`:""}<span class="nq">${esc(nDate(n))} · ${esc(nSrc(n))}</span><b>${esc(LT(n,"t"))}</b><p>${esc(LT(n,"x"))}</p></a>`).join("")};
 let nf="";
-const nItem=n=>`<article class="nitem"><div class="dt">${esc(nDate(n))||'<small>ohne Datum</small>'}</div><div><div class="nq">${esc(nSrc(n))}${n.s==="d"?' · <span class="chip d3">Drittquelle</span>':''}</div><h3 style="margin:2px 0 4px">${esc(n.t)}</h3><p>${esc(n.x)}</p>${n.u?`<a href="${n.u}">Weiterlesen beim Absender</a>`:""}</div></article>`;
-const vNews=()=>{const st=NN.filter(n=>n.q.includes("stiftung")),o=NN.filter(n=>!n.q.includes("stiftung")&&(!nf||n.q.includes(nf)));
+const nItem=n=>`<article class="nitem"><div class="dt">${esc(nDate(n))||`<small>${L("no_date")}</small>`}</div><div><div class="nq">${esc(nSrc(n))}${n.s==="d"?` · <span class="chip d3">${L("d3")}</span>`:''}</div><h3 style="margin:2px 0 4px">${esc(LT(n,"t"))}</h3><p>${esc(LT(n,"x"))}</p>${n.u?`<a href="${n.u}">${L("read")}</a>`:""}</div></article>`;
+const vNews=()=>{const sn=NN.filter(n=>n.q.includes("stiftung")),o=NN.filter(n=>!n.q.includes("stiftung")&&(!nf||n.q.includes(nf)));
  const vs=Object.entries(NQ).filter(([k])=>k!=="stiftung");
- return `<section class="stbox"><img src="img/logo-160.png" width="72" height="72" alt=""><div><span class="stlabel">Mitteilungen</span><h2>Stiftung Bahnkultur RhB</h2>${st.length?st.map(nItem).join(""):'<p class="note" style="margin:0">Mitteilungen der Stiftung erscheinen hier, sobald sie veröffentlicht sind.</p>'}</div></section>
- <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:22px 0 4px"><h2 class="month" style="margin:0;border:0;flex:1 1 auto">Aus den Vereinen und Stiftungen</h2><select id="nf" aria-label="Absender"><option value="">Alle Absender</option>${vs.map(([k,q])=>`<option value="${k}"${k===nf?" selected":""}>${esc(q.n)}</option>`).join("")}</select></div>
- ${o.map(nItem).join("")||'<p class="empty">Keine Meldungen von diesem Absender.</p>'}
- <h2 class="month">Beteiligte Vereine und Stiftungen</h2><div class="vlist">${vs.map(([k,q])=>`<a href="${q.w}">${esc(q.n)}</a>`).join("")}</div>`};
-const vOps=()=>`<p class="note" style="margin:16px 0">${Object.keys(OPS).length} Veranstalter erfasst. Wo noch keine Daten für 2027 vorliegen, steht das übliche Angebot.</p><div class="ops">${Object.entries(OPS).filter(([id,o])=>!st.kt||o.k.split("/").includes(st.kt)).map(([id,o])=>{const n=OCC.filter(oc=>T[oc.i].o===id&&oc.end>=TODAY).length;return `<div class="op${o.hr?" hro":""}"><h3>${esc(o.n)}</h3><div class="note">${o.hr?'<span class="chip hr">Historic RhB</span> ':""}${o.k} · ${n?n+" kommende Termine":"Daten 2027 folgen"}</div><p>${esc(o.p)}</p><div class="links"><a class="btn p" href="${o.w}">Website &amp; Buchung</a>${OCC.some(oc=>T[oc.i].o===id)?`<button class="btn" data-op="${id}">Fahrten anzeigen</button>`:""}</div></div>`}).join("")}</div>`;
-
-const ics=(t,day)=>{const z=s=>s.replace(/[,;\\]/g,m=>"\\"+m).replace(/\n/g,"\\n");const d=day.replace(/-/g,""),e=pd(day);e.setDate(e.getDate()+1);const e2=e.getFullYear()+String(e.getMonth()+1).padStart(2,"0")+String(e.getDate()).padStart(2,"0");
- return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Bahnkultur Historic RhB//DE","BEGIN:VEVENT","UID:"+t.id+"-"+d+"@nostalgiefahrplan","DTSTAMP:"+new Date().toISOString().replace(/[-:]/g,"").slice(0,15)+"Z","DTSTART;VALUE=DATE:"+d,"DTEND;VALUE=DATE:"+e2,"SUMMARY:"+z(t.t),"LOCATION:"+z(t.r),"DESCRIPTION:"+z(OPS[t.o].n+(t.h?" · Abfahrt "+t.h:"")+(t.x?"\n"+t.x:"")+"\nBuchung: "+t.b),"URL:"+t.b,"END:VEVENT","END:VCALENDAR"].join("\r\n")};
+ return `<section class="stbox"><img src="img/logo-160.png" width="72" height="72" alt=""><div><span class="stlabel">${L("st_label")}</span><h2>Stiftung Bahnkultur RhB</h2>${sn.length?sn.map(nItem).join(""):`<p class="note" style="margin:0">${L("st_empty")}</p>`}</div></section>
+ <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:22px 0 4px"><h2 class="month" style="margin:0;border:0;flex:1 1 auto">${L("clubs")}</h2><select id="nf" aria-label="${esc(L("senders"))}"><option value="">${L("senders")}</option>${vs.map(([k,q])=>`<option value="${k}"${k===nf?" selected":""}>${esc(q.n)}</option>`).join("")}</select></div>
+ ${o.map(nItem).join("")||`<p class="empty">${L("no_msg")}</p>`}
+ <h2 class="month">${L("clubs_all")}</h2><div class="vlist">${vs.map(([k,q])=>`<a href="${q.w}">${esc(q.n)}</a>`).join("")}</div>`};
+const upN=id=>OCC.filter(oc=>T[oc.i].o===id&&oc.end>=TODAY).length;
+const vOps=()=>`<p class="note" style="margin:16px 0">${L("ops_n",{n:Object.keys(OPS).length})}</p><div class="ops">${Object.entries(OPS).filter(([id,o])=>!st.kt||o.k.split("/").includes(st.kt)).map(([id,o])=>{const n=upN(id);return `<div class="op${o.hr?" hro":""}"><h3>${esc(o.n)}</h3><div class="note">${o.hr?'<span class="chip hr">Historic RhB</span> ':""}${o.k==="national"?L("national"):o.k} · ${n?L("up_n",{n}):L("follow")}</div><p>${esc(LT(o,"p"))}</p><div class="links"><a class="btn p" href="${o.w}">${esc(L("web"))}</a>${OCC.some(oc=>T[oc.i].o===id)?`<button class="btn" data-op="${id}">${L("show")}</button>`:""}</div></div>`}).join("")}</div>`;
+const ics=(t,day)=>{const z=s=>String(s).replace(/[,;\\]/g,m=>"\\"+m).replace(/\n/g,"\\n");const d=day.replace(/-/g,""),e=pd(day);e.setDate(e.getDate()+1);const e2=e.getFullYear()+String(e.getMonth()+1).padStart(2,"0")+String(e.getDate()).padStart(2,"0");const x=LT(t,"x");
+ return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Bahnkultur Historic RhB//DE","BEGIN:VEVENT","UID:"+t.id+"-"+d+"@bahnkultur-rhb","DTSTAMP:"+new Date().toISOString().replace(/[-:]/g,"").slice(0,15)+"Z","DTSTART;VALUE=DATE:"+d,"DTEND;VALUE=DATE:"+e2,"SUMMARY:"+z(LT(t,"t")),"LOCATION:"+z(LT(t,"r")),"DESCRIPTION:"+z(OPS[t.o].n+(t.h?" · "+L("dep")+" "+tm(t):"")+(x?"\n"+x:"")+"\n"+L("booking")+": "+t.b),"URL:"+t.b,"END:VEVENT","END:VCALENDAR"].join("\r\n")};
 const nextDay=t=>{const ds=t.rg?[t.rg[0]]:t.d;return ds.find(x=>x>=TODAY)||ds[0]};
-const vDetail=id=>{const i=TID[id];if(i===undefined)return `<p class="empty">Diese Fahrt ist nicht (mehr) im Fahrplan. <a href="#liste">Zu allen Fahrten</a></p>`;
- const t=T[i],o=OPS[t.o],nd=nextDay(t),past=(t.rg?t.rg[1]:t.d[t.d.length-1])<TODAY;
- const dates=t.rg?`<span>${fd(t.rg[0])}${pd(t.rg[0]).getFullYear()} bis ${fd(t.rg[1])}${pd(t.rg[1]).getFullYear()} · ${t.wd}</span>`:t.d.map(x=>`<span class="${x<TODAY?"p":""}">${WD[pd(x).getDay()]} ${fd(x)}${pd(x).getFullYear()}</span>`).join("");
- const url=location.href.split("#")[0]+"#fahrt-"+t.id,msg=t.t+" ("+o.n+"): "+url;
- return `<div class="det"><a class="back" href="#liste">← Alle Fahrten</a>
- <div class="chips">${chips(t)}</div><h2>${esc(t.t)}</h2><div class="meta">${esc(o.n)}</div>
- ${t.x?`<p class="desc" style="font-size:17px">${esc(t.x)}</p>`:""}
- <div class="facts"><div><span>Strecke</span><b>${esc(t.r)}</b></div>${t.h?`<div><span>Abfahrt</span><b>${t.h} Uhr</b></div>`:""}<div><span>Traktion</span><b>${t.tr}</b></div>${t.pr?`<div><span>Preis</span><b>${esc(t.pr)}</b></div>`:""}</div>
- <h3 style="margin:0">${t.rg?"Saison":t.d.length>1?"Daten":"Datum"}</h3><div class="dates">${dates}</div>
- <div class="acts">${past?`<a class="btn" href="${t.b}">Zum Veranstalter</a>`:t.st==="voll"?`<a class="btn" href="${t.b}">Ausgebucht · Info beim Veranstalter</a>`:`<a class="btn p" href="${t.b}">Tickets buchen</a>`}
- ${past?"":`<button class="btn" id="icsb">In meinen Kalender (${fd(nd)})</button>`}
- <button class="btn" id="cpy">Link kopieren</button>
+const vDetail=id=>{const i=TID[id];if(i===undefined)return `<p class="empty">${L("gone")} <a href="#liste">${L("all_trips")}</a></p>`;
+ const t=T[i],o=OPS[t.o],nd=nextDay(t),past=(t.rg?t.rg[1]:t.d[t.d.length-1])<TODAY,w=WD(),x=LT(t,"x"),pr=LT(t,"pr"),tt=LT(t,"t");
+ const dates=t.rg?`<span>${fd(t.rg[0])}${pd(t.rg[0]).getFullYear()} ${L("until")} ${fd(t.rg[1])}${pd(t.rg[1]).getFullYear()} · ${WDL(t.wd)}</span>`:t.d.map(x=>`<span class="${x<TODAY?"p":""}">${w[pd(x).getDay()]} ${fd(x)}${pd(x).getFullYear()}</span>`).join("");
+ const url=location.href.split("#")[0]+"#fahrt-"+t.id,msg=tt+" ("+o.n+"): "+url;
+ return `<div class="det"><a class="back" href="#liste">${L("back")}</a>
+ <div class="chips">${chips(t)}</div><h2>${esc(tt)}</h2><div class="meta">${esc(o.n)}</div>
+ ${x?`<p class="desc" style="font-size:17px">${esc(x)}</p>`:""}
+ <div class="facts"><div><span>${L("route")}</span><b>${esc(LT(t,"r"))}</b></div>${t.h?`<div><span>${L("dep")}</span><b>${tm(t)}</b></div>`:""}<div><span>${L("traction")}</span><b>${TRL(t.tr)}</b></div>${pr?`<div><span>${L("price")}</span><b>${esc(pr)}</b></div>`:""}</div>
+ <h3 style="margin:0">${t.rg?L("season"):t.d.length>1?L("dates"):L("date")}</h3><div class="dates">${dates}</div>
+ <div class="acts">${past?`<a class="btn" href="${t.b}">${L("to_op")}</a>`:t.st==="voll"?`<a class="btn" href="${t.b}">${L("full_info")}</a>`:`<a class="btn p" href="${t.b}">${L("book")}</a>`}
+ ${past?"":`<button class="btn" id="icsb">${L("cal")} (${fd(nd)})</button>`}
+ <button class="btn" id="cpy">${L("copy")}</button>
  <a class="btn" href="https://wa.me/?text=${encodeURIComponent(msg)}">WhatsApp</a>
- <a class="btn" href="mailto:?subject=${encodeURIComponent(t.t)}&body=${encodeURIComponent(msg)}">E-Mail</a></div>
+ <a class="btn" href="mailto:?subject=${encodeURIComponent(tt)}&body=${encodeURIComponent(msg)}">E-Mail</a></div>
  <div class="toast" id="toast"></div>
- <p class="note">Angaben laut ${t.s==="d"?"Tourismusportal bzw. Drittquelle":"Website des Veranstalters"}, ohne Gewähr. Massgebend sind die Angaben von <a href="${o.w}">${esc(o.n)}</a>.</p>
- <h3 style="margin-top:28px">Über den Veranstalter</h3><p>${esc(o.p)}</p></div>`};
+ <p class="note">${L("src",{s:t.s==="d"?L("src_d"):L("src_v")})} <a href="${o.w}">${esc(o.n)}</a>.</p>
+ <h3 style="margin-top:28px">${L("about")}</h3><p>${esc(LT(o,"p"))}</p></div>`};
 let MAP=null;
-const vMap=()=>`<div id="map" role="img" aria-label="Karte der Schweiz mit den Strecken der Veranstalter"></div><div class="maplegend"><span><i style="background:#d0021b"></i>Historic RhB</span><span><i style="background:#1b1d1f"></i>Weitere Veranstalter</span><span>Strecken schematisch; Klick auf eine Linie oder einen Punkt zeigt die Fahrten.</span></div>`;
-const drawMap=()=>{if(!window.L){document.getElementById("map").innerHTML='<p class="empty" style="padding:20px">Die Karte konnte nicht geladen werden.</p>';return}
- MAP=L.map("map",{scrollWheelZoom:false}).setView([46.8,8.25],8);
- const sw=L.tileLayer("https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-grau/default/current/3857/{z}/{x}/{y}.jpeg",{maxZoom:17,attribution:'© <a href="https://www.swisstopo.admin.ch">swisstopo</a>'}).addTo(MAP);
- let fb=0;sw.on("tileerror",()=>{if(fb++)return;MAP.removeLayer(sw);L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:17,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(MAP)});
- const all=[];Object.entries(OPS).forEach(([k,o])=>{if(!o.geo)return;if(st.hr&&!o.hr)return;const c=o.hr?"#d0021b":"#1b1d1f",n=OCC.filter(oc=>T[oc.i].o===k&&oc.end>=TODAY).length;
-  const pop=`<b>${esc(o.n)}</b>${n?n+" kommende Termine":"Daten 2027 folgen"}<br>${n?`<a class="btn p" href="#liste" data-op="${k}">Fahrten anzeigen</a> `:""}<a href="${o.w}">Website</a>`;
-  if(o.geo.length>1)L.polyline(o.geo,{color:c,weight:o.hr?6:4,opacity:.9}).bindPopup(pop).addTo(MAP);
-  L.circleMarker(o.geo[0],{radius:o.hr?8:6,color:"#fff",weight:2,fillColor:c,fillOpacity:1}).bindPopup(pop).bindTooltip(o.n).addTo(MAP);all.push(...o.geo)});
+const vMap=()=>`<div id="map" role="img" aria-label="${esc(L("map_aria"))}"></div><div class="maplegend"><span><i style="background:#d0021b"></i>${L("map_hr")}</span><span><i style="background:#1b1d1f"></i>${L("map_other")}</span><span>${L("map_note")}</span></div>`;
+const drawMap=()=>{if(!window.L){document.getElementById("map").innerHTML=`<p class="empty" style="padding:20px">${L("map_fail")}</p>`;return}
+ MAP=window.L.map("map",{scrollWheelZoom:false}).setView([46.8,8.25],8);
+ const sw=window.L.tileLayer("https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-grau/default/current/3857/{z}/{x}/{y}.jpeg",{maxZoom:17,attribution:'© <a href="https://www.swisstopo.admin.ch">swisstopo</a>'}).addTo(MAP);
+ let fb=0;sw.on("tileerror",()=>{if(fb++)return;MAP.removeLayer(sw);window.L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:17,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(MAP)});
+ const all=[];Object.entries(OPS).forEach(([k,o])=>{if(!o.geo)return;if(st.hr&&!o.hr)return;const c=o.hr?"#d0021b":"#1b1d1f",n=upN(k);
+  const pop=`<b>${esc(o.n)}</b>${n?L("up_n",{n}):L("follow")}<br>${n?`<a class="btn p" href="#liste" data-op="${k}">${L("show")}</a> `:""}<a href="${o.w}">${L("website")}</a>`;
+  if(o.geo.length>1)window.L.polyline(o.geo,{color:c,weight:o.hr?6:4,opacity:.9}).bindPopup(pop).addTo(MAP);
+  window.L.circleMarker(o.geo[0],{radius:o.hr?8:6,color:"#fff",weight:2,fillColor:c,fillOpacity:1}).bindPopup(pop).bindTooltip(o.n).addTo(MAP);all.push(...o.geo)});
  if(all.length)MAP.fitBounds(all,{padding:[24,24]})};
 const board=()=>{const seen=new Set(),up=OCC.filter(oc=>oc.end>=TODAY).filter(oc=>{if(seen.has(oc.i))return false;seen.add(oc.i);return true}).slice(0,5);
- document.getElementById("board").innerHTML=up.map(oc=>{const t=T[oc.i],d=pd(oc.day);return `<div class="dep"><div class="d">${d.getDate()}. ${MO[d.getMonth()].slice(0,3)}.<small>${WD[d.getDay()]}${t.h?" · "+t.h:""}</small></div><div><div class="t"><a href="#fahrt-${t.id}">${esc(t.t)}</a></div><div class="o">${esc(OPS[t.o].n)} · ${esc(t.r)}</div></div><div class="act2">${t.st==="voll"?`<span class="full">ausgebucht</span>`:`<a class="go" href="${t.b}">Buchen</a>`}</div></div>`}).join("")};
-const stats=()=>{const up=OCC.filter(oc=>oc.end>=TODAY);document.getElementById("stats").innerHTML=`<div class="stat"><b>${up.length}</b><span>kommende Termine</span></div><div class="stat"><b>${Object.keys(OPS).length}</b><span>Veranstalter</span></div><div class="stat"><b>${new Set(up.filter(oc=>oc.day<"2027-01-01").map(oc=>oc.i)).size}</b><span>Fahrten im Advent</span></div>`};
+ document.getElementById("board").innerHTML=up.map(oc=>{const t=T[oc.i],d=pd(oc.day),mn=MO()[d.getMonth()];return `<div class="dep"><div class="d">${d.getDate()}${["de","rm"].includes(LG)?".":""} ${["de","en"].includes(LG)?mn.charAt(0).toUpperCase()+mn.slice(1,3):mn.slice(0,3)}.<small>${WD()[d.getDay()]}${t.h?" · "+t.h:""}</small></div><div><div class="t"><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a></div><div class="o">${esc(OPS[t.o].n)} · ${esc(LT(t,"r"))}</div></div><div class="act2">${t.st==="voll"?`<span class="full">${L("full")}</span>`:`<a class="go" href="${t.b}">${L("book_s")}</a>`}</div></div>`}).join("")};
+const stats=()=>{const up=OCC.filter(oc=>oc.end>=TODAY);document.getElementById("stats").innerHTML=`<div class="stat"><b>${up.length}</b><span>${L("st_up")}</span></div><div class="stat"><b>${Object.keys(OPS).length}</b><span>${L("st_ops")}</span></div><div class="stat"><b>${new Set(up.filter(oc=>oc.day<"2027-01-01").map(oc=>oc.i)).size}</b><span>${L("st_adv")}</span></div>`};
 const render=()=>{const v=document.getElementById("view");
  document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.v===st.v));
  const isD=st.v.startsWith("fahrt-");
@@ -314,24 +349,26 @@ const render=()=>{const v=document.getElementById("view");
  if(MAP){MAP.remove();MAP=null}
  v.innerHTML=isD?vDetail(st.v.slice(6)):st.v==="liste"?vList():st.v==="kalender"?vCal():st.v==="karte"?vMap():st.v==="news"?vNews():vOps();
  if(st.v==="karte")drawMap();
- if(isD){const t=T[TID[st.v.slice(6)]];document.title=(t?t.t+" – ":"")+"Bahnkultur Historic RhB";const T2=document.getElementById("toast");
-  const ib=document.getElementById("icsb");if(ib)ib.onclick=()=>{const b=new Blob([ics(t,nextDay(t))],{type:"text/calendar"}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=t.id+".ics";document.body.appendChild(a);a.click();a.remove();T2.textContent="Kalenderdatei heruntergeladen – öffnen, um den Termin einzutragen."};
-  const cb=document.getElementById("cpy");if(cb)cb.onclick=()=>{const u=location.href;navigator.clipboard.writeText(u).then(()=>T2.textContent="Link kopiert.",()=>T2.textContent=u)};
+ if(isD){const t=T[TID[st.v.slice(6)]];document.title=(t?LT(t,"t")+" – ":"")+"Bahnkultur Historic RhB";const T2=document.getElementById("toast");
+  const ib=document.getElementById("icsb");if(ib)ib.onclick=()=>{const b=new Blob([ics(t,nextDay(t))],{type:"text/calendar"}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=t.id+".ics";document.body.appendChild(a);a.click();a.remove();T2.textContent=L("ics_ok")};
+  const cb=document.getElementById("cpy");if(cb)cb.onclick=()=>{const u=location.href;navigator.clipboard.writeText(u).then(()=>T2.textContent=L("copied"),()=>T2.textContent=u)};
   window.scrollTo({top:v.getBoundingClientRect().top+scrollY-document.querySelector(".bar").offsetHeight-8,behavior:"smooth"})} else document.title="Bahnkultur Historic RhB";
  if(st.v==="news")document.getElementById("nf").onchange=e=>{nf=e.target.value;render()};
  if(st.v==="kalender"){document.getElementById("pm").onclick=()=>{st.cm=new Date(st.cm.getFullYear(),st.cm.getMonth()-1,1);render()};
   document.getElementById("nm").onclick=()=>{st.cm=new Date(st.cm.getFullYear(),st.cm.getMonth()+1,1);render()};
   v.querySelectorAll(".cal button").forEach(b=>b.onclick=()=>{const i=+b.dataset.i,oc=OCC.find(o=>o.i===i&&o.end>=TODAY)||OCC.find(o=>o.i===i);document.getElementById("cdet").innerHTML=tripHTML(oc)+more(T[i]);document.getElementById("cdet").scrollIntoView({behavior:"smooth",block:"nearest"})})}};
+const all=()=>{statics();opts();standTxt();board();stats();teaser();render()};
 const setV=v=>{st.v=v;if(location.hash!=="#"+v)history.replaceState(null,"","#"+v);render()};
 document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>setV(b.dataset.v));
+document.querySelectorAll(".langs button").forEach(b=>b.onclick=()=>{LG=b.dataset.l;try{localStorage.setItem("lang",LG)}catch(e){}all()});
 document.addEventListener("click",e=>{const b=e.target.closest("[data-op]");if(!b)return;e.preventDefault();st.op=b.dataset.op;document.getElementById("op").value=st.op;setV("liste")});
 document.getElementById("hr").onchange=e=>{st.hr=e.target.checked;render()};
 ["q","kt","tr","th","op"].forEach(id=>document.getElementById(id).addEventListener("input",e=>{st[id]=e.target.value;render()}));
 document.getElementById("past").onchange=e=>{st.past=e.target.checked;try{localStorage.setItem("nfp",JSON.stringify({past:st.past}))}catch(x){}render()};
 const fromHash=()=>{const h=location.hash.slice(1);if(["liste","kalender","karte","veranstalter","news"].includes(h)||h.startsWith("fahrt-"))st.v=h;render()};
 window.addEventListener("hashchange",fromHash);
-board();stats();teaser();fromHash();
-}).catch(e=>{console.error(e);document.getElementById('view').innerHTML='<p class="empty">Die Fahrplandaten konnten nicht geladen werden.</p>'});
+opts();standTxt();board();stats();teaser();fromHash();
+}).catch(e=>{console.error(e);document.getElementById('view').innerHTML=`<p class="empty">${L("fail")}</p>`});
 }
 </script>
 </body>

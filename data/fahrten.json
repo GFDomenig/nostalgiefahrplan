@@ -24,7 +24,18 @@
      8.349
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Saison de juin à septembre, du jeudi au dimanche, Realp–Gletsch–Oberwald. Trains à vapeur à crémaillère par le col de la Furka, réservables aussi aux points de vente SwissPass."
+    },
+    "it": {
+     "p": "Stagione da giugno a settembre, da giovedì a domenica, Realp–Gletsch–Oberwald. Treni a vapore a cremagliera sul passo del Furka, prenotabili anche nei punti vendita SwissPass."
+    },
+    "en": {
+     "p": "Season June to September, Thursday to Sunday, Realp–Gletsch–Oberwald. Rack-railway steam trains over the Furka Pass, also bookable at SwissPass sales points."
+    }
+   }
   },
   "bc": {
    "n": "Chemin de fer-musée Blonay-Chamby",
@@ -45,7 +56,18 @@
      6.923
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Chemin de fer-musée avec dépôt à Chaulin. Samedis et dimanches de mai à octobre ; dates 2027 pas encore publiées. Carte journalière 2026 : CHF 24, enfants CHF 10."
+    },
+    "it": {
+     "p": "Ferrovia museo con deposito a Chaulin. Sabato e domenica da maggio a ottobre; date 2027 non ancora pubblicate. Carta giornaliera 2026: CHF 24, bambini CHF 10."
+    },
+    "en": {
+     "p": "Museum railway with depot at Chaulin. Saturdays and Sundays May to October; 2027 dates not yet published. Day ticket 2026: CHF 24, children CHF 10."
+    }
+   }
   },
   "dvzo": {
    "n": "Dampfbahn-Verein Zürcher Oberland",
@@ -66,7 +88,18 @@
      8.8783
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Bauma–Bäretswil–Hinwil. 2026 : vapeur les 1er et 3e dimanches de mai à juillet, chaque dimanche en septembre/octobre ; sinon Baumwoll-Express électrique. Gratuit jusqu’à 16 ans."
+    },
+    "it": {
+     "p": "Bauma–Bäretswil–Hinwil. 2026: vapore la 1a e 3a domenica da maggio a luglio, ogni domenica a settembre/ottobre; altrimenti Baumwoll-Express elettrico. Gratis fino a 16 anni."
+    },
+    "en": {
+     "p": "Bauma–Bäretswil–Hinwil. 2026: steam on the 1st and 3rd Sundays May–July, every Sunday in September/October; electric Baumwoll-Express in between. Children up to 16 free."
+    }
+   }
   },
   "zmb": {
    "n": "Zürcher Museums-Bahn",
@@ -91,7 +124,18 @@
      8.575
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Ligne du Sihltal Zurich HB/Wiedikon–Sihlbrugg avec la locomotive à vapeur «Schnaaggi-Schaaggi» (1899), le dernier dimanche d’avril à octobre ; trains de Pâques et de Saint-Nicolas."
+    },
+    "it": {
+     "p": "Linea del Sihltal Zurigo HB/Wiedikon–Sihlbrugg con la locomotiva a vapore «Schnaaggi-Schaaggi» (1899), l’ultima domenica da aprile a ottobre; corse di Pasqua e di San Nicolao."
+    },
+    "en": {
+     "p": "Sihltal line Zurich HB/Wiedikon–Sihlbrugg with steam locomotive «Schnaaggi-Schaaggi» (1899), last Sunday of the month April–October; Easter and St Nicholas trains."
+    }
+   }
   },
   "bdb": {
    "n": "Brünig Dampfbahn",
@@ -120,7 +164,18 @@
      8.186
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "D’Interlaken Ost par Meiringen et le Brünig jusqu’à Giswil, environ un dimanche par mois de mai à septembre. Gratuit pour les moins de 16 ans."
+    },
+    "it": {
+     "p": "Da Interlaken Ost via Meiringen e il Brünig fino a Giswil, circa una domenica al mese da maggio a settembre. Gratis sotto i 16 anni."
+    },
+    "en": {
+     "p": "From Interlaken Ost via Meiringen and the Brünig to Giswil, about one Sunday a month May–September. Under 16 free."
+    }
+   }
   },
   "dbb": {
    "n": "Verein Dampfbahn Bern",
@@ -137,7 +192,18 @@
      7.6375
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Vapeur à voie normale depuis Konolfingen et Berne ; voyages thématiques dans l’Emmental et la vallée de l’Aar."
+    },
+    "it": {
+     "p": "Vapore a scartamento normale da Konolfingen e Berna; viaggi tematici nell’Emmental e nella valle dell’Aar."
+    },
+    "en": {
+     "p": "Standard-gauge steam from Konolfingen and Bern; themed trips through the Emmental and Aare valley."
+    }
+   }
   },
   "rhb": {
    "n": "RhB Nostalgiefahrten (Historic RhB)",
@@ -182,7 +248,18 @@
      10.297
     ]
    ],
-   "hr": true
+   "hr": true,
+   "i18n": {
+    "fr": {
+     "p": "Trains à vapeur avec la G 3/4 11 «Heidi», la G 4/5 107 «Albula» et la 108 ; restauration par le Club 1889 et les Dampffreunde RhB. Infos : RhB Railservice 081 288 65 65."
+    },
+    "it": {
+     "p": "Corse a vapore con la G 3/4 11 «Heidi», la G 4/5 107 «Albula» e la 108; ristorazione a cura del Club 1889 e dei Dampffreunde RhB. Info: RhB Railservice 081 288 65 65."
+    },
+    "en": {
+     "p": "Steam trips with G 3/4 11 «Heidi», G 4/5 107 «Albula» and 108; catering by Club 1889 and Dampffreunde RhB. Info: RhB Railservice +41 81 288 65 65."
+    }
+   }
   },
   "sbbh": {
    "n": "SBB Historic",
@@ -207,7 +284,18 @@
      8.909
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Voyages découverte par la ligne de faîte du Gothard, en TEE et à vapeur sur l’ancien Hauenstein. Inscription requise."
+    },
+    "it": {
+     "p": "Viaggi esperienza sulla linea di montagna del Gottardo, con il TEE e a vapore sul vecchio Hauenstein. Iscrizione necessaria."
+    },
+    "en": {
+     "p": "Experience trips over the Gotthard mountain line, on the TEE and by steam on the old Hauenstein. Booking required."
+    }
+   }
   },
   "bls": {
    "n": "BLS-Stiftung (bls.historic)",
@@ -224,7 +312,18 @@
      7.861
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Courses spéciales avec la «Flèche bleue» et des locomotives historiques depuis le dépôt de Berthoud."
+    },
+    "it": {
+     "p": "Corse speciali con la «Freccia blu» e locomotive storiche dal deposito di Burgdorf."
+    },
+    "en": {
+     "p": "Special trips with the «Blue Arrow» and historic locomotives from the Burgdorf depot."
+    }
+   }
   },
   "rigi": {
    "n": "Rigi Bahnen – Dampffahrten",
@@ -245,7 +344,18 @@
      8.548
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Locomotive à vapeur à crémaillère 16 et locomotive 7 «Körbli». En 2027, la 16 traverse la montagne en alternance depuis Vitznau et Goldau. Dates 2027 de la loco 7 à suivre."
+    },
+    "it": {
+     "p": "Locomotiva a vapore a cremagliera 16 e locomotiva 7 «Körbli». Nel 2027 la 16 attraversa la montagna alternando partenze da Vitznau e Goldau. Date 2027 della loco 7 in arrivo."
+    },
+    "en": {
+     "p": "Rack steam locomotive 16 and locomotive 7 «Körbli». In 2027 no. 16 crosses the mountain, alternating from Vitznau and Goldau. Loco 7 dates for 2027 to follow."
+    }
+   }
   },
   "brb": {
    "n": "Brienz Rothorn Bahn",
@@ -262,7 +372,18 @@
      8.047
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Exploitation quotidienne à vapeur et crémaillère en été. 2026 : avant-saison jusqu’à Planalp 9.5.–5.6., sommet 6.6.–25.10. Saison 2027 pas encore publiée."
+    },
+    "it": {
+     "p": "Esercizio quotidiano a vapore e cremagliera in estate. 2026: pre-stagione fino a Planalp 9.5.–5.6., vetta 6.6.–25.10. Stagione 2027 non ancora pubblicata."
+    },
+    "en": {
+     "p": "Daily rack steam operation in summer. 2026: pre-season to Planalp 9 May–5 June, summit 6 June–25 Oct. 2027 season not yet published."
+    }
+   }
   },
   "mg": {
    "n": "Ferrovia Monte Generoso",
@@ -279,7 +400,18 @@
      9.02
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Train à vapeur de la loco 2 de 1890 certains jours de juin à septembre, Capolago–Vetta. 2026 : CHF 80, enfants CHF 50."
+    },
+    "it": {
+     "p": "Treno a vapore della loco 2 del 1890 in alcuni giorni da giugno a settembre, Capolago–Vetta. 2026: CHF 80, bambini CHF 50."
+    },
+    "en": {
+     "p": "Steam train with loco 2 of 1890 on selected days June–September, Capolago–Vetta. 2026: CHF 80, children CHF 50."
+    }
+   }
   },
   "vvt": {
    "n": "Vapeur Val-de-Travers",
@@ -300,7 +432,18 @@
      6.676
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "St-Sulpice–Travers et Neuchâtel ; trains fondue, brunch et Halloween. Saison de mai à novembre."
+    },
+    "it": {
+     "p": "St-Sulpice–Travers e Neuchâtel; treni fondue, brunch e Halloween. Stagione da maggio a novembre."
+    },
+    "en": {
+     "p": "St-Sulpice–Travers and Neuchâtel; fondue, brunch and Halloween trains. Season May to November."
+    }
+   }
   },
   "trac": {
    "n": "La Traction",
@@ -321,7 +464,18 @@
      6.996
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Train à vapeur des Franches-Montagnes sur le réseau CJ, une vingtaine de jours de juin à septembre, avec «attaque du train». Réservation obligatoire auprès des CJ."
+    },
+    "it": {
+     "p": "Treno a vapore delle Franches-Montagnes sulla rete CJ, una ventina di giorni da giugno a settembre, con «assalto al treno». Prenotazione obbligatoria presso le CJ."
+    },
+    "en": {
+     "p": "Franches-Montagnes steam train on the CJ network, about twenty days June–September, with a «train robbery». Booking via CJ required."
+    }
+   }
   },
   "emb": {
    "n": "Emmentalbahn (Museumsbahn Emmental)",
@@ -342,7 +496,18 @@
      7.799
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Huttwil–Sumiswald-Grünen–Wasen i.E., généralement le 2e dimanche d’avril à octobre. Trains à vapeur d’hiver reportés à 2027 (travaux de tunnel). Gratuit pour les moins de 16 ans."
+    },
+    "it": {
+     "p": "Huttwil–Sumiswald-Grünen–Wasen i.E., di regola la 2a domenica da aprile a ottobre. Corse a vapore invernali rinviate al 2027 (lavori in galleria). Gratis sotto i 16 anni."
+    },
+    "en": {
+     "p": "Huttwil–Sumiswald-Grünen–Wasen i.E., usually the 2nd Sunday April–October. Winter steam trips postponed to 2027 (tunnel works). Under 16 free."
+    }
+   }
   },
   "mthb": {
    "n": "Historische Mittel-Thurgau-Bahn",
@@ -363,7 +528,18 @@
      9.491
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "«Mostindien-Express» le dernier dimanche de mai à octobre depuis Romanshorn ; excursions avec le «Thurgauer Zug». Billets dans le train, sans AG/demi-tarif."
+    },
+    "it": {
+     "p": "«Mostindien-Express» l’ultima domenica da maggio a ottobre da Romanshorn; gite con il «Thurgauer Zug». Biglietti sul treno, senza AG/metà-prezzo."
+    },
+    "en": {
+     "p": "«Mostindien-Express» on the last Sunday May–October from Romanshorn; excursions with the «Thurgauer Zug». Tickets on board, no GA/Half Fare."
+    }
+   }
   },
   "ev": {
    "n": "Eurovapor",
@@ -380,7 +556,18 @@
      9.255
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Courses spéciales depuis la remise de Sulgen, notamment avec la locomotive à vapeur du Gothard C 5/6 2969 «Elefant» (de nouveau en service depuis novembre 2026)."
+    },
+    "it": {
+     "p": "Corse speciali dalla rimessa di Sulgen, tra l’altro con la locomotiva a vapore del Gottardo C 5/6 2969 «Elefant» (di nuovo in servizio da novembre 2026)."
+    },
+    "en": {
+     "p": "Special trips from the Sulgen shed, including Gotthard steam locomotive C 5/6 2969 «Elefant» (back in service since November 2026)."
+    }
+   }
   },
   "st": {
    "n": "Sursee-Triengen-Bahn",
@@ -397,7 +584,18 @@
      8.077
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Train à vapeur le dernier dimanche de mai à octobre, départs de Sursee à 11.20, 14.20 et 16.20. Dates 2027 à suivre."
+    },
+    "it": {
+     "p": "Treno a vapore l’ultima domenica da maggio a ottobre, partenze da Sursee alle 11.20, 14.20 e 16.20. Date 2027 in arrivo."
+    },
+    "en": {
+     "p": "Steam train on the last Sunday May–October, departures from Sursee at 11.20, 14.20 and 16.20. 2027 dates to follow."
+    }
+   }
   },
   "etz": {
    "n": "Museumsbahn Etzwilen–Singen",
@@ -418,7 +616,18 @@
      8.84
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Trains transfrontaliers à vapeur et diesel Etzwilen–Ramsen–Singen, départs d’Etzwilen à 9, 12 et 15 h. Billets dans le train."
+    },
+    "it": {
+     "p": "Treni transfrontalieri a vapore e diesel Etzwilen–Ramsen–Singen, partenze da Etzwilen alle 9, 12 e 15. Biglietti sul treno."
+    },
+    "en": {
+     "p": "Cross-border steam and diesel trains Etzwilen–Ramsen–Singen, departures from Etzwilen at 9, 12 and 15h. Tickets on board."
+    }
+   }
   },
   "schbb": {
    "n": "Schinznacher Baumschulbahn",
@@ -431,7 +640,18 @@
      8.144
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Chemin de fer à vapeur à voie de 600 mm dans le parc de la pépinière, de mi-avril à mi-octobre ; pendant l’Avent, «Nordpol-Express»."
+    },
+    "it": {
+     "p": "Ferrovia a vapore a scartamento 600 mm nel parco del vivaio, da metà aprile a metà ottobre; in Avvento «Nordpol-Express»."
+    },
+    "en": {
+     "p": "600 mm steam railway in the tree-nursery park, mid-April to mid-October; «Nordpol-Express» in Advent."
+    }
+   }
   },
   "oebb": {
    "n": "OeBB Historic / Dampfgruppe Balsthal",
@@ -448,7 +668,18 @@
      7.693
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Excursions avec voitures-salons et locomotives à vapeur depuis Balsthal sur le réseau suisse."
+    },
+    "it": {
+     "p": "Gite con carrozze salone e locomotive a vapore da Balsthal sulla rete svizzera."
+    },
+    "en": {
+     "p": "Excursions with saloon cars and steam locomotives from Balsthal across the Swiss network."
+    }
+   }
   },
   "f241": {
    "n": "Dampflok-Depot Full (241-A-65)",
@@ -461,7 +692,18 @@
      8.229
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Trains spéciaux avec voitures express nostalgiques depuis le nord-ouest de la Suisse."
+    },
+    "it": {
+     "p": "Treni speciali con carrozze diretti d’epoca dalla Svizzera nord-occidentale."
+    },
+    "en": {
+     "p": "Special trains with vintage express coaches from north-western Switzerland."
+    }
+   }
   },
   "verb": {
    "n": "Verbano Express",
@@ -474,7 +716,18 @@
      9.03
     ]
    ],
-   "hr": false
+   "hr": false,
+   "i18n": {
+    "fr": {
+     "p": "Association de Luino (I) ; train d’époque par le Gothard avec arrêt à Bellinzone."
+    },
+    "it": {
+     "p": "Associazione di Luino; treno d’epoca attraverso il Gottardo con fermata a Bellinzona."
+    },
+    "en": {
+     "p": "Association from Luino (Italy); vintage train over the Gotthard with a stop in Bellinzona."
+    }
+   }
   },
   "igzl": {
    "n": "IG Zügen-Landwasser (Nostalgiezug Zügenschlucht)",
@@ -491,7 +744,18 @@
      9.75
     ]
    ],
-   "hr": true
+   "hr": true,
+   "i18n": {
+    "fr": {
+     "p": "Train nostalgique et Zügabeizli dans les gorges de la Zügen près de Davos Wiesen. Pause hivernale jusqu’au printemps 2027 ; dates à suivre."
+    },
+    "it": {
+     "p": "Treno nostalgico e Zügabeizli nella gola della Zügen presso Davos Wiesen. Pausa invernale fino alla primavera 2027; date in arrivo."
+    },
+    "en": {
+     "p": "Nostalgia train and Zügabeizli in the Zügen gorge near Davos Wiesen. Winter break until spring 2027; dates to follow."
+    }
+   }
   }
  },
  "fahrten": [
@@ -511,7 +775,24 @@
    "pr": "CHF 30 inkl. Essen und Getränk, unter 16 gratis",
    "b": "https://www.dbb.ch",
    "s": "d",
-   "id": "dbb-gluehdampf"
+   "id": "dbb-gluehdampf",
+   "i18n": {
+    "fr": {
+     "t": "Vapeur et vin chaud",
+     "x": "Courte montée raide avec la locomotive «Lise» ; voiture ouverte ou voiture chauffée, puis Chäsbrägu et vin chaud.",
+     "pr": "CHF 30 repas et boisson compris, gratuit pour les moins de 16 ans"
+    },
+    "it": {
+     "t": "Vapore e vin brulé",
+     "x": "Breve tratta ripida con la locomotiva «Lise»; carrozza aperta o carrozza riscaldata, poi Chäsbrägu e vin brulé.",
+     "pr": "CHF 30 cibo e bevanda inclusi, gratis sotto i 16 anni"
+    },
+    "en": {
+     "t": "Steam and mulled wine",
+     "x": "Short, steep run with locomotive «Lise»; open car or heated coach, followed by Chäsbrägu and mulled wine.",
+     "pr": "CHF 30 incl. food and drink, under 16 free"
+    }
+   }
   },
   {
    "o": "bls",
@@ -530,7 +811,27 @@
    "b": "https://www.bls.ch/de/freizeit-und-ferien/events/historic-blauer-pfeil-zum-huttwiler-weihnachtsmarkt",
    "s": "v",
    "st": "anm",
-   "id": "bls-mit-dem-blauen-pfeil-an-den-huttwiler"
+   "id": "bls-mit-dem-blauen-pfeil-an-den-huttwiler",
+   "i18n": {
+    "fr": {
+     "t": "En «Flèche bleue» au marché de Noël de Huttwil",
+     "r": "Berne–Berthoud–Langenthal–Huttwil, retour 18.42",
+     "x": "Automotrice historique de la fondation BLS ; inscription jusqu’au 24 novembre.",
+     "pr": "CHF 40, enfants CHF 25"
+    },
+    "it": {
+     "t": "Con la «Freccia blu» al mercatino di Natale di Huttwil",
+     "r": "Berna–Burgdorf–Langenthal–Huttwil, ritorno 18.42",
+     "x": "Automotrice storica della fondazione BLS; iscrizione entro il 24 novembre.",
+     "pr": "CHF 40, bambini CHF 25"
+    },
+    "en": {
+     "t": "By «Blue Arrow» to the Huttwil Christmas market",
+     "r": "Bern–Burgdorf–Langenthal–Huttwil, return 18.42",
+     "x": "Historic railcar of the BLS foundation; booking by 24 November.",
+     "pr": "CHF 40, children CHF 25"
+    }
+   }
   },
   {
    "o": "mthb",
@@ -548,7 +849,21 @@
    "b": "https://www.mthb.ch",
    "s": "d",
    "st": "anm",
-   "id": "mthb-adventsfahrt-zum-einsiedler-weihnachtsmarkt"
+   "id": "mthb-adventsfahrt-zum-einsiedler-weihnachtsmarkt",
+   "i18n": {
+    "fr": {
+     "t": "Voyage de l’Avent au marché de Noël d’Einsiedeln",
+     "x": "Dans le «Thurgauer Zug», montée notamment à Kreuzlingen et Berg TG."
+    },
+    "it": {
+     "t": "Viaggio d’Avvento al mercatino di Natale di Einsiedeln",
+     "x": "Nel «Thurgauer Zug», salita tra l’altro a Kreuzlingen e Berg TG."
+    },
+    "en": {
+     "t": "Advent trip to the Einsiedeln Christmas market",
+     "x": "In the «Thurgauer Zug», boarding at Kreuzlingen, Berg TG and elsewhere."
+    }
+   }
   },
   {
    "o": "ev",
@@ -568,7 +883,24 @@
    "b": "https://www.eurovapor.ch/fahrten-und-mehr/jahresprogramm-2026/chlausfahrten-2026/",
    "s": "v",
    "st": "zug",
-   "id": "ev-chlausfahrten-adventsmarkt-bischofszell"
+   "id": "ev-chlausfahrten-adventsmarkt-bischofszell",
+   "i18n": {
+    "fr": {
+     "t": "Trains de Saint-Nicolas au marché de l’Avent de Bischofszell",
+     "x": "Cinq trajets de 50 minutes (11.14 à 16.14) avec la locomotive à vapeur «Elefant» ; Saint-Nicolas distribue des petits sacs aux enfants.",
+     "pr": "CHF 18, enfants 3–16 ans CHF 10"
+    },
+    "it": {
+     "t": "Corse di San Nicolao al mercatino d’Avvento di Bischofszell",
+     "x": "Cinque corse di 50 minuti (11.14–16.14) con la locomotiva a vapore «Elefant»; San Nicolao distribuisce sacchetti ai bambini.",
+     "pr": "CHF 18, bambini 3–16 anni CHF 10"
+    },
+    "en": {
+     "t": "St Nicholas trains at the Bischofszell Advent market",
+     "x": "Five 50-minute trips (11.14 to 16.14) with steam locomotive «Elefant»; St Nicholas hands out treat bags to children.",
+     "pr": "CHF 18, children 3–16 CHF 10"
+    }
+   }
   },
   {
    "o": "verb",
@@ -587,7 +919,24 @@
    "pr": "€ 65, Kinder 6–12 € 35",
    "b": "https://www.verbanoexpress.com",
    "s": "d",
-   "id": "verb-oldtimerzug-an-den-einsiedler-weihnachtsmarkt"
+   "id": "verb-oldtimerzug-an-den-einsiedler-weihnachtsmarkt",
+   "i18n": {
+    "fr": {
+     "t": "Train d’époque au marché de Noël d’Einsiedeln",
+     "x": "Par la ligne de faîte du Gothard ; retour d’Einsiedeln à 16.49.",
+     "pr": "€ 65, enfants 6–12 ans € 35"
+    },
+    "it": {
+     "t": "Treno d’epoca al mercatino di Natale di Einsiedeln",
+     "x": "Sulla linea di montagna del Gottardo; ritorno da Einsiedeln alle 16.49.",
+     "pr": "€ 65, bambini 6–12 anni € 35"
+    },
+    "en": {
+     "t": "Vintage train to the Einsiedeln Christmas market",
+     "x": "Over the Gotthard mountain line; return from Einsiedeln at 16.49.",
+     "pr": "€ 65, children 6–12 € 35"
+    }
+   }
   },
   {
    "o": "f241",
@@ -603,7 +952,21 @@
    "x": "Nostalgische Schnellzugwagen mit Re 421 379.",
    "b": "https://www.241a65.ch",
    "s": "v",
-   "id": "f241-extrazug-an-den-weihnachtsmarkt-konstanz"
+   "id": "f241-extrazug-an-den-weihnachtsmarkt-konstanz",
+   "i18n": {
+    "fr": {
+     "t": "Train spécial au marché de Noël de Constance",
+     "x": "Voitures express nostalgiques avec la Re 421 379."
+    },
+    "it": {
+     "t": "Treno speciale al mercatino di Natale di Costanza",
+     "x": "Carrozze diretti d’epoca con la Re 421 379."
+    },
+    "en": {
+     "t": "Special train to the Konstanz Christmas market",
+     "x": "Vintage express coaches hauled by Re 421 379."
+    }
+   }
   },
   {
    "o": "rhb",
@@ -621,7 +984,24 @@
    "b": "https://www.rhb.ch/de/nostalgiefahrten/samiklaus-express/",
    "s": "v",
    "st": "voll",
-   "id": "rhb-samiklaus-express"
+   "id": "rhb-samiklaus-express",
+   "i18n": {
+    "fr": {
+     "t": "Express de Saint-Nicolas",
+     "r": "depuis Landquart en direction de Filisur",
+     "x": "Avec la G 4/5 107 «Albula», des fées, une soupe d’orge et un petit sac pour les enfants."
+    },
+    "it": {
+     "t": "Espresso di San Nicolao",
+     "r": "da Landquart in direzione Filisur",
+     "x": "Con la G 4/5 107 «Albula», fate, minestra d’orzo e sacchetto per i bambini."
+    },
+    "en": {
+     "t": "St Nicholas Express",
+     "r": "from Landquart towards Filisur",
+     "x": "With G 4/5 107 «Albula», fairies, barley soup and a treat bag for children."
+    }
+   }
   },
   {
    "o": "sbbh",
@@ -640,7 +1020,24 @@
    "b": "https://sbbhistoric.ch/produkt/mit-dem-tee-an-den-weihnachtsmarkt-261212/",
    "s": "v",
    "st": "anm",
-   "id": "sbbh-mit-dem-tee-an-den-weihnachtsmarkt"
+   "id": "sbbh-mit-dem-tee-an-den-weihnachtsmarkt",
+   "i18n": {
+    "fr": {
+     "t": "En «TEE» au marché de Noël",
+     "r": "depuis Olten, Bienne, Neuchâtel, Yverdon, Lausanne, Montreux",
+     "x": "Voyage découverte dans le RAe TEE II 1053, restauration comprise."
+    },
+    "it": {
+     "t": "Con il «TEE» al mercatino di Natale",
+     "r": "da Olten, Bienne, Neuchâtel, Yverdon, Losanna, Montreux",
+     "x": "Viaggio esperienza nel RAe TEE II 1053 con ristorazione."
+    },
+    "en": {
+     "t": "By «TEE» to the Christmas market",
+     "r": "from Olten, Biel, Neuchâtel, Yverdon, Lausanne, Montreux",
+     "x": "Experience trip in the RAe TEE II 1053, catering included."
+    }
+   }
   },
   {
    "o": "verb",
@@ -659,7 +1056,24 @@
    "pr": "€ 65, Kinder 6–12 € 35",
    "b": "https://www.verbanoexpress.com",
    "s": "d",
-   "id": "verb-oldtimerzug-an-den-christkindlimaert-rapperswil"
+   "id": "verb-oldtimerzug-an-den-christkindlimaert-rapperswil",
+   "i18n": {
+    "fr": {
+     "t": "Train d’époque au marché de Noël de Rapperswil",
+     "x": "Retour de Rapperswil à 16.40.",
+     "pr": "€ 65, enfants 6–12 ans € 35"
+    },
+    "it": {
+     "t": "Treno d’epoca al mercatino di Natale di Rapperswil",
+     "x": "Ritorno da Rapperswil alle 16.40.",
+     "pr": "€ 65, bambini 6–12 anni € 35"
+    },
+    "en": {
+     "t": "Vintage train to the Rapperswil Christmas market",
+     "x": "Return from Rapperswil at 16.40.",
+     "pr": "€ 65, children 6–12 € 35"
+    }
+   }
   },
   {
    "o": "rhb",
@@ -675,7 +1089,21 @@
    "x": "Winterfahrt dem Inn entlang; 1. Klasse im Belle-Époque-Coupé ab CHF 20 Aufpreis.",
    "b": "https://www.rhb.ch/en/nostalgic-trips/steam-trainride-scuol/",
    "s": "v",
-   "id": "rhb-engadiner-dampffahrt-nach-scuol"
+   "id": "rhb-engadiner-dampffahrt-nach-scuol",
+   "i18n": {
+    "fr": {
+     "t": "Train à vapeur de l’Engadine à Scuol",
+     "x": "Voyage hivernal le long de l’Inn ; 1re classe dans le coupé Belle Époque dès CHF 20 de supplément."
+    },
+    "it": {
+     "t": "Corsa a vapore engadinese a Scuol",
+     "x": "Viaggio invernale lungo l’Inn; 1a classe nel compartimento Belle Époque da CHF 20 di supplemento."
+    },
+    "en": {
+     "t": "Engadine steam trip to Scuol",
+     "x": "Winter journey along the Inn; 1st class in the Belle Époque coupé from CHF 20 extra."
+    }
+   }
   },
   {
    "o": "rhb",
@@ -694,7 +1122,24 @@
    "pr": "2026: CHF 90, Halbtax/GA CHF 70",
    "b": "https://www.rhb.ch/en/nostalgic-trips/steam-train-ride-zernez/",
    "s": "v",
-   "id": "rhb-engadiner-dampffahrt-nach-zernez"
+   "id": "rhb-engadiner-dampffahrt-nach-zernez",
+   "i18n": {
+    "fr": {
+     "t": "Train à vapeur de l’Engadine à Zernez",
+     "x": "Avec la G 4/5 108 ; pause de midi à Zernez.",
+     "pr": "2026 : CHF 90, demi-tarif/AG CHF 70"
+    },
+    "it": {
+     "t": "Corsa a vapore engadinese a Zernez",
+     "x": "Con la G 4/5 108; sosta di mezzogiorno a Zernez.",
+     "pr": "2026: CHF 90, metà-prezzo/AG CHF 70"
+    },
+    "en": {
+     "t": "Engadine steam trip to Zernez",
+     "x": "With G 4/5 108; lunch stop in Zernez.",
+     "pr": "2026: CHF 90, Half Fare/GA CHF 70"
+    }
+   }
   },
   {
    "o": "ev",
@@ -711,7 +1156,24 @@
    "b": "https://www.eurovapor.ch/fahrten-und-mehr/jahresprogramm-2026/glarnertag-2027/",
    "s": "v",
    "st": "anm",
-   "id": "ev-glarner-schabziger-und-schoggiland"
+   "id": "ev-glarner-schabziger-und-schoggiland",
+   "i18n": {
+    "fr": {
+     "t": "Schabziger et chocolat glaronais",
+     "r": "Suisse orientale–pays glaronais",
+     "x": "Voyage nostalgique hivernal avec spécialités glaronaises."
+    },
+    "it": {
+     "t": "Schabziger e cioccolato glaronesi",
+     "r": "Svizzera orientale–Glarona",
+     "x": "Viaggio nostalgico invernale con specialità glaronesi."
+    },
+    "en": {
+     "t": "Glarus Schabziger and chocolate",
+     "r": "Eastern Switzerland–Glarus",
+     "x": "Winter nostalgia trip with Glarus specialities."
+    }
+   }
   },
   {
    "o": "rigi",
@@ -737,7 +1199,27 @@
    "b": "https://shop.rigi.ch/en/stories/steam-lok16",
    "s": "v",
    "st": "anm",
-   "id": "rigi-dampflok-16-vitznau-rigi-kulm-goldau"
+   "id": "rigi-dampflok-16-vitznau-rigi-kulm-goldau",
+   "i18n": {
+    "fr": {
+     "t": "Locomotive à vapeur 16 : Vitznau–Rigi Kulm–Goldau",
+     "r": "Vitznau–Rigi Kulm (arr. 12.15), départ 14.10 pour Goldau",
+     "x": "Traversée de la montagne ; le 16 mai et le 1er août, journée Rigi Historic.",
+     "pr": "2026 : dès CHF 69"
+    },
+    "it": {
+     "t": "Locomotiva a vapore 16: Vitznau–Rigi Kulm–Goldau",
+     "r": "Vitznau–Rigi Kulm (arr. 12.15), part. 14.10 per Goldau",
+     "x": "Traversata della montagna; il 16 maggio e il 1° agosto giornata Rigi Historic.",
+     "pr": "2026: da CHF 69"
+    },
+    "en": {
+     "t": "Steam locomotive 16: Vitznau–Rigi Kulm–Goldau",
+     "r": "Vitznau–Rigi Kulm (arr. 12.15), dep. 14.10 to Goldau",
+     "x": "Crossing over the mountain; Rigi Historic Day on 16 May and 1 August.",
+     "pr": "2026: from CHF 69"
+    }
+   }
   },
   {
    "o": "rigi",
@@ -763,7 +1245,24 @@
    "b": "https://shop.rigi.ch/en/stories/steam-lok16",
    "s": "v",
    "st": "anm",
-   "id": "rigi-dampflok-16-goldau-rigi-kulm-vitznau"
+   "id": "rigi-dampflok-16-goldau-rigi-kulm-vitznau",
+   "i18n": {
+    "fr": {
+     "t": "Locomotive à vapeur 16 : Goldau–Rigi Kulm–Vitznau",
+     "r": "Goldau–Rigi Kulm (arr. 11.22), départ 14.15 pour Vitznau",
+     "pr": "2026 : dès CHF 69"
+    },
+    "it": {
+     "t": "Locomotiva a vapore 16: Goldau–Rigi Kulm–Vitznau",
+     "r": "Goldau–Rigi Kulm (arr. 11.22), part. 14.15 per Vitznau",
+     "pr": "2026: da CHF 69"
+    },
+    "en": {
+     "t": "Steam locomotive 16: Goldau–Rigi Kulm–Vitznau",
+     "r": "Goldau–Rigi Kulm (arr. 11.22), dep. 14.15 to Vitznau",
+     "pr": "2026: from CHF 69"
+    }
+   }
   },
   {
    "o": "sbbh",
@@ -778,7 +1277,18 @@
    "b": "https://sbbhistoric.ch/produkt/dampf-am-alten-hauenstein-270424/",
    "s": "v",
    "st": "anm",
-   "id": "sbbh-dampf-am-alten-hauenstein"
+   "id": "sbbh-dampf-am-alten-hauenstein",
+   "i18n": {
+    "fr": {
+     "t": "Vapeur sur l’ancienne ligne du Hauenstein"
+    },
+    "it": {
+     "t": "Vapore sulla vecchia linea dell’Hauenstein"
+    },
+    "en": {
+     "t": "Steam on the old Hauenstein line"
+    }
+   }
   },
   {
    "o": "sbbh",
@@ -795,7 +1305,21 @@
    "b": "https://sbbhistoric.ch/produkt/muttertagsfahrt-im-trans-europ-express-270509/",
    "s": "v",
    "st": "anm",
-   "id": "sbbh-muttertagsfahrt-im-trans-europ-express"
+   "id": "sbbh-muttertagsfahrt-im-trans-europ-express",
+   "i18n": {
+    "fr": {
+     "t": "Fête des mères en Trans Europ Express",
+     "r": "depuis Zurich et Olten"
+    },
+    "it": {
+     "t": "Festa della mamma sul Trans Europ Express",
+     "r": "da Zurigo e Olten"
+    },
+    "en": {
+     "t": "Mother’s Day trip on the Trans Europ Express",
+     "r": "from Zurich and Olten"
+    }
+   }
   },
   {
    "o": "sbbh",
@@ -816,7 +1340,24 @@
    "b": "https://sbbhistoric.ch/events/agenda/",
    "s": "v",
    "st": "anm",
-   "id": "sbbh-erlebniszug-san-gottardo"
+   "id": "sbbh-erlebniszug-san-gottardo",
+   "i18n": {
+    "fr": {
+     "t": "Train découverte San Gottardo",
+     "x": "Par la ligne de faîte du Gothard ; également des forfaits avec Treno Gottardo, car postal de la Tremola, voyage en cabine et (14.8.) Sasso San Gottardo.",
+     "pr": "2026 forfait dès CHF 125"
+    },
+    "it": {
+     "t": "Treno esperienza San Gottardo",
+     "x": "Sulla linea di montagna del Gottardo; inoltre pacchetti con Treno Gottardo, AutoPostale della Tremola, viaggio in cabina e (14.8.) Sasso San Gottardo.",
+     "pr": "2026 pacchetto da CHF 125"
+    },
+    "en": {
+     "t": "San Gottardo experience train",
+     "x": "Over the Gotthard mountain line; also packages with Treno Gottardo, Tremola PostBus, cab ride and (14 Aug) Sasso San Gottardo.",
+     "pr": "2026 package from CHF 125"
+    }
+   }
   },
   {
    "o": "dfb",
@@ -835,7 +1376,21 @@
    "x": "18 km Zahnradstrecke vorbei am Rhonegletscher. Halbtax und GA geben Ermässigung.",
    "b": "https://www.dfb.ch",
    "s": "v",
-   "id": "dfb-dampfbahn-furka-bergstrecke-saison-2027"
+   "id": "dfb-dampfbahn-furka-bergstrecke-saison-2027",
+   "i18n": {
+    "fr": {
+     "t": "Chemin de fer à vapeur de la Furka, saison 2027",
+     "x": "18 km de ligne à crémaillère le long du glacier du Rhône. Réduction avec demi-tarif et AG."
+    },
+    "it": {
+     "t": "Ferrovia a vapore del Furka, stagione 2027",
+     "x": "18 km di linea a cremagliera lungo il ghiacciaio del Rodano. Riduzione con metà-prezzo e AG."
+    },
+    "en": {
+     "t": "Furka Steam Railway, 2027 season",
+     "x": "18 km of rack railway past the Rhône Glacier. Half Fare and GA give a discount."
+    }
+   }
   },
   {
    "o": "sbbh",
@@ -850,7 +1405,24 @@
    "b": "https://sbbhistoric.ch/produkt/erlebnisfahrt-an-den-rheinfall-ab-winterthur-270626/",
    "s": "v",
    "st": "anm",
-   "id": "sbbh-erlebnisfahrt-an-den-rheinfall"
+   "id": "sbbh-erlebnisfahrt-an-den-rheinfall",
+   "i18n": {
+    "fr": {
+     "t": "Voyage découverte aux chutes du Rhin",
+     "r": "depuis Rapperswil ou Winterthour vers Schaffhouse/Neuhausen",
+     "x": "Aussi réservable en voyage en cabine de conduite."
+    },
+    "it": {
+     "t": "Viaggio esperienza alle cascate del Reno",
+     "r": "da Rapperswil o Winterthur a Sciaffusa/Neuhausen",
+     "x": "Prenotabile anche come viaggio in cabina di guida."
+    },
+    "en": {
+     "t": "Experience trip to the Rhine Falls",
+     "r": "from Rapperswil or Winterthur to Schaffhausen/Neuhausen",
+     "x": "Also bookable as a cab ride."
+    }
+   }
   },
   {
    "o": "sbbh",
@@ -870,7 +1442,27 @@
    "b": "https://sbbhistoric.ch/produkt/erlebniszug-san-gottardo-und-furka-dampfbahn-ab-erstfeld-270710/",
    "s": "v",
    "st": "anm",
-   "id": "sbbh-erlebniszug-san-gottardo-und-furka-dampfbahn"
+   "id": "sbbh-erlebniszug-san-gottardo-und-furka-dampfbahn",
+   "i18n": {
+    "fr": {
+     "t": "Train découverte San Gottardo et vapeur de la Furka",
+     "r": "Erstfeld–Göschenen–Realp–Oberwald (ou en sens inverse depuis Oberwald)",
+     "x": "Collaboration de SBB Historic, du Matterhorn Gotthard Bahn et de la DFB.",
+     "pr": "2026 : CHF 165, demi-tarif 131, AG 125"
+    },
+    "it": {
+     "t": "Treno esperienza San Gottardo e vapore del Furka",
+     "r": "Erstfeld–Göschenen–Realp–Oberwald (o in senso inverso da Oberwald)",
+     "x": "Collaborazione tra FFS Historic, Matterhorn Gotthard Bahn e DFB.",
+     "pr": "2026: CHF 165, metà-prezzo 131, AG 125"
+    },
+    "en": {
+     "t": "San Gottardo experience train and Furka steam",
+     "r": "Erstfeld–Göschenen–Realp–Oberwald (or the reverse from Oberwald)",
+     "x": "A cooperation of SBB Historic, Matterhorn Gotthard Bahn and DFB.",
+     "pr": "2026: CHF 165, Half Fare 131, GA 125"
+    }
+   }
   },
   {
    "o": "bls",
@@ -885,7 +1477,20 @@
    ],
    "b": "https://www.bls.ch/de/historic/angebot",
    "s": "v",
-   "id": "bls-treberwurst-fahrt-mit-dem-blauen-pfeil"
+   "id": "bls-treberwurst-fahrt-mit-dem-blauen-pfeil",
+   "i18n": {
+    "fr": {
+     "t": "Voyage saucisse au marc en «Flèche bleue»",
+     "r": "Berthoud–Lyss–Bienne–Douanne"
+    },
+    "it": {
+     "t": "Viaggio della salsiccia al marc con la «Freccia blu»",
+     "r": "Burgdorf–Lyss–Bienne–Twann"
+    },
+    "en": {
+     "t": "Treberwurst trip on the «Blue Arrow»"
+    }
+   }
   },
   {
    "o": "emb",
@@ -907,7 +1512,18 @@
    ],
    "b": "https://www.emmentalbahn.ch",
    "s": "v",
-   "id": "emb-offentliche-fahrtage"
+   "id": "emb-offentliche-fahrtage",
+   "i18n": {
+    "fr": {
+     "t": "Journées de circulation publiques"
+    },
+    "it": {
+     "t": "Giornate di circolazione pubbliche"
+    },
+    "en": {
+     "t": "Public operating days"
+    }
+   }
   },
   {
    "o": "dvzo",
@@ -936,7 +1552,21 @@
    "pr": "retour CHF 40, Kinder gratis",
    "b": "https://dvzo.ch/oeffentliche-fahrten/",
    "s": "d",
-   "id": "dvzo-dampfzuege-bauma-hinwil"
+   "id": "dvzo-dampfzuege-bauma-hinwil",
+   "i18n": {
+    "fr": {
+     "t": "Trains à vapeur Bauma–Hinwil",
+     "pr": "aller-retour CHF 40, enfants gratuits"
+    },
+    "it": {
+     "t": "Treni a vapore Bauma–Hinwil",
+     "pr": "andata e ritorno CHF 40, bambini gratis"
+    },
+    "en": {
+     "t": "Steam trains Bauma–Hinwil",
+     "pr": "return CHF 40, children free"
+    }
+   }
   },
   {
    "o": "bc",
@@ -951,7 +1581,20 @@
    "pr": "Tageskarte CHF 33, Kinder CHF 12",
    "b": "https://www.blonay-chamby.ch",
    "s": "v",
-   "id": "bc-festival-suisse-de-la-vapeur"
+   "id": "bc-festival-suisse-de-la-vapeur",
+   "i18n": {
+    "fr": {
+     "pr": "Carte journalière CHF 33, enfants CHF 12"
+    },
+    "it": {
+     "t": "Festival svizzero del vapore",
+     "pr": "Carta giornaliera CHF 33, bambini CHF 12"
+    },
+    "en": {
+     "t": "Swiss Steam Festival",
+     "pr": "Day ticket CHF 33, children CHF 12"
+    }
+   }
   },
   {
    "o": "bdb",
@@ -973,7 +1616,21 @@
    "pr": "ab CHF 43, unter 16 gratis",
    "b": "https://bruenig-dampfbahn.ch",
    "s": "d",
-   "id": "bdb-dampffahrten-ueber-den-bruenig"
+   "id": "bdb-dampffahrten-ueber-den-bruenig",
+   "i18n": {
+    "fr": {
+     "t": "Trains à vapeur par le Brünig",
+     "pr": "dès CHF 43, gratuit pour les moins de 16 ans"
+    },
+    "it": {
+     "t": "Corse a vapore sul Brünig",
+     "pr": "da CHF 43, gratis sotto i 16 anni"
+    },
+    "en": {
+     "t": "Steam trips over the Brünig",
+     "pr": "from CHF 43, under 16 free"
+    }
+   }
   },
   {
    "o": "brb",
@@ -991,7 +1648,18 @@
    ],
    "b": "https://brienz-rothorn-bahn.ch",
    "s": "d",
-   "id": "brb-brienz-rothorn-bahn-saison-2026"
+   "id": "brb-brienz-rothorn-bahn-saison-2026",
+   "i18n": {
+    "fr": {
+     "t": "Brienz Rothorn Bahn, saison 2026"
+    },
+    "it": {
+     "t": "Brienz Rothorn Bahn, stagione 2026"
+    },
+    "en": {
+     "t": "Brienz Rothorn Railway, 2026 season"
+    }
+   }
   },
   {
    "o": "dfb",
@@ -1009,7 +1677,18 @@
    ],
    "b": "https://www.dfb.ch",
    "s": "v",
-   "id": "dfb-dampfbahn-furka-bergstrecke-saison-2026"
+   "id": "dfb-dampfbahn-furka-bergstrecke-saison-2026",
+   "i18n": {
+    "fr": {
+     "t": "Chemin de fer à vapeur de la Furka, saison 2026"
+    },
+    "it": {
+     "t": "Ferrovia a vapore del Furka, stagione 2026"
+    },
+    "en": {
+     "t": "Furka Steam Railway, 2026 season"
+    }
+   }
   },
   {
    "o": "bls",
@@ -1022,7 +1701,20 @@
    "tr": "Elektro",
    "b": "https://www.bls.ch/de/freizeit-und-ferien/events/historic-jubilaeums-extrafahrt-mit-dem-blauen-pfeil",
    "s": "v",
-   "id": "bls-125-jahre-jubilaeums-extrafahrt-blauer-pfeil"
+   "id": "bls-125-jahre-jubilaeums-extrafahrt-blauer-pfeil",
+   "i18n": {
+    "fr": {
+     "t": "125 ans : course jubilaire en «Flèche bleue»",
+     "r": "Neuchâtel–Berne–Thoune"
+    },
+    "it": {
+     "t": "125 anni: corsa giubilare con la «Freccia blu»",
+     "r": "Neuchâtel–Berna–Thun"
+    },
+    "en": {
+     "t": "125 years: anniversary trip on the «Blue Arrow»"
+    }
+   }
   },
   {
    "o": "mg",
@@ -1040,7 +1732,20 @@
    "pr": "CHF 80, Kinder CHF 50",
    "b": "https://www.montegeneroso.ch",
    "s": "d",
-   "id": "mg-treno-a-vapore"
+   "id": "mg-treno-a-vapore",
+   "i18n": {
+    "fr": {
+     "t": "Train à vapeur",
+     "pr": "CHF 80, enfants CHF 50"
+    },
+    "it": {
+     "pr": "CHF 80, bambini CHF 50"
+    },
+    "en": {
+     "t": "Steam train",
+     "pr": "CHF 80, children CHF 50"
+    }
+   }
   },
   {
    "o": "trac",
@@ -1056,7 +1761,15 @@
    "b": "https://www.la-traction.ch",
    "s": "v",
    "st": "anm",
-   "id": "trac-train-a-vapeur-raclette"
+   "id": "trac-train-a-vapeur-raclette",
+   "i18n": {
+    "it": {
+     "t": "Treno a vapore «Raclette»"
+    },
+    "en": {
+     "t": "«Raclette» steam train"
+    }
+   }
   },
   {
    "o": "vvt",
@@ -1076,7 +1789,15 @@
    ],
    "b": "https://www.vvt.ch",
    "s": "d",
-   "id": "vvt-trains-fondue"
+   "id": "vvt-trains-fondue",
+   "i18n": {
+    "it": {
+     "t": "Treni fondue"
+    },
+    "en": {
+     "t": "Fondue trains"
+    }
+   }
   },
   {
    "o": "rhb",
@@ -1092,7 +1813,19 @@
    ],
    "b": "https://www.rhb.ch/en/nostalgic-trips/steam-train-ride-engadin-albula/",
    "s": "v",
-   "id": "rhb-dampffahrt-engadin-albula"
+   "id": "rhb-dampffahrt-engadin-albula",
+   "i18n": {
+    "fr": {
+     "t": "Train à vapeur Engadine–Albula"
+    },
+    "it": {
+     "t": "Corsa a vapore Engadina–Albula",
+     "r": "Samedan–Albula–Landwasser"
+    },
+    "en": {
+     "t": "Engadine–Albula steam trip"
+    }
+   }
   },
   {
    "o": "sbbh",
@@ -1109,7 +1842,21 @@
    "pr": "CHF 129, Kinder CHF 65",
    "b": "https://sbbhistoric.ch/events/agenda/",
    "s": "v",
-   "id": "sbbh-durch-den-gotthard-ins-tessin"
+   "id": "sbbh-durch-den-gotthard-ins-tessin",
+   "i18n": {
+    "fr": {
+     "t": "Par le Gothard au Tessin",
+     "pr": "CHF 129, enfants CHF 65"
+    },
+    "it": {
+     "t": "Attraverso il Gottardo in Ticino",
+     "pr": "CHF 129, bambini CHF 65"
+    },
+    "en": {
+     "t": "Through the Gotthard to Ticino",
+     "pr": "CHF 129, children CHF 65"
+    }
+   }
   },
   {
    "o": "bls",
@@ -1124,7 +1871,20 @@
    ],
    "b": "https://www.bls.ch/de/freizeit-und-ferien/events/historic-weinfahrt-blauer-pfeil",
    "s": "v",
-   "id": "bls-weinfahrt-mit-dem-blauen-pfeil"
+   "id": "bls-weinfahrt-mit-dem-blauen-pfeil",
+   "i18n": {
+    "fr": {
+     "t": "Voyage œnologique en «Flèche bleue»",
+     "r": "Thoune–Brigue–Thoune"
+    },
+    "it": {
+     "t": "Viaggio del vino con la «Freccia blu»",
+     "r": "Thun–Briga–Thun"
+    },
+    "en": {
+     "t": "Wine trip on the «Blue Arrow»"
+    }
+   }
   }
  ]
 }
