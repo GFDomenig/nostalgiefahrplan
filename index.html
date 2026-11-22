@@ -8,7 +8,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-/* VOICE everyday, quietly authoritative like a timetable
+/* HERO photo band above the departure board
+   VOICE everyday, quietly authoritative like a timetable
    IDEA the station departure board and the printed Kursbuch
    PICTURE a dark "Nächste Abfahrten" board with large hanging dates
    COLOUR white ground, near-black ink, Swiss signal red accent, charcoal board
@@ -23,7 +24,15 @@ a{color:inherit}
 .band{padding:clamp(20px,3vw,40px) max(5vw,16px)}
 .wrap{max-width:1240px;margin:0 auto}
 h1,h2,h3,.cond{font-family:"Barlow Condensed",Barlow,sans-serif;letter-spacing:-.01em}
-header.band{padding-bottom:18px}
+.hero{position:relative;height:clamp(300px,44vw,560px);overflow:hidden;background:#2b4f7a;color:#fff}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% 58%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(10,20,35,.72) 0%,rgba(10,20,35,.45) 32%,rgba(10,20,35,0) 58%)}
+.herotext{position:absolute;z-index:1;left:max(5vw,16px);top:clamp(20px,4vw,52px);max-width:min(560px,60%)}
+.hero h1{color:#fff;font-size:clamp(34px,5.2vw,60px);text-shadow:0 2px 14px rgba(0,0,0,.35)}
+.hero .lede{color:#f2f2ee;font-size:17px;text-shadow:0 1px 8px rgba(0,0,0,.5);max-width:34ch}
+.credit{position:absolute;z-index:1;right:max(2vw,10px);bottom:10px;margin:0;font-size:13px;color:#fff;background:rgba(10,20,35,.55);padding:2px 8px;border-radius:4px}
+.statsband{padding-top:16px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+@media(max-width:600px){.hero{height:380px}.hero img{object-position:48% 62%}.hero .lede{font-size:16px}.stats{gap:14px;flex-wrap:nowrap}.stat b{font-size:28px}.stat span{font-size:13px}.herotext{max-width:none;right:16px}.hero::after{background:linear-gradient(180deg,rgba(10,20,35,.75) 0%,rgba(10,20,35,.35) 45%,rgba(10,20,35,0) 70%)}}
 .top{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:16px}
 h1{font-size:clamp(34px,5vw,52px);line-height:1.02;margin:0;font-weight:700;text-wrap:balance}
 h1 .plus{display:inline-grid;place-items:center;width:.82em;height:.82em;background:var(--red);color:#fff;border-radius:6px;font-size:.8em;margin-right:.18em;vertical-align:.04em}
@@ -89,16 +98,19 @@ main{padding-top:20px}
 footer.band{border-top:1px solid var(--line);margin-top:40px;font-size:14px;color:var(--mut)}
 footer p{max-width:80ch}
 @media(max-width:700px){.trip{grid-template-columns:4.4em minmax(0,1fr)}.act{grid-column:2;flex-direction:row;flex-wrap:wrap;align-items:center}.price{text-align:left}.cal div{min-height:64px;padding:3px}.cal button{font-size:0;height:8px;padding:0;border-left:0;background:var(--red)}.dep{grid-template-columns:minmax(0,6em) minmax(0,1fr)}.dep .act2{grid-column:2}}
+@media(max-width:600px){.statsband .stats{gap:14px;flex-wrap:nowrap;justify-content:space-between}.statsband .stat b{font-size:28px}.statsband .stat span{font-size:13px;line-height:1.25;display:block}}
 </style>
 </head>
 <body>
-<header class="band"><div class="wrap top">
- <div>
+<header class="hero">
+ <img src="img/titel-1200.jpg" srcset="img/titel-800.jpg 800w, img/titel-1200.jpg 1200w, img/titel-2400.jpg 2400w" sizes="100vw" alt="Braune Elektrolok 182 der Rhätischen Bahn mit Schneepflug und blau-crèmefarbenen historischen Personenwagen an einer Bergstrecke im Herbst, gelbe Lärchen und blauer Himmel" fetchpriority="high">
+ <div class="herotext">
   <h1><span class="plus">+</span>Nostalgiefahrplan Schweiz</h1>
-  <p class="lede">Öffentliche Fahrten historischer Eisenbahnen in der ganzen Schweiz, nach den Angaben der Veranstalter. Gebucht wird direkt beim Veranstalter.</p>
+  <p class="lede">Öffentliche Fahrten historischer Eisenbahnen in der ganzen Schweiz. Gebucht wird direkt beim Veranstalter.</p>
  </div>
- <div class="stats" id="stats"></div>
-</div></header>
+ <p class="credit">Rhätische Bahn, Lok 182 mit historischen Wagen</p>
+</header>
+<div class="band statsband"><div class="wrap"><div class="stats" id="stats"></div></div></div>
 
 <section class="boardband" aria-labelledby="bh"><div class="wrap">
  <div class="boardhead"><h2 id="bh">Nächste Abfahrten</h2><span id="stand"></span></div>
