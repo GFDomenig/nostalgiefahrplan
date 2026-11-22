@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-21",
+ "stand": "2026-11-22",
  "veranstalter": {
   "dfb": {
    "n": "Dampfbahn Furka-Bergstrecke",
@@ -361,7 +361,7 @@
    "n": "Brienz Rothorn Bahn",
    "k": "BE",
    "w": "https://brienz-rothorn-bahn.ch",
-   "p": "Täglicher Dampf-Zahnradbetrieb im Sommer. 2026: Vorsaison bis Planalp 9.5.–5.6., Gipfel 6.6.–25.10. Saison 2027 noch nicht publiziert.",
+   "p": "Täglicher Dampf-Zahnradbetrieb im Sommer. 2027: Vorsaison bis Planalp 8.5.–4.6., Gipfel 5.6.–24.10.",
    "geo": [
     [
      46.7546,
@@ -375,13 +375,13 @@
    "hr": false,
    "i18n": {
     "fr": {
-     "p": "Exploitation quotidienne à vapeur et crémaillère en été. 2026 : avant-saison jusqu’à Planalp 9.5.–5.6., sommet 6.6.–25.10. Saison 2027 pas encore publiée."
+     "p": "Exploitation quotidienne à crémaillère et vapeur en été. 2027 : avant-saison jusqu’à Planalp 8.5–4.6, sommet 5.6–24.10."
     },
     "it": {
-     "p": "Esercizio quotidiano a vapore e cremagliera in estate. 2026: pre-stagione fino a Planalp 9.5.–5.6., vetta 6.6.–25.10. Stagione 2027 non ancora pubblicata."
+     "p": "Esercizio quotidiano a vapore e cremagliera in estate. 2027: pre-stagione fino a Planalp 8.5–4.6, vetta 5.6–24.10."
     },
     "en": {
-     "p": "Daily rack steam operation in summer. 2026: pre-season to Planalp 9 May–5 June, summit 6 June–25 Oct. 2027 season not yet published."
+     "p": "Daily steam rack railway in summer. 2027: early season to Planalp 8 May–4 June, summit 5 June–24 October."
     }
    }
   },
@@ -806,7 +806,7 @@
    "th": [
     "Advent"
    ],
-   "x": "Historischer Triebwagen der BLS-Stiftung; Anmeldung bis 24. November.",
+   "x": "Historischer Triebwagen der BLS-Stiftung; Anmeldung bis 26. November.",
    "pr": "CHF 40, Kinder CHF 25",
    "b": "https://www.bls.ch/de/freizeit-und-ferien/events/historic-blauer-pfeil-zum-huttwiler-weihnachtsmarkt",
    "s": "v",
@@ -816,19 +816,19 @@
     "fr": {
      "t": "En «Flèche bleue» au marché de Noël de Huttwil",
      "r": "Berne–Berthoud–Langenthal–Huttwil, retour 18.42",
-     "x": "Automotrice historique de la fondation BLS ; inscription jusqu’au 24 novembre.",
+     "x": "Automotrice historique de la Fondation BLS ; inscription jusqu’au 26 novembre.",
      "pr": "CHF 40, enfants CHF 25"
     },
     "it": {
      "t": "Con la «Freccia blu» al mercatino di Natale di Huttwil",
      "r": "Berna–Burgdorf–Langenthal–Huttwil, ritorno 18.42",
-     "x": "Automotrice storica della fondazione BLS; iscrizione entro il 24 novembre.",
+     "x": "Automotrice storica della Fondazione BLS; iscrizione entro il 26 novembre.",
      "pr": "CHF 40, bambini CHF 25"
     },
     "en": {
      "t": "By «Blue Arrow» to the Huttwil Christmas market",
      "r": "Bern–Burgdorf–Langenthal–Huttwil, return 18.42",
-     "x": "Historic railcar of the BLS foundation; booking by 24 November.",
+     "x": "Historic railcar of the BLS Foundation; register by 26 November.",
      "pr": "CHF 40, children CHF 25"
     }
    }
@@ -845,23 +845,23 @@
    "th": [
     "Advent"
    ],
-   "x": "Im «Thurgauer Zug», Zustieg u. a. in Kreuzlingen und Berg TG.",
-   "b": "https://www.mthb.ch",
-   "s": "d",
+   "x": "Im «Thurgauer Zug», Zustieg u. a. in Kreuzlingen und Berg TG; nur noch Plätze in der 2. Klasse.",
+   "b": "https://www.mthb.ch/fahrten-veranstaltungen/oeffentliche-fahrten.html",
+   "s": "v",
    "st": "anm",
    "id": "mthb-adventsfahrt-zum-einsiedler-weihnachtsmarkt",
    "i18n": {
     "fr": {
      "t": "Voyage de l’Avent au marché de Noël d’Einsiedeln",
-     "x": "Dans le «Thurgauer Zug», montée notamment à Kreuzlingen et Berg TG."
+     "x": "Dans le «Thurgauer Zug», montée notamment à Kreuzlingen et Berg TG ; encore des places en 2e classe seulement."
     },
     "it": {
      "t": "Viaggio d’Avvento al mercatino di Natale di Einsiedeln",
-     "x": "Nel «Thurgauer Zug», salita tra l’altro a Kreuzlingen e Berg TG."
+     "x": "Sul «Thurgauer Zug», salita tra l’altro a Kreuzlingen e Berg TG; posti disponibili solo in 2a classe."
     },
     "en": {
      "t": "Advent trip to the Einsiedeln Christmas market",
-     "x": "In the «Thurgauer Zug», boarding at Kreuzlingen, Berg TG and elsewhere."
+     "x": "On the «Thurgauer Zug», boarding at Kreuzlingen and Berg TG among others; only 2nd-class seats left."
     }
    }
   },
@@ -1337,7 +1337,7 @@
    ],
    "x": "Über die Gotthard-Bergstrecke; zusätzlich Kombis mit Treno Gottardo, Tremola-Postauto, Führerstandsfahrt und (14.8.) Sasso San Gottardo.",
    "pr": "2026 Kombi ab CHF 125",
-   "b": "https://sbbhistoric.ch/events/agenda/",
+   "b": "https://sbbhistoric.ch/produkt/erlebniszug-san-gottardo-270612/",
    "s": "v",
    "st": "anm",
    "id": "sbbh-erlebniszug-san-gottardo",
@@ -1883,6 +1883,412 @@
     },
     "en": {
      "t": "Wine trip on the «Blue Arrow»"
+    }
+   }
+  },
+  {
+   "id": "rhb-reise-ins-lichterland",
+   "o": "rhb",
+   "t": "Reise ins Lichterland",
+   "d": [
+    "2026-12-05"
+   ],
+   "r": "RhB-Netz (Strecke beim Veranstalter)",
+   "tr": "Dampf",
+   "th": [
+    "Advent",
+    "Familie"
+   ],
+   "x": "Dampffahrt aus der Reihe «Clà Ferrovia» mit Clà und Linard Bardill.",
+   "b": "https://www.rhb.ch/en/excursions/cla-ferrovia/land-of-lights/",
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Voyage au pays des lumières",
+     "r": "Réseau RhB (itinéraire chez l’organisateur)",
+     "x": "Course à vapeur de la série «Clà Ferrovia» avec Clà et Linard Bardill."
+    },
+    "it": {
+     "t": "Viaggio nel paese delle luci",
+     "r": "Rete RhB (percorso presso l’organizzatore)",
+     "x": "Corsa a vapore della serie «Clà Ferrovia» con Clà e Linard Bardill."
+    },
+    "en": {
+     "t": "A trip to the Land of Lights",
+     "r": "RhB network (route from the organiser)",
+     "x": "Steam trip from the «Clà Ferrovia» series with Clà and Linard Bardill."
+    }
+   }
+  },
+  {
+   "id": "rhb-bernina-dampfschneeschleuder",
+   "o": "rhb",
+   "t": "Bernina-Dampfschneeschleuder",
+   "d": [
+    "2027-01-28",
+    "2027-02-11",
+    "2027-03-04"
+   ],
+   "h": "09.14",
+   "r": "Pontresina–Ospizio Bernina–Alp Grüm",
+   "tr": "Dampf",
+   "th": [
+    "Bergstrecke",
+    "Kulinarik"
+   ],
+   "x": "Die historische Dampfschneeschleuder räumt die Berninastrecke, die Gäste folgen im Extrazug zu Fotohalten; Mittagessen auf Alp Grüm.",
+   "b": "https://www.rhb.ch/en/nostalgic-trips/steam-snow-plough/",
+   "s": "v",
+   "st": "voll",
+   "i18n": {
+    "fr": {
+     "t": "Chasse-neige à vapeur de la Bernina",
+     "r": "Pontresina–Ospizio Bernina–Alp Grüm",
+     "x": "Le chasse-neige rotatif à vapeur historique dégage la ligne de la Bernina, les passagers suivent en train spécial jusqu’aux arrêts photo ; repas de midi à Alp Grüm."
+    },
+    "it": {
+     "t": "Sgombraneve a vapore del Bernina",
+     "r": "Pontresina–Ospizio Bernina–Alp Grüm",
+     "x": "Lo storico sgombraneve rotativo a vapore libera la linea del Bernina, gli ospiti seguono in treno speciale fino alle soste fotografiche; pranzo all’Alp Grüm."
+    },
+    "en": {
+     "t": "Bernina steam snow plough",
+     "r": "Pontresina–Ospizio Bernina–Alp Grüm",
+     "x": "The historic steam rotary snow plough clears the Bernina line while guests follow in a special train to photo stops; lunch at Alp Grüm."
+    }
+   }
+  },
+  {
+   "id": "rhb-historischer-zug-davos-filisur-2027",
+   "o": "rhb",
+   "t": "Historischer Zug Davos–Filisur, Saison 2027",
+   "rg": [
+    "2027-05-06",
+    "2027-10-24"
+   ],
+   "wd": "täglich",
+   "h": "10.18",
+   "r": "Davos Platz–Wiesen–Filisur, zurück ab Filisur 11.06 und 16.06",
+   "tr": "Elektro",
+   "th": [
+    "Bergstrecke"
+   ],
+   "x": "Historische Wagen über Wiesener- und Landwasserviadukt, zweimal täglich hin und zurück (Davos ab 10.18 und 15.18). Normales Billett gilt; ersatzweise Ge 4/4 I statt Krokodil.",
+   "pr": "Normales Billett, ohne Zuschlag",
+   "b": "https://shop.landwasserwelt.ch/de/pages/historische-fahrten",
+   "s": "d",
+   "st": "zug",
+   "i18n": {
+    "fr": {
+     "t": "Train historique Davos–Filisur, saison 2027",
+     "r": "Davos Platz–Wiesen–Filisur, retour de Filisur à 11h06 et 16h06",
+     "x": "Voitures historiques sur les viaducs de Wiesen et du Landwasser, deux allers-retours par jour (départ de Davos 10h18 et 15h18). Billet normal valable ; Ge 4/4 I en remplacement du Crocodile.",
+     "pr": "Billet normal, sans supplément"
+    },
+    "it": {
+     "t": "Treno storico Davos–Filisur, stagione 2027",
+     "r": "Davos Platz–Wiesen–Filisur, ritorno da Filisur alle 11.06 e 16.06",
+     "x": "Carrozze storiche sui viadotti di Wiesen e Landwasser, due corse di andata e ritorno al giorno (partenza Davos 10.18 e 15.18). Vale il biglietto normale; Ge 4/4 I al posto del Coccodrillo.",
+     "pr": "Biglietto normale, senza supplemento"
+    },
+    "en": {
+     "t": "Historic train Davos–Filisur, 2027 season",
+     "r": "Davos Platz–Wiesen–Filisur, return from Filisur 11.06 and 16.06",
+     "x": "Historic coaches over the Wiesen and Landwasser viaducts, two round trips a day (Davos dep. 10.18 and 15.18). Regular ticket valid; Ge 4/4 I standing in for the Crocodile.",
+     "pr": "Regular ticket, no supplement"
+    }
+   }
+  },
+  {
+   "id": "sbbh-das-krokodil-am-alten-hauenstein",
+   "o": "sbbh",
+   "t": "Das Krokodil am alten Hauenstein",
+   "d": [
+    "2027-08-28"
+   ],
+   "r": "Alter Hauenstein (Strecke beim Veranstalter)",
+   "tr": "Elektro",
+   "x": "Fahrt mit der «Krokodil»-Lok über die alte Hauensteinlinie; Billette über Ticketcorner.",
+   "pr": "ab CHF 30.50",
+   "b": "https://www.ticketcorner.ch/artist/sbb-historic/sbb-historic-das-krokodil-am-alten-hauenstein-4017989/",
+   "s": "d",
+   "st": "anm",
+   "i18n": {
+    "fr": {
+     "t": "Le Crocodile sur l’ancien Hauenstein",
+     "r": "Ancien Hauenstein (itinéraire chez l’organisateur)",
+     "x": "Course avec la locomotive «Crocodile» sur l’ancienne ligne du Hauenstein ; billets via Ticketcorner.",
+     "pr": "dès CHF 30.50"
+    },
+    "it": {
+     "t": "Il Coccodrillo sul vecchio Hauenstein",
+     "r": "Vecchio Hauenstein (percorso presso l’organizzatore)",
+     "x": "Corsa con la locomotiva «Coccodrillo» sulla vecchia linea dell’Hauenstein; biglietti tramite Ticketcorner.",
+     "pr": "da CHF 30.50"
+    },
+    "en": {
+     "t": "The Crocodile on the old Hauenstein",
+     "r": "Old Hauenstein line (route from the organiser)",
+     "x": "Trip with the «Crocodile» locomotive over the old Hauenstein line; tickets via Ticketcorner.",
+     "pr": "from CHF 30.50"
+    }
+   }
+  },
+  {
+   "id": "mg-treno-a-vapore-2027",
+   "o": "mg",
+   "t": "Treno a vapore 2027",
+   "d": [
+    "2027-05-22",
+    "2027-06-26",
+    "2027-07-24",
+    "2027-08-14",
+    "2027-09-18"
+   ],
+   "r": "Capolago–Monte Generoso Vetta",
+   "tr": "Dampf",
+   "th": [
+    "Zahnrad",
+    "Bergstrecke"
+   ],
+   "x": "Zahnrad-Dampflok von 1890 von Capolago auf den Gipfel; Reservation nötig. Zeiten und Preise 2027 folgen.",
+   "b": "https://montegeneroso.ch/en/plan/ferrovia/steamtrain",
+   "s": "v",
+   "st": "anm",
+   "i18n": {
+    "fr": {
+     "t": "Train à vapeur 2027",
+     "r": "Capolago–Monte Generoso Vetta",
+     "x": "Locomotive à vapeur à crémaillère de 1890 de Capolago au sommet ; réservation nécessaire. Horaires et prix 2027 à suivre."
+    },
+    "it": {
+     "t": "Treno a vapore 2027",
+     "r": "Capolago–Monte Generoso Vetta",
+     "x": "Locomotiva a vapore a cremagliera del 1890 da Capolago alla vetta; prenotazione necessaria. Orari e prezzi 2027 in arrivo."
+    },
+    "en": {
+     "t": "Steam train 2027",
+     "r": "Capolago–Monte Generoso summit",
+     "x": "Rack steam locomotive from 1890 from Capolago to the summit; booking required. 2027 times and prices to follow."
+    }
+   }
+  },
+  {
+   "id": "brb-brienz-rothorn-bahn-saison-2027",
+   "o": "brb",
+   "t": "Brienz Rothorn Bahn, Saison 2027",
+   "rg": [
+    "2027-06-05",
+    "2027-10-24"
+   ],
+   "wd": "täglich",
+   "r": "Brienz–Planalp–Rothorn Kulm",
+   "tr": "Dampf",
+   "th": [
+    "Zahnrad",
+    "Bergstrecke"
+   ],
+   "x": "Dampf-Zahnradbahn auf das Rothorn, ab Brienz 08.36–16.36; Vorsaison bis Planalp vom 8. Mai bis 4. Juni. Sitzplatzgarantie gegen Zuschlag empfohlen.",
+   "pr": "Brienz–Rothorn retour CHF 98, mit Halbtax/GA CHF 49, Kinder CHF 10",
+   "b": "https://brienz-rothorn-bahn.ch/fahrplan-preise/",
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Brienz Rothorn Bahn, saison 2027",
+     "r": "Brienz–Planalp–Rothorn Kulm",
+     "x": "Train à vapeur à crémaillère vers le Rothorn, départs de Brienz 8h36–16h36 ; avant-saison jusqu’à Planalp du 8 mai au 4 juin. Garantie de place avec supplément recommandée.",
+     "pr": "Brienz–Rothorn aller-retour CHF 98, avec demi-tarif/AG CHF 49, enfants CHF 10"
+    },
+    "it": {
+     "t": "Brienz Rothorn Bahn, stagione 2027",
+     "r": "Brienz–Planalp–Rothorn Kulm",
+     "x": "Treno a vapore a cremagliera sul Rothorn, partenze da Brienz 8.36–16.36; pre-stagione fino a Planalp dall’8 maggio al 4 giugno. Garanzia del posto con supplemento consigliata.",
+     "pr": "Brienz–Rothorn andata e ritorno CHF 98, con metà-prezzo/AG CHF 49, bambini CHF 10"
+    },
+    "en": {
+     "t": "Brienz Rothorn Bahn, 2027 season",
+     "r": "Brienz–Planalp–Rothorn Kulm",
+     "x": "Steam rack railway up the Rothorn, departures from Brienz 08.36–16.36; early season to Planalp from 8 May to 4 June. Seat reservation (surcharge) recommended.",
+     "pr": "Brienz–Rothorn return CHF 98, with Half Fare/GA CHF 49, children CHF 10"
+    }
+   }
+  },
+  {
+   "id": "emb-winterdampffahrt",
+   "o": "emb",
+   "t": "Winter-Dampffahrt",
+   "d": [
+    "2027-02-14"
+   ],
+   "r": "Emmentalbahn (Strecke folgt)",
+   "tr": "Dampf",
+   "x": "Dampfzug durch das winterliche Emmental, nachgeholt nach der Verschiebung wegen der Tunnelarbeiten. Zeiten, Preise und Buchung folgen.",
+   "b": "https://emmentalbahn.ch/index.php/fahrplaene",
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Course à vapeur hivernale",
+     "r": "Emmentalbahn (itinéraire à suivre)",
+     "x": "Train à vapeur à travers l’Emmental hivernal, reprogrammé après le report dû aux travaux du tunnel. Horaires, prix et réservation à suivre."
+    },
+    "it": {
+     "t": "Corsa a vapore invernale",
+     "r": "Emmentalbahn (percorso in arrivo)",
+     "x": "Treno a vapore attraverso l’Emmental invernale, recuperato dopo il rinvio per i lavori al tunnel. Orari, prezzi e prenotazione in arrivo."
+    },
+    "en": {
+     "t": "Winter steam trip",
+     "r": "Emmentalbahn (route to follow)",
+     "x": "Steam train through the wintry Emmental, rescheduled after the postponement due to tunnel works. Times, prices and booking to follow."
+    }
+   }
+  },
+  {
+   "id": "dvzo-samichlaus-express",
+   "o": "dvzo",
+   "t": "Samichlaus-Express",
+   "d": [
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "r": "Bauma und zurück",
+   "tr": "Dampf",
+   "th": [
+    "Advent",
+    "Familie"
+   ],
+   "x": "Rund anderthalbstündige Dampffahrt, auf der die Kinder den Samichlaus finden; danach Versli und Geschenksäckli in der Bahnhofhalle Bauma. Mehrere Abfahrten pro Tag, einzelne bereits ausverkauft.",
+   "b": "https://dvzo.ch/samichlaus-express/",
+   "s": "d",
+   "st": "anm",
+   "i18n": {
+    "fr": {
+     "t": "Samichlaus-Express",
+     "r": "Bauma aller-retour",
+     "x": "Course à vapeur d’environ une heure et demie où les enfants trouvent saint Nicolas ; ensuite poèmes et petits sacs-cadeaux dans la halle de la gare de Bauma. Plusieurs départs par jour, certains déjà complets."
+    },
+    "it": {
+     "t": "Samichlaus-Express",
+     "r": "Bauma andata e ritorno",
+     "x": "Corsa a vapore di circa un’ora e mezza in cui i bambini trovano San Nicolao; poi filastrocche e sacchetti regalo nella sala della stazione di Bauma. Più partenze al giorno, alcune già esaurite."
+    },
+    "en": {
+     "t": "Samichlaus Express",
+     "r": "Bauma and back",
+     "x": "Steam trip of about an hour and a half on which children find St Nicholas; then rhymes and gift bags in the Bauma station hall. Several departures a day, some already sold out."
+    }
+   }
+  },
+  {
+   "id": "zmb-samichlausfahrt",
+   "o": "zmb",
+   "t": "Samichlausfahrt",
+   "d": [
+    "2026-12-05"
+   ],
+   "h": "13.40",
+   "r": "Zürich Wiedikon–Sihlwald und zurück",
+   "tr": "Dampf",
+   "th": [
+    "Advent",
+    "Familie"
+   ],
+   "x": "Mit «Schnaaggi-Schaaggi» in den Sihlwald zur Samichlausfeier beim Besucherzentrum; zweite Fahrt ab Wiedikon 17.20.",
+   "pr": "CHF 39, Kinder CHF 29 inkl. Chlaussäckli",
+   "b": "https://www.museumsbahn.ch/fahrten/samichlaus/",
+   "s": "v",
+   "st": "voll",
+   "i18n": {
+    "fr": {
+     "t": "Course de saint Nicolas",
+     "r": "Zurich Wiedikon–Sihlwald aller-retour",
+     "x": "Avec «Schnaaggi-Schaaggi» dans la forêt de la Sihl pour la fête de saint Nicolas au centre des visiteurs ; second départ de Wiedikon à 17h20.",
+     "pr": "CHF 39, enfants CHF 29, petit sac de saint Nicolas compris"
+    },
+    "it": {
+     "t": "Corsa di San Nicolao",
+     "r": "Zurigo Wiedikon–Sihlwald andata e ritorno",
+     "x": "Con «Schnaaggi-Schaaggi» nel bosco della Sihl per la festa di San Nicolao al centro visitatori; seconda corsa da Wiedikon alle 17.20.",
+     "pr": "CHF 39, bambini CHF 29 incluso sacchetto di San Nicolao"
+    },
+    "en": {
+     "t": "St Nicholas trip",
+     "r": "Zurich Wiedikon–Sihlwald and back",
+     "x": "With «Schnaaggi-Schaaggi» into the Sihl forest for the St Nicholas celebration at the visitor centre; second departure from Wiedikon at 17.20.",
+     "pr": "CHF 39, children CHF 29 incl. St Nicholas bag"
+    }
+   }
+  },
+  {
+   "id": "etz-museumsbahnfahrten-2027",
+   "o": "etz",
+   "t": "Museumsbahnfahrten 2027",
+   "d": [
+    "2027-04-25",
+    "2027-05-30",
+    "2027-09-12",
+    "2027-10-24"
+   ],
+   "r": "Etzwilen–Ramsen–Singen",
+   "tr": "Dampf",
+   "x": "Grenzüberschreitende Museumsbahn über den Rhein nach Singen. Fahrplan, Preise und eingesetzte Dampfloks folgen.",
+   "b": "https://www.etzwilen-singen.ch/sonderfahrten/",
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Courses du chemin de fer-musée 2027",
+     "r": "Etzwilen–Ramsen–Singen",
+     "x": "Chemin de fer-musée transfrontalier franchissant le Rhin jusqu’à Singen. Horaire, prix et locomotives à vapeur à suivre."
+    },
+    "it": {
+     "t": "Corse della ferrovia museo 2027",
+     "r": "Etzwilen–Ramsen–Singen",
+     "x": "Ferrovia museo transfrontaliera oltre il Reno fino a Singen. Orario, prezzi e locomotive a vapore in arrivo."
+    },
+    "en": {
+     "t": "Museum railway trips 2027",
+     "r": "Etzwilen–Ramsen–Singen",
+     "x": "Cross-border museum railway over the Rhine to Singen. Timetable, prices and steam locomotives to follow."
+    }
+   }
+  },
+  {
+   "id": "schbb-nordpol-express",
+   "o": "schbb",
+   "t": "Nordpol-Express",
+   "d": [
+    "2026-11-27",
+    "2026-11-28",
+    "2026-12-04",
+    "2026-12-05",
+    "2026-12-11",
+    "2026-12-12"
+   ],
+   "r": "Baumschulpark Schinznach Dorf",
+   "tr": "Dampf",
+   "th": [
+    "Advent",
+    "Familie"
+   ],
+   "x": "Kurze Fahrt durch den beleuchteten Baumschulpark zum Gewächshaus, wo Samichlaus, Alpakas, Punsch und eine Märlifrau warten. Startzeiten halbstündlich am Nachmittag, Tickets im Voraus.",
+   "b": "https://www.zulauf.ch/de/sortiment/veranstaltungen/baumschulbahn",
+   "s": "v",
+   "st": "anm",
+   "i18n": {
+    "fr": {
+     "t": "Express du pôle Nord",
+     "r": "Parc de la pépinière, Schinznach Dorf",
+     "x": "Courte course à travers le parc illuminé jusqu’à la serre, où attendent saint Nicolas, des alpagas, du punch et une conteuse. Départs toutes les demi-heures l’après-midi, billets à l’avance."
+    },
+    "it": {
+     "t": "Espresso del Polo Nord",
+     "r": "Parco del vivaio, Schinznach Dorf",
+     "x": "Breve corsa attraverso il parco illuminato fino alla serra, dove aspettano San Nicolao, alpaca, punch e una cantastorie. Partenze ogni mezz’ora nel pomeriggio, biglietti in anticipo."
+    },
+    "en": {
+     "t": "North Pole Express",
+     "r": "Tree nursery park, Schinznach Dorf",
+     "x": "Short ride through the illuminated nursery park to the greenhouse, where St Nicholas, alpacas, punch and a storyteller await. Departures every half hour in the afternoon, tickets in advance."
     }
    }
   }
