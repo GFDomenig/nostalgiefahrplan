@@ -175,12 +175,11 @@ footer p{max-width:80ch}
  </div>
  <div class="brand">
   <img class="logo" id="logo" src="img/logo-160.png" srcset="img/logo-160.png 1x, img/logo-320.png 2x" width="104" height="104" alt="">
-  <div class="langs" role="group" aria-label="Sprache / Langue / Lingua / Language / Lingua">
-   <button data-l="de" title="Deutsch" aria-label="Deutsch"><span class="tx">DE</span>DE</button>
+  <div class="langs" role="group" aria-label="Sprache / Langue / Lingua / Language">
+   <button data-l="de" title="Deutsch" aria-label="Deutsch"><svg viewBox="0 0 5 3" aria-hidden="true"><rect width="5" height="1" fill="#000"/><rect y="1" width="5" height="1" fill="#dd0000"/><rect y="2" width="5" height="1" fill="#ffce00"/></svg> DE</button>
    <button data-l="fr" title="Français" aria-label="Français"><svg viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#002395"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ed2939"/></svg> FR</button>
    <button data-l="it" title="Italiano" aria-label="Italiano"><svg viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ce2b37"/></svg> IT</button>
    <button data-l="en" title="English" aria-label="English"><svg viewBox="0 0 60 30" preserveAspectRatio="none" aria-hidden="true"><clipPath id="uks"><path d="M0,0v30h60V0z"/></clipPath><clipPath id="ukt"><path d="M30,15h30v15zv15H0zH0V0zV0h30z"/></clipPath><g clip-path="url(#uks)"><path d="M0,0v30h60V0z" fill="#012169"/><path d="M0,0L60,30M60,0L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0L60,30M60,0L0,30" clip-path="url(#ukt)" stroke="#C8102E" stroke-width="4"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#C8102E" stroke-width="6"/></g></svg> EN</button>
-   <button data-l="rm" title="Rumantsch" aria-label="Rumantsch"><span class="tx">RM</span>RM</button>
   </div>
  </div>
  <p class="credit" data-i="credit"></p>
@@ -223,7 +222,7 @@ footer p{max-width:80ch}
 </div></footer>
 <script>
 {
-const LANGS=["de","fr","it","en","rm"];
+const LANGS=["de","fr","it","en"];
 let LG="de";
 try{const s=localStorage.getItem("lang");if(LANGS.includes(s))LG=s;else{const n=(navigator.language||"de").slice(0,2).toLowerCase();if(LANGS.includes(n))LG=n}}catch(e){}
 const L=(k,v)=>{let s=(I18N[LG]&&I18N[LG][k]!==undefined)?I18N[LG][k]:I18N.de[k];if(v&&typeof s==="string")for(const x in v)s=s.replace("{"+x+"}",v[x]);return s};
@@ -340,7 +339,7 @@ const drawMap=()=>{if(!window.L){document.getElementById("map").innerHTML=`<p cl
   window.L.circleMarker(o.geo[0],{radius:o.hr?8:6,color:"#fff",weight:2,fillColor:c,fillOpacity:1}).bindPopup(pop).bindTooltip(o.n).addTo(MAP);all.push(...o.geo)});
  if(all.length)MAP.fitBounds(all,{padding:[24,24]})};
 const board=()=>{const seen=new Set(),up=OCC.filter(oc=>oc.end>=TODAY).filter(oc=>{if(seen.has(oc.i))return false;seen.add(oc.i);return true}).slice(0,5);
- document.getElementById("board").innerHTML=up.map(oc=>{const t=T[oc.i],d=pd(oc.day),mn=MO()[d.getMonth()];return `<div class="dep"><div class="d">${d.getDate()}${["de","rm"].includes(LG)?".":""} ${["de","en"].includes(LG)?mn.charAt(0).toUpperCase()+mn.slice(1,3):mn.slice(0,3)}.<small>${WD()[d.getDay()]}${t.h?" · "+t.h:""}</small></div><div><div class="t"><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a></div><div class="o">${esc(OPS[t.o].n)} · ${esc(LT(t,"r"))}</div></div><div class="act2">${t.st==="voll"?`<span class="full">${L("full")}</span>`:`<a class="go" href="${t.b}">${L("book_s")}</a>`}</div></div>`}).join("")};
+ document.getElementById("board").innerHTML=up.map(oc=>{const t=T[oc.i],d=pd(oc.day),mn=MO()[d.getMonth()];return `<div class="dep"><div class="d">${d.getDate()}${LG==="de"?".":""} ${["de","en"].includes(LG)?mn.charAt(0).toUpperCase()+mn.slice(1,3):mn.slice(0,3)}.<small>${WD()[d.getDay()]}${t.h?" · "+t.h:""}</small></div><div><div class="t"><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a></div><div class="o">${esc(OPS[t.o].n)} · ${esc(LT(t,"r"))}</div></div><div class="act2">${t.st==="voll"?`<span class="full">${L("full")}</span>`:`<a class="go" href="${t.b}">${L("book_s")}</a>`}</div></div>`}).join("")};
 const stats=()=>{const up=OCC.filter(oc=>oc.end>=TODAY);document.getElementById("stats").innerHTML=`<div class="stat"><b>${up.length}</b><span>${L("st_up")}</span></div><div class="stat"><b>${Object.keys(OPS).length}</b><span>${L("st_ops")}</span></div><div class="stat"><b>${new Set(up.filter(oc=>oc.day<"2027-01-01").map(oc=>oc.i)).size}</b><span>${L("st_adv")}</span></div>`};
 const render=()=>{const v=document.getElementById("view");
  document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.v===st.v));

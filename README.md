@@ -41,8 +41,8 @@ Eigene News der Stiftung: Eintrag mit `"q":["stiftung"]` ergänzen; er erscheint
 
 ## Mehrsprachigkeit
 
-- Oberfläche: `js/i18n.js` mit Deutsch, Französisch, Italienisch, Englisch und Rumantsch Grischun (Rumantsch: Entwurf, Prüfung durch Muttersprachige empfohlen).
-- Inhalte: Fahrten, Veranstalter und News haben ein Feld `i18n` mit Übersetzungen je Sprache (`fr`, `it`, `en`, optional `rm`) für `t`, `x`, `r`, `pr` (Fahrten), `p` (Veranstalter) bzw. `t`, `x` (News). Fehlt eine Übersetzung, erscheint der deutsche Text.
+- Oberfläche: `js/i18n.js` mit Deutsch, Französisch, Italienisch und Englisch.
+- Inhalte: Fahrten, Veranstalter und News haben ein Feld `i18n` mit Übersetzungen je Sprache (`fr`, `it`, `en`) für `t`, `x`, `r`, `pr` (Fahrten), `p` (Veranstalter) bzw. `t`, `x` (News). Fehlt eine Übersetzung, erscheint der deutsche Text.
 - Die gewählte Sprache wird im Browser gespeichert; beim ersten Besuch gilt die Browsersprache.
 
 ## Aktualisierung
