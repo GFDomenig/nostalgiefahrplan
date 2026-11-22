@@ -31,6 +31,7 @@ h1,h2,h3,.cond{font-family:"Barlow Condensed",Barlow,sans-serif;letter-spacing:-
 .hero h1{color:#fff;font-size:clamp(34px,5.2vw,60px);text-shadow:0 2px 14px rgba(0,0,0,.35)}
 .hero .lede{color:#f2f2ee;font-size:17px;text-shadow:0 1px 8px rgba(0,0,0,.5);max-width:34ch}
 .credit{position:absolute;z-index:1;right:max(2vw,10px);bottom:10px;margin:0;font-size:13px;color:#fff;background:rgba(10,20,35,.55);padding:2px 8px;border-radius:4px}
+.hero img.logo{position:absolute;z-index:2;inset:auto;top:clamp(16px,3vw,36px);right:max(3vw,16px);width:clamp(72px,8vw,112px);height:auto;object-fit:contain;filter:drop-shadow(0 3px 10px rgba(0,0,0,.35))}
 .statsband{padding-top:16px;padding-bottom:16px;border-bottom:1px solid var(--line)}
 @media(max-width:600px){.hero{height:380px}.hero img{object-position:48% 62%}.hero .lede{font-size:16px}.stats{gap:14px;flex-wrap:nowrap}.stat b{font-size:28px}.stat span{font-size:13px}.herotext{max-width:none;right:16px}.hero::after{background:linear-gradient(180deg,rgba(10,20,35,.75) 0%,rgba(10,20,35,.35) 45%,rgba(10,20,35,0) 70%)}}
 .top{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:16px}
@@ -98,7 +99,7 @@ main{padding-top:20px}
 footer.band{border-top:1px solid var(--line);margin-top:40px;font-size:14px;color:var(--mut)}
 footer p{max-width:80ch}
 @media(max-width:700px){.trip{grid-template-columns:4.4em minmax(0,1fr)}.act{grid-column:2;flex-direction:row;flex-wrap:wrap;align-items:center}.price{text-align:left}.cal div{min-height:64px;padding:3px}.cal button{font-size:0;height:8px;padding:0;border-left:0;background:var(--red)}.dep{grid-template-columns:minmax(0,6em) minmax(0,1fr)}.dep .act2{grid-column:2}}
-@media(max-width:600px){.statsband .stats{gap:14px;flex-wrap:nowrap;justify-content:space-between}.statsband .stat b{font-size:28px}.statsband .stat span{font-size:13px;line-height:1.25;display:block}}
+@media(max-width:600px){.hero img.logo{top:auto;bottom:12px;right:16px;width:64px}.credit{left:16px;right:auto;max-width:calc(100% - 104px)}.statsband .stats{gap:14px;flex-wrap:nowrap;justify-content:space-between}.statsband .stat b{font-size:28px}.statsband .stat span{font-size:13px;line-height:1.25;display:block}}
 </style>
 </head>
 <body>
@@ -108,6 +109,7 @@ footer p{max-width:80ch}
   <h1><span class="plus">+</span>Nostalgiefahrplan Schweiz</h1>
   <p class="lede">Öffentliche Fahrten historischer Eisenbahnen in der ganzen Schweiz. Gebucht wird direkt beim Veranstalter.</p>
  </div>
+ <img class="logo" src="img/logo-160.png" srcset="img/logo-160.png 1x, img/logo-320.png 2x" width="104" height="104" alt="Logo Historic RhB – Die Bündner Kulturbahn">
  <p class="credit">Historic RhB – Lok 182 mit Pullman-Wagen auf der Alp Grüm</p>
 </header>
 <div class="band statsband"><div class="wrap"><div class="stats" id="stats"></div></div></div>
@@ -134,6 +136,7 @@ footer p{max-width:80ch}
 
 <footer class="band"><div class="wrap">
  <p><b>Angaben ohne Gewähr.</b> Alle Daten stammen von den Websites der Veranstalter, ergänzt durch Tourismusportale (gestrichelt markiert). Fahrplan, Traktion und Preise können sich kurzfristig ändern, etwa bei Waldbrandgefahr. Massgebend ist immer die Seite des Veranstalters.</p>
+ <p style="display:flex;gap:14px;align-items:center"><img src="img/logo-160.png" width="56" height="56" alt="" style="flex:none">Ein Pilotprojekt im Umfeld der Stiftung Bahnkultur RhB. Der definitive Betrieb unter bahnkultur-rhb.ch ist in Vorbereitung.</p>
  <p>Fehlt eine Fahrt? Veranstalter können ihre Daten melden. Pilotbetrieb. <a href="impressum.html">Impressum und Datenschutz</a></p>
 </div></footer>
 
