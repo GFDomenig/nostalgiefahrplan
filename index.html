@@ -161,6 +161,22 @@ footer p{max-width:80ch}
 .langs button[aria-pressed=true]{background:rgba(255,255,255,.22)}
 .langs button[aria-pressed=true] svg,.langs button[aria-pressed=true] .tx{box-shadow:0 0 0 2px #fff}
 .langs button:focus-visible{outline:3px solid #ffbf47}
+.ov{position:fixed;inset:0;z-index:50;background:var(--bg);display:flex;flex-direction:column}
+.ov[hidden],.dlgw[hidden]{display:none}
+.ovbar{display:flex;align-items:center;gap:12px;padding:8px max(2vw,10px);background:var(--board);color:#fff;flex:none}
+.ovbar .home{display:flex;align-items:center;gap:10px;border:0;background:none;color:#fff;cursor:pointer;font:600 16px "Barlow Condensed",sans-serif;padding:4px 8px 4px 4px;border-radius:8px;min-height:44px}
+.ovbar .home img{width:44px;height:44px}
+.ovbar .home:hover,.ovbar .home:focus-visible{background:rgba(255,255,255,.14);outline:none}
+.ovbar .dom{flex:1;min-width:0;font-size:14px;color:#c9c9c1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ovbar a{color:#fff;font-size:14px;font-weight:600;white-space:nowrap;border:1px solid rgba(255,255,255,.5);border-radius:6px;padding:8px 10px;text-decoration:none}
+.ov iframe{flex:1;width:100%;border:0;background:#fff}
+.dlgw{position:fixed;inset:0;z-index:60;background:rgba(10,20,35,.55);display:grid;place-items:center;padding:16px}
+.dlg{background:var(--bg);color:var(--ink);border-radius:12px;max-width:480px;width:100%;padding:22px;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.dlg h2{margin:0 0 8px;font-size:26px;line-height:1.1}
+.dlg p{margin:0 0 14px}
+.dlg .dom2{font-weight:600;overflow-wrap:anywhere}
+.dlg .row{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end;margin-top:16px}
+@media(max-width:600px){.ovbar .home span{display:none}}
 .flnote{font-size:14px;color:var(--mut);margin:8px 0 0}
 @media(max-width:600px){.brand{top:auto;bottom:12px;right:16px}.brand img.logo{width:64px}.langs{position:absolute;top:auto;bottom:0;right:76px;gap:2px;padding:4px}.langs button{min-width:38px}.langs svg,.langs .tx{width:30px;height:20px}.credit{bottom:62px!important;max-width:calc(100% - 32px)!important}}
 </style>
@@ -220,6 +236,16 @@ footer p{max-width:80ch}
  <p style="display:flex;gap:14px;align-items:center"><img src="img/logo-160.png" width="56" height="56" alt="" style="flex:none"><span data-i="f2"></span></p>
  <p><span data-i="f3"></span> <a href="impressum.html" data-i="imp"></a></p>
 </div></footer>
+
+<div class="ov" id="ov" hidden role="dialog" aria-modal="true" aria-labelledby="ovdom">
+ <div class="ovbar"><button class="home" id="ovclose"><img src="img/logo-160.png" alt=""><span data-i="back_ov"></span></button><span class="dom" id="ovdom"></span><a id="ovnew" href="#" target="_blank" rel="noopener" data-i="newtab"></a></div>
+ <iframe id="ovf" title="" referrerpolicy="strict-origin-when-cross-origin" allow="payment; fullscreen"></iframe>
+</div>
+<div class="dlgw" id="dlgw" hidden><div class="dlg" role="alertdialog" aria-modal="true" aria-labelledby="dlgt" aria-describedby="dlgx">
+ <h2 id="dlgt" data-i="leave_t"></h2><p id="dlgx"></p>
+ <label class="chk"><input type="checkbox" id="noask"> <span data-i="noask"></span></label>
+ <div class="row"><button class="btn" id="dlgno" data-i="cancel"></button><a class="btn p" id="dlggo" href="#" target="_blank" rel="noopener" data-i="go"></a></div>
+</div></div>
 <script>
 {
 const LANGS=["de","fr","it","en"];
@@ -228,6 +254,33 @@ try{const s=localStorage.getItem("lang");if(LANGS.includes(s))LG=s;else{const n=
 const L=(k,v)=>{let s=(I18N[LG]&&I18N[LG][k]!==undefined)?I18N[LG][k]:I18N.de[k];if(v&&typeof s==="string")for(const x in v)s=s.replace("{"+x+"}",v[x]);return s};
 const LT=(o,f)=>(o&&o.i18n&&o.i18n[LG]&&o.i18n[LG][f])||o[f];
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// Links: eingebettet (RhB-Nostalgiefahrten, Historic RhB) oder Hinweis beim Verlassen
+const EMBED=["historic-rhb.ch","club1889.ch","albula-bahn-club.ch","gruen-und-chrom.ch","dampfvereinrhb.ch","igzl.ch","verein-pro-salonwagen.ch","bahnmuseum-albula.ch","schmalspur.ch"];
+const hostOf=u=>{try{return new URL(u,location.href).hostname.replace(/^www\./,"")}catch(e){return ""}};
+const kind=u=>{let x;try{x=new URL(u,location.href)}catch(e){return "int"}
+ if(x.origin===location.origin)return "int";if(!/^https?:$/.test(x.protocol))return "int";
+ const h=x.hostname.replace(/^www\./,"");
+ if(EMBED.some(d=>h===d||h.endsWith("."+d)))return "emb";
+ if(h==="rhb.ch"||h.endsWith(".rhb.ch"))return /nostalgi/i.test(x.pathname)?"emb":"rhb";
+ if(h==="wa.me")return "tab";
+ return "ext"};
+const ov=document.getElementById("ov"),ovf=document.getElementById("ovf"),dlgw=document.getElementById("dlgw");
+let lastF=null,ovHist=false;
+const openOv=u=>{lastF=document.activeElement;ovf.src=u;ovf.title=hostOf(u);document.getElementById("ovdom").textContent=hostOf(u);document.getElementById("ovnew").href=u;ov.hidden=false;document.body.style.overflow="hidden";history.pushState({ov:1},"");ovHist=true;document.getElementById("ovclose").focus()};
+const closeOv=fromPop=>{if(ov.hidden)return;ov.hidden=true;ovf.src="about:blank";document.body.style.overflow="";if(ovHist&&!fromPop){ovHist=false;history.back()}ovHist=false;lastF&&lastF.focus()};
+document.getElementById("ovclose").onclick=()=>closeOv(false);
+window.addEventListener("popstate",()=>{if(!ov.hidden)closeOv(true)});
+let noask=false;try{noask=sessionStorage.getItem("noask")==="1"}catch(e){}
+const openDlg=u=>{lastF=document.activeElement;document.getElementById("dlgx").innerHTML=L("leave_x",{d:'<span class="dom2">'+esc(hostOf(u))+'</span>'});document.getElementById("dlggo").href=u;document.getElementById("noask").checked=false;dlgw.hidden=false;document.getElementById("dlggo").focus()};
+const closeDlg=()=>{dlgw.hidden=true;lastF&&lastF.focus()};
+document.getElementById("dlgno").onclick=closeDlg;
+dlgw.addEventListener("click",e=>{if(e.target===dlgw)closeDlg()});
+document.getElementById("dlggo").addEventListener("click",()=>{if(document.getElementById("noask").checked){noask=true;try{sessionStorage.setItem("noask","1")}catch(e){}}setTimeout(closeDlg,0)});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){if(!dlgw.hidden)closeDlg();else if(!ov.hidden)closeOv(false)}});
+document.addEventListener("click",e=>{const a=e.target.closest("a[href]");if(!a||a.closest("#ov,#dlgw")||e.defaultPrevented)return;if(e.ctrlKey||e.metaKey||e.shiftKey||e.button)return;
+ const k=kind(a.href);if(k==="int")return;e.preventDefault();
+ if(k==="emb")openOv(a.href);else if(k==="ext"&&!noask)openDlg(a.href);else window.open(a.href,"_blank","noopener")},false);
 const statics=()=>{document.documentElement.lang=LG==="de"?"de-CH":LG;
  document.querySelectorAll("[data-i]").forEach(e=>e.textContent=L(e.dataset.i));
  document.getElementById("heroimg").alt=L("alt");document.getElementById("logo").alt=L("logo");
