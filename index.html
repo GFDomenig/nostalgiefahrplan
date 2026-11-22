@@ -130,6 +130,10 @@ label.hrchk{border:1px solid var(--red);border-radius:6px;padding:0 10px;color:v
 .op.hro{border:2px solid var(--red)}
 #map{height:min(72vh,640px);border-radius:10px;border:1px solid var(--line);margin-top:16px;z-index:0}
 .maplegend{display:flex;flex-wrap:wrap;gap:16px;margin-top:10px;font-size:14px;color:var(--mut)}
+.mcnt{background:#1b1d1f;color:#fff;border:2px solid #fff;border-radius:50%;font:700 13px/22px Barlow,sans-serif;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,.4)}.mcnt.hr{background:#d0021b}
+.mpl{list-style:none;padding:0;margin:6px 0 2px}.mpl li{padding:3px 0;border-top:1px solid #eee}.mpl li span{display:block;font-size:13px;color:#666}
+.m30{list-style:none;padding:0;margin:8px 0 0}.m30 li{display:grid;grid-template-columns:150px 1fr;gap:2px 14px;padding:9px 0;border-top:1px solid var(--line)}.m30 .d{font-weight:600;grid-row:span 2}.m30 .o{font-size:14px;color:var(--mut)}
+@media(max-width:600px){.m30 li{grid-template-columns:1fr}.m30 .d{grid-row:auto}}
 .maplegend i{display:inline-block;width:22px;height:4px;border-radius:2px;vertical-align:middle;margin-right:6px}
 .leaflet-popup-content{font:15px/1.4 Barlow,sans-serif;margin:12px 14px}
 .leaflet-popup-content b{font:600 18px/1.15 "Barlow Condensed",sans-serif;display:block;margin-bottom:4px}
@@ -381,16 +385,28 @@ const vDetail=id=>{const i=TID[id];if(i===undefined)return `<p class="empty">${L
  <p class="note">${L("src",{s:t.s==="d"?L("src_d"):L("src_v")})} <a href="${o.w}">${esc(o.n)}</a>.</p>
  <h3 style="margin-top:28px">${L("about")}</h3><p>${esc(LT(o,"p"))}</p></div>`};
 let MAP=null;
-const vMap=()=>`<div id="map" role="img" aria-label="${esc(L("map_aria"))}"></div><div class="maplegend"><span><i style="background:#d0021b"></i>${L("map_hr")}</span><span><i style="background:#1b1d1f"></i>${L("map_other")}</span><span>${L("map_note")}</span></div>`;
+const M30=()=>{const e=pd(TODAY);e.setDate(e.getDate()+30);const E=e.getFullYear()+'-'+String(e.getMonth()+1).padStart(2,'0')+'-'+String(e.getDate()).padStart(2,'0');
+ return OCC.filter(oc=>oc.end>=TODAY&&oc.day<=E&&match(T[oc.i]))};
+const dLab=oc=>{const s=oc.day<TODAY?TODAY:oc.day,d=pd(s);return WD()[d.getDay()]+" "+fd(s)+(oc.end>oc.day?" – "+fd(oc.end):"")};
+const vMap=()=>{const m=M30();return `<p class="note" style="margin:16px 0 0">${L("map_30",{n:m.length})}</p><div id="map" role="img" aria-label="${esc(L("map_aria"))}"></div><div class="maplegend"><span><i style="background:#d0021b"></i>${L("map_hr")}</span><span><i style="background:#1b1d1f"></i>${L("map_other")}</span><span><i style="background:#b9bcbf"></i>${L("map_none")}</span><span>${L("map_note")}</span></div>
+ <h3 style="margin-top:28px">${L("map_list")}</h3>${m.length?`<ul class="m30">${m.map(oc=>{const t=T[oc.i];return `<li><span class="d">${dLab(oc)}</span><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a><span class="o">${esc(OPS[t.o].n)}${t.h?" · "+esc(t.h):""}</span></li>`}).join("")}</ul>`:`<p class="empty">${L("map_empty")}</p>`}`};
 const drawMap=()=>{if(!window.L){document.getElementById("map").innerHTML=`<p class="empty" style="padding:20px">${L("map_fail")}</p>`;return}
  MAP=window.L.map("map",{scrollWheelZoom:false}).setView([46.8,8.25],8);
  const sw=window.L.tileLayer("https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-grau/default/current/3857/{z}/{x}/{y}.jpeg",{maxZoom:17,attribution:'© <a href="https://www.swisstopo.admin.ch">swisstopo</a>'}).addTo(MAP);
  let fb=0;sw.on("tileerror",()=>{if(fb++)return;MAP.removeLayer(sw);window.L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:17,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(MAP)});
- const all=[];Object.entries(OPS).forEach(([k,o])=>{if(!o.geo)return;if(st.hr&&!o.hr)return;const c=o.hr?"#d0021b":"#1b1d1f",n=upN(k);
-  const pop=`<b>${esc(o.n)}</b>${n?L("up_n",{n}):L("follow")}<br>${n?`<a class="btn p" href="#liste" data-op="${k}">${L("show")}</a> `:""}<a href="${o.w}">${L("website")}</a>`;
-  if(o.geo.length>1)window.L.polyline(o.geo,{color:c,weight:o.hr?6:4,opacity:.9}).bindPopup(pop).addTo(MAP);
-  window.L.circleMarker(o.geo[0],{radius:o.hr?8:6,color:"#fff",weight:2,fillColor:c,fillOpacity:1}).bindPopup(pop).bindTooltip(o.n).addTo(MAP);all.push(...o.geo)});
- if(all.length)MAP.fitBounds(all,{padding:[24,24]})};
+ const m=M30(),act=[],idle=[];
+ Object.entries(OPS).forEach(([k,o])=>{if(!o.geo)return;if(st.hr&&!o.hr)return;if(st.op&&k!==st.op)return;const f=m.filter(oc=>T[oc.i].o===k);(f.length?act:idle).push([k,o,f])});
+ idle.forEach(([k,o])=>{const pop=`<b>${esc(o.n)}</b>${L("map_none_p")}<br><a href="${o.w}">${L("website")}</a>`;
+  if(o.geo.length>1)window.L.polyline(o.geo,{color:"#9a9ea2",weight:3,opacity:.55,dashArray:"4 6"}).bindPopup(pop).addTo(MAP);
+  window.L.circleMarker(o.geo[0],{radius:5,color:"#fff",weight:1.5,fillColor:"#b9bcbf",fillOpacity:1}).bindPopup(pop).bindTooltip(o.n).addTo(MAP)});
+ const all=[];act.forEach(([k,o,f])=>{const c=o.hr?"#d0021b":"#1b1d1f",MX=8;
+  const li=f.slice(0,MX).map(oc=>{const t=T[oc.i];return `<li><span>${dLab(oc)}</span><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a></li>`}).join("");
+  const pop=`<b>${esc(o.n)}</b>${L("map_30p",{n:f.length})}<ul class="mpl">${li}</ul>${f.length>MX?`<a class="btn p" href="#liste" data-op="${k}">${L("map_more",{n:f.length-MX})}</a> `:""}<a href="${o.w}">${L("website")}</a>`;
+  if(o.geo.length>1)window.L.polyline(o.geo,{color:c,weight:o.hr?6:4,opacity:.9}).bindPopup(pop,{maxWidth:320}).addTo(MAP);
+  const ic=window.L.divIcon({className:"mcnt"+(o.hr?" hr":""),html:String(f.length),iconSize:[26,26],iconAnchor:[13,13]});
+  window.L.marker(o.geo[0],{icon:ic,title:o.n}).bindPopup(pop,{maxWidth:320}).bindTooltip(o.n).addTo(MAP);all.push(...o.geo)});
+ if(!all.length)idle.forEach(([k,o])=>all.push(...o.geo));
+ if(all.length)MAP.fitBounds(all,{padding:[30,30],maxZoom:11})};
 const board=()=>{const seen=new Set(),up=OCC.filter(oc=>oc.end>=TODAY).filter(oc=>{if(seen.has(oc.i))return false;seen.add(oc.i);return true}).slice(0,5);
  document.getElementById("board").innerHTML=up.map(oc=>{const t=T[oc.i],d=pd(oc.day),mn=MO()[d.getMonth()];return `<div class="dep"><div class="d">${d.getDate()}${LG==="de"?".":""} ${["de","en"].includes(LG)?mn.charAt(0).toUpperCase()+mn.slice(1,3):mn.slice(0,3)}.<small>${WD()[d.getDay()]}${t.h?" · "+t.h:""}</small></div><div><div class="t"><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a></div><div class="o">${esc(OPS[t.o].n)} · ${esc(LT(t,"r"))}</div></div><div class="act2">${t.st==="voll"?`<span class="full">${L("full")}</span>`:`<a class="go" href="${t.b}">${L("book_s")}</a>`}</div></div>`}).join("")};
 const stats=()=>{const up=OCC.filter(oc=>oc.end>=TODAY);document.getElementById("stats").innerHTML=`<div class="stat"><b>${up.length}</b><span>${L("st_up")}</span></div><div class="stat"><b>${Object.keys(OPS).length}</b><span>${L("st_ops")}</span></div><div class="stat"><b>${new Set(up.filter(oc=>oc.day<"2027-01-01").map(oc=>oc.i)).size}</b><span>${L("st_adv")}</span></div>`};
