@@ -68,30 +68,6 @@
   },
   {
    "q": [
-    "igzl"
-   ],
-   "d": "2026-11-18",
-   "t": "Zügenstrasse über den Winter gesperrt",
-   "x": "Seit dem 18. November ist die alte Zügenstrasse wegen Lawinen- und Steinschlaggefahr geschlossen; sie öffnet erst im Frühjahr wieder.",
-   "u": "https://www.igzl.ch/newsdetail/70.html",
-   "s": "v",
-   "i18n": {
-    "fr": {
-     "t": "Route de la Zügen fermée pour l’hiver",
-     "x": "Depuis le 18 novembre, l’ancienne route de la Zügen est fermée en raison du risque d’avalanches et de chutes de pierres ; elle rouvrira au printemps."
-    },
-    "it": {
-     "t": "Strada della Zügen chiusa per l’inverno",
-     "x": "Dal 18 novembre la vecchia strada della Zügen è chiusa per pericolo di valanghe e caduta massi; riaprirà in primavera."
-    },
-    "en": {
-     "t": "Zügen road closed for the winter",
-     "x": "Since 18 November the old Zügen road has been closed due to avalanche and rockfall risk; it reopens in spring."
-    }
-   }
-  },
-  {
-   "q": [
     "bma"
    ],
    "d": "2026-11-23",
@@ -117,6 +93,78 @@
   },
   {
    "q": [
+    "igzl"
+   ],
+   "d": "2026-11-18",
+   "t": "Zügenstrasse über den Winter gesperrt",
+   "x": "Seit dem 18. November ist die alte Zügenstrasse wegen Lawinen- und Steinschlaggefahr geschlossen; sie öffnet erst im Frühjahr wieder.",
+   "u": "https://www.igzl.ch/newsdetail/70.html",
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Route de la Zügen fermée pour l’hiver",
+     "x": "Depuis le 18 novembre, l’ancienne route de la Zügen est fermée en raison du risque d’avalanches et de chutes de pierres ; elle rouvrira au printemps."
+    },
+    "it": {
+     "t": "Strada della Zügen chiusa per l’inverno",
+     "x": "Dal 18 novembre la vecchia strada della Zügen è chiusa per pericolo di valanghe e caduta massi; riaprirà in primavera."
+    },
+    "en": {
+     "t": "Zügen road closed for the winter",
+     "x": "Since 18 November the old Zügen road has been closed due to avalanche and rockfall risk; it reopens in spring."
+    }
+   }
+  },
+  {
+   "q": [
+    "vps"
+   ],
+   "t": "Rollout des Salonwagens As 1141",
+   "x": "Der restaurierte Salonwagen As 1141 ist im Einsatz; er ist dem Andenken an Willy Hochstrasser gewidmet.",
+   "u": "https://www.historic-rhb.ch/details/68.html",
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Présentation de la voiture-salon As 1141",
+     "x": "La voiture-salon As 1141 restaurée est en service ; elle est dédiée à la mémoire de Willy Hochstrasser."
+    },
+    "it": {
+     "t": "Presentazione della carrozza salone As 1141",
+     "x": "La carrozza salone As 1141 restaurata è in servizio; è dedicata alla memoria di Willy Hochstrasser."
+    },
+    "en": {
+     "t": "Roll-out of saloon car As 1141",
+     "x": "The restored saloon car As 1141 is in service; it is dedicated to the memory of Willy Hochstrasser."
+    }
+   },
+   "d": "2026-10-29"
+  },
+  {
+   "q": [
+    "igzl"
+   ],
+   "t": "Winterpause in der Zügenschlucht",
+   "x": "Nostalgiezug und Zügabeizli ruhen bis zum Frühjahr 2027.",
+   "u": "https://www.igzl.ch/newsdetail/67.html",
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Pause hivernale dans les gorges de la Zügen",
+     "x": "Le train nostalgique et le Zügabeizli font relâche jusqu’au printemps 2027."
+    },
+    "it": {
+     "t": "Pausa invernale nella gola della Zügen",
+     "x": "Il treno nostalgico e lo Zügabeizli si fermano fino alla primavera 2027."
+    },
+    "en": {
+     "t": "Winter break in the Zügen gorge",
+     "x": "The nostalgia train and the Zügabeizli are resting until spring 2027."
+    }
+   },
+   "d": "2026-10-27"
+  },
+  {
+   "q": [
     "gc"
    ],
    "d": "2026-10-10",
@@ -138,6 +186,30 @@
      "x": "Grün & Chrom’s locomotive has been cosmetically refreshed and now stands outside the Swiss Museum of Transport in Lucerne."
     }
    }
+  },
+  {
+   "q": [
+    "hrhb"
+   ],
+   "t": "Buch: Filisur kämpft für Albula- und Davoserlinie",
+   "x": "Stefan Barandun beschreibt, wie sich die Gemeinde Filisur für den Bau der beiden RhB-Linien einsetzte.",
+   "u": "https://www.historic-rhb.ch/details/66.html",
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Livre : Filisur se bat pour les lignes de l’Albula et de Davos",
+     "x": "Stefan Barandun décrit comment la commune de Filisur s’est engagée pour la construction des deux lignes des RhB."
+    },
+    "it": {
+     "t": "Libro: Filisur lotta per le linee dell’Albula e di Davos",
+     "x": "Stefan Barandun descrive come il comune di Filisur si è impegnato per la costruzione delle due linee della Ferrovia retica."
+    },
+    "en": {
+     "t": "Book: Filisur fights for the Albula and Davos lines",
+     "x": "Stefan Barandun describes how the municipality of Filisur campaigned for the construction of the two RhB lines."
+    }
+   },
+   "d": "2026-10-02"
   },
   {
    "q": [
@@ -168,7 +240,7 @@
    "q": [
     "bma"
    ],
-   "d": "2026-09-12",
+   "d": "2026-09-08",
    "t": "Sonderausstellung «Bauen im UNESCO Welterbe»",
    "x": "Die neue Ausstellung zeigt, wie Bauvorhaben mit dem Schutz des Welterbes abgestimmt werden, mit Schwerpunkt auf der RhB in der Landschaft Albula/Bernina.",
    "u": "https://www.historic-rhb.ch/details/62.html",
@@ -214,25 +286,97 @@
   },
   {
    "q": [
-    "hrhb"
+    "igzl"
    ],
-   "d": "2026-01-01",
-   "t": "Bahnhof Bonaduz wechselt zu Historic RhB",
-   "x": "Seit Anfang 2026 betreibt der Dachverband den Ticket-Corner im Bahnhof Bonaduz.",
-   "u": "https://www.historic-rhb.ch/details/50.html",
+   "d": "2026-08-11",
+   "t": "Neue Aussichtsplattform am Wiesnerviadukt",
+   "x": "Die Gemeinde Davos hat zusammen mit Landwasserwelt und IGZL eine Plattform rund zehn Gehminuten vom Bahnhof Davos Wiesen gebaut, die Richard Coray gewidmet ist. Bilder und Texte am Geländer erzählen vom Bau des Viadukts.",
+   "u": "https://www.igzl.ch/newsdetail/63.html",
    "s": "v",
    "i18n": {
     "fr": {
-     "t": "La gare de Bonaduz passe à Historic RhB",
-     "x": "Depuis début 2026, l’association faîtière exploite le guichet de billets de la gare de Bonaduz."
+     "t": "Nouvelle plateforme panoramique au viaduc de Wiesen",
+     "x": "La commune de Davos a construit avec Landwasserwelt et l’IGZL une plateforme dédiée à Richard Coray, à une dizaine de minutes à pied de la gare de Davos Wiesen. Images et textes sur la rambarde racontent la construction du viaduc."
     },
     "it": {
-     "t": "La stazione di Bonaduz passa a Historic RhB",
-     "x": "Dall’inizio del 2026 l’associazione mantello gestisce lo sportello biglietti della stazione di Bonaduz."
+     "t": "Nuova piattaforma panoramica al viadotto di Wiesen",
+     "x": "Il Comune di Davos, con Landwasserwelt e l’IGZL, ha costruito una piattaforma dedicata a Richard Coray a circa dieci minuti a piedi dalla stazione di Davos Wiesen. Immagini e testi sulla ringhiera raccontano la costruzione del viadotto."
     },
     "en": {
-     "t": "Bonaduz station moves to Historic RhB",
-     "x": "Since the start of 2026 the umbrella association has been running the ticket corner at Bonaduz station."
+     "t": "New viewing platform at the Wiesen viaduct",
+     "x": "The municipality of Davos, with Landwasserwelt and IGZL, has built a platform dedicated to Richard Coray about ten minutes’ walk from Davos Wiesen station. Pictures and texts on the railing tell the story of the viaduct’s construction."
+    }
+   }
+  },
+  {
+   "q": [
+    "igzl"
+   ],
+   "d": "2026-06-29",
+   "t": "Führungen am Wiesnerviadukt",
+   "x": "Von Juli bis September führte die IGZL jeden Donnerstag gratis und ohne Anmeldung ab Bahnhof Wiesen zum Viadukt. Gruppen können Führungen pauschal buchen.",
+   "u": "https://www.igzl.ch/newsdetail/61.html",
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Visites guidées au viaduc de Wiesen",
+     "x": "De juillet à septembre, l’IGZL a guidé chaque jeudi gratuitement et sans inscription depuis la gare de Wiesen jusqu’au viaduc. Les groupes peuvent réserver une visite à forfait."
+    },
+    "it": {
+     "t": "Visite guidate al viadotto di Wiesen",
+     "x": "Da luglio a settembre l’IGZL ha guidato ogni giovedì, gratis e senza iscrizione, dalla stazione di Wiesen al viadotto. I gruppi possono prenotare visite a forfait."
+    },
+    "en": {
+     "t": "Guided tours at the Wiesen viaduct",
+     "x": "From July to September IGZL led free tours every Thursday from Wiesen station to the viaduct, no registration needed. Groups can book tours at a flat rate."
+    }
+   }
+  },
+  {
+   "q": [
+    "bma"
+   ],
+   "d": "2026-06-25",
+   "t": "Sonderausstellung «Partnerbahnen der Rhätischen Bahn»",
+   "x": "Das Bahnmuseum Albula stellt die Partnerbahnen der RhB in Japan, Österreich und Taiwan vor. Ergänzt wird die Schau durch Bilder von RhB-Fotografen.",
+   "u": "https://www.historic-rhb.ch/details/65.html",
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Exposition temporaire «Chemins de fer partenaires des RhB»",
+     "x": "Le musée ferroviaire de l’Albula présente les chemins de fer partenaires des RhB au Japon, en Autriche et à Taïwan. L’exposition est complétée par des images de photographes des RhB."
+    },
+    "it": {
+     "t": "Mostra temporanea «Ferrovie partner della Ferrovia retica»",
+     "x": "Il Museo ferroviario dell’Albula presenta le ferrovie partner della FR in Giappone, Austria e Taiwan. La mostra è completata da immagini di fotografi della FR."
+    },
+    "en": {
+     "t": "Special exhibition «Partner railways of the Rhaetian Railway»",
+     "x": "The Albula Railway Museum presents the RhB’s partner railways in Japan, Austria and Taiwan. The show is complemented by pictures from RhB photographers."
+    }
+   }
+  },
+  {
+   "q": [
+    "hrhb"
+   ],
+   "d": "2026-06-13",
+   "t": "UNESCO-Welterbetage mit Bahnfestival",
+   "x": "Am 13. und 14. Juni feierten Bergün und Filisur mit historischen Zügen, Museumsführungen, Modellbahnen und einem Nostalgie-Postauto.",
+   "u": "https://www.historic-rhb.ch/details/58.html",
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Journées du patrimoine mondial UNESCO avec festival ferroviaire",
+     "x": "Les 13 et 14 juin, Bergün et Filisur ont fait la fête avec des trains historiques, des visites du musée, des trains miniatures et un car postal nostalgique."
+    },
+    "it": {
+     "t": "Giornate del patrimonio mondiale UNESCO con festival ferroviario",
+     "x": "Il 13 e 14 giugno Bergün e Filisur hanno festeggiato con treni storici, visite al museo, modellini ferroviari e un autopostale d’epoca."
+    },
+    "en": {
+     "t": "UNESCO World Heritage days with railway festival",
+     "x": "On 13 and 14 June Bergün and Filisur celebrated with historic trains, museum tours, model railways and a vintage PostBus."
     }
    }
   },
@@ -263,47 +407,73 @@
   },
   {
    "q": [
-    "igzl"
+    "hrhb"
    ],
-   "t": "Winterpause in der Zügenschlucht",
-   "x": "Nostalgiezug und Zügabeizli ruhen bis zum Frühjahr 2027.",
-   "u": "https://www.igzl.ch/newsdetail/67.html",
+   "d": "2026-01-01",
+   "t": "Bahnhof Bonaduz wechselt zu Historic RhB",
+   "x": "Seit Anfang 2026 betreibt der Dachverband den Ticket-Corner im Bahnhof Bonaduz.",
+   "u": "https://www.historic-rhb.ch/details/50.html",
    "s": "v",
    "i18n": {
     "fr": {
-     "t": "Pause hivernale dans les gorges de la Zügen",
-     "x": "Le train nostalgique et le Zügabeizli font relâche jusqu’au printemps 2027."
+     "t": "La gare de Bonaduz passe à Historic RhB",
+     "x": "Depuis début 2026, l’association faîtière exploite le guichet de billets de la gare de Bonaduz."
     },
     "it": {
-     "t": "Pausa invernale nella gola della Zügen",
-     "x": "Il treno nostalgico e lo Zügabeizli si fermano fino alla primavera 2027."
+     "t": "La stazione di Bonaduz passa a Historic RhB",
+     "x": "Dall’inizio del 2026 l’associazione mantello gestisce lo sportello biglietti della stazione di Bonaduz."
     },
     "en": {
-     "t": "Winter break in the Zügen gorge",
-     "x": "The nostalgia train and the Zügabeizli are resting until spring 2027."
+     "t": "Bonaduz station moves to Historic RhB",
+     "x": "Since the start of 2026 the umbrella association has been running the ticket corner at Bonaduz station."
     }
    }
   },
   {
    "q": [
-    "vps"
+    "hrhb"
    ],
-   "t": "Rollout des Salonwagens As 1141",
-   "x": "Der restaurierte Salonwagen As 1141 ist im Einsatz; er ist dem Andenken an Willy Hochstrasser gewidmet.",
-   "u": "https://www.historic-rhb.ch/details/68.html",
+   "d": "2025-12-30",
+   "t": "Frankreich-Rundreise zu ehemaligem RhB-Rollmaterial",
+   "x": "Vom 23. April bis 3. Mai 2026 führte eine Reise zu sechs französischen Museumsbahnen, die frühere RhB-Fahrzeuge betreiben. Anlass war der Auftritt der einstigen G 3/4 14 «Madlaina» an einem Dampffestival an der Somme-Bucht.",
+   "u": "https://www.historic-rhb.ch/details/51.html",
    "s": "v",
    "i18n": {
     "fr": {
-     "t": "Présentation de la voiture-salon As 1141",
-     "x": "La voiture-salon As 1141 restaurée est en service ; elle est dédiée à la mémoire de Willy Hochstrasser."
+     "t": "Tour de France vers l’ancien matériel roulant RhB",
+     "x": "Du 23 avril au 3 mai 2026, un voyage a mené à six chemins de fer-musées français exploitant d’anciens véhicules RhB. L’occasion : la participation de l’ex-G 3/4 14 «Madlaina» à un festival vapeur en baie de Somme."
     },
     "it": {
-     "t": "Presentazione della carrozza salone As 1141",
-     "x": "La carrozza salone As 1141 restaurata è in servizio; è dedicata alla memoria di Willy Hochstrasser."
+     "t": "Giro in Francia verso l’ex materiale rotabile FR",
+     "x": "Dal 23 aprile al 3 maggio 2026 un viaggio ha toccato sei ferrovie museo francesi che impiegano ex veicoli della FR. L’occasione era la presenza dell’ex G 3/4 14 «Madlaina» a un festival del vapore nella baia della Somme."
     },
     "en": {
-     "t": "Roll-out of saloon car As 1141",
-     "x": "The restored saloon car As 1141 is in service; it is dedicated to the memory of Willy Hochstrasser."
+     "t": "France tour to former RhB rolling stock",
+     "x": "From 23 April to 3 May 2026 a tour visited six French heritage railways running former RhB vehicles. The occasion was the appearance of the former G 3/4 14 «Madlaina» at a steam festival on the Bay of the Somme."
+    }
+   }
+  },
+  {
+   "q": [
+    "gc"
+   ],
+   "d": "2025-12-12",
+   "t": "Sonderfahrt mit modernen Nostalgikern",
+   "x": "Eine Sonderfahrt führte vom Rheintal bis an den Anfang des Puschlavs.",
+   "u": "https://www.gruen-und-chrom.ch",
+   "s": "v",
+   "i18n": {
+    "fr": {
+     "t": "Course spéciale avec des nostalgiques modernes",
+     "x": "Une course spéciale a mené de la vallée du Rhin jusqu’à l’entrée du val Poschiavo."
+    },
+    "it": {
+     "t": "Corsa speciale con nostalgici moderni",
+     "x": "Una corsa speciale ha portato dalla valle del Reno fino all’inizio della Valposchiavo."
+    },
+    "en": {
+     "t": "Special trip with modern classics",
+     "x": "A special trip ran from the Rhine valley to the start of the Val Poschiavo."
     }
    }
   },
@@ -327,29 +497,6 @@
     "en": {
      "t": "C 114 «La Bucunada»: restoration progressing",
      "x": "Club 1889 is working with the RhB to restore this historic vehicle."
-    }
-   }
-  },
-  {
-   "q": [
-    "hrhb"
-   ],
-   "t": "Buch: Filisur kämpft für Albula- und Davoserlinie",
-   "x": "Stefan Barandun beschreibt, wie sich die Gemeinde Filisur für den Bau der beiden RhB-Linien einsetzte.",
-   "u": "https://www.historic-rhb.ch/details/66.html",
-   "s": "v",
-   "i18n": {
-    "fr": {
-     "t": "Livre : Filisur se bat pour les lignes de l’Albula et de Davos",
-     "x": "Stefan Barandun décrit comment la commune de Filisur s’est engagée pour la construction des deux lignes des RhB."
-    },
-    "it": {
-     "t": "Libro: Filisur lotta per le linee dell’Albula e di Davos",
-     "x": "Stefan Barandun descrive come il comune di Filisur si è impegnato per la costruzione delle due linee della Ferrovia retica."
-    },
-    "en": {
-     "t": "Book: Filisur fights for the Albula and Davos lines",
-     "x": "Stefan Barandun describes how the municipality of Filisur campaigned for the construction of the two RhB lines."
     }
    }
   }
