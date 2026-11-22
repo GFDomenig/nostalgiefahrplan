@@ -1,0 +1,166 @@
+{
+ "stand": "2026-11-22",
+ "quellen": {
+  "stiftung": {
+   "n": "Stiftung Bahnkultur RhB",
+   "w": "https://www.bahnkultur-rhb.ch"
+  },
+  "hrhb": {
+   "n": "Historic RhB (Dachverband)",
+   "w": "https://www.historic-rhb.ch/news.html"
+  },
+  "club1889": {
+   "n": "Club 1889",
+   "w": "https://www.club1889.ch"
+  },
+  "abc": {
+   "n": "Albula-Bahn-Club",
+   "w": "https://www.albula-bahn-club.ch"
+  },
+  "gc": {
+   "n": "Stiftung Grün & Chrom",
+   "w": "https://www.gruen-und-chrom.ch"
+  },
+  "dfrhb": {
+   "n": "Verein Dampffreunde der RhB",
+   "w": "https://www.dampfvereinrhb.ch"
+  },
+  "igzl": {
+   "n": "IG Zügen-Landwasser",
+   "w": "https://www.igzl.ch/news.html"
+  },
+  "vps": {
+   "n": "Verein Pro Salonwagen RhB",
+   "w": "https://www.verein-pro-salonwagen.ch"
+  },
+  "bma": {
+   "n": "Bahnmuseum Albula",
+   "w": "https://www.bahnmuseum-albula.ch"
+  },
+  "fds": {
+   "n": "Freunde der Schmalspurbahnen",
+   "w": "https://schmalspur.ch"
+  }
+ },
+ "news": [
+  {
+   "q": [
+    "igzl"
+   ],
+   "d": "2026-11-18",
+   "t": "Zügenstrasse über den Winter gesperrt",
+   "x": "Seit dem 18. November ist die alte Zügenstrasse wegen Lawinen- und Steinschlaggefahr geschlossen; sie öffnet erst im Frühjahr wieder.",
+   "u": "https://www.igzl.ch/newsdetail/70.html",
+   "s": "v"
+  },
+  {
+   "q": [
+    "bma"
+   ],
+   "d": "2026-11-23",
+   "dl": "23.11.–10.12.",
+   "t": "Betriebsferien im Bahnmuseum Albula",
+   "x": "Das Museum in Bergün bleibt vom 23. November bis 10. Dezember 2026 geschlossen; danach gelten wieder die normalen Öffnungszeiten.",
+   "u": "https://www.bahnmuseum-albula.ch",
+   "s": "d"
+  },
+  {
+   "q": [
+    "gc"
+   ],
+   "d": "2026-10-10",
+   "t": "Ge 6/6 II 702 «Curia» vor dem Verkehrshaus",
+   "x": "Die Lok der Stiftung wurde optisch aufgefrischt und steht nun vor dem Verkehrshaus der Schweiz in Luzern.",
+   "u": "https://www.gruen-und-chrom.ch",
+   "s": "v"
+  },
+  {
+   "q": [
+    "club1889",
+    "dfrhb"
+   ],
+   "d": "2026-09-19",
+   "t": "Dampflok Nr. 1 «Rhætia» ist zurück",
+   "x": "Die älteste RhB-Lok von 1889 wurde am 19./20. September in Schiers mit einer eigens komponierten Operette eingeweiht. Finanziert hat die Restaurierung eine Projektgruppe aus Club 1889 und Dampffreunden unter dem Dach von Historic RhB.",
+   "u": "https://www.historic-rhb.ch/details/53.html",
+   "s": "v"
+  },
+  {
+   "q": [
+    "bma"
+   ],
+   "d": "2026-09-12",
+   "t": "Sonderausstellung «Bauen im UNESCO Welterbe»",
+   "x": "Die neue Ausstellung zeigt, wie Bauvorhaben mit dem Schutz des Welterbes abgestimmt werden, mit Schwerpunkt auf der RhB in der Landschaft Albula/Bernina.",
+   "u": "https://www.historic-rhb.ch/details/62.html",
+   "s": "v"
+  },
+  {
+   "q": [
+    "gc"
+   ],
+   "d": "2026-08-31",
+   "t": "Rückblick auf die Graubünden-Rundreise",
+   "x": "Die Stiftung blickt auf ihre Rundreise über das RhB-Netz zurück, die sie zusammen mit den Dampffreunden und der Modellbahnzeitschrift LOKI durchgeführt hat.",
+   "u": "https://www.gruen-und-chrom.ch",
+   "s": "v"
+  },
+  {
+   "q": [
+    "hrhb"
+   ],
+   "d": "2026-01-01",
+   "t": "Bahnhof Bonaduz wechselt zu Historic RhB",
+   "x": "Seit Anfang 2026 betreibt der Dachverband den Ticket-Corner im Bahnhof Bonaduz.",
+   "u": "https://www.historic-rhb.ch/details/50.html",
+   "s": "v"
+  },
+  {
+   "q": [
+    "fds"
+   ],
+   "d": "2026-01-17",
+   "dl": "17./18.1.2026",
+   "t": "Workshop Modulunterhalt in Thusis",
+   "x": "Der Verein trifft sich zur Wartung seiner Modulanlagen; das Jahresprogramm 2026 ist online.",
+   "u": "https://schmalspur.ch/jahresprogramm-2026/",
+   "s": "v"
+  },
+  {
+   "q": [
+    "igzl"
+   ],
+   "t": "Winterpause in der Zügenschlucht",
+   "x": "Nostalgiezug und Zügabeizli ruhen bis zum Frühjahr 2027.",
+   "u": "https://www.igzl.ch/newsdetail/67.html",
+   "s": "v"
+  },
+  {
+   "q": [
+    "hrhb"
+   ],
+   "t": "Rollout des Salonwagens As 1141",
+   "x": "Der restaurierte Salonwagen As 1141 ist im Einsatz; er ist dem Andenken an Willy Hochstrasser gewidmet.",
+   "u": "https://www.historic-rhb.ch/details/68.html",
+   "s": "v"
+  },
+  {
+   "q": [
+    "club1889"
+   ],
+   "t": "C 114 «La Bucunada»: Restaurierung kommt voran",
+   "x": "Der Club 1889 arbeitet zusammen mit der RhB an der Aufarbeitung dieses historischen Fahrzeugs.",
+   "u": "https://www.historic-rhb.ch/details/c-114-la-bucunada.html",
+   "s": "v"
+  },
+  {
+   "q": [
+    "hrhb"
+   ],
+   "t": "Buch: Filisur kämpft für Albula- und Davoserlinie",
+   "x": "Stefan Barandun beschreibt, wie sich die Gemeinde Filisur für den Bau der beiden RhB-Linien einsetzte.",
+   "u": "https://www.historic-rhb.ch/details/66.html",
+   "s": "v"
+  }
+ ]
+}

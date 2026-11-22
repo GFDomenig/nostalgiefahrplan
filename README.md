@@ -25,16 +25,29 @@ Pilotbetrieb unter https://fahrplan.belimmo.ch (für Suchmaschinen gesperrt). Ge
   - `s` Quelle: `v` Veranstalter, `d` Drittquelle (Tourismusportal)
   - `st` Status: `voll` ausgebucht, `zug` Billette im Zug, `anm` Anmeldung nötig
 
+## Datenformat `data/news.json`
+
+- `stand`: Datum der letzten Prüfung
+- `quellen`: Kürzel → `n` Name, `w` Website bzw. News-Seite. `stiftung` = Stiftung Bahnkultur RhB (wird hervorgehoben)
+- `news`: Liste von Meldungen
+  - `q` Liste der Absender-Kürzel, `t` Titel, `x` Zusammenfassung in eigenen Worten (höchstens zwei Sätze), `u` Link zur Meldung
+  - `d` Datum (JJJJ-MM-TT, optional), `dl` abweichende Datumsanzeige (optional)
+  - `s` Quelle: `v` Absender selbst, `d` Drittquelle
+
+Eigene News der Stiftung: Eintrag mit `"q":["stiftung"]` ergänzen; er erscheint hervorgehoben im News-Bereich und auf der Startseite.
+
 ## Aktualisierung
 
 Wöchentlich prüft eine geplante Aufgabe die Websites der Veranstalter, passt `data/fahrten.json` an und eröffnet einen Pull Request. Nach Durchsicht und Merge ist die Änderung innert Minuten online.
 
-Regeln für Aktualisierungen:
+Regeln für Aktualisierungen (Fahrten und News):
 1. Nur Fahrten aufnehmen, deren Datum aus einer Quelle stammt; nichts aus Regelmässigkeiten hochrechnen.
 2. Angaben der Veranstalter-Website gehen vor Tourismusportalen. Widersprüche im Pull Request nennen.
 3. Beschreibungen in eigenen Worten, höchstens zwei Sätze.
 4. Vergangene Fahrten bleiben bis Ende des folgenden Jahres in der Datei (Rückblick).
 5. `stand` auf das Prüfdatum setzen.
+6. News: keine Texte oder Bilder übernehmen, nur eigene Zusammenfassung mit Link. Meldungen älter als 12 Monate entfernen. Bei Meldungen ohne Datum kein Datum erfinden.
+7. News der Stiftung (`stiftung`) nie automatisch erfassen oder ändern; sie kommen nur vom Stiftungsrat.
 
 ## Umzug auf bahnkultur-rhb.ch
 
