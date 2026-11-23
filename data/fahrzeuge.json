@@ -457,7 +457,10 @@
    "gr": "bb",
    "bem": "Zusammen mit ABe 4/4 I 30 «Kessler Zwillinge» genannt",
    "zu": "hrhb",
-   "mit": null
+   "mit": null,
+   "rel": [
+    "abe44-30"
+   ]
   },
   {
    "id": "abe44ii-46",

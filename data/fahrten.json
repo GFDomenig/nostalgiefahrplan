@@ -1961,7 +1961,7 @@
   {
    "id": "rhb-historischer-zug-davos-filisur-2027",
    "o": "rhb",
-   "t": "Historischer Zug Davos–Filisur, Saison 2027",
+   "t": "Landwasser Express Davos–Filisur, Saison 2027",
    "rg": [
     "2027-05-06",
     "2027-10-24"
@@ -1980,19 +1980,19 @@
    "st": "zug",
    "i18n": {
     "fr": {
-     "t": "Train historique Davos–Filisur, saison 2027",
+     "t": "Landwasser Express Davos–Filisur, saison 2027",
      "r": "Davos Platz–Wiesen–Filisur, retour de Filisur à 11h06 et 16h06",
      "x": "Voitures historiques sur les viaducs de Wiesen et du Landwasser, deux allers-retours par jour (départ de Davos 10h18 et 15h18). Billet normal valable ; Ge 4/4 I en remplacement du Crocodile.",
      "pr": "Billet normal, sans supplément"
     },
     "it": {
-     "t": "Treno storico Davos–Filisur, stagione 2027",
+     "t": "Landwasser Express Davos–Filisur, stagione 2027",
      "r": "Davos Platz–Wiesen–Filisur, ritorno da Filisur alle 11.06 e 16.06",
      "x": "Carrozze storiche sui viadotti di Wiesen e Landwasser, due corse di andata e ritorno al giorno (partenza Davos 10.18 e 15.18). Vale il biglietto normale; Ge 4/4 I al posto del Coccodrillo.",
      "pr": "Biglietto normale, senza supplemento"
     },
     "en": {
-     "t": "Historic train Davos–Filisur, 2027 season",
+     "t": "Landwasser Express Davos–Filisur, 2027 season",
      "r": "Davos Platz–Wiesen–Filisur, return from Filisur 11.06 and 16.06",
      "x": "Historic coaches over the Wiesen and Landwasser viaducts, two round trips a day (Davos dep. 10.18 and 15.18). Regular ticket valid; Ge 4/4 I standing in for the Crocodile.",
      "pr": "Regular ticket, no supplement"
@@ -2289,6 +2289,53 @@
      "t": "North Pole Express",
      "r": "Tree nursery park, Schinznach Dorf",
      "x": "Short ride through the illuminated nursery park to the greenhouse, where St Nicholas, alpacas, punch and a storyteller await. Departures every half hour in the afternoon, tickets in advance."
+    }
+   }
+  },
+  {
+   "id": "rhb-bernina-glaciers-2027",
+   "o": "rhb",
+   "t": "Bernina Glaciers",
+   "d": [
+    "2027-07-07",
+    "2027-07-08",
+    "2027-07-14",
+    "2027-07-15",
+    "2027-07-21",
+    "2027-07-22",
+    "2027-07-28",
+    "2027-07-29",
+    "2027-08-04",
+    "2027-08-05"
+   ],
+   "r": "St. Moritz–Poschiavo, zurück nach Pontresina",
+   "tr": "Elektro",
+   "th": [
+    "Bergstrecke"
+   ],
+   "x": "Historischer Sommerzug über den Berninapass, an zehn Tagen in der Hochsaison jeweils mittwochs und donnerstags; teilweise mit den Bernina-Triebwagen ABe 4/4 I 30 und 34, den «Kessler Zwillingen». Der Zug ist regulär finanziert, es gilt das normale Billett.",
+   "pr": "Normales Billett",
+   "b": "https://www.rhb.ch/de/nostalgiefahrten",
+   "s": "v",
+   "st": "zug",
+   "i18n": {
+    "fr": {
+     "t": "Bernina Glaciers",
+     "r": "Saint-Moritz–Poschiavo, retour à Pontresina",
+     "x": "Train historique d’été sur le col de la Bernina, dix jours en haute saison, chaque mercredi et jeudi ; en partie avec les automotrices de la Bernina ABe 4/4 I 30 et 34, les « jumelles Kessler ». Le train est financé régulièrement, le billet normal est valable.",
+     "pr": "Billet normal"
+    },
+    "it": {
+     "t": "Bernina Glaciers",
+     "r": "St. Moritz–Poschiavo, ritorno a Pontresina",
+     "x": "Treno storico estivo sul passo del Bernina, dieci giorni in alta stagione, ogni mercoledì e giovedì; in parte con le automotrici del Bernina ABe 4/4 I 30 e 34, le «gemelle Kessler». Il treno è finanziato regolarmente, vale il biglietto normale.",
+     "pr": "Biglietto normale"
+    },
+    "en": {
+     "t": "Bernina Glaciers",
+     "r": "St. Moritz–Poschiavo, returning to Pontresina",
+     "x": "Historic summer train over the Bernina Pass on ten days in high season, every Wednesday and Thursday; partly with the Bernina railcars ABe 4/4 I 30 and 34, the «Kessler twins». The train is regularly funded; ordinary tickets are valid.",
+     "pr": "Ordinary ticket"
     }
    }
   }
