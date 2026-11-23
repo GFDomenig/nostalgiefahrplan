@@ -460,7 +460,7 @@ const sch=v=>{const c=v.col||"#4a5157",m=/(\d)\/(\d)/.exec(v.nr)||[0,0,0],dr=+m[
   g+=k==="gep"?`<rect x="40" y="30" width="16" height="12" rx="2" fill="#dfe8ee"/><rect x="204" y="30" width="16" height="12" rx="2" fill="#dfe8ee"/><rect x="100" y="28" width="60" height="32" fill="rgba(0,0,0,.12)"/>`:win(22,238,salon?24:28,salon?14:16,8);g+=bog(50,2,8)+bog(210,2,8)}
  return `<svg viewBox="0 0 260 86" role="img" aria-label="${esc(L("kat")[k]||"")}"><rect x="0" y="80" width="260" height="3" fill="#8a8f94"/>${g}</svg>`};
 const pic=(v,big)=>v.img?`<img src="${v.img}-${big?1200:600}.jpg" srcset="${v.img}-600.jpg 600w, ${v.img}-1200.jpg 1200w" sizes="${big?"(max-width:720px) 100vw, 520px":"(max-width:520px) 100vw, 260px"}" alt="${esc(v.nr)}" loading="lazy">`:sch(v);
-const fzName=v=>v.n?`«${esc(v.n)}»`:"";
+const fzName=v=>v.n?`«${esc(LT(v,"n"))}»`:"";
 const fzCard=v=>`<a class="fzc" href="#fz-${v.id}"><div class="sch${v.img?" ph":""}">${pic(v)}${v.imgc?`<small class="cr">© ${esc(v.imgc)}</small>`:""}</div><b class="nr">${esc(v.nr)}</b><span>${[fzName(v),v.bj].filter(Boolean).join(" · ")||"&nbsp;"}</span></a>`;
 const vFz=()=>{const grp=["dampf","elok","tw","schnee","wagen"];return `<h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L("nav_fz")}</h2><p style="max-width:62ch">${L("fz_lede")}</p>`+
  grp.map(gk=>{const l=FZ.filter(v=>KG[v.kat]===gk);return l.length?`<h2 class="month">${L("kg")[gk]}</h2><div class="fzg">${l.map(fzCard).join("")}</div>`:""}).join("")+`<p class="note" style="margin-top:20px">${L("fz_note")}</p>`};
