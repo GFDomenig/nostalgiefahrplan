@@ -1342,6 +1342,39 @@
    "mit": null
   },
   {
+   "id": "b-2354",
+   "nr": "B 2354",
+   "n": "Einheitswagen I",
+   "kat": "wagen",
+   "bj": "1964",
+   "b": "rhb",
+   "st": "abg",
+   "col": "#2f6b3a",
+   "len": 18.42,
+   "gr": "wagen",
+   "p": "Zweitklasswagen der ersten Generation der RhB-Einheitswagen (Einheitswagen I) aus dem Jahr 1964, in der früheren grünen Farbgebung, mit Bereichen für Raucher und Nichtraucher. Der Wagen ist zurzeit abgestellt und für Historic RhB designiert. Zu gegebener Zeit ist seine Revision geplant; danach soll er als historisches Fahrzeug wieder in Betrieb genommen werden. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "n": "Voiture unifiée I",
+     "p": "Voiture de deuxième classe de la première génération des voitures unifiées des RhB (voiture unifiée I), datant de 1964, dans l’ancienne livrée verte, avec parties fumeurs et non-fumeurs. La voiture est actuellement garée et désignée pour Historic RhB. Sa révision est prévue en temps voulu ; elle doit ensuite être remise en service comme véhicule historique. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "n": "Carrozza unificata I",
+     "p": "Carrozza di seconda classe della prima generazione delle carrozze unificate RhB (carrozza unificata I), del 1964, nella vecchia livrea verde, con parti per fumatori e non fumatori. La carrozza è attualmente accantonata e designata per Historic RhB. A tempo debito è prevista la sua revisione; in seguito dovrà tornare in servizio come veicolo storico. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "n": "Standard coach I",
+     "p": "Second-class coach of the first generation of RhB standard coaches (Einheitswagen I) from 1964, in the former green livery, with smoking and non-smoking sections. The coach is currently stored and designated for Historic RhB. An overhaul is planned in due course, after which it is to return to service as a historic vehicle. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "B 2354"
+   ],
+   "zu": "hrhb",
+   "img": "img/fz/b-2354",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "b-2245",
    "nr": "B 2245",
    "n": "",
