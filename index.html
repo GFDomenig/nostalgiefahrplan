@@ -496,7 +496,7 @@ const vFz=()=>{const grp=["dampf","rhb","bb","schnee","wagen","dienst","gueter"]
  grp.map(gk=>{const l=FZ.filter(v=>[].concat(v.gr||KG[v.kat]).includes(gk)).map((v,i)=>[v,i]).sort((a,b)=>((+a[0].bj||9999)-(+b[0].bj||9999))||a[1]-b[1]).map(x=>x[0]);return l.length?`<h2 class="month" id="fzg-${gk}">${L("kg")[gk]}</h2><div class="fzg">${l.map(fzCard).join("")}</div>`:gk==="gueter"?`<h2 class="month">${L("kg")[gk]}</h2><p class="note">${L("fz_soon")}</p>`:""}).join("")+`<p class="note" style="margin-top:20px">${L("fz_note")}</p>`};
 const oLink=k=>OK[k]?`<a href="#org-${k}">${esc(OK[k].n)}</a>`:esc(k);
 const fzTrips=v=>{const ms=(v.m||[v.nr]);return T.filter(t=>HR(t.o)&&ms.some(m=>(t.t+" "+(t.x||"")).includes(m)))};
-const upList=ts=>{const r=ts.map(t=>({t,d:(t.rg?[t.rg[1]]:t.d).find(x=>x>=TODAY)?nextDay(t):null})).filter(o=>o.d).sort((a,b)=>a.d.localeCompare(b.d));
+const upList=(ts,n)=>{let r=ts.map(t=>({t,d:(t.rg?[t.rg[1]]:t.d).find(x=>x>=TODAY)?nextDay(t):null})).filter(o=>o.d).sort((a,b)=>a.d.localeCompare(b.d));if(n)r=r.slice(0,n);
  return r.length?`<ul class="olist">${r.map(({t,d})=>`<li><span>${WD()[pd(d<TODAY?TODAY:d).getDay()]} ${fd(d<TODAY?TODAY:d)}${pd(d).getFullYear()}</span><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a></li>`).join("")}</ul>`:""};
 const vFzD=id=>{const v=FZ.find(x=>x.id===id);if(!v)return `<p class="empty">${L("fz_gone")} <a href="#fahrzeuge">${L("fz_back")}</a></p>`;
  const tr=upList(fzTrips(v)),G=x=>[].concat(x.gr||KG[x.kat])[0];
@@ -519,17 +519,16 @@ const vUe=()=>`<h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L(
  <h2 class="month">${L("ue_members")}</h2><div class="orgg">${ORG.filter(o=>o.typ==="mitglied").map(orgTile).join("")}</div>
  <div class="orgbig" style="margin-top:28px">${ORG.filter(o=>o.typ==="rhb").map(orgCard).join("")}</div>`;
 const vOrg=k=>{const o=OK[k];if(!o)return `<p class="empty">${L("o_gone")} <a href="#ueber">${L("ue_back")}</a></p>`;
- const fz=FZ.filter(v=>v.b===k||(v.mit||[]).includes(k)),nw=o.nq?NN.filter(n=>n.q.includes(o.nq)).slice(0,5):[],tr=o.op?upList(T.filter(t=>t.o===o.op)):"";
+ const isR=o.typ==="rhb",nw=!isR&&o.nq?NN.filter(n=>n.q.includes(o.nq)).slice(0,3):[],tr=isR?"":o.typ==="dach"?upList(T.filter(t=>HR(t.o)),3):o.op?upList(T.filter(t=>t.o===o.op),3):"";
  const host=o.w?o.w.replace(/^https?:\/\/(www\.)?/,"").split("/")[0]:"";
  return `<div class="det" style="max-width:1000px"><a class="back" href="#ueber">← ${L("ue_back")}</a>
  <div style="display:flex;gap:22px;align-items:center;flex-wrap:wrap">${logo(o,1)}<div><span class="k" style="font-size:13px;color:var(--red);font-weight:600;text-transform:uppercase;letter-spacing:.04em">${L("otyp")[o.typ]}</span><h2 style="margin:2px 0 0">${esc(o.n)}</h2></div></div>
  <dl class="fx" style="margin-top:18px"><dt>${L("o_rf")}</dt><dd>${L("rf")[o.rf]||""}</dd>${o.g?`<dt>${L("o_g")}</dt><dd>${o.g}</dd>`:""}${o.s?`<dt>${L("o_s")}</dt><dd>${esc(o.s)}</dd>`:""}</dl>
- <p style="font-size:18px;max-width:68ch;margin-top:18px">${esc(LT(o,"p"))}</p>
+ ${LT(o,"p").split("\n\n").map(x=>`<p style="font-size:18px;max-width:68ch;margin-top:18px">${esc(x)}</p>`).join("")}
  ${o.w?`<p><a class="btn p" href="${o.w}">${L("website")}: ${esc(host)}</a></p>`:""}
  ${o.typ==="dach"?`<h3 style="margin-top:26px">${L("ue_members")}</h3><div class="orgg">${ORG.filter(x=>x.typ==="mitglied").map(orgTile).join("")}</div>`:""}
- ${fz.length?`<h3 style="margin-top:26px">${L("o_fz")}</h3><div class="fzg">${fz.slice(0,12).map(fzCard).join("")}</div>`:""}
- ${tr?`<h3 style="margin-top:26px">${L("o_trips")}</h3>${tr}`:""}
- ${nw.length?`<h3 style="margin-top:26px">${L("o_news")}</h3>${nw.map(nItem).join("")}`:""}</div>`};
+ ${isR?"":`<h3 style="margin-top:26px">${L("o_news3")}</h3>${nw.length?nw.map(nItem).join(""):`<p class="note">${L("o_none_n")}</p>`}`}
+ ${isR||o.typ==="stiftung"?"":`<h3 style="margin-top:26px">${L("o_trips3")}</h3>${tr||`<p class="note">${L("o_none_t")}</p>`}`}</div>`};
 let MAP=null;
 const M30=()=>{const e=pd(TODAY);e.setDate(e.getDate()+30);const E=e.getFullYear()+'-'+String(e.getMonth()+1).padStart(2,'0')+'-'+String(e.getDate()).padStart(2,'0');
  return OCC.filter(oc=>oc.end>=TODAY&&oc.day<=E&&match(T[oc.i]))};
