@@ -1026,24 +1026,26 @@
    "bj": "1903",
    "b": "rhb",
    "st": "",
-   "col": "#6b4a2f",
+   "col": "#8a8f94",
    "len": 7.49,
    "gr": "gueter",
-   "p": "Güterwagen der RhB aus dem Jahr 1903.",
+   "p": "Zweiachsiger Niederbordwagen der RhB aus dem Jahr 1903, in grauer Farbgebung und mit Bremserplattform an einem Wagenende.",
    "i18n": {
     "fr": {
-     "p": "Wagon marchandises des RhB datant de 1903."
+     "p": "Wagon à bords bas à deux essieux des RhB, datant de 1903, de couleur grise et avec plateforme de serre-frein à une extrémité."
     },
     "it": {
-     "p": "Carro merci della RhB del 1903."
+     "p": "Carro a sponde basse a due assi della RhB del 1903, di colore grigio e con piattaforma del frenatore a un’estremità."
     },
     "en": {
-     "p": "RhB freight wagon dating from 1903."
+     "p": "Two-axle low-sided wagon of the RhB dating from 1903, in grey livery and with a brakeman’s platform at one end."
     }
    },
    "m": [
     "M 7070"
-   ]
+   ],
+   "img": "img/fz/m-7070",
+   "imgc": "U. Finke"
   }
  ]
 }
