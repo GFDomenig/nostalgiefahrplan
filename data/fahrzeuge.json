@@ -978,16 +978,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#2f6b3a",
-   "p": "Zweiachsiger Gepäckwagen in grüner Farbgebung, früher als D 4043 unterwegs. Er gehört zum Zugsverband der Salonwagen des Vereins Pro Salonwagen RhB. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Zweiachsiger Gepäckwagen von 1913 in grüner Farbgebung, früher als D 4043 unterwegs. Der Club 1889 hat ihn mit Unterstützung der Hauptwerkstätte der RhB aufgearbeitet; heute dient er als «Rhätia Stübli», der Barwagen der Dampffreunde der Rhätischen Bahn. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Fourgon à bagages à deux essieux de couleur verte, qui circulait autrefois sous le numéro D 4043. Il fait partie de la composition des voitures-salons de l’association Pro Salonwagen RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Fourgon à bagages à deux essieux de 1913, de couleur verte, qui circulait autrefois sous le numéro D 4043. Le Club 1889 l’a restauré avec le soutien de l’atelier principal des RhB ; il sert aujourd’hui de « Rhätia Stübli », la voiture-bar des Dampffreunde der Rhätischen Bahn. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Bagagliaio a due assi di colore verde, un tempo in servizio come D 4043. Fa parte della composizione delle carrozze salone dell’associazione Pro Salonwagen RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Bagagliaio a due assi del 1913, di colore verde, un tempo in servizio come D 4043. Il Club 1889 l’ha restaurato con il sostegno dell’officina principale della RhB; oggi serve come «Rhätia Stübli», la carrozza bar dei Dampffreunde der Rhätischen Bahn. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Two-axle luggage van in green livery, formerly running as D 4043. It forms part of the saloon-car train of the Verein Pro Salonwagen RhB. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Two-axle luggage van from 1913 in green livery, formerly running as D 4043. Club 1889 restored it with the support of the RhB main workshop; today it serves as the «Rhätia Stübli», the bar car of the Dampffreunde der Rhätischen Bahn. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -999,7 +999,11 @@
    "len": 10.64,
    "zu": "hrhb",
    "mit": [
-    "vps"
+    "club1889",
+    "dfrhb"
+   ],
+   "auf": [
+    "club1889"
    ]
   },
   {
