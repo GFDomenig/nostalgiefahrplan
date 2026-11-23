@@ -154,7 +154,7 @@
   {
    "id": "ge46-353",
    "nr": "Ge 4/6 353",
-   "n": "",
+   "n": "Örlikoneri",
    "kat": "stange",
    "bj": "1914",
    "b": "rhb",
@@ -335,7 +335,7 @@
   {
    "id": "ge44-182",
    "nr": "Ge 4/4 182",
-   "n": "Bernina-Krokodil",
+   "n": "Coccodrillo di Bernina",
    "kat": "dg",
    "bj": "1928",
    "b": "club1889",
@@ -344,22 +344,20 @@
    "p": "1928 für die damals selbständige Berninabahn gebaut (dort Nr. 82) und 1977 ausgemustert. Die Lok gehört heute dem Club 1889 und ist in Pontresina stationiert; sie zieht Pullmanzüge über den Bernina und schiebt bei Vorführungen die Dampfschneeschleuder. Sie ist auf dem Titelbild dieser Seite zu sehen.",
    "i18n": {
     "fr": {
-     "p": "Construite en 1928 pour le chemin de fer de la Bernina, alors indépendant (n° 82), et retirée en 1977. Elle appartient aujourd’hui au Club 1889 et est basée à Pontresina ; elle tire des trains Pullman sur la Bernina et pousse le chasse-neige à vapeur lors des démonstrations. On la voit sur l’image d’en-tête de ce site.",
-     "n": "Crocodile de la Bernina"
+     "p": "Construite en 1928 pour le chemin de fer de la Bernina, alors indépendant (n° 82), et retirée en 1977. Elle appartient aujourd’hui au Club 1889 et est basée à Pontresina ; elle tire des trains Pullman sur la Bernina et pousse le chasse-neige à vapeur lors des démonstrations. On la voit sur l’image d’en-tête de ce site."
     },
     "it": {
-     "p": "Costruita nel 1928 per la Ferrovia del Bernina, allora indipendente (n. 82), e ritirata nel 1977. Oggi appartiene al Club 1889 e ha sede a Pontresina; traina treni Pullman sul Bernina e spinge lo spazzaneve a vapore durante le dimostrazioni. È visibile nell’immagine di testata di questo sito.",
-     "n": "Coccodrillo del Bernina"
+     "p": "Costruita nel 1928 per la Ferrovia del Bernina, allora indipendente (n. 82), e ritirata nel 1977. Oggi appartiene al Club 1889 e ha sede a Pontresina; traina treni Pullman sul Bernina e spinge lo spazzaneve a vapore durante le dimostrazioni. È visibile nell’immagine di testata di questo sito."
     },
     "en": {
-     "p": "Built in 1928 for the then independent Bernina Railway (as no. 82) and withdrawn in 1977. It now belongs to Club 1889 and is based in Pontresina; it hauls Pullman trains over the Bernina and pushes the steam snow blower at demonstrations. It is the locomotive in this site’s header picture.",
-     "n": "Bernina Crocodile"
+     "p": "Built in 1928 for the then independent Bernina Railway (as no. 82) and withdrawn in 1977. It now belongs to Club 1889 and is based in Pontresina; it hauls Pullman trains over the Bernina and pushes the steam snow blower at demonstrations. It is the locomotive in this site’s header picture."
     }
    },
    "m": [
     "Ge 4/4 182",
     "Lok 182",
-    "Bernina-Krokodil"
+    "Bernina-Krokodil",
+    "Coccodrillo"
    ],
    "img": "img/fz/ge44-182",
    "imgc": "U. Finke",
