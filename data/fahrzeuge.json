@@ -1196,6 +1196,41 @@
    "imgc": "U. Finke",
    "len": 6.5,
    "zu": "bma"
+  },
+  {
+   "id": "xk-9063",
+   "nr": "Xk 9063",
+   "n": "Rottenküche",
+   "kat": "wagen",
+   "bj": "1903",
+   "b": "bma",
+   "zu": "bma",
+   "st": "",
+   "col": "#b5391f",
+   "len": 10.44,
+   "gr": "dienst",
+   "p": "Zweiachsiger Dienstwagen von 1903, der als «Rottenküche» die Bauarbeiter der Gleisrotten auf der Strecke verpflegte. Laut Anschrift diente er zuletzt als Mannschaftswagen. Der Wagen gehört zum Bahnmuseum Albula in Bergün.",
+   "i18n": {
+    "fr": {
+     "n": "Cuisine d’équipe",
+     "p": "Wagon de service à deux essieux de 1903 qui, comme « cuisine d’équipe », nourrissait les ouvriers des équipes de voie sur la ligne. D’après ses inscriptions, il servait en dernier lieu de wagon pour le personnel. Il appartient au Musée du chemin de fer de l’Albula à Bergün."
+    },
+    "it": {
+     "n": "Cucina di squadra",
+     "p": "Carro di servizio a due assi del 1903 che, come «cucina di squadra», nutriva gli operai delle squadre di binario lungo la linea. Secondo le scritte serviva da ultimo come carro per il personale. Appartiene al Museo ferroviario dell’Albula a Bergün."
+    },
+    "en": {
+     "n": "Track gang kitchen",
+     "p": "Two-axle service wagon of 1903 that served as a «track gang kitchen», feeding the track workers out on the line. According to its lettering it last served as a crew car. It belongs to the Albula Railway Museum in Bergün."
+    }
+   },
+   "m": [
+    "Xk 9063",
+    "X 9063",
+    "Rottenküche"
+   ],
+   "img": "img/fz/xk-9063",
+   "imgc": "U. Finke"
   }
  ]
 }
