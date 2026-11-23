@@ -1622,6 +1622,43 @@
    ],
    "img": "img/fz/ld-ab-2",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "ld-c-32",
+   "nr": "LD C 32 / WN 9801",
+   "n": "",
+   "kat": "wagen",
+   "bj": "1889",
+   "b": "rhb",
+   "zu": "hrhb",
+   "auf": [
+    "club1889"
+   ],
+   "mit": [
+    "club1889"
+   ],
+   "st": "betr",
+   "col": "#1f4a1f",
+   "len": 9.5,
+   "gr": "wagen",
+   "p": "Zweiachsiger Drittklasswagen der Landquart–Davos-Bahn aus dem Eröffnungsjahr 1889, mit Raucher- und Nichtraucherabteil. Der Club 1889 hat ihn gerettet und zusammen mit der Hauptwerkstätte der RhB aufgearbeitet. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Voiture de troisième classe à deux essieux du chemin de fer Landquart–Davos, datant de l’année d’ouverture 1889, avec compartiments fumeurs et non-fumeurs. Le Club 1889 l’a sauvée et restaurée avec l’atelier principal des RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Carrozza di terza classe a due assi della ferrovia Landquart–Davos, dell’anno d’apertura 1889, con scompartimenti fumatori e non fumatori. Il Club 1889 l’ha salvata e restaurata insieme all’officina principale della RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Two-axle third-class coach of the Landquart–Davos Railway from its opening year of 1889, with smoking and non-smoking compartments. Club 1889 rescued it and restored it together with the RhB main workshop. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "LD C 32",
+    "WN 9801"
+   ],
+   "img": "img/fz/ld-c-32",
+   "imgc": "U. Finke"
   }
  ]
 }
