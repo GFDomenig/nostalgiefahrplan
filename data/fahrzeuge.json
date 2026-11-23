@@ -433,7 +433,47 @@
    "img": "img/fz/ge22-161",
    "imgc": "U. Finke",
    "zu": "hrhb",
-   "mit": null
+   "mit": null,
+   "rel": [
+    "ge22-162"
+   ]
+  },
+  {
+   "id": "ge22-162",
+   "nr": "Ge 2/2 162",
+   "n": "",
+   "kat": "rang",
+   "bj": "1911",
+   "b": "rhb",
+   "zu": "bma",
+   "st": "abg",
+   "stx": "Poschiavo",
+   "col": "#e04a2a",
+   "len": 7.74,
+   "gr": "bb",
+   "p": "Schwesterlok der Ge 2/2 161 «Asnin», wie diese 1911 als kleine Vorspann- und Rangierlok für die damals selbständige Berninabahn gebaut. Die Skizze zeigt sie in der roten Farbgebung mit RhB-Signet. Die Lok ist als künftiges Ausstellungsfahrzeug des Bahnmuseums Albula designiert und zurzeit noch in Poschiavo abgestellt. Das Fahrzeug ist Eigentum der Rhätischen Bahn.",
+   "i18n": {
+    "fr": {
+     "stx": "Poschiavo",
+     "p": "Locomotive sœur de la Ge 2/2 161 « Asnin », construite comme elle en 1911 comme petite locomotive de renfort et de manœuvre pour le chemin de fer de la Bernina, alors indépendant. Le dessin la montre en livrée rouge avec le logo RhB. La locomotive est désignée comme futur véhicule d’exposition du Bahnmuseum Albula et est actuellement encore garée à Poschiavo. Le véhicule appartient aux Chemins de fer rhétiques."
+    },
+    "it": {
+     "stx": "Poschiavo",
+     "p": "Locomotiva gemella della Ge 2/2 161 «Asnin», costruita come questa nel 1911 come piccola locomotiva di rinforzo e da manovra per la Ferrovia del Bernina, allora indipendente. Il disegno la mostra nella livrea rossa con il logo RhB. La locomotiva è designata come futuro veicolo da esposizione del Bahnmuseum Albula ed è attualmente ancora accantonata a Poschiavo. Il veicolo è di proprietà della Ferrovia retica."
+    },
+    "en": {
+     "stx": "Poschiavo",
+     "p": "Sister locomotive of Ge 2/2 161 «Asnin», built like it in 1911 as a small banking and shunting locomotive for the then independent Bernina Railway. The drawing shows it in red livery with the RhB logo. The locomotive is designated as a future exhibition vehicle of the Bahnmuseum Albula and is currently still stored in Poschiavo. The vehicle is owned by the Rhaetian Railway."
+    }
+   },
+   "m": [
+    "Ge 2/2 162"
+   ],
+   "rel": [
+    "ge22-161"
+   ],
+   "img": "img/fz/ge22-162",
+   "imgc": "U. Finke"
   },
   {
    "id": "ge44-182",
