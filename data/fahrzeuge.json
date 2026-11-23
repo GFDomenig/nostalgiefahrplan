@@ -901,7 +901,10 @@
    "img": "img/fz/as-1141",
    "imgc": "U. Finke",
    "len": 16.4,
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "rel": [
+    "d-4051"
+   ]
   },
   {
    "id": "as-1161",
@@ -967,6 +970,9 @@
    "zu": "hrhb",
    "mit": [
     "vps"
+   ],
+   "rel": [
+    "d-4051"
    ]
   },
   {
@@ -2118,6 +2124,41 @@
    ],
    "img": "img/fz/wr-3812",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "d-4051",
+   "nr": "D 4051 II",
+   "n": "",
+   "kat": "gep",
+   "bj": "1931",
+   "b": "rhb",
+   "zu": "hrhb",
+   "mit": [
+    "vps"
+   ],
+   "st": "betr",
+   "col": "#1f3a6b",
+   "len": 10.68,
+   "gr": "wagen",
+   "rel": [
+    "as-1141",
+    "wr-3820"
+   ],
+   "p": "Zweiachsiger Gepäckwagen von 1931, der zum Alpine Classic Pullman-Express gehört und dessen Farbgebung in Crème und Kobaltblau trägt. Ursprünglich hatte er offene Plattformen; später wurde er umgebaut. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Fourgon à bagages à deux essieux de 1931, qui fait partie de l’Alpine Classic Pullman-Express et en porte la livrée crème et bleu cobalt. À l’origine, il avait des plateformes ouvertes ; il a été transformé par la suite. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Bagagliaio a due assi del 1931, che fa parte dell’Alpine Classic Pullman-Express e ne porta la livrea crema e blu cobalto. In origine aveva piattaforme aperte; in seguito è stato trasformato. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Two-axle luggage van from 1931 that belongs to the Alpine Classic Pullman-Express and carries its cream and cobalt-blue livery. It originally had open platforms and was later rebuilt. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "D 4051"
+   ]
   }
  ]
 }
