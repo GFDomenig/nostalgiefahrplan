@@ -436,7 +436,7 @@ const vDetail=id=>{const i=TID[id];if(i===undefined)return `<p class="empty">${L
  <h3 style="margin-top:28px">${L("about")}</h3><p>${esc(LT(o,"p"))}</p></div>`};
 
 /* ---------- Fahrzeuge ---------- */
-const KG={gueter:"gueter",rang:"elok",dampf:"dampf",stange:"elok",kroko:"elok",dg:"elok",dg6:"elok",tw:"tw",schnee:"schnee",wagen:"wagen",salon:"wagen",gep:"wagen"};
+const KG={diesel:"dienst",gueter:"gueter",rang:"elok",dampf:"dampf",stange:"elok",kroko:"elok",dg:"elok",dg6:"elok",tw:"tw",schnee:"schnee",wagen:"wagen",salon:"wagen",gep:"wagen"};
 const sch=v=>{const c=v.col||"#4a5157",m=/(\d)\/(\d)/.exec(v.nr)||[0,0,0],dr=+m[1],tot=+m[2],k=v.kat;
  const W=(x,r)=>`<circle cx="${x}" cy="${80-r}" r="${r}" fill="#2a2d31"/><circle cx="${x}" cy="${80-r}" r="${r*.35}" fill="#9aa0a6"/>`;
  const bog=(x,n,r)=>{const sp=r*2.3,x0=x-(n-1)*sp/2;let o=`<rect x="${x0-r-3}" y="66" width="${(n-1)*sp+2*r+6}" height="6" rx="2" fill="#3a3e42"/>`;for(let i=0;i<n;i++)o+=W(x0+i*sp,r);return o};

@@ -1548,6 +1548,42 @@
    "img": "img/fz/d-4205",
    "imgc": "U. Finke",
    "mit": null
+  },
+  {
+   "id": "tm22-62",
+   "nr": "Tm 2/2 62",
+   "n": "",
+   "kat": "diesel",
+   "bj": "1962",
+   "b": "rhb",
+   "zu": "hrhb",
+   "auf": [
+    "club1889"
+   ],
+   "mit": [
+    "club1889"
+   ],
+   "st": "betr",
+   "col": "#a8401f",
+   "len": 5.6,
+   "gr": "dienst",
+   "p": "Kleiner zweiachsiger Dieseltraktor von 1962 für Rangier- und Dienstfahrten. Der Club 1889 hat ihn in Zusammenarbeit mit der Hauptwerkstätte der RhB aufgearbeitet. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Petit tracteur diesel à deux essieux de 1962, destiné aux manœuvres et aux trajets de service. Le Club 1889 l’a restauré en collaboration avec l’atelier principal des RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Piccolo trattore diesel a due assi del 1962 per manovre e corse di servizio. Il Club 1889 l’ha restaurato in collaborazione con l’officina principale della RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Small two-axle diesel tractor from 1962 for shunting and service runs. Club 1889 restored it in cooperation with the RhB main workshop. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "Tm 2/2 62"
+   ],
+   "img": "img/fz/tm22-62",
+   "imgc": "U. Finke"
   }
  ]
 }
