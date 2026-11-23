@@ -1810,28 +1810,29 @@
    "bj": "1926",
    "b": "rhb",
    "st": "abg",
-   "col": "#f2d43a",
+   "col": "#8a8f94",
    "len": 7.79,
    "gr": "gueter",
-   "p": "Zweiachsiger Zisternenwagen der RhB von 1926, heute als Dienstfahrzeug Xk 979 01 bezeichnet. Die Skizze zeigt ihn in Gelb mit rotem Band und der rätoromanischen Anschrift «Viafier retica». Der Wagen ist betriebsfähig, zurzeit aber abgestellt, und für Historic RhB designiert. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Zweiachsiger Zisternenwagen der RhB von 1926, heute als Dienstfahrzeug Xk 979 01 bezeichnet. Die Skizze zeigt den Schwesterwagen Uh 8101 in grauer Farbgebung. Der Wagen ist betriebsfähig, zurzeit aber abgestellt, und für Historic RhB designiert. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Wagon-citerne à deux essieux des RhB de 1926, aujourd’hui désigné comme véhicule de service Xk 979 01. Le dessin le montre en jaune avec une bande rouge et l’inscription romanche « Viafier retica ». Le wagon est en état de marche, mais actuellement garé, et il est désigné pour Historic RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
+     "p": "Wagon-citerne à deux essieux des RhB de 1926, aujourd’hui désigné comme véhicule de service Xk 979 01. Le dessin montre le wagon frère Uh 8101 en livrée grise. Le wagon est en état de marche, mais actuellement garé, et il est désigné pour Historic RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
      "stx": "en état de marche"
     },
     "it": {
-     "p": "Carro cisterna a due assi della RhB del 1926, oggi designato come veicolo di servizio Xk 979 01. Il disegno lo mostra in giallo con una fascia rossa e la scritta romancia «Viafier retica». Il carro è in grado di circolare, ma attualmente accantonato, ed è designato per Historic RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
+     "p": "Carro cisterna a due assi della RhB del 1926, oggi designato come veicolo di servizio Xk 979 01. Il disegno mostra il carro gemello Uh 8101 in livrea grigia. Il carro è in grado di circolare, ma attualmente accantonato, ed è designato per Historic RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
      "stx": "in grado di circolare"
     },
     "en": {
-     "p": "Two-axle tank wagon of the RhB from 1926, today designated as service vehicle Xk 979 01. The drawing shows it in yellow with a red band and the Romansh lettering «Viafier retica». The wagon is in working order but currently stored, and it is designated for Historic RhB. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
+     "p": "Two-axle tank wagon of the RhB from 1926, today designated as service vehicle Xk 979 01. The drawing shows its sister wagon Uh 8101 in grey livery. The wagon is in working order but currently stored, and it is designated for Historic RhB. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
      "stx": "in working order"
     }
    },
    "m": [
     "Uh 8103",
     "Xk 979 01",
-    "Xk 97901"
+    "Xk 97901",
+    "Uh 8101"
    ],
    "img": "img/fz/uh-8103",
    "imgc": "U. Finke",
