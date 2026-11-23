@@ -729,6 +729,38 @@
    ]
   },
   {
+   "id": "ge44ii-618",
+   "nr": "Ge 4/4 II 618",
+   "n": "Bergün/Bravuogn",
+   "kat": "dg",
+   "bj": "1973",
+   "b": "rhb",
+   "zu": "bma",
+   "st": "regel",
+   "col": "#d8322a",
+   "len": 12.96,
+   "gr": "rhb",
+   "p": "Lok aus der ersten Lieferung der Serie Ge 4/4 II von 1973, die die Nummern 611 bis 620 umfasste; die zweite Lieferung trug die Nummern 621 bis 633. Sie trägt den Namen und das Wappen von Bergün/Bravuogn. Die Lok ist als künftiges Ausstellungsfahrzeug des Bahnmuseums Albula designiert, steht aber vorläufig noch im Regelbetrieb. Das Fahrzeug ist Eigentum der Rhätischen Bahn.",
+   "i18n": {
+    "fr": {
+     "p": "Locomotive de la première livraison de la série Ge 4/4 II de 1973, qui comprenait les numéros 611 à 620 ; la deuxième livraison portait les numéros 621 à 633. Elle porte le nom et les armoiries de Bergün/Bravuogn. La locomotive est désignée comme futur véhicule d’exposition du Bahnmuseum Albula, mais circule pour l’instant encore en service régulier. Le véhicule appartient aux Chemins de fer rhétiques."
+    },
+    "it": {
+     "p": "Locomotiva della prima fornitura della serie Ge 4/4 II del 1973, che comprendeva i numeri da 611 a 620; la seconda fornitura portava i numeri da 621 a 633. Porta il nome e lo stemma di Bergün/Bravuogn. La locomotiva è designata come futuro veicolo da esposizione del Bahnmuseum Albula, ma per ora circola ancora nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica."
+    },
+    "en": {
+     "p": "Locomotive from the first batch of the Ge 4/4 II series of 1973, which comprised numbers 611 to 620; the second batch carried numbers 621 to 633. It bears the name and coat of arms of Bergün/Bravuogn. The locomotive is designated as a future exhibition vehicle of the Bahnmuseum Albula but for the time being remains in regular service. The vehicle is owned by the Rhaetian Railway."
+    }
+   },
+   "m": [
+    "Ge 4/4 II 618",
+    "Bergün",
+    "Bravuogn"
+   ],
+   "img": "img/fz/ge44ii-618",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "ge44ii-626",
    "nr": "Ge 4/4 II 626",
    "n": "Alby Glatt",
@@ -767,7 +799,8 @@
      "u": "https://www.bemo-modellbahn.de"
     }
    ],
-   "imgcap": "Foto Gaudenz Domenig, Skizze Claude"
+   "imgcap": "Foto Gaudenz Domenig, Skizze Claude",
+   "len": 12.96
   },
   {
    "id": "ge44iii-652",
