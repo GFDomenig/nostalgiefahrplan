@@ -1775,6 +1775,44 @@
    ],
    "img": "img/fz/a-1102",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "b-2138",
+   "nr": "B 2138 / WN 9802",
+   "n": "Filisurer Stübli",
+   "kat": "wagen",
+   "bj": "1903",
+   "b": "rhb",
+   "zu": "hrhb",
+   "auf": [
+    "club1889"
+   ],
+   "mit": [
+    "club1889"
+   ],
+   "st": "betr",
+   "col": "#2f6b3a",
+   "len": 10.44,
+   "gr": "wagen",
+   "p": "Zweiachsiger Personenwagen von 1903, der heute als Bistrowagen «Filisurer Stübli» in historischen Zügen mitfährt. Zum 100-Jahr-Jubiläum der Albulalinie 2003 hat ihn der Club 1889 zusammen mit der Hauptwerkstätte der RhB aufgearbeitet, unterstützt von Filisurerinnen und Filisurern. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Voiture à deux essieux de 1903 qui circule aujourd’hui comme voiture-bistrot « Filisurer Stübli » dans les trains historiques. Pour le centenaire de la ligne de l’Albula en 2003, le Club 1889 l’a restaurée avec l’atelier principal des RhB, avec le soutien d’habitants de Filisur. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Carrozza a due assi del 1903 che oggi circola come carrozza bistrò «Filisurer Stübli» nei treni storici. Per il centenario della linea dell’Albula nel 2003 il Club 1889 l’ha restaurata insieme all’officina principale della RhB, con il sostegno degli abitanti di Filisur. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Two-axle coach from 1903 that now runs as the bistro car «Filisurer Stübli» in historic trains. For the Albula line’s centenary in 2003, Club 1889 restored it together with the RhB main workshop, supported by the people of Filisur. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "B 2138",
+    "WN 9802",
+    "Filisurer"
+   ],
+   "img": "img/fz/b-2138",
+   "imgc": "U. Finke"
   }
  ]
 }
