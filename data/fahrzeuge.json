@@ -42,7 +42,7 @@
    "n": "Heidi",
    "kat": "dampf",
    "bj": "1902",
-   "b": "rhb",
+   "b": "club1889",
    "st": "betr",
    "col": "#23272b",
    "p": "Leichte Dampflok derselben Bauart wie die «Rhætia»; sie stand bis 1977 im Plandienst und wird heute mit Öl gefeuert. Sie fährt bei Dampffahrten im Engadin und auf der Albulalinie, oft zusammen mit einer G 4/5.",
@@ -697,7 +697,7 @@
    "kat": "dg6",
    "bj": "1965",
    "b": "rhb",
-   "st": "",
+   "st": "betr",
    "col": "#c8102e",
    "len": 14.5,
    "gr": "rhb",
@@ -792,7 +792,7 @@
    "kat": "salon",
    "bj": "1929",
    "b": "vps",
-   "st": "",
+   "st": "betr",
    "col": "#2f6b3a",
    "p": "Salonwagen erster Klasse in der Obhut des Vereins Pro Salonwagen RhB. Die Skizze zeigt ihn mit seiner früheren Nummer 61 in der crème-grünen Farbgebung, mit Abteilen für Raucher und Nichtraucher.",
    "i18n": {
@@ -852,7 +852,7 @@
    "kat": "gep",
    "bj": "1913",
    "b": "vps",
-   "st": "",
+   "st": "betr",
    "col": "#2f6b3a",
    "p": "Zweiachsiger Gepäckwagen in grüner Farbgebung, früher als D 4043 unterwegs. Er gehört zum Zugsverband der Salonwagen des Vereins Pro Salonwagen RhB.",
    "i18n": {
@@ -984,7 +984,7 @@
    "kat": "wagen",
    "bj": "1962",
    "b": "rhb",
-   "st": "",
+   "st": "betr",
    "col": "#2f6b3a",
    "len": 18.42,
    "gr": "wagen",
@@ -1017,7 +1017,7 @@
    "kat": "wagen",
    "bj": "1928",
    "b": "rhb",
-   "st": "",
+   "st": "betr",
    "col": "#a8cdee",
    "len": 16.6,
    "gr": "wagen",
@@ -1051,7 +1051,7 @@
    "kat": "wagen",
    "bj": "1932",
    "b": "rhb",
-   "st": "",
+   "st": "betr",
    "col": "#2f6b3a",
    "len": 16.57,
    "gr": "wagen",
@@ -1082,7 +1082,7 @@
    "kat": "gueter",
    "bj": "1903",
    "b": "rhb",
-   "st": "",
+   "st": "betr",
    "col": "#8a8f94",
    "len": 7.49,
    "gr": "gueter",
@@ -1112,7 +1112,7 @@
    "kat": "gueter",
    "bj": "1913",
    "b": "rhb",
-   "st": "",
+   "st": "betr",
    "col": "#8a8f94",
    "len": 8.45,
    "gr": "gueter",
@@ -1143,7 +1143,7 @@
    "kat": "gueter",
    "bj": "1926",
    "b": "rhb",
-   "st": "",
+   "st": "betr",
    "col": "#f2d43a",
    "len": 7.79,
    "gr": "gueter",
@@ -1240,7 +1240,7 @@
    "bj": "1908",
    "b": "rhb",
    "zu": "hrhb",
-   "st": "",
+   "st": "betr",
    "col": "#3a3e42",
    "len": 7.4,
    "gr": "gueter",
@@ -1319,7 +1319,7 @@
    "mit": [
     "dfrhb"
    ],
-   "st": "",
+   "st": "betr",
    "col": "#d8d8d4",
    "len": 8.45,
    "gr": "gueter",
@@ -1417,6 +1417,36 @@
     "Doris"
    ],
    "img": "img/fz/f-4",
+   "imgc": "U. Finke"
+  },
+  {
+   "id": "d-4205",
+   "nr": "D 4205",
+   "n": "",
+   "kat": "gep",
+   "bj": "1948",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "betr",
+   "col": "#3f5f1f",
+   "len": 12.94,
+   "gr": "wagen",
+   "p": "Vierachsiger Gepäckwagen von 1948 in der früheren grünen Farbgebung der RhB, mit grosser Schiebetür für das Ein- und Ausladen. Er läuft in historischen Zügen mit.",
+   "i18n": {
+    "fr": {
+     "p": "Fourgon à bagages à quatre essieux de 1948, dans l’ancienne livrée verte des RhB, avec une grande porte coulissante pour le chargement. Il circule dans les trains historiques."
+    },
+    "it": {
+     "p": "Bagagliaio a quattro assi del 1948, nella vecchia livrea verde della RhB, con grande porta scorrevole per il carico. Circola nei treni storici."
+    },
+    "en": {
+     "p": "Four-axle luggage van from 1948 in the former green RhB livery, with a large sliding door for loading. It runs in historic trains."
+    }
+   },
+   "m": [
+    "D 4205"
+   ],
+   "img": "img/fz/d-4205",
    "imgc": "U. Finke"
   }
  ]
