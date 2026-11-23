@@ -505,8 +505,8 @@ const vFzD=id=>{const v=FZ.find(x=>x.id===id);if(!v)return `<p class="empty">${L
  <dl class="fx">${v.zu?`<dt>${L("fz_zu")}</dt><dd>${zuChip(v)}</dd>`:""}<dt>${L("fz_typ")}</dt><dd>${esc(L("kat")[v.kat]||"")}</dd>${v.bj?`<dt>${L("fz_bj")}</dt><dd>${v.bj}</dd>`:""}${v.st?`<dt>${L("fz_st")}</dt><dd><span class="stb ${v.st}">${L("stc")[v.st]}</span>${v.stx?` <span style="font-weight:400">· ${esc(LT(v,"stx"))}</span>`:""}</dd>`:""}<dt>${L("fz_b")}</dt><dd>${oLink(v.b)}</dd>${v.auf?`<dt>${L("fz_auf")}</dt><dd>${v.auf.map(oLink).join(", ")} <span style="font-weight:400">(${L("fz_hw")})</span></dd>`:""}</dl></div></div>
  <p style="font-size:18px;max-width:68ch;margin-top:22px">${esc(LT(v,"p"))}</p>
  <p style="margin-top:18px"><a class="btn p it trs" href="${v.trs||"https://www.the-rolling-stocks.com/"}">${L("fz_trs")}</a></p>
- ${v.mod?`<h3 style="margin-top:26px">${L("fz_mods")}</h3><div class="mods">${v.mod.map(m=>{const t=`${L("fz_mod")} ${esc(m.h)} · ${L("fz_sp")} ${esc(m.sp)}`;return m.u?`<a class="btn" href="${m.u}">${t} →</a>`:`<span class="btn dis">${t} <small>(${L("fz_lf")})</small></span>`}).join("")}</div>`:""}
  ${(()=>{const r=FZ.filter(x=>x!==v&&((v.rel||[]).includes(x.id)||(x.rel||[]).includes(v.id)));return r.length?`<h3 style="margin-top:26px">${L("fz_rel")}</h3><div class="fzg">${r.map(fzCard).join("")}</div>`:""})()}
+ ${v.mod?`<h3 style="margin-top:26px">${L("fz_mods")}</h3><div class="mods">${v.mod.map(m=>{const t=`${esc(m.h)} ${L("fz_sp")} ${esc(m.sp)}`;return m.u?`<a class="btn p it" href="${m.u}">${t}</a>`:`<span class="btn dis">${t} <small>(${L("fz_lf")})</small></span>`}).join("")}</div>`:""}
  ${tr?`<h3 style="margin-top:26px">${L("fz_trips")}</h3>${tr}`:""}
  <p style="margin-top:28px"><a class="back bk" href="#fahrzeuge" data-g="${G(v)}">← ${L("fz_back")}</a></p></div>`};
 /* ---------- Über uns ---------- */
