@@ -614,6 +614,37 @@
    "mit": null
   },
   {
+   "id": "bde44-491",
+   "nr": "BDe 4/4 491",
+   "n": "",
+   "kat": "tw",
+   "bj": "1958",
+   "b": "rhb",
+   "zu": "hrhb",
+   "col": "#d8322a",
+   "len": 18.0,
+   "gr": "rhb",
+   "p": "Elektrischer Triebwagen mit 2. Klasse und Gepäckabteil von 1958, beschafft für die Bellinzona-Mesocco-Bahn im Misox, die damals bereits zur RhB gehörte. 1972 wurde der reguläre Personenverkehr auf dieser Strecke eingestellt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Automotrice électrique de 2e classe avec compartiment à bagages de 1958, acquise pour le chemin de fer Bellinzone–Mesocco dans la Mesolcina, qui appartenait déjà aux RhB. Le trafic voyageurs régulier sur cette ligne a cessé en 1972. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Automotrice elettrica di 2a classe con bagagliaio del 1958, acquistata per la ferrovia Bellinzona–Mesocco in Mesolcina, che già allora apparteneva alla RhB. Nel 1972 il servizio viaggiatori regolare su questa linea fu soppresso. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Electric railcar with second class and luggage compartment from 1958, bought for the Bellinzona–Mesocco railway in the Misox valley, which by then belonged to the RhB. Regular passenger service on this line ended in 1972. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "BDe 4/4 491",
+    "Misox",
+    "Bellinzona-Mesocco"
+   ],
+   "img": "img/fz/bde44-491",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "abe44-501",
    "nr": "ABe 4/4 501",
    "n": "Fliegender Rhätier",
