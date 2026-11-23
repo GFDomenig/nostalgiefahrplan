@@ -847,6 +847,41 @@
    ]
   },
   {
+   "id": "x-9103",
+   "nr": "X 9103 / WN 9859",
+   "n": "Schneepflug",
+   "kat": "schnee",
+   "bj": "1903",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "nb",
+   "col": "#8e2318",
+   "len": 6.9,
+   "gr": "schnee",
+   "p": "Zweiachsiger Schneepflug der RhB von 1903 mit grossem Keilpflug an der Front, heute Dienstfahrzeug WN 9859. Die Skizze zeigt ihn in der rotbraunen Farbgebung mit der Anschrift «RhB». Anders als der Schneeräumer X 9132 ist er nicht betriebsfähig. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "n": "Chasse-neige à étrave",
+     "p": "Chasse-neige à deux essieux des RhB de 1903, avec une grande étrave à l’avant, aujourd’hui véhicule de service WN 9859. Le dessin le montre dans la livrée brun-rouge avec l’inscription « RhB ». Contrairement au chasse-neige X 9132, il n’est pas en état de marche. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "n": "Spazzaneve a vomere",
+     "p": "Spazzaneve a due assi della RhB del 1903 con un grande vomere a cuneo sul davanti, oggi veicolo di servizio WN 9859. Il disegno lo mostra nella livrea rosso-bruna con la scritta «RhB». A differenza dello spartineve X 9132, non è in grado di circolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "n": "Snow plough",
+     "p": "Two-axle RhB snow plough from 1903 with a large wedge plough at the front, today service vehicle WN 9859. The drawing shows it in red-brown livery with the lettering «RhB». Unlike the snow plough X 9132, it is not in working order. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "X 9103",
+    "WN 9859",
+    "Schneepflug"
+   ],
+   "img": "img/fz/x-9103",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "x-9132",
    "nr": "X 9132",
    "n": "Schneeräumer",
@@ -858,19 +893,19 @@
    "col": "#d9481f",
    "len": 9.05,
    "gr": "schnee",
-   "p": "Schneeräumer von 1937, der zusammen mit der Dampfschneeschleuder Xrot d 9213 eingesetzt wird. Mit seinem keilförmigen Pflug räumt er den Schnee vor, den die Schleuder anschliessend wegfräst und zur Seite wirft. Die Skizze zeigt ihn als Xk 9132 in Rot mit gelb-schwarzer Warnmarkierung und der Anschrift «Viafier retica». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Schneeräumer von 1937, der zusammen mit der Dampfschneeschleuder Xrot d 9213 eingesetzt wird. Er drückt den Schnee links und rechts der Schienen in die Mitte, sodass die Dampfschneeschleuder ihn wegschleudern kann; damit wird die Fahrrinne verbreitert. Die Skizze zeigt ihn als Xk 9132 in Rot mit gelb-schwarzer Warnmarkierung und der Anschrift «Viafier retica». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
      "n": "Chasse-neige",
-     "p": "Chasse-neige de 1937, utilisé avec le chasse-neige rotatif à vapeur Xrot d 9213. Avec son étrave en forme de coin, il dégage d’abord la neige que la fraise évacue ensuite sur le côté. Le dessin le montre comme Xk 9132, en rouge avec un marquage d’avertissement jaune et noir et l’inscription « Viafier retica ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Chasse-neige de 1937, utilisé avec le chasse-neige rotatif à vapeur Xrot d 9213. Il repousse la neige située à gauche et à droite des rails vers le milieu, afin que le chasse-neige rotatif à vapeur puisse la projeter au loin ; le couloir de passage s’en trouve élargi. Le dessin le montre comme Xk 9132, en rouge avec un marquage d’avertissement jaune et noir et l’inscription « Viafier retica ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
      "n": "Spartineve",
-     "p": "Spartineve del 1937, impiegato insieme allo spazzaneve rotante a vapore Xrot d 9213. Con il suo vomere a cuneo sgombra prima la neve, che la fresa poi rimuove e getta di lato. Il disegno lo mostra come Xk 9132, in rosso con segnaletica di avvertimento gialla e nera e la scritta «Viafier retica». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Spartineve del 1937, impiegato insieme allo spazzaneve rotante a vapore Xrot d 9213. Spinge la neve a sinistra e a destra dei binari verso il centro, in modo che lo spazzaneve rotante a vapore possa scagliarla via; così il corridoio di passaggio viene allargato. Il disegno lo mostra come Xk 9132, in rosso con segnaletica di avvertimento gialla e nera e la scritta «Viafier retica». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
      "n": "Snow plough",
-     "p": "Snow plough from 1937, used together with the steam rotary snow blower Xrot d 9213. With its wedge-shaped plough it clears the snow first, which the blower then cuts away and throws aside. The drawing shows it as Xk 9132 in red with yellow and black warning stripes and the lettering «Viafier retica». The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Snow plough from 1937, used together with the steam rotary snow blower Xrot d 9213. It pushes the snow on either side of the rails towards the middle so that the steam rotary snow blower can hurl it away, widening the cleared channel. The drawing shows it as Xk 9132 in red with yellow and black warning stripes and the lettering «Viafier retica». The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
