@@ -2008,22 +2008,23 @@
    "gr": "wagen",
    "rel": [
     "as-1161",
-    "b-2111"
+    "b-2111",
+    "as-1154"
    ],
    "bem": "ehemals A 1208",
-   "p": "Einer der 30 Stahlwagen, die 1929–1931 an die RhB geliefert wurden; zu dieser Serie gehören auch der Salonwagen As 1161 und der heutige Aussichtswagen B 2111 (ehemals B 2227). Ursprünglich als Erstklasswagen A 1208 in Dienst gestellt, fährt er heute als Bistrowagen «Stiva Retica» und trägt die Werbebemalung «Calanda Land». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Einer der 30 Stahlwagen, die 1929–1931 an die RhB geliefert wurden; zu dieser Serie gehören auch die Salonwagen As 1161 und As 1154 sowie der heutige Aussichtswagen B 2111 (ehemals B 2227). Ursprünglich als Erstklasswagen A 1208 in Dienst gestellt, fährt er heute als Bistrowagen «Stiva Retica» und trägt die Werbebemalung «Calanda Land». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
      "bem": "anciennement A 1208",
-     "p": "L’une des 30 voitures en acier livrées aux RhB en 1929–1931 ; à cette série appartiennent aussi la voiture-salon As 1161 et l’actuelle voiture panoramique B 2111 (ex-B 2227). Mise en service comme voiture de première classe A 1208, elle circule aujourd’hui comme voiture-bistrot « Stiva Retica » et porte la livrée publicitaire « Calanda Land ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "L’une des 30 voitures en acier livrées aux RhB en 1929–1931 ; à cette série appartiennent aussi les voitures-salons As 1161 et As 1154 ainsi que l’actuelle voiture panoramique B 2111 (ex-B 2227). Mise en service comme voiture de première classe A 1208, elle circule aujourd’hui comme voiture-bistrot « Stiva Retica » et porte la livrée publicitaire « Calanda Land ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
      "bem": "già A 1208",
-     "p": "Una delle 30 carrozze in acciaio consegnate alla RhB nel 1929–1931; della serie fanno parte anche la carrozza salone As 1161 e l’attuale carrozza panoramica B 2111 (ex B 2227). Entrata in servizio come carrozza di prima classe A 1208, oggi circola come carrozza bistrò «Stiva Retica» e porta la livrea pubblicitaria «Calanda Land». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Una delle 30 carrozze in acciaio consegnate alla RhB nel 1929–1931; della serie fanno parte anche le carrozze salone As 1161 e As 1154 e l’attuale carrozza panoramica B 2111 (ex B 2227). Entrata in servizio come carrozza di prima classe A 1208, oggi circola come carrozza bistrò «Stiva Retica» e porta la livrea pubblicitaria «Calanda Land». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
      "bem": "formerly A 1208",
-     "p": "One of the 30 steel coaches delivered to the RhB in 1929–1931; the series also includes saloon car As 1161 and today’s observation car B 2111 (formerly B 2227). Originally entering service as first-class coach A 1208, it now runs as the bistro car «Stiva Retica» and carries the «Calanda Land» advertising livery. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "One of the 30 steel coaches delivered to the RhB in 1929–1931; the series also includes saloon cars As 1161 and As 1154 and today’s observation car B 2111 (formerly B 2227). Originally entering service as first-class coach A 1208, it now runs as the bistro car «Stiva Retica» and carries the «Calanda Land» advertising livery. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -2032,6 +2033,49 @@
     "Stiva Retica"
    ],
    "img": "img/fz/wr-3821",
+   "imgc": "U. Finke"
+  },
+  {
+   "id": "as-1154",
+   "nr": "As 1154",
+   "n": "",
+   "kat": "salon",
+   "bj": "1930",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "ausst",
+   "col": "#2f6b3a",
+   "len": 16.44,
+   "gr": "wagen",
+   "rel": [
+    "as-1161",
+    "wr-3821"
+   ],
+   "bem": "ehemals A 54",
+   "stx": "Deutsches Museum, München",
+   "p": "Erstklass-Stahlwagen von 1930 aus der Serie von 30 Stahlwagen, die 1929–1931 an die RhB geliefert wurden. Die Skizze zeigt ihn in der ursprünglichen Farbgebung Crème-Grün als A 54 mit Raucher- und Nichtraucherabteil. Heute steht er in Crème-Bordeaux im Deutschen Museum in München. Es gibt Bestrebungen, den Wagen nach Graubünden zurückzuholen, wieder betriebsfähig zu machen und wenn möglich in Crème-Grün zu lackieren. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "bem": "anciennement A 54",
+     "stx": "Deutsches Museum, Munich",
+     "p": "Voiture de première classe en acier de 1930, de la série de 30 voitures en acier livrées aux RhB en 1929–1931. Le dessin la montre dans sa livrée d’origine crème et verte, comme A 54, avec compartiments fumeurs et non-fumeurs. Elle est aujourd’hui exposée en crème et bordeaux au Deutsches Museum de Munich. Il existe des efforts pour la ramener aux Grisons, la remettre en état de marche et, si possible, la repeindre en crème et vert. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "bem": "già A 54",
+     "stx": "Deutsches Museum, Monaco di Baviera",
+     "p": "Carrozza in acciaio di prima classe del 1930, della serie di 30 carrozze in acciaio consegnate alla RhB nel 1929–1931. Il disegno la mostra nella livrea originale crema e verde come A 54, con scompartimenti fumatori e non fumatori. Oggi è esposta in crema e bordeaux al Deutsches Museum di Monaco. Si stanno compiendo sforzi per riportarla nei Grigioni, rimetterla in esercizio e, se possibile, riverniciarla in crema e verde. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "bem": "formerly A 54",
+     "stx": "Deutsches Museum, Munich",
+     "p": "First-class steel coach of 1930 from the series of 30 steel coaches delivered to the RhB in 1929–1931. The drawing shows it in its original cream and green livery as A 54, with smoking and non-smoking compartments. Today it is on display in cream and burgundy at the Deutsches Museum in Munich. There are efforts to bring the coach back to Graubünden, return it to working order and, if possible, repaint it cream and green. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "As 1154",
+    "A 54"
+   ],
+   "img": "img/fz/as-1154",
    "imgc": "U. Finke"
   }
  ]
