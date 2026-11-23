@@ -352,7 +352,7 @@ document.getElementById("dlgno").onclick=closeDlg;
 dlgw.addEventListener("click",e=>{if(e.target===dlgw)closeDlg()});
 document.getElementById("dlggo").addEventListener("click",()=>{if(document.getElementById("noask").checked){noask=true;try{sessionStorage.setItem("noask","1")}catch(e){}}setTimeout(closeDlg,0)});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){if(!dlgw.hidden)closeDlg();else if(!ov.hidden)closeOv(false)}});
-document.addEventListener("click",e=>{const a=e.target.closest("a[href]");if(!a||a.closest("#ov,#dlgw")||e.defaultPrevented)return;if(e.ctrlKey||e.metaKey||e.shiftKey||e.button)return;
+document.addEventListener("click",e=>{const a=e.target.closest("a[href]");if(!a||a.closest("#ov,#dlgw,#tov")||e.defaultPrevented)return;if(e.ctrlKey||e.metaKey||e.shiftKey||e.button)return;
  const k=kind(a.href);if(k==="int")return;
  if(k==="emb"){e.preventDefault();openOv(a.href)}else if(k==="ext"&&!noask){e.preventDefault();openDlg(a.href)}else{a.target="_blank";a.rel="noopener"}},false);
 const statics=()=>{document.documentElement.lang=LG==="de"?"de-CH":LG;
