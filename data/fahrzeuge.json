@@ -38,6 +38,13 @@
    "auf": [
     "club1889",
     "dfrhb"
+   ],
+   "mod": [
+    {
+     "h": "LGB",
+     "sp": "IIm",
+     "u": "https://www.lgb.com"
+    }
    ]
   },
   {
@@ -75,6 +82,13 @@
    "auf": [
     "club1889",
     "dfrhb"
+   ],
+   "mod": [
+    {
+     "h": "Ferro Suisse",
+     "sp": "0m",
+     "u": ""
+    }
    ]
   },
   {
@@ -231,7 +245,14 @@
    "len": 13.3,
    "gr": "rhb",
    "zu": "hrhb",
-   "mit": null
+   "mit": null,
+   "mod": [
+    {
+     "h": "Ferro Suisse",
+     "sp": "0m",
+     "u": ""
+    }
+   ]
   },
   {
    "id": "ge66-415",
@@ -263,7 +284,14 @@
    "len": 13.3,
    "gr": "rhb",
    "zu": "hrhb",
-   "mit": null
+   "mit": null,
+   "mod": [
+    {
+     "h": "Ferro Suisse",
+     "sp": "0m",
+     "u": ""
+    }
+   ]
   },
   {
    "id": "ge66-407",
@@ -637,6 +665,18 @@
    "zu": "hrhb",
    "mit": [
     "gc"
+   ],
+   "mod": [
+    {
+     "h": "model rail",
+     "sp": "0m",
+     "u": ""
+    },
+    {
+     "h": "Bemo",
+     "sp": "0m",
+     "u": "https://www.bemo-modellbahn.de"
+    }
    ]
   },
   {
@@ -670,7 +710,14 @@
    "img": "img/fz/ge44ii-626",
    "imgc": "U. Finke",
    "gr": "rhb",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mod": [
+    {
+     "h": "Bemo",
+     "sp": "0m",
+     "u": "https://www.bemo-modellbahn.de"
+    }
+   ]
   },
   {
    "id": "ge44iii-652",
@@ -701,7 +748,14 @@
    "img": "img/fz/ge44iii-652",
    "imgc": "U. Finke",
    "zu": "hrhb",
-   "mit": null
+   "mit": null,
+   "mod": [
+    {
+     "h": "Märklin",
+     "sp": "H0m",
+     "u": "https://www.maerklin.de"
+    }
+   ]
   },
   {
    "id": "ge66ii-702",

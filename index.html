@@ -182,6 +182,7 @@ body.sec .bar{display:none}
 .leaflet-popup-content b{font:600 18px/1.15 "Barlow Condensed",sans-serif;display:block;margin-bottom:4px}
 .leaflet-popup-content .btn{margin-top:8px;padding:6px 10px;font-size:14px;color:#fff}
 .det{max-width:860px;padding-top:12px}
+.mods{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}.btn.dis{opacity:.6;cursor:default}
 .btn.trs{border-color:var(--ink);font-weight:600}
 .back.bk{display:inline-flex;align-items:center;gap:8px;background:var(--red);color:#fff;padding:10px 18px;border-radius:8px;font-size:17px;text-decoration:none}.back.bk:hover{background:#a8001a}
 .det .back{display:inline-block;margin:6px 0 14px;font-weight:600;text-decoration:none}
@@ -483,6 +484,7 @@ const vFzD=id=>{const v=FZ.find(x=>x.id===id);if(!v)return `<p class="empty">${L
  <dl class="fx">${v.zu?`<dt>${L("fz_zu")}</dt><dd>${zuChip(v)}</dd>`:""}<dt>${L("fz_typ")}</dt><dd>${esc(L("kat")[v.kat]||"")}</dd>${v.bj?`<dt>${L("fz_bj")}</dt><dd>${v.bj}</dd>`:""}${v.st?`<dt>${L("fz_st")}</dt><dd><span class="stb ${v.st}">${L("stc")[v.st]}</span>${v.stx?` <span style="font-weight:400">· ${esc(LT(v,"stx"))}</span>`:""}</dd>`:""}<dt>${L("fz_b")}</dt><dd>${oLink(v.b)}</dd>${v.auf?`<dt>${L("fz_auf")}</dt><dd>${v.auf.map(oLink).join(", ")} <span style="font-weight:400">(${L("fz_hw")})</span></dd>`:""}</dl></div></div>
  <p style="font-size:18px;max-width:68ch;margin-top:22px">${esc(LT(v,"p"))}</p>
  <p style="margin-top:18px"><a class="btn trs" href="${v.trs||"https://www.the-rolling-stocks.com/"}">${L("fz_trs")} →</a></p>
+ ${v.mod?`<h3 style="margin-top:26px">${L("fz_mods")}</h3><div class="mods">${v.mod.map(m=>{const t=`${L("fz_mod")} ${esc(m.h)} · ${L("fz_sp")} ${esc(m.sp)}`;return m.u?`<a class="btn" href="${m.u}">${t} →</a>`:`<span class="btn dis">${t} <small>(${L("fz_lf")})</small></span>`}).join("")}</div>`:""}
  ${(()=>{const r=FZ.filter(x=>x!==v&&((v.rel||[]).includes(x.id)||(x.rel||[]).includes(v.id)));return r.length?`<h3 style="margin-top:26px">${L("fz_rel")}</h3><div class="fzg">${r.map(fzCard).join("")}</div>`:""})()}
  ${tr?`<h3 style="margin-top:26px">${L("fz_trips")}</h3>${tr}`:""}
  <p style="margin-top:28px"><a class="back bk" href="#fahrzeuge" data-g="${G(v)}">← ${L("fz_back")}</a></p></div>`};
