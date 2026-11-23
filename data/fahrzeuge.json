@@ -917,6 +917,35 @@
    ],
    "img": "img/fz/b-2111",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "a-1225",
+   "nr": "A 1225",
+   "n": "",
+   "kat": "wagen",
+   "bj": "",
+   "b": "rhb",
+   "st": "",
+   "col": "#2f6b3a",
+   "len": 18.42,
+   "gr": "wagen",
+   "p": "Personenwagen erster Klasse auf Drehgestellen in der früheren grünen Farbgebung der RhB. Laut Anschrift hatte er je einen Bereich für Raucher und für Nichtraucher.",
+   "i18n": {
+    "fr": {
+     "p": "Voiture de première classe sur bogies, dans l’ancienne livrée verte des RhB. D’après les inscriptions, elle comportait une partie fumeurs et une partie non-fumeurs."
+    },
+    "it": {
+     "p": "Carrozza di prima classe su carrelli, nella vecchia livrea verde della RhB. Secondo le scritte aveva una parte per fumatori e una per non fumatori."
+    },
+    "en": {
+     "p": "First-class bogie coach in the former green RhB livery. According to its lettering it had a smoking and a non-smoking section."
+    }
+   },
+   "m": [
+    "A 1225"
+   ],
+   "img": "img/fz/a-1225",
+   "imgc": "U. Finke"
   }
  ]
 }
