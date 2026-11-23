@@ -1303,26 +1303,32 @@
    "col": "#2f6b3a",
    "len": 16.57,
    "gr": "wagen",
-   "p": "Zwei Personenwagen, die 1932 von der RhB selbst gebaut wurden; der B 2246 fuhr ursprünglich als C 52 auf der Chur–Arosa-Bahn. Die Skizze zeigt ihn als Zweitklasswagen in Grün mit dem auffälligen Schriftzug «RHÄTISCHE BAHN» und je einem Bereich für Raucher und Nichtraucher. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Zwei Personenwagen, die 1932 von der RhB selbst gebaut wurden; sie fuhren ursprünglich als C 24 und C 46 auf der Chur–Arosa-Bahn. Die Skizze zeigt den B 2246 als Zweitklasswagen in Grün mit dem auffälligen Schriftzug «RHÄTISCHE BAHN» und je einem Bereich für Raucher und Nichtraucher. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Deux voitures construites en 1932 par les RhB elles-mêmes ; la B 2246 circulait à l’origine comme C 52 sur la ligne Coire–Arosa. Le dessin la montre comme voiture de deuxième classe en vert, avec la frappante inscription « RHÄTISCHE BAHN » et une partie fumeurs et non-fumeurs. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Deux voitures construites en 1932 par les RhB elles-mêmes ; elles circulaient à l’origine comme C 24 et C 46 sur la ligne Coire–Arosa. Le dessin la montre comme voiture de deuxième classe en vert, avec la frappante inscription « RHÄTISCHE BAHN » et une partie fumeurs et non-fumeurs. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
+     "bem": "Anciennes voitures C 24 et C 46 du chemin de fer Coire–Arosa"
     },
     "it": {
-     "p": "Due carrozze costruite nel 1932 dalla RhB stessa; la B 2246 circolava in origine come C 52 sulla Coira–Arosa. Il disegno la mostra come carrozza di seconda classe in verde, con la vistosa scritta «RHÄTISCHE BAHN» e una parte per fumatori e non fumatori. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Due carrozze costruite nel 1932 dalla RhB stessa; circolavano in origine come C 24 e C 46 sulla Coira–Arosa. Il disegno la mostra come carrozza di seconda classe in verde, con la vistosa scritta «RHÄTISCHE BAHN» e una parte per fumatori e non fumatori. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
+     "bem": "Ex carrozze C 24 e C 46 della ferrovia Coira–Arosa"
     },
     "en": {
-     "p": "Two coaches built in 1932 by the RhB itself; B 2246 originally ran as C 52 on the Chur–Arosa line. The drawing shows it as a green second-class coach with the striking «RHÄTISCHE BAHN» lettering and smoking and non-smoking sections. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Two coaches built in 1932 by the RhB itself; they originally ran as C 24 and C 46 on the Chur–Arosa line. The drawing shows it as a green second-class coach with the striking «RHÄTISCHE BAHN» lettering and smoking and non-smoking sections. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
+     "bem": "Former coaches C 24 and C 46 of the Chur–Arosa Railway"
     }
    },
    "m": [
     "B 2246",
-    "B 2247"
+    "B 2247",
+    "C 24",
+    "C 46"
    ],
    "img": "img/fz/b-2246",
    "imgc": "U. Finke",
    "zu": "hrhb",
-   "mit": null
+   "mit": null,
+   "bem": "Ehemalige Wagen C 24 und C 46 der Chur-Arosa-Bahn"
   },
   {
    "id": "m-7070",
