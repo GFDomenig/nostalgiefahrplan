@@ -28,6 +28,7 @@ a{color:inherit}
 h1,h2,h3,.cond{font-family:"Barlow Condensed",Barlow,sans-serif;letter-spacing:-.01em}
 .hero{position:relative;height:clamp(300px,44vw,560px);overflow:hidden;background:#2b4f7a;color:#fff}
 .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% 58%}
+.hero.nodark::after{display:none}.hero.nodark h1,.hero.nodark .lede{text-shadow:0 1px 3px rgba(0,0,0,.85),0 2px 16px rgba(0,0,0,.6)}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(10,20,35,.72) 0%,rgba(10,20,35,.45) 32%,rgba(10,20,35,0) 58%)}
 .herotext{position:absolute;z-index:1;left:max(5vw,16px);top:clamp(20px,4vw,52px);max-width:min(560px,60%)}
 .hero h1{color:#fff;font-size:clamp(34px,5.2vw,60px);text-shadow:0 2px 14px rgba(0,0,0,.35)}body:not(.home) .hero h1{font-size:clamp(28px,3.6vw,44px)}.hero h1 .hsub{margin-left:.25em}
@@ -564,8 +565,8 @@ const render=()=>{const v=document.getElementById("view");
   document.getElementById("nm").onclick=()=>{st.cm=new Date(st.cm.getFullYear(),st.cm.getMonth()+1,1);render()};
   v.querySelectorAll(".cal button").forEach(b=>b.onclick=()=>{const i=+b.dataset.i,oc=OCC.find(o=>o.i===i&&o.end>=TODAY)||OCC.find(o=>o.i===i);document.getElementById("cdet").innerHTML=tripHTML(oc)+more(T[i]);document.getElementById("cdet").scrollIntoView({behavior:"smooth",block:"nearest"})})}};
 var LASTSEC;let PEND=null;document.addEventListener("click",e=>{const a=e.target.closest("a[data-g]");if(a)PEND=a.dataset.g},true);
-const HERO={def:{f:"titel",w:[800,1200,2400],c:"credit",pos:"62% 58%"},news:{f:"news",w:[800,1200],c:"credit_news",pos:"50% 60%"},fahrten:{f:"fahrten",w:[800,1200],c:"credit_fahrten",pos:"60% 55%"},ueber:{f:"ueber",w:[800,1144],c:"credit_ueber",pos:"50% 62%"},fz:{f:"fz",w:[800,1144],c:"credit_fz",pos:"60% 55%"},mit:{f:"mit",w:[800,1182],c:"credit_mit",pos:"40% 62%"}};
-const setHero=sec=>{const h=HERO[sec]||HERO.def,i=document.getElementById("heroimg");const ss=h.w.map(w=>`img/${h.f}-${w}.jpg ${w}w`).join(", ");if(i.getAttribute("srcset")!==ss){i.setAttribute("srcset",ss);i.src=`img/${h.f}-${h.w[1]||h.w[0]}.jpg`}i.style.objectPosition=h.pos;const c=document.querySelector(".hero .credit");c.dataset.i=h.c;c.textContent=L(h.c)};
+const HERO={def:{f:"titel",w:[800,1200,2400],c:"credit",pos:"62% 58%"},news:{f:"news",w:[800,1200],c:"credit_news",pos:"50% 60%"},fahrten:{f:"fahrten",w:[800,1200],c:"credit_fahrten",pos:"60% 55%"},ueber:{f:"ueber",w:[800,1144],c:"credit_ueber",pos:"50% 62%"},fz:{f:"fz",w:[800,1144],c:"credit_fz",pos:"60% 55%"},mit:{f:"mit",w:[800,1182],c:"credit_mit",pos:"40% 62%",nodark:1}};
+const setHero=sec=>{const h=HERO[sec]||HERO.def,i=document.getElementById("heroimg");const ss=h.w.map(w=>`img/${h.f}-${w}.jpg ${w}w`).join(", ");if(i.getAttribute("srcset")!==ss){i.setAttribute("srcset",ss);i.src=`img/${h.f}-${h.w[1]||h.w[0]}.jpg`}i.style.objectPosition=h.pos;document.querySelector(".hero").classList.toggle("nodark",!!h.nodark);const c=document.querySelector(".hero .credit");c.dataset.i=h.c;c.textContent=L(h.c)};
 let MIT=null;
 const b64=x=>Uint8Array.from(atob(x),c=>c.charCodeAt(0));
 const unlock=async pw=>{const e=await fetch("data/mitglieder.enc.json",{cache:"no-cache"}).then(r=>r.json());const km=await crypto.subtle.importKey("raw",new TextEncoder().encode(pw),"PBKDF2",false,["deriveKey"]);
