@@ -253,6 +253,34 @@
    ]
   },
   {
+   "id": "ge44i-605",
+   "nr": "Ge 4/4 I 605",
+   "n": "",
+   "kat": "dg",
+   "bj": "1953",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#c8102e",
+   "p": "Eine der zehn Ge 4/4 I, der ersten Elektroloks der RhB ohne Stangenantrieb; geliefert am 12. März 1953 von SLM, BBC und MFO. Sie gilt als historische Lok, fährt aber weiterhin im Plandienst, auch vor Güterzügen. Sind die Krokodile nicht verfügbar, zieht sie den Nostalgiezug Davos–Filisur durch die Zügenschlucht.",
+   "i18n": {
+    "fr": {
+     "p": "L’une des dix Ge 4/4 I, premières locomotives électriques des RhB sans entraînement par bielles ; livrée le 12 mars 1953 par SLM, BBC et MFO. Classée locomotive historique, elle circule encore en service régulier, y compris en tête de trains de marchandises. Quand les crocodiles ne sont pas disponibles, elle tire le train nostalgique Davos–Filisur à travers les gorges de Zügen."
+    },
+    "it": {
+     "p": "Una delle dieci Ge 4/4 I, le prime locomotive elettriche della RhB senza trasmissione a bielle; consegnata il 12 marzo 1953 da SLM, BBC e MFO. Classificata come locomotiva storica, circola ancora in servizio regolare, anche con treni merci. Quando i coccodrilli non sono disponibili, traina il treno nostalgico Davos–Filisur attraverso la gola dello Zügen."
+    },
+    "en": {
+     "p": "One of the ten Ge 4/4 I, the RhB’s first electric locomotives without rod drive; delivered on 12 March 1953 by SLM, BBC and MFO. Classed as a historic locomotive, it still runs in regular service, including freight trains. When the Crocodiles are unavailable, it hauls the Davos–Filisur nostalgia train through the Zügen gorge."
+    }
+   },
+   "m": [
+    "Ge 4/4 I 605",
+    "Ge 4/4 I statt"
+   ],
+   "img": "img/fz/ge44i-605",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "ge44-182",
    "nr": "Ge 4/4 182",
    "n": "Bernina-Krokodil",
