@@ -1231,6 +1231,43 @@
    ],
    "img": "img/fz/xk-9063",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "n-1513",
+   "nr": "N 1513 / N 1520",
+   "n": "",
+   "kat": "gueter",
+   "bj": "1908",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "",
+   "col": "#3a3e42",
+   "len": 7.4,
+   "gr": "gueter",
+   "p": "Ein Paar zweiachsiger Langholzwagen von 1908. Die beiden kurzen Wagen tragen auf je einem drehbaren Schemel gemeinsam lange Baumstämme und werden deshalb immer zusammen eingesetzt. Als Dienstwagen tragen sie heute die Nummern WN 9850 und WN 9851.",
+   "bem": "heute WN 9850 / WN 9851",
+   "i18n": {
+    "fr": {
+     "bem": "aujourd’hui WN 9850 / WN 9851",
+     "p": "Une paire de wagons à grumes à deux essieux de 1908. Les deux wagons courts portent ensemble de longs troncs, chacun sur une sellette pivotante, et circulent donc toujours ensemble. Comme véhicules de service, ils portent aujourd’hui les numéros WN 9850 et WN 9851."
+    },
+    "it": {
+     "bem": "oggi WN 9850 / WN 9851",
+     "p": "Una coppia di carri per tronchi a due assi del 1908. I due carri corti portano insieme lunghi tronchi, ciascuno su una traversa girevole, e circolano quindi sempre insieme. Come veicoli di servizio portano oggi i numeri WN 9850 e WN 9851."
+    },
+    "en": {
+     "bem": "today WN 9850 / WN 9851",
+     "p": "A pair of two-axle timber wagons from 1908. The two short wagons carry long logs between them, each on a pivoting bolster, and therefore always run together. As service vehicles they now carry the numbers WN 9850 and WN 9851."
+    }
+   },
+   "m": [
+    "N 1513",
+    "N 1520",
+    "WN 9850",
+    "WN 9851"
+   ],
+   "img": "img/fz/n-1513",
+   "imgc": "U. Finke"
   }
  ]
 }
