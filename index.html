@@ -481,6 +481,7 @@ const vFzD=id=>{const v=FZ.find(x=>x.id===id);if(!v)return `<p class="empty">${L
  <h2 style="margin-top:0">${esc(v.nr)}${v.n?`<br><span style="font-weight:500">${fzName(v)}</span>`:""}</h2>${v.bem?`<p style="font-size:18px;margin:4px 0 0;color:var(--mut)">${esc(LT(v,"bem"))}</p>`:""}
  <dl class="fx">${v.zu?`<dt>${L("fz_zu")}</dt><dd>${zuChip(v)}</dd>`:""}<dt>${L("fz_typ")}</dt><dd>${esc(L("kat")[v.kat]||"")}</dd>${v.bj?`<dt>${L("fz_bj")}</dt><dd>${v.bj}</dd>`:""}${v.st?`<dt>${L("fz_st")}</dt><dd><span class="stb ${v.st}">${L("stc")[v.st]}</span></dd>`:""}<dt>${L("fz_b")}</dt><dd>${oLink(v.b)}</dd>${v.mit?`<dt>${L("fz_mit")}</dt><dd>${v.mit.map(oLink).join(", ")}</dd>`:""}</dl></div></div>
  <p style="font-size:18px;max-width:68ch;margin-top:22px">${esc(LT(v,"p"))}</p>
+ ${(()=>{const r=FZ.filter(x=>x!==v&&((v.rel||[]).includes(x.id)||(x.rel||[]).includes(v.id)));return r.length?`<h3 style="margin-top:26px">${L("fz_rel")}</h3><div class="fzg">${r.map(fzCard).join("")}</div>`:""})()}
  ${tr?`<h3 style="margin-top:26px">${L("fz_trips")}</h3>${tr}`:""}
  <p style="margin-top:28px"><a class="back bk" href="#fahrzeuge">← ${L("fz_back")}</a></p>${oth.length?`<h3 style="margin-top:26px">${L("fz_more")} · ${esc(L("kg")[G(v)]||"")}</h3><div class="fzg">${oth.map(fzCard).join("")}</div>`:""}</div>`};
 /* ---------- Über uns ---------- */

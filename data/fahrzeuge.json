@@ -1268,6 +1268,44 @@
    ],
    "img": "img/fz/n-1513",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "l-6603",
+   "nr": "L 6603 / WN 9855",
+   "n": "",
+   "kat": "gueter",
+   "bj": "1911",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "betr",
+   "col": "#5a5f64",
+   "len": 8.89,
+   "gr": "gueter",
+   "rel": [
+    "g34-11"
+   ],
+   "bem": "Öltank zur Lok G 3/4 11 «Heidi»",
+   "p": "Zweiachsiger offener Hochbordwagen von 1911. Heute dient er als Dienstwagen WN 9855 und trägt den Öltank, der die ölgefeuerte Dampflok G 3/4 11 «Heidi» auf ihren Fahrten mit Brennstoff versorgt.",
+   "i18n": {
+    "fr": {
+     "bem": "Citerne à mazout de la locomotive G 3/4 11 « Heidi »",
+     "p": "Wagon tombereau à deux essieux de 1911. Il sert aujourd’hui de wagon de service WN 9855 et porte la citerne qui alimente en combustible la locomotive à vapeur au mazout G 3/4 11 « Heidi » lors de ses voyages."
+    },
+    "it": {
+     "bem": "Serbatoio d’olio della locomotiva G 3/4 11 «Heidi»",
+     "p": "Carro aperto a sponde alte a due assi del 1911. Oggi serve come carro di servizio WN 9855 e porta il serbatoio che rifornisce di combustibile la locomotiva a vapore a olio G 3/4 11 «Heidi» durante i suoi viaggi."
+    },
+    "en": {
+     "bem": "Oil tank for locomotive G 3/4 11 «Heidi»",
+     "p": "Two-axle high-sided open wagon from 1911. Today it serves as service wagon WN 9855 and carries the oil tank that supplies fuel to the oil-fired steam locomotive G 3/4 11 «Heidi» on its trips."
+    }
+   },
+   "m": [
+    "L 6603",
+    "WN 9855"
+   ],
+   "img": "img/fz/l-6603",
+   "imgc": "U. Finke"
   }
  ]
 }
