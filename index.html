@@ -144,7 +144,7 @@ body:not(.home) .statsband,body:not(.home) .newsband,body:not(.home) .boardband{
 .top{background:#15171a;color:#fff;position:sticky;top:0;z-index:8;box-shadow:0 1px 0 rgba(255,255,255,.06)}
 .bar{top:60px!important}
 html{scroll-padding-top:120px}
-.topin{display:flex;align-items:center;gap:18px;padding:0 max(5vw,16px);min-height:60px}
+.topin{display:flex;align-items:center;gap:18px;width:100%;box-sizing:border-box;padding:0 max(5vw,16px);min-height:60px}
 .tbrand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font:600 18px "Barlow Condensed",sans-serif;white-space:nowrap;background:var(--red);padding:5px 14px 5px 6px;border-radius:24px}.tbrand:hover{background:#a8001a}
 .tlinks{display:flex;gap:4px;margin-left:auto;overflow-x:auto;scrollbar-width:none}
 .tlinks::-webkit-scrollbar{display:none}
@@ -247,8 +247,8 @@ footer p{max-width:80ch}
  .herotext{max-width:calc(100% - 100px)}
  .credit{left:12px;right:auto;bottom:66px;max-width:calc(100% - 24px)}
 }
-@media(max-width:720px){.tlinks{flex:1;justify-content:space-between}.tlinks a{font-size:17px;padding:9px 3px}.tlinks a.mitl{padding:6px 6px}}@media(max-width:410px){.tlinks a{font-size:16px;padding:9px 2px}}
-@media(max-width:380px){.tlinks a{font-size:15px;padding:9px 1px}.tbrand img{width:30px!important;height:30px!important}}
+@media(max-width:720px){.tlinks{flex:1 1 auto!important;justify-content:space-between}.tlinks a{font-size:20px;padding:9px 2px}.tlinks a.mitl{padding:5px 5px;border-color:rgba(255,255,255,.25)}.tbrand img{width:32px!important;height:32px!important}.topin{gap:10px!important}}@media(max-width:410px){.tlinks a{font-size:19px;padding:9px 1px}}
+@media(max-width:380px){.tlinks a{font-size:18px;padding:9px 0}.tbrand img{width:28px!important;height:28px!important}.topin{gap:7px!important}}
 </style>
 <script src="js/i18n.js"></script>
 </head>
