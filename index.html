@@ -134,15 +134,19 @@ label.hrchk{border:1px solid var(--red);border-radius:6px;padding:0 10px;color:v
 .mpl{list-style:none;padding:0;margin:6px 0 2px}.mpl li{padding:3px 0;border-top:1px solid #eee}.mpl li span{display:block;font-size:13px;color:#666}
 .m30{list-style:none;padding:0;margin:8px 0 0}.m30 li{display:grid;grid-template-columns:150px 1fr;gap:2px 14px;padding:9px 0;border-top:1px solid var(--line)}.m30 .d{font-weight:600;grid-row:span 2}.m30 .o{font-size:14px;color:var(--mut)}
 @media(max-width:600px){.m30 li{grid-template-columns:1fr}.m30 .d{grid-row:auto}}
-.top{background:#15171a;color:#fff;position:relative;z-index:6}
+.top{background:#15171a;color:#fff;position:sticky;top:0;z-index:8;box-shadow:0 1px 0 rgba(255,255,255,.06)}
+.bar{top:52px!important}
+html{scroll-padding-top:120px}
 .topin{display:flex;align-items:center;gap:18px;padding:0 max(5vw,16px);min-height:52px}
 .tbrand{display:flex;align-items:center;gap:9px;color:#fff;text-decoration:none;font:600 18px "Barlow Condensed",sans-serif;white-space:nowrap}
 .tlinks{display:flex;gap:4px;margin-left:auto;overflow-x:auto;scrollbar-width:none}
 .tlinks::-webkit-scrollbar{display:none}
-.tlinks a{color:#e9e9e4;text-decoration:none;font:600 17px "Barlow Condensed",sans-serif;padding:9px 13px;border-radius:6px;white-space:nowrap;border-bottom:3px solid transparent}
+.tlinks a{flex:none;color:#e9e9e4;text-decoration:none;font:600 17px "Barlow Condensed",sans-serif;padding:9px 13px;border-radius:6px;white-space:nowrap;border-bottom:3px solid transparent}
 .tlinks a:hover{background:rgba(255,255,255,.1)}
 .tlinks a[aria-current=page]{color:#fff;border-bottom-color:var(--red);border-radius:6px 6px 0 0}
-@media(max-width:720px){.tbrand{display:none}.tlinks{margin-left:0}.tlinks a{padding:9px 10px;font-size:16px}}
+@media(max-width:720px){.tbrand{font-size:0;gap:0;flex:none}.tbrand img{width:30px;height:30px}.topin{gap:4px;padding:0 8px}.tlinks{margin-left:0;gap:0}.tlinks a{padding:9px 6px;font-size:15px}}
+@media(max-width:380px){.tlinks a{padding:9px 4px;font-size:14px}.topin{padding:0 6px}}
+@media(max-width:600px){.bar{position:static}html{scroll-padding-top:64px}}
 body.sec .bar{display:none}
 .fzg{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:14px;margin-top:10px}
 .fzc{display:flex;flex-direction:column;gap:2px;border:1px solid var(--line);border-radius:10px;padding:12px 14px 14px;background:var(--soft);text-decoration:none;color:var(--ink);transition:border-color .15s,transform .15s}
@@ -527,12 +531,12 @@ const render=()=>{const v=document.getElementById("view");
  if(isD){const t=T[TID[st.v.slice(6)]];document.title=(t?LT(t,"t")+" – ":"")+"Bahnkultur Historic RhB";const T2=document.getElementById("toast");
   const ib=document.getElementById("icsb");if(ib)ib.onclick=()=>{const b=new Blob([ics(t,nextDay(t))],{type:"text/calendar"}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=t.id+".ics";document.body.appendChild(a);a.click();a.remove();T2.textContent=L("ics_ok")};
   const cb=document.getElementById("cpy");if(cb)cb.onclick=()=>{const u=location.href;navigator.clipboard.writeText(u).then(()=>T2.textContent=L("copied"),()=>T2.textContent=u)};
-  window.scrollTo({top:v.getBoundingClientRect().top+scrollY-document.querySelector(".bar").offsetHeight-8,behavior:"smooth"})} else if(st.v.startsWith("fz-")||st.v.startsWith("org-")){const x=st.v.startsWith("fz-")?FZ.find(y=>y.id===st.v.slice(3)):OK[st.v.slice(4)];document.title=(x?(x.nr||x.n)+" – ":"")+"Bahnkultur Historic RhB";goMain()} else document.title="Bahnkultur Historic RhB";
+  goMain()} else if(st.v.startsWith("fz-")||st.v.startsWith("org-")){const x=st.v.startsWith("fz-")?FZ.find(y=>y.id===st.v.slice(3)):OK[st.v.slice(4)];document.title=(x?(x.nr||x.n)+" – ":"")+"Bahnkultur Historic RhB";goMain()} else document.title="Bahnkultur Historic RhB";
  if(st.v==="news")document.getElementById("nf").onchange=e=>{nf=e.target.value;render()};
  if(st.v==="kalender"){document.getElementById("pm").onclick=()=>{st.cm=new Date(st.cm.getFullYear(),st.cm.getMonth()-1,1);render()};
   document.getElementById("nm").onclick=()=>{st.cm=new Date(st.cm.getFullYear(),st.cm.getMonth()+1,1);render()};
   v.querySelectorAll(".cal button").forEach(b=>b.onclick=()=>{const i=+b.dataset.i,oc=OCC.find(o=>o.i===i&&o.end>=TODAY)||OCC.find(o=>o.i===i);document.getElementById("cdet").innerHTML=tripHTML(oc)+more(T[i]);document.getElementById("cdet").scrollIntoView({behavior:"smooth",block:"nearest"})})}};
-const goMain=()=>{const v=document.getElementById("view"),b=document.querySelector(".bar"),off=getComputedStyle(b).display==="none"?0:b.offsetHeight;window.scrollTo({top:v.getBoundingClientRect().top+scrollY-off-8,behavior:"smooth"})};
+const goMain=()=>{const v=document.getElementById("view"),b=document.querySelector(".bar"),off=document.getElementById("top").offsetHeight+(getComputedStyle(b).display==="none"||getComputedStyle(b).position!=="sticky"?0:b.offsetHeight);window.scrollTo({top:v.getBoundingClientRect().top+scrollY-off-8,behavior:"smooth"})};
 const all=()=>{statics();opts();standTxt();board();stats();teaser();render()};
 const setV=v=>{st.v=v;if(location.hash!=="#"+v)history.replaceState(null,"","#"+v);render()};
 document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>setV(b.dataset.v));
