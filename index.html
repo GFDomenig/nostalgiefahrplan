@@ -155,8 +155,8 @@ body.sec .bar{display:none}
 .fzc span{font-size:14px;color:var(--mut)}
 .sch{background:#fff;border-radius:6px;border:1px solid var(--line)}
 .sch svg{display:block;width:100%;height:auto}
-.fzc .sch{aspect-ratio:260/100;display:flex;align-items:center;justify-content:center;overflow:hidden}.sch.ph{padding:4px;position:relative}.fzh .sch.ph{aspect-ratio:auto}.sch.ph{position:relative}.sch .cr{position:absolute;right:5px;bottom:3px;font-size:10.5px;line-height:1;color:#555;background:rgba(255,255,255,.85);padding:2px 4px;border-radius:3px}
-.sch.ph img{width:100%;height:100%;object-fit:contain;display:block}.fzh .sch.ph img{height:auto}
+.fzc .sch{aspect-ratio:260/100;display:flex;align-items:center;justify-content:center;overflow:hidden}.sch.ph{padding:4px;position:relative}.fzh .sch.ph{aspect-ratio:auto}.sch.ph{position:relative}.sch .cr{position:absolute;right:5px;top:4px;font-size:10.5px;line-height:1;color:#555;background:rgba(255,255,255,.85);padding:2px 4px;border-radius:3px}
+.sch.ph img{width:100%;height:100%;object-fit:contain;display:block}.fzh .sch.ph img{height:auto}.sch.ph:has(img.sc){align-items:flex-end;padding:4px 4px 8px}.sch.ph img.sc{height:auto;max-height:100%}
 .fzh{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:24px;align-items:start}
 @media(max-width:720px){.fzh{grid-template-columns:1fr}}
 .fx{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;margin:10px 0 0;font-size:16px}
@@ -459,7 +459,8 @@ const sch=v=>{const c=v.col||"#4a5157",m=/(\d)\/(\d)/.exec(v.nr)||[0,0,0],dr=+m[
  else{const salon=k==="salon";g+=`<rect x="10" y="20" width="240" height="44" rx="5" fill="${c}"/>`;if(salon)g+=`<rect x="10" y="20" width="240" height="20" rx="5" fill="#efe6cc"/><rect x="10" y="36" width="240" height="4" fill="#efe6cc"/>`;
   g+=k==="gep"?`<rect x="40" y="30" width="16" height="12" rx="2" fill="#dfe8ee"/><rect x="204" y="30" width="16" height="12" rx="2" fill="#dfe8ee"/><rect x="100" y="28" width="60" height="32" fill="rgba(0,0,0,.12)"/>`:win(22,238,salon?24:28,salon?14:16,8);g+=bog(50,2,8)+bog(210,2,8)}
  return `<svg viewBox="0 0 260 86" role="img" aria-label="${esc(L("kat")[k]||"")}"><rect x="0" y="80" width="260" height="3" fill="#8a8f94"/>${g}</svg>`};
-const pic=(v,big)=>v.img?`<img src="${v.img}-${big?1200:600}.jpg" srcset="${v.img}-600.jpg 600w, ${v.img}-1200.jpg 1200w" sizes="${big?"(max-width:720px) 100vw, 520px":"(max-width:520px) 100vw, 260px"}" alt="${esc(v.nr)}" loading="lazy">`:sch(v);
+const LMAX=18;
+const pic=(v,big)=>v.img?`<img${!big&&v.len?` class="sc" style="width:${Math.min(100,v.len/LMAX*100).toFixed(1)}%"`:""} src="${v.img}-${big?1200:600}.jpg" srcset="${v.img}-600.jpg 600w, ${v.img}-1200.jpg 1200w" sizes="${big?"(max-width:720px) 100vw, 520px":"(max-width:520px) 100vw, 260px"}" alt="${esc(v.nr)}" loading="lazy">`:sch(v);
 const fzName=v=>v.n?`«${esc(LT(v,"n"))}»`:"";
 const fzCard=v=>`<a class="fzc" href="#fz-${v.id}"><div class="sch${v.img?" ph":""}">${pic(v)}${v.imgc?`<small class="cr">© ${esc(v.imgc)}</small>`:""}</div><b class="nr">${esc(v.nr)}</b><span>${[fzName(v),v.bj].filter(Boolean).join(" · ")||"&nbsp;"}</span></a>`;
 const vFz=()=>{const grp=["dampf","elok","tw","schnee","wagen"];return `<h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L("nav_fz")}</h2><p style="max-width:62ch">${L("fz_lede")}</p>`+
