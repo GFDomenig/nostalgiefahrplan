@@ -1905,6 +1905,38 @@
    "imgc": "U. Finke"
   },
   {
+   "id": "om-8242",
+   "nr": "OM 8242 / Re-w 8242",
+   "n": "",
+   "kat": "gueter",
+   "bj": "1966",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#6f7378",
+   "len": 16.14,
+   "gr": "gueter",
+   "p": "Vierachsiger Flachwagen der RhB von 1966 mit Rungen und niedrigen Seitenwänden. Die Skizze zeigt ihn beim Autotransport, beladen mit zwei Personenwagen. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Wagon plat à quatre essieux des RhB de 1966, avec ranchers et ridelles basses. Le dessin le montre en transport d’automobiles, chargé de deux voitures. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Carro pianale a quattro assi della RhB del 1966, con stanti e sponde basse. Il disegno lo mostra nel trasporto di automobili, caricato con due vetture. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Four-axle flat wagon of the RhB from 1966 with stanchions and low sides. The drawing shows it carrying cars, loaded with two automobiles. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "OM 8242",
+    "Re-w 8242",
+    "R-w 8242"
+   ],
+   "zu": "hrhb",
+   "img": "img/fz/om-8242",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "m-8604",
    "nr": "M 8604",
    "n": "",
