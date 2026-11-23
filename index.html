@@ -151,7 +151,7 @@ body.sec .bar{display:none}
 .fzg{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:14px;margin-top:10px}
 .fzc{display:flex;flex-direction:column;gap:2px;border:1px solid var(--line);border-radius:10px;padding:12px 14px 14px;background:var(--soft);text-decoration:none;color:var(--ink);transition:border-color .15s,transform .15s}
 .fzc:hover{border-color:var(--red);transform:translateY(-2px)}
-.zu{display:inline-block;align-self:flex-start;font:600 12px/1 Barlow,sans-serif;padding:4px 8px;border-radius:99px;margin:4px 0 2px;letter-spacing:.02em}.zu.hrhb{background:var(--red);color:#fff}.zu.bma{background:#1f4e79;color:#fff}.zu.rhb{background:#e4e4e0;color:#333}.fx .zu{margin:0}
+.zu{display:inline-block;align-self:flex-start;font:600 12px/1 Barlow,sans-serif;padding:4px 8px;border-radius:99px;margin:4px 0 2px;letter-spacing:.02em}.zu.hrhb{background:var(--red);color:#fff}.zu.bma{background:#1f4e79;color:#fff}.zu.abc{background:#2f6b3a;color:#fff}.zu.rhb{background:#e4e4e0;color:#333}.fx .zu{margin:0}
 .fzc .nr{font:700 21px/1.1 "Barlow Condensed",sans-serif;margin-top:6px}
 .fzc span{font-size:14px;color:var(--mut)}
 .sch{background:#fff;border-radius:6px;border:1px solid var(--line)}
@@ -465,7 +465,7 @@ const sch=v=>{const c=v.col||"#4a5157",m=/(\d)\/(\d)/.exec(v.nr)||[0,0,0],dr=+m[
  return `<svg viewBox="0 0 260 86" role="img" aria-label="${esc(L("kat")[k]||"")}"><rect x="0" y="80" width="260" height="3" fill="#8a8f94"/>${g}</svg>`};
 const LMAX=Math.max(18,...FZ.map(v=>v.len||0));
 const pic=(v,big)=>v.img?`<img${!big&&v.len?` class="sc" style="width:${Math.min(100,v.len/LMAX*100).toFixed(1)}%"`:""} src="${v.img}-${big?1200:600}.jpg" srcset="${v.img}-600.jpg 600w, ${v.img}-1200.jpg 1200w" sizes="${big?"(max-width:720px) 100vw, 520px":"(max-width:520px) 100vw, 260px"}" alt="${esc(v.nr)}" loading="lazy">`:(!big&&v.len?`<div class="scw" style="width:${Math.min(100,v.len/LMAX*100).toFixed(1)}%">${sch(v)}</div>`:sch(v));
-const ZU={hrhb:"Historic RhB",bma:"Bahnmuseum Albula",rhb:"Rhätische Bahn"};
+const ZU={hrhb:"Historic RhB",bma:"Bahnmuseum Albula",abc:"Albula-Bahn-Club",rhb:"Rhätische Bahn"};
 const zuChip=v=>v.zu?`<span class="zu ${v.zu}">${ZU[v.zu]}</span>`:"";
 const fzName=v=>v.n?`«${esc(LT(v,"n"))}»`:"";
 const fzCard=v=>`<a class="fzc" href="#fz-${v.id}"><div class="sch${v.img?" ph":""}">${pic(v)}${v.imgc?`<small class="cr">© ${esc(v.imgc)}</small>`:""}</div><b class="nr">${esc(v.nr)}</b>${zuChip(v)}<span>${(v.bem?[v.bj,esc(LT(v,"bem"))]:[fzName(v),v.bj]).filter(Boolean).join(" · ")||"&nbsp;"}</span></a>`;
