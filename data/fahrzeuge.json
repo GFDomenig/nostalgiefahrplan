@@ -1046,6 +1046,35 @@
    ],
    "img": "img/fz/m-7070",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "k1-5615",
+   "nr": "K1 5615",
+   "n": "",
+   "kat": "gueter",
+   "bj": "",
+   "b": "rhb",
+   "st": "",
+   "col": "#8a8f94",
+   "len": 8.45,
+   "gr": "gueter",
+   "p": "Zweiachsiger gedeckter Güterwagen der RhB mit Schiebetür, in grauer Farbgebung und mit Bremserplattform an einem Wagenende.",
+   "i18n": {
+    "fr": {
+     "p": "Wagon couvert à deux essieux des RhB, avec porte coulissante, de couleur grise et avec plateforme de serre-frein à une extrémité."
+    },
+    "it": {
+     "p": "Carro coperto a due assi della RhB con porta scorrevole, di colore grigio e con piattaforma del frenatore a un’estremità."
+    },
+    "en": {
+     "p": "Two-axle covered goods wagon of the RhB with a sliding door, in grey livery and with a brakeman’s platform at one end."
+    }
+   },
+   "m": [
+    "K1 5615"
+   ],
+   "img": "img/fz/k1-5615",
+   "imgc": "U. Finke"
   }
  ]
 }
