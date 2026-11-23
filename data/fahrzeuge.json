@@ -1659,6 +1659,35 @@
    ],
    "img": "img/fz/ld-c-32",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "rhb-c-66",
+   "nr": "RhB C 66 / WN 9806",
+   "n": "",
+   "kat": "wagen",
+   "bj": "1897",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "betr",
+   "col": "#2f6b3a",
+   "len": 9.5,
+   "gr": "wagen",
+   "p": "Zweiachsiger Personenwagen aus der Frühzeit der Rhätischen Bahn. Die Landquart–Davos-Bahn hatte sich 1895 in Rhätische Bahn umbenannt, als ihr Netz über die Strecke Landquart–Davos hinaus wuchs; es blieb dasselbe Unternehmen. Der Wagen von 1897 gehört zu den ersten, die unter dem neuen Namen beschafft wurden. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Voiture à deux essieux des débuts des Chemins de fer rhétiques. Le chemin de fer Landquart–Davos avait pris en 1895 le nom de Chemins de fer rhétiques lorsque son réseau s’est étendu au-delà de la ligne Landquart–Davos ; l’entreprise est restée la même. Cette voiture de 1897 compte parmi les premières acquises sous le nouveau nom. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Carrozza a due assi dei primi anni della Ferrovia retica. La ferrovia Landquart–Davos aveva preso nel 1895 il nome di Ferrovia retica quando la sua rete si estese oltre la linea Landquart–Davos; l’impresa rimase la stessa. Questa carrozza del 1897 è tra le prime acquistate con il nuovo nome. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Two-axle coach from the early years of the Rhaetian Railway. The Landquart–Davos Railway had renamed itself the Rhaetian Railway in 1895 as its network grew beyond the Landquart–Davos line; it remained the same company. This coach of 1897 is among the first acquired under the new name. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "C 66",
+    "WN 9806"
+   ]
   }
  ]
 }
