@@ -1117,6 +1117,40 @@
    "mit": null
   },
   {
+   "id": "b-2094",
+   "nr": "B 2094",
+   "n": "",
+   "kat": "wagen",
+   "bj": "1926",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "betr",
+   "col": "#f2d43a",
+   "len": 9.34,
+   "gr": "wagen",
+   "bem": "1986 zum Aussichtswagen umgebaut",
+   "p": "Zweiachsiger Wagen von 1926, der 1986 zum offenen Aussichtswagen umgebaut wurde, in der typischen gelben Farbe. Die «gelben Cabrios» der RhB fahren im Sommer zwischen Davos und Filisur, zwischen Alvaneu und Filisur sowie zwischen St. Moritz und Tirano. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "bem": "Transformée en voiture panoramique en 1986",
+     "p": "Voiture à deux essieux de 1926, transformée en 1986 en voiture panoramique ouverte, dans la couleur jaune typique. Les « cabriolets jaunes » des RhB circulent en été entre Davos et Filisur, entre Alvaneu et Filisur ainsi qu’entre Saint-Moritz et Tirano. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "bem": "Trasformata in carrozza panoramica nel 1986",
+     "p": "Carrozza a due assi del 1926, trasformata nel 1986 in carrozza panoramica aperta, nel tipico colore giallo. I «cabriolet gialli» della RhB circolano in estate tra Davos e Filisur, tra Alvaneu e Filisur e tra St. Moritz e Tirano. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "bem": "Rebuilt as an observation car in 1986",
+     "p": "Two-axle coach of 1926, rebuilt in 1986 as an open observation car, in the typical yellow livery. The RhB’s «yellow convertibles» run in summer between Davos and Filisur, between Alvaneu and Filisur and between St. Moritz and Tirano. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "B 2094"
+   ],
+   "img": "img/fz/b-2094",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "b-2111",
    "nr": "B 2111",
    "n": "Aussichtswagen",
