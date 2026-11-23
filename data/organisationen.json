@@ -11,44 +11,44 @@
    "w": "",
    "lg": "img/logo-160.png",
    "nq": "stiftung",
-   "p": "Die Stiftung Bahnkultur RhB wurde im Januar 2025 in Chur errichtet. Sie will das bahnkulturelle Erbe der Rhätischen Bahn und das UNESCO-Welterbe RhB langfristig schützen und für alle erlebbar machen. Dazu kann sie ausgewählte Kulturgüter selbst übernehmen oder Projekte anderer unterstützen; sie ist gemeinnützig sowie politisch und konfessionell neutral. Diese Webseite ist ein Projekt der Stiftung.",
+   "p": "Gegründet von der Rhätischen Bahn will die Stiftung Bahnkultur RhB das bahnkulturelle Erbe der Rhätischen Bahn und das UNESCO-Welterbe RhB langfristig schützen und für alle erlebbar machen. Sie wurde im Januar 2025 in Chur errichtet. Dazu kann sie ausgewählte Kulturgüter selbst übernehmen oder Projekte anderer unterstützen; sie ist gemeinnützig sowie politisch und konfessionell neutral. Zusammen mit dem Verein Historic RhB ist sie Co-Herausgeberin dieser Webseite unter der Marke Historic RhB.",
    "i18n": {
     "fr": {
-     "p": "La Fondation Bahnkultur RhB a été créée en janvier 2025 à Coire. Elle veut protéger durablement le patrimoine ferroviaire des Chemins de fer rhétiques et le site UNESCO RhB, et le rendre accessible à tous. Elle peut reprendre elle-même certains biens culturels ou soutenir des projets de tiers ; elle est d’utilité publique et neutre sur les plans politique et confessionnel. Ce site est un projet de la fondation.",
-     "kz": "Elle veut protéger durablement le patrimoine ferroviaire des Chemins de fer rhétiques et le site UNESCO RhB, et le rendre accessible à tous."
+     "p": "Fondée par les Chemins de fer rhétiques, la Fondation Bahnkultur RhB veut protéger durablement le patrimoine ferroviaire des Chemins de fer rhétiques et le site UNESCO RhB, et le rendre accessible à tous. Elle a été créée en janvier 2025 à Coire. Elle peut reprendre elle-même certains biens culturels ou soutenir des projets de tiers ; elle est d’utilité publique et neutre sur les plans politique et confessionnel. Avec l’association Historic RhB, elle est coéditrice de ce site sous la marque Historic RhB.",
+     "kz": "Fondée par les Chemins de fer rhétiques, elle veut protéger durablement le patrimoine ferroviaire des Chemins de fer rhétiques et le site UNESCO RhB, et le rendre accessible à tous."
     },
     "it": {
-     "p": "La Fondazione Bahnkultur RhB è stata costituita nel gennaio 2025 a Coira. Vuole proteggere a lungo termine il patrimonio ferroviario della Ferrovia retica e il Patrimonio mondiale UNESCO RhB, rendendolo accessibile a tutti. Può assumere direttamente beni culturali scelti o sostenere progetti di terzi; è di pubblica utilità e neutrale dal punto di vista politico e confessionale. Questo sito è un progetto della fondazione.",
-     "kz": "Vuole proteggere a lungo termine il patrimonio ferroviario della Ferrovia retica e il Patrimonio mondiale UNESCO RhB, rendendolo accessibile a tutti."
+     "p": "Fondata dalla Ferrovia retica, la Fondazione Bahnkultur RhB vuole proteggere a lungo termine il patrimonio ferroviario della Ferrovia retica e il Patrimonio mondiale UNESCO RhB, rendendolo accessibile a tutti. È stata costituita nel gennaio 2025 a Coira. Può assumere direttamente beni culturali scelti o sostenere progetti di terzi; è di pubblica utilità e neutrale dal punto di vista politico e confessionale. Insieme all’associazione Historic RhB è coeditrice di questo sito con il marchio Historic RhB.",
+     "kz": "Fondata dalla Ferrovia retica, vuole proteggere a lungo termine il patrimonio ferroviario della Ferrovia retica e il Patrimonio mondiale UNESCO RhB, rendendolo accessibile a tutti."
     },
     "en": {
-     "p": "The Stiftung Bahnkultur RhB (Rhaetian Railway Heritage Foundation) was established in Chur in January 2025. It aims to protect the railway heritage of the Rhaetian Railway and the RhB UNESCO World Heritage site for the long term and to make it accessible to everyone. It can take over selected heritage items itself or support projects run by others; it is non-profit and politically and religiously neutral. This website is a project of the foundation.",
-     "kz": "It aims to protect the railway heritage of the Rhaetian Railway and the RhB UNESCO World Heritage site for the long term and to make it accessible to everyone."
+     "p": "Founded by the Rhaetian Railway, the Stiftung Bahnkultur RhB (Rhaetian Railway Heritage Foundation) aims to protect the railway heritage of the Rhaetian Railway and the RhB UNESCO World Heritage site for the long term and to make it accessible to everyone. It was established in Chur in January 2025. It can take over selected heritage items itself or support projects run by others; it is non-profit and politically and religiously neutral. Together with the Verein Historic RhB, it co-publishes this website under the Historic RhB brand.",
+     "kz": "Founded by the Rhaetian Railway, it aims to protect the railway heritage of the Rhaetian Railway and the RhB UNESCO World Heritage site for the long term and to make it accessible to everyone."
     }
    },
    "ab": "SBK",
-   "kz": "Sie will das bahnkulturelle Erbe der Rhätischen Bahn und das UNESCO-Welterbe RhB langfristig schützen und für alle erlebbar machen."
+   "kz": "Gegründet von der Rhätischen Bahn will sie das bahnkulturelle Erbe der Rhätischen Bahn und das UNESCO-Welterbe RhB langfristig schützen und für alle erlebbar machen."
   },
   {
    "k": "hrhb",
    "typ": "dach",
-   "n": "Historic RhB",
+   "n": "Verein Historic RhB",
    "rf": "verein",
    "g": "2003",
    "s": "Bergün/Bravuogn",
    "w": "https://www.historic-rhb.ch",
    "lg": "img/logo-160.png",
    "nq": "hrhb",
-   "p": "Historic RhB ist der Dachverband der Vereine und Stiftungen, die sich um das historische Erbe der Rhätischen Bahn kümmern. Er wurde 2003 gegründet und vereint heute sieben Vereine und zwei Stiftungen. Er will historische RhB-Fahrzeuge erhalten, restaurieren, zeigen und auf dem RhB-Netz betreiben, koordiniert Fahrten mit bahnhistorischem Charakter und gibt das Magazin «Die Bündner Kulturbahn» heraus. Seit 2026 führt er zudem den Ticket-Corner im Bahnhof Bonaduz.",
+   "p": "Der Verein ist der Dachverband der unten aufgeführten Vereine und Stiftungen, die sich um das historische Erbe der Rhätischen Bahn kümmern. Er wurde 2003 gegründet und vereint heute sieben Vereine und zwei Stiftungen. Er will historische RhB-Fahrzeuge erhalten, restaurieren, zeigen und auf dem RhB-Netz betreiben, koordiniert Fahrten mit bahnhistorischem Charakter und gibt das Magazin «Die Bündner Kulturbahn» heraus. Seit 2026 führt er zudem den Ticket-Corner im Bahnhof Bonaduz. Zusammen mit der Stiftung Bahnkultur RhB ist er Co-Herausgeber dieser Webseite unter der Marke Historic RhB.",
    "i18n": {
     "fr": {
-     "p": "Historic RhB est l’association faîtière des associations et fondations qui prennent soin du patrimoine historique des Chemins de fer rhétiques. Fondée en 2003, elle réunit aujourd’hui sept associations et deux fondations. Elle veut conserver, restaurer, présenter et faire circuler sur le réseau RhB des véhicules historiques, coordonne des voyages à caractère historique et publie le magazine « Die Bündner Kulturbahn ». Depuis 2026, elle gère aussi le Ticket-Corner de la gare de Bonaduz."
+     "p": "L’association est l’organisation faîtière des associations et fondations mentionnées ci-dessous, qui prennent soin du patrimoine historique des Chemins de fer rhétiques. Fondée en 2003, elle réunit aujourd’hui sept associations et deux fondations. Elle veut conserver, restaurer, présenter et faire circuler sur le réseau RhB des véhicules historiques, coordonne des voyages à caractère historique et publie le magazine « Die Bündner Kulturbahn ». Depuis 2026, elle gère aussi le Ticket-Corner de la gare de Bonaduz. Avec la Fondation Bahnkultur RhB, elle est coéditrice de ce site sous la marque Historic RhB."
     },
     "it": {
-     "p": "Historic RhB è l’associazione mantello delle associazioni e fondazioni che si occupano del patrimonio storico della Ferrovia retica. Fondata nel 2003, riunisce oggi sette associazioni e due fondazioni. Vuole conservare, restaurare, esporre e far circolare sulla rete RhB i veicoli storici, coordina viaggi di carattere storico e pubblica la rivista «Die Bündner Kulturbahn». Dal 2026 gestisce anche il Ticket-Corner della stazione di Bonaduz."
+     "p": "L’associazione è l’organizzazione mantello delle associazioni e fondazioni elencate qui sotto, che si occupano del patrimonio storico della Ferrovia retica. Fondata nel 2003, riunisce oggi sette associazioni e due fondazioni. Vuole conservare, restaurare, esporre e far circolare sulla rete RhB i veicoli storici, coordina viaggi di carattere storico e pubblica la rivista «Die Bündner Kulturbahn». Dal 2026 gestisce anche il Ticket-Corner della stazione di Bonaduz. Insieme alla Fondazione Bahnkultur RhB è coeditrice di questo sito con il marchio Historic RhB."
     },
     "en": {
-     "p": "Historic RhB is the umbrella organisation of the associations and foundations that look after the historic heritage of the Rhaetian Railway. Founded in 2003, it now brings together seven associations and two foundations. It aims to preserve, restore, display and operate historic RhB vehicles on the RhB network, coordinates heritage trips and publishes the magazine «Die Bündner Kulturbahn». Since 2026 it has also run the ticket corner at Bonaduz station."
+     "p": "The association is the umbrella organisation of the associations and foundations listed below, which look after the historic heritage of the Rhaetian Railway. Founded in 2003, it now brings together seven associations and two foundations. It aims to preserve, restore, display and operate historic RhB vehicles on the RhB network, coordinates heritage trips and publishes the magazine «Die Bündner Kulturbahn». Since 2026 it has also run the ticket corner at Bonaduz station. Together with the Stiftung Bahnkultur RhB, it co-publishes this website under the Historic RhB brand."
     }
    },
    "ab": "HRhB"
