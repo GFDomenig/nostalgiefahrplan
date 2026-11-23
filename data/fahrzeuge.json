@@ -404,16 +404,16 @@
    "b": "club1889",
    "st": "betr",
    "col": "#8a5a33",
-   "p": "1928 für die damals selbständige Berninabahn gebaut (dort Nr. 82) und 1977 ausgemustert. Die Lok gehört heute dem Club 1889 und ist in Pontresina stationiert; sie zieht Pullmanzüge über den Bernina und schiebt bei Vorführungen die Dampfschneeschleuder. Sie ist auf dem Titelbild dieser Seite zu sehen.",
+   "p": "1928 für die damals selbständige Berninabahn gebaut (dort Nr. 82) und 1977 ausgemustert. Der Club 1889 hat die Lok zusammen mit der Hauptwerkstätte der RhB aufgearbeitet. Die Lok gehört heute dem Club 1889 und ist in Pontresina stationiert; sie zieht Pullmanzüge über den Bernina und schiebt bei Vorführungen die Dampfschneeschleuder. Sie ist auf dem Titelbild dieser Seite zu sehen.",
    "i18n": {
     "fr": {
-     "p": "Construite en 1928 pour le chemin de fer de la Bernina, alors indépendant (n° 82), et retirée en 1977. Elle appartient aujourd’hui au Club 1889 et est basée à Pontresina ; elle tire des trains Pullman sur la Bernina et pousse le chasse-neige à vapeur lors des démonstrations. On la voit sur l’image d’en-tête de ce site."
+     "p": "Construite en 1928 pour le chemin de fer de la Bernina, alors indépendant (n° 82), et retirée en 1977. Le Club 1889 a restauré la locomotive avec l’atelier principal des RhB. Elle appartient aujourd’hui au Club 1889 et est basée à Pontresina ; elle tire des trains Pullman sur la Bernina et pousse le chasse-neige à vapeur lors des démonstrations. On la voit sur l’image d’en-tête de ce site."
     },
     "it": {
-     "p": "Costruita nel 1928 per la Ferrovia del Bernina, allora indipendente (n. 82), e ritirata nel 1977. Oggi appartiene al Club 1889 e ha sede a Pontresina; traina treni Pullman sul Bernina e spinge lo spazzaneve a vapore durante le dimostrazioni. È visibile nell’immagine di testata di questo sito."
+     "p": "Costruita nel 1928 per la Ferrovia del Bernina, allora indipendente (n. 82), e ritirata nel 1977. Il Club 1889 ha restaurato la locomotiva insieme all’officina principale della RhB. Oggi appartiene al Club 1889 e ha sede a Pontresina; traina treni Pullman sul Bernina e spinge lo spazzaneve a vapore durante le dimostrazioni. È visibile nell’immagine di testata di questo sito."
     },
     "en": {
-     "p": "Built in 1928 for the then independent Bernina Railway (as no. 82) and withdrawn in 1977. It now belongs to Club 1889 and is based in Pontresina; it hauls Pullman trains over the Bernina and pushes the steam snow blower at demonstrations. It is the locomotive in this site’s header picture."
+     "p": "Built in 1928 for the then independent Bernina Railway (as no. 82) and withdrawn in 1977. The Club 1889 restored the locomotive together with the RhB main workshop. It now belongs to Club 1889 and is based in Pontresina; it hauls Pullman trains over the Bernina and pushes the steam snow blower at demonstrations. It is the locomotive in this site’s header picture."
     }
    },
    "m": [
@@ -427,7 +427,12 @@
    "gr": "bb",
    "len": 14.4,
    "zu": "hrhb",
-   "mit": null
+   "mit": [
+    "club1889"
+   ],
+   "auf": [
+    "club1889"
+   ]
   },
   {
    "id": "abe44-30",
@@ -1697,16 +1702,16 @@
    "col": "#8a8f94",
    "len": 7.49,
    "gr": "gueter",
-   "p": "Zweiachsiger Niederbordwagen der RhB aus dem Jahr 1903, in grauer Farbgebung und mit Bremserplattform an einem Wagenende. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Zweiachsiger Niederbordwagen der RhB aus dem Jahr 1903, in grauer Farbgebung und mit Bremserplattform an einem Wagenende. Der Club 1889 hat den Wagen zusammen mit der Hauptwerkstätte der RhB aufgearbeitet. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Wagon à bords bas à deux essieux des RhB, datant de 1903, de couleur grise et avec plateforme de serre-frein à une extrémité. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Wagon à bords bas à deux essieux des RhB, datant de 1903, de couleur grise et avec plateforme de serre-frein à une extrémité. Le Club 1889 a restauré le wagon avec l’atelier principal des RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Carro a sponde basse a due assi della RhB del 1903, di colore grigio e con piattaforma del frenatore a un’estremità. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Carro a sponde basse a due assi della RhB del 1903, di colore grigio e con piattaforma del frenatore a un’estremità. Il Club 1889 ha restaurato il carro insieme all’officina principale della RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Two-axle low-sided wagon of the RhB dating from 1903, in grey livery and with a brakeman’s platform at one end. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Two-axle low-sided wagon of the RhB dating from 1903, in grey livery and with a brakeman’s platform at one end. The Club 1889 restored the wagon together with the RhB main workshop. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1715,7 +1720,12 @@
    "img": "img/fz/m-7070",
    "imgc": "U. Finke",
    "zu": "hrhb",
-   "mit": null
+   "mit": [
+    "club1889"
+   ],
+   "auf": [
+    "club1889"
+   ]
   },
   {
    "id": "k1-5615",
@@ -1728,16 +1738,16 @@
    "col": "#8a8f94",
    "len": 8.45,
    "gr": "gueter",
-   "p": "Zweiachsiger gedeckter Güterwagen der RhB mit Schiebetür, in grauer Farbgebung und mit Bremserplattform an einem Wagenende. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Zweiachsiger gedeckter Güterwagen der RhB mit Schiebetür, in grauer Farbgebung und mit Bremserplattform an einem Wagenende. Der Club 1889 hat den Wagen zusammen mit der Hauptwerkstätte der RhB aufgearbeitet. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Wagon couvert à deux essieux des RhB, avec porte coulissante, de couleur grise et avec plateforme de serre-frein à une extrémité. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Wagon couvert à deux essieux des RhB, avec porte coulissante, de couleur grise et avec plateforme de serre-frein à une extrémité. Le Club 1889 a restauré le wagon avec l’atelier principal des RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Carro coperto a due assi della RhB con porta scorrevole, di colore grigio e con piattaforma del frenatore a un’estremità. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Carro coperto a due assi della RhB con porta scorrevole, di colore grigio e con piattaforma del frenatore a un’estremità. Il Club 1889 ha restaurato il carro insieme all’officina principale della RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Two-axle covered goods wagon of the RhB with a sliding door, in grey livery and with a brakeman’s platform at one end. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Two-axle covered goods wagon of the RhB with a sliding door, in grey livery and with a brakeman’s platform at one end. The Club 1889 restored the wagon together with the RhB main workshop. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1747,7 +1757,12 @@
    "img": "img/fz/k1-5615",
    "imgc": "U. Finke",
    "zu": "hrhb",
-   "mit": null
+   "mit": [
+    "club1889"
+   ],
+   "auf": [
+    "club1889"
+   ]
   },
   {
    "id": "uh-8101",
@@ -1868,20 +1883,20 @@
    "col": "#3a3e42",
    "len": 7.4,
    "gr": "gueter",
-   "p": "Ein Paar zweiachsiger Langholzwagen von 1908. Die beiden kurzen Wagen tragen auf je einem drehbaren Schemel gemeinsam lange Baumstämme und werden deshalb immer zusammen eingesetzt. Als Dienstwagen tragen sie heute die Nummern WN 9850 und WN 9851. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Ein Paar zweiachsiger Langholzwagen von 1908. Die beiden kurzen Wagen tragen auf je einem drehbaren Schemel gemeinsam lange Baumstämme und werden deshalb immer zusammen eingesetzt. Als Dienstwagen tragen sie heute die Nummern WN 9850 und WN 9851. Der Club 1889 hat die beiden Wagen zusammen mit der Hauptwerkstätte der RhB aufgearbeitet. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "bem": "heute WN 9850 / WN 9851",
    "i18n": {
     "fr": {
      "bem": "aujourd’hui WN 9850 / WN 9851",
-     "p": "Une paire de wagons à grumes à deux essieux de 1908. Les deux wagons courts portent ensemble de longs troncs, chacun sur une sellette pivotante, et circulent donc toujours ensemble. Comme véhicules de service, ils portent aujourd’hui les numéros WN 9850 et WN 9851. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Une paire de wagons à grumes à deux essieux de 1908. Les deux wagons courts portent ensemble de longs troncs, chacun sur une sellette pivotante, et circulent donc toujours ensemble. Comme véhicules de service, ils portent aujourd’hui les numéros WN 9850 et WN 9851. Le Club 1889 a restauré les deux wagons avec l’atelier principal des RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
      "bem": "oggi WN 9850 / WN 9851",
-     "p": "Una coppia di carri per tronchi a due assi del 1908. I due carri corti portano insieme lunghi tronchi, ciascuno su una traversa girevole, e circolano quindi sempre insieme. Come veicoli di servizio portano oggi i numeri WN 9850 e WN 9851. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Una coppia di carri per tronchi a due assi del 1908. I due carri corti portano insieme lunghi tronchi, ciascuno su una traversa girevole, e circolano quindi sempre insieme. Come veicoli di servizio portano oggi i numeri WN 9850 e WN 9851. Il Club 1889 ha restaurato i due carri insieme all’officina principale della RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
      "bem": "today WN 9850 / WN 9851",
-     "p": "A pair of two-axle timber wagons from 1908. The two short wagons carry long logs between them, each on a pivoting bolster, and therefore always run together. As service vehicles they now carry the numbers WN 9850 and WN 9851. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "A pair of two-axle timber wagons from 1908. The two short wagons carry long logs between them, each on a pivoting bolster, and therefore always run together. As service vehicles they now carry the numbers WN 9850 and WN 9851. The Club 1889 restored both wagons together with the RhB main workshop. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1892,7 +1907,12 @@
    ],
    "img": "img/fz/n-1513",
    "imgc": "U. Finke",
-   "mit": null
+   "mit": [
+    "club1889"
+   ],
+   "auf": [
+    "club1889"
+   ]
   },
   {
    "id": "l-6603",
@@ -1910,19 +1930,19 @@
     "g34-11"
    ],
    "bem": "Öltank zur Lok G 3/4 11 «Heidi»",
-   "p": "Zweiachsiger offener Hochbordwagen von 1911. Heute dient er als Dienstwagen WN 9855 und trägt den Öltank, der die ölgefeuerte Dampflok G 3/4 11 «Heidi» auf ihren Fahrten mit Brennstoff versorgt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Zweiachsiger offener Hochbordwagen von 1911. Heute dient er als Dienstwagen WN 9855 und trägt den Öltank, der die ölgefeuerte Dampflok G 3/4 11 «Heidi» auf ihren Fahrten mit Brennstoff versorgt. Der Club 1889 hat den Wagen zusammen mit der Hauptwerkstätte der RhB aufgearbeitet. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
      "bem": "Citerne à mazout de la locomotive G 3/4 11 « Heidi »",
-     "p": "Wagon tombereau à deux essieux de 1911. Il sert aujourd’hui de wagon de service WN 9855 et porte la citerne qui alimente en combustible la locomotive à vapeur au mazout G 3/4 11 « Heidi » lors de ses voyages. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Wagon tombereau à deux essieux de 1911. Il sert aujourd’hui de wagon de service WN 9855 et porte la citerne qui alimente en combustible la locomotive à vapeur au mazout G 3/4 11 « Heidi » lors de ses voyages. Le Club 1889 a restauré le wagon avec l’atelier principal des RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
      "bem": "Serbatoio d’olio della locomotiva G 3/4 11 «Heidi»",
-     "p": "Carro aperto a sponde alte a due assi del 1911. Oggi serve come carro di servizio WN 9855 e porta il serbatoio che rifornisce di combustibile la locomotiva a vapore a olio G 3/4 11 «Heidi» durante i suoi viaggi. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Carro aperto a sponde alte a due assi del 1911. Oggi serve come carro di servizio WN 9855 e porta il serbatoio che rifornisce di combustibile la locomotiva a vapore a olio G 3/4 11 «Heidi» durante i suoi viaggi. Il Club 1889 ha restaurato il carro insieme all’officina principale della RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
      "bem": "Oil tank for locomotive G 3/4 11 «Heidi»",
-     "p": "Two-axle high-sided open wagon from 1911. Today it serves as service wagon WN 9855 and carries the oil tank that supplies fuel to the oil-fired steam locomotive G 3/4 11 «Heidi» on its trips. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Two-axle high-sided open wagon from 1911. Today it serves as service wagon WN 9855 and carries the oil tank that supplies fuel to the oil-fired steam locomotive G 3/4 11 «Heidi» on its trips. The Club 1889 restored the wagon together with the RhB main workshop. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1932,7 +1952,12 @@
    ],
    "img": "img/fz/l-6603",
    "imgc": "U. Finke",
-   "mit": null
+   "mit": [
+    "club1889"
+   ],
+   "auf": [
+    "club1889"
+   ]
   },
   {
    "id": "k1-5563",
@@ -1943,6 +1968,7 @@
    "b": "rhb",
    "zu": "hrhb",
    "mit": [
+    "club1889",
     "dfrhb"
    ],
    "st": "betr",
@@ -1950,19 +1976,19 @@
    "len": 8.45,
    "gr": "gueter",
    "bem": "Jubiläumswagen «25 Jahre Dampffreunde»",
-   "p": "Zweiachsiger gedeckter Güterwagen von 1913, heute Dienstwagen WN 9854. Die Skizze zeigt ihn hellgrau mit der Bezeichnung Gbk-v 5563 und dem Jubiläumsschmuck «25 Jahre 1977–2002» des Vereins Dampffreunde der Rhätischen Bahn. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Zweiachsiger gedeckter Güterwagen von 1913, heute Dienstwagen WN 9854. Die Skizze zeigt ihn hellgrau mit der Bezeichnung Gbk-v 5563 und dem Jubiläumsschmuck «25 Jahre 1977–2002» des Vereins Dampffreunde der Rhätischen Bahn. Der Club 1889 hat den Wagen zusammen mit der Hauptwerkstätte der RhB aufgearbeitet. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
      "bem": "Wagon du jubilé « 25 ans des Dampffreunde »",
-     "p": "Wagon couvert à deux essieux de 1913, aujourd’hui wagon de service WN 9854. Le dessin le montre gris clair, avec la désignation Gbk-v 5563 et la décoration du jubilé « 25 Jahre 1977–2002 » de l’association Dampffreunde der Rhätischen Bahn. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Wagon couvert à deux essieux de 1913, aujourd’hui wagon de service WN 9854. Le dessin le montre gris clair, avec la désignation Gbk-v 5563 et la décoration du jubilé « 25 Jahre 1977–2002 » de l’association Dampffreunde der Rhätischen Bahn. Le Club 1889 a restauré le wagon avec l’atelier principal des RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
      "bem": "Carro del giubileo «25 anni Dampffreunde»",
-     "p": "Carro coperto a due assi del 1913, oggi carro di servizio WN 9854. Il disegno lo mostra grigio chiaro, con la designazione Gbk-v 5563 e la decorazione del giubileo «25 Jahre 1977–2002» dell’associazione Dampffreunde der Rhätischen Bahn. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Carro coperto a due assi del 1913, oggi carro di servizio WN 9854. Il disegno lo mostra grigio chiaro, con la designazione Gbk-v 5563 e la decorazione del giubileo «25 Jahre 1977–2002» dell’associazione Dampffreunde der Rhätischen Bahn. Il Club 1889 ha restaurato il carro insieme all’officina principale della RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
      "bem": "Jubilee wagon «25 years of the Dampffreunde»",
-     "p": "Two-axle covered goods wagon from 1913, now service wagon WN 9854. The drawing shows it in light grey with the designation Gbk-v 5563 and the «25 Jahre 1977–2002» jubilee decoration of the Verein Dampffreunde der Rhätischen Bahn. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Two-axle covered goods wagon from 1913, now service wagon WN 9854. The drawing shows it in light grey with the designation Gbk-v 5563 and the «25 Jahre 1977–2002» jubilee decoration of the Verein Dampffreunde der Rhätischen Bahn. The Club 1889 restored the wagon together with the RhB main workshop. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1971,7 +1997,10 @@
     "Gbk-v 5563"
    ],
    "img": "img/fz/k1-5563",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "auf": [
+    "club1889"
+   ]
   },
   {
    "id": "d2-4079",
@@ -2026,16 +2055,16 @@
    "col": "#2f6b3a",
    "len": 8.88,
    "gr": "wagen",
-   "p": "Zweiachsiger Gepäckwagen von 1895 in grüner Farbgebung, mit Schiebetür und vergitterten Fenstern. Als Dienstfahrzeug trägt er heute zusätzlich die Nummer WN 9805; in historischen Zügen läuft er weiterhin als Gepäckwagen mit, etwa bei Extrafahrten des Club 1889. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Zweiachsiger Gepäckwagen von 1895 in grüner Farbgebung, mit Schiebetür und vergitterten Fenstern. Als Dienstfahrzeug trägt er heute zusätzlich die Nummer WN 9805; in historischen Zügen läuft er weiterhin als Gepäckwagen mit, etwa bei Extrafahrten des Club 1889. Der Club 1889 hat den Wagen zusammen mit der Hauptwerkstätte der RhB aufgearbeitet. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Fourgon à bagages à deux essieux de 1895, de couleur verte, avec porte coulissante et fenêtres grillagées. Comme véhicule de service, il porte aujourd’hui aussi le numéro WN 9805 ; dans les trains historiques, il circule toujours comme fourgon, par exemple lors des voyages spéciaux du Club 1889. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Fourgon à bagages à deux essieux de 1895, de couleur verte, avec porte coulissante et fenêtres grillagées. Comme véhicule de service, il porte aujourd’hui aussi le numéro WN 9805 ; dans les trains historiques, il circule toujours comme fourgon, par exemple lors des voyages spéciaux du Club 1889. Le Club 1889 a restauré le fourgon avec l’atelier principal des RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Bagagliaio a due assi del 1895, di colore verde, con porta scorrevole e finestre con grate. Come veicolo di servizio porta oggi anche il numero WN 9805; nei treni storici circola ancora come bagagliaio, ad esempio nei viaggi speciali del Club 1889. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Bagagliaio a due assi del 1895, di colore verde, con porta scorrevole e finestre con grate. Come veicolo di servizio porta oggi anche il numero WN 9805; nei treni storici circola ancora come bagagliaio, ad esempio nei viaggi speciali del Club 1889. Il Club 1889 ha restaurato il bagagliaio insieme all’officina principale della RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Two-axle luggage van from 1895 in green livery, with a sliding door and barred windows. As a service vehicle it now also carries the number WN 9805; in historic trains it still runs as a luggage van, for example on Club 1889 specials. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Two-axle luggage van from 1895 in green livery, with a sliding door and barred windows. As a service vehicle it now also carries the number WN 9805; in historic trains it still runs as a luggage van, for example on Club 1889 specials. The Club 1889 restored the van together with the RhB main workshop. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -2045,7 +2074,12 @@
    ],
    "img": "img/fz/f-4",
    "imgc": "U. Finke",
-   "mit": null
+   "mit": [
+    "club1889"
+   ],
+   "auf": [
+    "club1889"
+   ]
   },
   {
    "id": "d-4205",
@@ -2201,16 +2235,16 @@
    "col": "#2f6b3a",
    "len": 9.5,
    "gr": "wagen",
-   "p": "Zweiachsiger Personenwagen aus der Frühzeit der Rhätischen Bahn. Die Landquart–Davos-Bahn hatte sich 1895 in Rhätische Bahn umbenannt, als ihr Netz über die Strecke Landquart–Davos hinaus wuchs; es blieb dasselbe Unternehmen. Der Wagen von 1897 gehört zu den ersten, die unter dem neuen Namen beschafft wurden. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Zweiachsiger Personenwagen aus der Frühzeit der Rhätischen Bahn. Die Landquart–Davos-Bahn hatte sich 1895 in Rhätische Bahn umbenannt, als ihr Netz über die Strecke Landquart–Davos hinaus wuchs; es blieb dasselbe Unternehmen. Der Wagen von 1897 gehört zu den ersten, die unter dem neuen Namen beschafft wurden. Der Club 1889 hat den Wagen zusammen mit der Hauptwerkstätte der RhB aufgearbeitet. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Voiture à deux essieux des débuts des Chemins de fer rhétiques. Le chemin de fer Landquart–Davos avait pris en 1895 le nom de Chemins de fer rhétiques lorsque son réseau s’est étendu au-delà de la ligne Landquart–Davos ; l’entreprise est restée la même. Cette voiture de 1897 compte parmi les premières acquises sous le nouveau nom. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Voiture à deux essieux des débuts des Chemins de fer rhétiques. Le chemin de fer Landquart–Davos avait pris en 1895 le nom de Chemins de fer rhétiques lorsque son réseau s’est étendu au-delà de la ligne Landquart–Davos ; l’entreprise est restée la même. Cette voiture de 1897 compte parmi les premières acquises sous le nouveau nom. Le Club 1889 a restauré la voiture avec l’atelier principal des RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Carrozza a due assi dei primi anni della Ferrovia retica. La ferrovia Landquart–Davos aveva preso nel 1895 il nome di Ferrovia retica quando la sua rete si estese oltre la linea Landquart–Davos; l’impresa rimase la stessa. Questa carrozza del 1897 è tra le prime acquistate con il nuovo nome. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Carrozza a due assi dei primi anni della Ferrovia retica. La ferrovia Landquart–Davos aveva preso nel 1895 il nome di Ferrovia retica quando la sua rete si estese oltre la linea Landquart–Davos; l’impresa rimase la stessa. Questa carrozza del 1897 è tra le prime acquistate con il nuovo nome. Il Club 1889 ha restaurato la carrozza insieme all’officina principale della RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Two-axle coach from the early years of the Rhaetian Railway. The Landquart–Davos Railway had renamed itself the Rhaetian Railway in 1895 as its network grew beyond the Landquart–Davos line; it remained the same company. This coach of 1897 is among the first acquired under the new name. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Two-axle coach from the early years of the Rhaetian Railway. The Landquart–Davos Railway had renamed itself the Rhaetian Railway in 1895 as its network grew beyond the Landquart–Davos line; it remained the same company. This coach of 1897 is among the first acquired under the new name. The Club 1889 restored the coach together with the RhB main workshop. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -2218,7 +2252,13 @@
     "WN 9806"
    ],
    "img": "img/fz/rhb-c-66",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "auf": [
+    "club1889"
+   ],
+   "mit": [
+    "club1889"
+   ]
   },
   {
    "id": "a-1102",
