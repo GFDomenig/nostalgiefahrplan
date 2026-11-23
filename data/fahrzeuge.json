@@ -523,25 +523,26 @@
    "b": "rhb",
    "st": "betr",
    "col": "#d9a521",
-   "p": "Als BCFe 4/4 22 der Berninabahn in Dienst gestellt und 1953 umgebaut. Zusammen mit dem Schwesterwagen 34 bildet er die historischen gelben Bernina-Triebwagen der RhB. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im Nostalgiezug «Bernina Glaciers». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Als BCFe 4/4 22 der Berninabahn in Dienst gestellt und 1953 umgebaut. Zusammen mit dem Schwesterwagen 34 bildet er die historischen gelben Bernina-Triebwagen der RhB. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im Nostalgiezug «Bernina Glaciers». Die Triebwagen dieser ersten Generation werden «Motrice Trenta» genannt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Mise en service comme BCFe 4/4 22 du chemin de fer de la Bernina et transformée en 1953. Avec sa sœur 34, elle forme les automotrices historiques jaunes de la Bernina des RhB. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
+     "p": "Mise en service comme BCFe 4/4 22 du chemin de fer de la Bernina et transformée en 1953. Avec sa sœur 34, elle forme les automotrices historiques jaunes de la Bernina des RhB. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers ». Les automotrices de cette première génération sont appelées « Motrice Trenta ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
      "bem": "Appelées « jumelles Kessler » avec l’ABe 4/4 I 34"
     },
     "it": {
-     "p": "Messa in servizio come BCFe 4/4 22 della Ferrovia del Bernina e ricostruita nel 1953. Con la gemella 34 forma le automotrici storiche gialle del Bernina della RhB. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
+     "p": "Messa in servizio come BCFe 4/4 22 della Ferrovia del Bernina e ricostruita nel 1953. Con la gemella 34 forma le automotrici storiche gialle del Bernina della RhB. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers». Le automotrici di questa prima generazione sono chiamate «Motrice Trenta». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
      "bem": "Chiamate «gemelle Kessler» insieme all’ABe 4/4 I 34"
     },
     "en": {
-     "p": "Entered service as Bernina Railway BCFe 4/4 22 and rebuilt in 1953. With its sister no. 34 it forms the RhB’s historic yellow Bernina railcars. In summer the two «Kessler twins» also run in part in the «Bernina Glaciers» nostalgia train. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
+     "p": "Entered service as Bernina Railway BCFe 4/4 22 and rebuilt in 1953. With its sister no. 34 it forms the RhB’s historic yellow Bernina railcars. In summer the two «Kessler twins» also run in part in the «Bernina Glaciers» nostalgia train. The railcars of this first generation are known as «Motrice Trenta». The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
      "bem": "Together with ABe 4/4 I 34 known as the «Kessler twins»"
     }
    },
    "m": [
     "ABe 4/4 I 30",
     "ABe 4/4 30",
-    "Bernina Glaciers"
+    "Bernina Glaciers",
+    "Motrice Trenta"
    ],
    "img": "img/fz/abe44-30",
    "imgc": "U. Finke",
@@ -559,25 +560,26 @@
    "b": "rhb",
    "st": "betr",
    "col": "#d9a521",
-   "p": "Einer der ersten Triebwagen der Berninabahn, die ab 1908 für die steile Passstrecke gebaut wurden. Er fährt zusammen mit dem ABe 4/4 I 30 historische Bernina-Züge. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im Nostalgiezug «Bernina Glaciers». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Einer der ersten Triebwagen der Berninabahn, die ab 1908 für die steile Passstrecke gebaut wurden. Er fährt zusammen mit dem ABe 4/4 I 30 historische Bernina-Züge. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im Nostalgiezug «Bernina Glaciers». Die Triebwagen dieser ersten Generation werden «Motrice Trenta» genannt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "L’une des premières automotrices du chemin de fer de la Bernina, construites dès 1908 pour la ligne de col très raide. Elle circule avec l’ABe 4/4 I 30 dans des trains historiques de la Bernina. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
+     "p": "L’une des premières automotrices du chemin de fer de la Bernina, construites dès 1908 pour la ligne de col très raide. Elle circule avec l’ABe 4/4 I 30 dans des trains historiques de la Bernina. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers ». Les automotrices de cette première génération sont appelées « Motrice Trenta ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
      "bem": "Appelées « jumelles Kessler » avec l’ABe 4/4 I 30"
     },
     "it": {
-     "p": "Una delle prime automotrici della Ferrovia del Bernina, costruite dal 1908 per la ripida linea di valico. Circola con l’ABe 4/4 I 30 nei treni storici del Bernina. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
+     "p": "Una delle prime automotrici della Ferrovia del Bernina, costruite dal 1908 per la ripida linea di valico. Circola con l’ABe 4/4 I 30 nei treni storici del Bernina. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers». Le automotrici di questa prima generazione sono chiamate «Motrice Trenta». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
      "bem": "Chiamate «gemelle Kessler» insieme all’ABe 4/4 I 30"
     },
     "en": {
-     "p": "One of the first Bernina Railway railcars, built from 1908 for the steep pass line. It runs historic Bernina trains together with ABe 4/4 I 30. In summer the two «Kessler twins» also run in part in the «Bernina Glaciers» nostalgia train. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
+     "p": "One of the first Bernina Railway railcars, built from 1908 for the steep pass line. It runs historic Bernina trains together with ABe 4/4 I 30. In summer the two «Kessler twins» also run in part in the «Bernina Glaciers» nostalgia train. The railcars of this first generation are known as «Motrice Trenta». The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
      "bem": "Together with ABe 4/4 I 30 known as the «Kessler twins»"
     }
    },
    "m": [
     "ABe 4/4 I 34",
     "ABe 4/4 34",
-    "Bernina Glaciers"
+    "Bernina Glaciers",
+    "Motrice Trenta"
    ],
    "img": "img/fz/abe44-34",
    "imgc": "U. Finke",
@@ -598,21 +600,22 @@
    "b": "rhb",
    "st": "betr",
    "col": "#c8102e",
-   "p": "Triebwagen der zweiten Bernina-Generation («Tw II»), 1965 von SWS, SAAS und BBC geliefert. 2021 erhielt er in der Hauptwerkstätte Landquart wieder den roten Anstrich mit goldenen Zierlinien der Anfangsjahre und heisst seither «Goldliner». Heute dient er dem Infrastrukturdienst, fährt aber auch Extrazüge über den Bernina; später soll er ein historisches Fahrzeug werden. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Triebwagen der zweiten Bernina-Generation («Tw II»), 1965 von SWS, SAAS und BBC geliefert. 2021 erhielt er in der Hauptwerkstätte Landquart wieder den roten Anstrich mit goldenen Zierlinien der Anfangsjahre und heisst seither «Goldliner». Heute dient er dem Infrastrukturdienst, fährt aber auch Extrazüge über den Bernina; später soll er ein historisches Fahrzeug werden. Die Triebwagen der zweiten Generation werden «Motrice Quaranta» genannt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Automotrice de la deuxième génération de la Bernina (« Tw II »), livrée en 1965 par SWS, SAAS et BBC. En 2021, l’atelier principal de Landquart lui a rendu sa livrée rouge à filets dorés des premières années, d’où son surnom « Goldliner ». Elle sert aujourd’hui au service de l’infrastructure, mais circule aussi en trains spéciaux sur la Bernina ; elle doit devenir plus tard un véhicule historique. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Automotrice de la deuxième génération de la Bernina (« Tw II »), livrée en 1965 par SWS, SAAS et BBC. En 2021, l’atelier principal de Landquart lui a rendu sa livrée rouge à filets dorés des premières années, d’où son surnom « Goldliner ». Elle sert aujourd’hui au service de l’infrastructure, mais circule aussi en trains spéciaux sur la Bernina ; elle doit devenir plus tard un véhicule historique. Les automotrices de la deuxième génération sont appelées « Motrice Quaranta ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Automotrice della seconda generazione del Bernina («Tw II»), consegnata nel 1965 da SWS, SAAS e BBC. Nel 2021 l’officina principale di Landquart le ha restituito la livrea rossa con filetti dorati dei primi anni, da cui il nome «Goldliner». Oggi serve il servizio infrastruttura, ma effettua anche treni speciali sul Bernina; in futuro diventerà un veicolo storico. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Automotrice della seconda generazione del Bernina («Tw II»), consegnata nel 1965 da SWS, SAAS e BBC. Nel 2021 l’officina principale di Landquart le ha restituito la livrea rossa con filetti dorati dei primi anni, da cui il nome «Goldliner». Oggi serve il servizio infrastruttura, ma effettua anche treni speciali sul Bernina; in futuro diventerà un veicolo storico. Le automotrici della seconda generazione sono chiamate «Motrice Quaranta». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Second-generation Bernina railcar («Tw II»), delivered in 1965 by SWS, SAAS and BBC. In 2021 the Landquart main workshop gave it back the red livery with gold lining of its early years, hence the name «Goldliner». Today it serves the infrastructure department but also runs specials over the Bernina; it is intended to become a historic vehicle later. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Second-generation Bernina railcar («Tw II»), delivered in 1965 by SWS, SAAS and BBC. In 2021 the Landquart main workshop gave it back the red livery with gold lining of its early years, hence the name «Goldliner». Today it serves the infrastructure department but also runs specials over the Bernina; it is intended to become a historic vehicle later. The second-generation railcars are known as «Motrice Quaranta». The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
     "ABe 4/4 II 46",
-    "Goldliner"
+    "Goldliner",
+    "Motrice Quaranta"
    ],
    "img": "img/fz/abe44ii-46",
    "imgc": "U. Finke",
@@ -620,6 +623,40 @@
    "len": 16.54,
    "zu": "hrhb",
    "mit": null
+  },
+  {
+   "id": "abe44iii-53",
+   "nr": "ABe 4/4 III 53",
+   "n": "Tirano",
+   "kat": "tw",
+   "bj": "1988",
+   "b": "rhb",
+   "zu": "hrhb",
+   "col": "#d8322a",
+   "len": 16.89,
+   "gr": "bb",
+   "p": "Einer der sechs Bernina-Triebwagen der dritten Generation («Tw III»), die 1988 und 1990 in Betrieb genommen wurden und «Motrice Cinquanta» genannt werden; die 53 stammt von 1988. Sie trägt den Namen und das Wappen von Tirano, dem Endpunkt der Berninalinie in Italien. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "L’une des six automotrices de la Bernina de la troisième génération (« Tw III »), mises en service en 1988 et 1990 et appelées « Motrice Cinquanta » ; la 53 date de 1988. Elle porte le nom et les armoiries de Tirano, terminus de la ligne de la Bernina en Italie. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Una delle sei automotrici del Bernina della terza generazione («Tw III»), messe in servizio nel 1988 e nel 1990 e chiamate «Motrice Cinquanta»; la 53 è del 1988. Porta il nome e lo stemma di Tirano, capolinea della linea del Bernina in Italia. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "One of the six third-generation Bernina railcars («Tw III») that entered service in 1988 and 1990 and are known as «Motrice Cinquanta»; No. 53 dates from 1988. It bears the name and coat of arms of Tirano, the Italian terminus of the Bernina line. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "ABe 4/4 III 53",
+    "Tirano",
+    "Motrice Cinquanta"
+   ],
+   "rel": [
+    "abe44iii-54"
+   ],
+   "img": "img/fz/abe44iii-53",
+   "imgc": "U. Finke"
   },
   {
    "id": "abe44iii-54",
@@ -632,26 +669,30 @@
    "col": "#c8102e",
    "len": 16.89,
    "gr": "bb",
-   "p": "Triebwagen der dritten Bernina-Generation («Tw III»); sechs Wagen wurden 1988–1990 von SLM und ABB gebaut, die 54 im Jahr 1990. Ihr Name erinnert an die japanische Hakone Tozan-Bahn, eine Partnerbahn der RhB. Der Wagen soll als betriebsfähiges historisches Fahrzeug für die Berninalinie erhalten bleiben. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Triebwagen der dritten Bernina-Generation («Tw III»); sechs Wagen wurden 1988–1990 von SLM und ABB gebaut, die 54 im Jahr 1990. Ihr Name erinnert an die japanische Hakone Tozan-Bahn, eine Partnerbahn der RhB. Der Wagen soll als betriebsfähiges historisches Fahrzeug für die Berninalinie erhalten bleiben. Die Triebwagen der dritten Generation werden «Motrice Cinquanta» genannt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Automotrice de la troisième génération de la Bernina (« Tw III ») ; six unités ont été construites en 1988–1990 par SLM et ABB, la 54 en 1990. Son nom rappelle le chemin de fer japonais Hakone Tozan, partenaire des RhB. Elle doit être conservée en état de marche comme véhicule historique de la ligne de la Bernina. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Automotrice de la troisième génération de la Bernina (« Tw III ») ; six unités ont été construites en 1988–1990 par SLM et ABB, la 54 en 1990. Son nom rappelle le chemin de fer japonais Hakone Tozan, partenaire des RhB. Elle doit être conservée en état de marche comme véhicule historique de la ligne de la Bernina. Les automotrices de la troisième génération sont appelées « Motrice Cinquanta ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Automotrice della terza generazione del Bernina («Tw III»); sei unità furono costruite nel 1988–1990 da SLM e ABB, la 54 nel 1990. Il nome ricorda la ferrovia giapponese Hakone Tozan, ferrovia partner della RhB. Sarà conservata in esercizio come veicolo storico della linea del Bernina. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Automotrice della terza generazione del Bernina («Tw III»); sei unità furono costruite nel 1988–1990 da SLM e ABB, la 54 nel 1990. Il nome ricorda la ferrovia giapponese Hakone Tozan, ferrovia partner della RhB. Sarà conservata in esercizio come veicolo storico della linea del Bernina. Le automotrici della terza generazione sono chiamate «Motrice Cinquanta». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Third-generation Bernina railcar («Tw III»); six were built by SLM and ABB in 1988–1990, no. 54 in 1990. Its name honours Japan’s Hakone Tozan Railway, a partner railway of the RhB. It is to be preserved in working order as a historic vehicle for the Bernina line. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Third-generation Bernina railcar («Tw III»); six were built by SLM and ABB in 1988–1990, no. 54 in 1990. Its name honours Japan’s Hakone Tozan Railway, a partner railway of the RhB. It is to be preserved in working order as a historic vehicle for the Bernina line. The third-generation railcars are known as «Motrice Cinquanta». The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
     "ABe 4/4 III 54",
-    "Hakone"
+    "Hakone",
+    "Motrice Cinquanta"
    ],
    "img": "img/fz/abe44iii-54",
    "imgc": "U. Finke",
    "zu": "hrhb",
-   "mit": null
+   "mit": null,
+   "rel": [
+    "abe44iii-53"
+   ]
   },
   {
    "id": "bde44-491",
