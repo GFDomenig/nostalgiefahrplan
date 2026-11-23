@@ -789,29 +789,32 @@
   },
   {
    "id": "wr-3820",
-   "nr": "WR 3820",
-   "n": "",
+   "nr": "WR-S 3820",
+   "n": "Piano Bar",
    "kat": "salon",
-   "bj": "",
+   "bj": "1928",
    "b": "vps",
-   "st": "",
+   "st": "betr",
    "col": "#1f3a6b",
-   "p": "Ehemaliger Speisewagen, den der Verein zum Pianobarwagen umgebaut hat; er ergänzt die Salonwagen im Alpine Classic Pullman-Express.",
+   "p": "Ehemaliger Speisewagen von 1928, den der Verein Pro Salonwagen zum Pianobarwagen umgebaut hat. In den Farben Kobaltblau und Elfenbein ergänzt er die Salonwagen im Alpine Classic Pullman-Express.",
    "i18n": {
     "fr": {
-     "p": "Ancienne voiture-restaurant transformée par l’association en voiture piano-bar ; elle complète les voitures-salons de l’Alpine Classic Pullman-Express."
+     "p": "Ancienne voiture-restaurant de 1928, transformée par l’association Pro Salonwagen en voiture piano-bar. Aux couleurs bleu cobalt et ivoire, elle complète les voitures-salons de l’Alpine Classic Pullman-Express."
     },
     "it": {
-     "p": "Ex carrozza ristorante trasformata dall’associazione in carrozza piano-bar; completa le carrozze salone dell’Alpine Classic Pullman-Express."
+     "p": "Ex carrozza ristorante del 1928, trasformata dall’associazione Pro Salonwagen in carrozza piano-bar. Nei colori blu cobalto e avorio completa le carrozze salone dell’Alpine Classic Pullman-Express."
     },
     "en": {
-     "p": "Former dining car that the association converted into a piano-bar car; it complements the saloon cars of the Alpine Classic Pullman-Express."
+     "p": "Former 1928 dining car that the Verein Pro Salonwagen converted into a piano-bar car. In cobalt blue and ivory, it complements the saloon cars of the Alpine Classic Pullman-Express."
     }
    },
    "m": [
     "3820"
    ],
-   "gr": "wagen"
+   "gr": "wagen",
+   "img": "img/fz/wr-3820",
+   "imgc": "U. Finke",
+   "len": 15.32
   },
   {
    "id": "d-4052",
