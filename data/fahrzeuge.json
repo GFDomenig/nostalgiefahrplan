@@ -255,18 +255,21 @@
    "kat": "kroko",
    "bj": "1922",
    "b": "abc",
-   "st": "ausst",
+   "st": "nb",
    "col": "",
    "p": "Gehört dem Albula-Bahn-Club Bergün und steht als Leihgabe im Bahnmuseum Albula am Bahnhof Bergün. Die Lok ist nicht mehr betriebsfähig.",
    "i18n": {
     "fr": {
-     "p": "Appartient à l’Albula-Bahn-Club Bergün et est exposée en prêt au Musée du chemin de fer de l’Albula, à la gare de Bergün. Elle n’est plus en état de marche."
+     "p": "Appartient à l’Albula-Bahn-Club Bergün et est exposée en prêt au Musée du chemin de fer de l’Albula, à la gare de Bergün. Elle n’est plus en état de marche.",
+     "stx": "Musée du chemin de fer de l’Albula, Bergün"
     },
     "it": {
-     "p": "Appartiene all’Albula-Bahn-Club Bergün ed è esposta in prestito al Museo ferroviario dell’Albula, alla stazione di Bergün. Non è più in esercizio."
+     "p": "Appartiene all’Albula-Bahn-Club Bergün ed è esposta in prestito al Museo ferroviario dell’Albula, alla stazione di Bergün. Non è più in esercizio.",
+     "stx": "Museo ferroviario dell’Albula, Bergün"
     },
     "en": {
-     "p": "Owned by the Albula-Bahn-Club Bergün and on loan to the Albula Railway Museum at Bergün station. It is no longer in working order."
+     "p": "Owned by the Albula-Bahn-Club Bergün and on loan to the Albula Railway Museum at Bergün station. It is no longer in working order.",
+     "stx": "Albula Railway Museum, Bergün"
     }
    },
    "m": [
@@ -279,7 +282,8 @@
    "img": "img/fz/ge66-407",
    "imgc": "U. Finke",
    "len": 13.3,
-   "zu": "abc"
+   "zu": "abc",
+   "stx": "Bahnmuseum Albula, Bergün"
   },
   {
    "id": "ge44i-605",
@@ -672,13 +676,16 @@
    "p": "Grün & Chrom hat die Lok optisch aufgefrischt; seit Herbst 2026 steht sie vor dem Verkehrshaus der Schweiz in Luzern.",
    "i18n": {
     "fr": {
-     "p": "Grün & Chrom a rafraîchi son aspect ; depuis l’automne 2026, elle est exposée devant le Musée suisse des transports à Lucerne."
+     "p": "Grün & Chrom a rafraîchi son aspect ; depuis l’automne 2026, elle est exposée devant le Musée suisse des transports à Lucerne.",
+     "stx": "Musée suisse des transports, Lucerne"
     },
     "it": {
-     "p": "Grün & Chrom ne ha rinnovato l’aspetto; dall’autunno 2026 è esposta davanti al Museo svizzero dei trasporti a Lucerna."
+     "p": "Grün & Chrom ne ha rinnovato l’aspetto; dall’autunno 2026 è esposta davanti al Museo svizzero dei trasporti a Lucerna.",
+     "stx": "Museo svizzero dei trasporti, Lucerna"
     },
     "en": {
-     "p": "Grün & Chrom has cosmetically refreshed the locomotive; since autumn 2026 it has stood outside the Swiss Museum of Transport in Lucerne."
+     "p": "Grün & Chrom has cosmetically refreshed the locomotive; since autumn 2026 it has stood outside the Swiss Museum of Transport in Lucerne.",
+     "stx": "Swiss Museum of Transport, Lucerne"
     }
    },
    "m": [
@@ -688,7 +695,8 @@
    "img": "img/fz/ge66ii-702",
    "imgc": "U. Finke",
    "len": 14.5,
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "stx": "Verkehrshaus der Schweiz, Luzern"
   },
   {
    "id": "ge66ii-707",
@@ -697,20 +705,23 @@
    "kat": "dg6",
    "bj": "1965",
    "b": "rhb",
-   "st": "betr",
+   "st": "abg",
    "col": "#c8102e",
    "len": 14.5,
    "gr": "rhb",
    "p": "Schwere Güterzuglok der Reihe Ge 6/6 II mit drei Drehgestellen, 1965 in Dienst gestellt. Die 707 wurde als künftige historische Lok und Vertreterin der Serie 701–707 bestimmt, weil sie technisch im besten Zustand war. Sie soll die RhB der 1970er- und 1980er-Jahre zeigen: grün lackiert, mit Scherenstromabnehmern und runden Stirnlampen.",
    "i18n": {
     "fr": {
-     "p": "Lourde locomotive marchandises de la série Ge 6/6 II à trois bogies, mise en service en 1965. La 707 a été désignée future locomotive historique et représentante de la série 701–707, car elle était techniquement en meilleur état. Elle doit montrer les RhB des années 1970 et 1980 : livrée verte, pantographes en losange et phares ronds."
+     "p": "Lourde locomotive marchandises de la série Ge 6/6 II à trois bogies, mise en service en 1965. La 707 a été désignée future locomotive historique et représentante de la série 701–707, car elle était techniquement en meilleur état. Elle doit montrer les RhB des années 1970 et 1980 : livrée verte, pantographes en losange et phares ronds.",
+     "stx": "dépôt de Samedan"
     },
     "it": {
-     "p": "Pesante locomotiva merci della serie Ge 6/6 II a tre carrelli, entrata in servizio nel 1965. La 707 è stata scelta come futura locomotiva storica e rappresentante della serie 701–707, perché era tecnicamente nelle condizioni migliori. Dovrà mostrare la RhB degli anni 1970 e 1980: livrea verde, pantografi a losanga e fari rotondi."
+     "p": "Pesante locomotiva merci della serie Ge 6/6 II a tre carrelli, entrata in servizio nel 1965. La 707 è stata scelta come futura locomotiva storica e rappresentante della serie 701–707, perché era tecnicamente nelle condizioni migliori. Dovrà mostrare la RhB degli anni 1970 e 1980: livrea verde, pantografi a losanga e fari rotondi.",
+     "stx": "deposito di Samedan"
     },
     "en": {
-     "p": "Heavy freight locomotive of the Ge 6/6 II class with three bogies, in service since 1965. No. 707 was chosen as the future historic representative of the 701–707 series because it was in the best technical condition. It is to show the RhB of the 1970s and 1980s: green livery, diamond pantographs and round headlamps."
+     "p": "Heavy freight locomotive of the Ge 6/6 II class with three bogies, in service since 1965. No. 707 was chosen as the future historic representative of the 701–707 series because it was in the best technical condition. It is to show the RhB of the 1970s and 1980s: green livery, diamond pantographs and round headlamps.",
+     "stx": "Samedan depot"
     }
    },
    "m": [
@@ -718,7 +729,8 @@
    ],
    "img": "img/fz/ge66ii-707",
    "imgc": "U. Finke",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "stx": "Depot Samedan"
   },
   {
    "id": "c-114",
@@ -727,18 +739,18 @@
    "kat": "wagen",
    "bj": "1910",
    "b": "club1889",
-   "st": "rest",
+   "st": "betr",
    "col": "#e8b923",
-   "p": "Zweiachsiger Drittklasswagen der früheren Berninabahn, den der Club 1889 zusammen mit der RhB aufarbeitet. Die Skizze zeigt ihn in der gelben Bernina-Farbgebung mit der Anschrift «Veltlin» und 32 Plätzen.",
+   "p": "Zweiachsiger Drittklasswagen der früheren Berninabahn von 1910, den der Club 1889 zusammen mit der RhB restauriert hat. Die Skizze zeigt ihn in der gelben Bernina-Farbgebung mit der Anschrift «Veltlin» und 32 Plätzen.",
    "i18n": {
     "fr": {
-     "p": "Voiture de troisième classe à deux essieux de l’ancien chemin de fer de la Bernina, que le Club 1889 restaure avec les RhB. Le dessin la montre dans la livrée jaune de la Bernina, avec l’inscription « Veltlin » et 32 places."
+     "p": "Voiture de troisième classe à deux essieux de l’ancien chemin de fer de la Bernina, datant de 1910, restaurée par le Club 1889 avec les RhB. Le dessin la montre dans la livrée jaune de la Bernina, avec l’inscription « Veltlin » et 32 places."
     },
     "it": {
-     "p": "Carrozza di terza classe a due assi dell’ex Ferrovia del Bernina, che il Club 1889 sta restaurando con la RhB. Il disegno la mostra nella livrea gialla del Bernina, con la scritta «Veltlin» e 32 posti."
+     "p": "Carrozza di terza classe a due assi dell’ex Ferrovia del Bernina, del 1910, restaurata dal Club 1889 insieme alla RhB. Il disegno la mostra nella livrea gialla del Bernina, con la scritta «Veltlin» e 32 posti."
     },
     "en": {
-     "p": "Two-axle third-class coach of the former Bernina Railway, being restored by Club 1889 together with the RhB. The drawing shows it in the yellow Bernina livery with the «Veltlin» lettering and 32 seats."
+     "p": "Two-axle third-class coach of the former Bernina Railway from 1910, restored by Club 1889 together with the RhB. The drawing shows it in the yellow Bernina livery with the «Veltlin» lettering and 32 seats."
     }
    },
    "m": [
@@ -1174,19 +1186,22 @@
    "kat": "gueter",
    "bj": "1889",
    "b": "bma",
-   "st": "",
+   "st": "nb",
    "col": "#8a8f94",
    "gr": "gueter",
    "p": "Zweiachsiger Niederbordwagen aus dem Jahr 1889, also aus der Gründungszeit der Landquart–Davos-Bahn, mit Bremserplattform an einem Wagenende. Der Wagen gehört zum Bahnmuseum Albula in Bergün.",
    "i18n": {
     "fr": {
-     "p": "Wagon à bords bas à deux essieux de 1889, donc de l’époque de la fondation du chemin de fer Landquart–Davos, avec plateforme de serre-frein à une extrémité. Il appartient au Musée du chemin de fer de l’Albula à Bergün."
+     "p": "Wagon à bords bas à deux essieux de 1889, donc de l’époque de la fondation du chemin de fer Landquart–Davos, avec plateforme de serre-frein à une extrémité. Il appartient au Musée du chemin de fer de l’Albula à Bergün.",
+     "stx": "Musée du chemin de fer de l’Albula, Bergün"
     },
     "it": {
-     "p": "Carro a sponde basse a due assi del 1889, cioè dell’epoca della fondazione della ferrovia Landquart–Davos, con piattaforma del frenatore a un’estremità. Appartiene al Museo ferroviario dell’Albula a Bergün."
+     "p": "Carro a sponde basse a due assi del 1889, cioè dell’epoca della fondazione della ferrovia Landquart–Davos, con piattaforma del frenatore a un’estremità. Appartiene al Museo ferroviario dell’Albula a Bergün.",
+     "stx": "Museo ferroviario dell’Albula, Bergün"
     },
     "en": {
-     "p": "Two-axle low-sided wagon from 1889, the founding era of the Landquart–Davos Railway, with a brakeman’s platform at one end. It belongs to the Albula Railway Museum in Bergün."
+     "p": "Two-axle low-sided wagon from 1889, the founding era of the Landquart–Davos Railway, with a brakeman’s platform at one end. It belongs to the Albula Railway Museum in Bergün.",
+     "stx": "Albula Railway Museum, Bergün"
     }
    },
    "m": [
@@ -1195,7 +1210,8 @@
    "img": "img/fz/m-8604",
    "imgc": "U. Finke",
    "len": 6.5,
-   "zu": "bma"
+   "zu": "bma",
+   "stx": "Bahnmuseum Albula, Bergün"
   },
   {
    "id": "xk-9063",
@@ -1205,7 +1221,7 @@
    "bj": "1903",
    "b": "bma",
    "zu": "bma",
-   "st": "",
+   "st": "nb",
    "col": "#b5391f",
    "len": 10.44,
    "gr": "dienst",
@@ -1213,15 +1229,18 @@
    "i18n": {
     "fr": {
      "n": "Cuisine d’équipe",
-     "p": "Wagon de service à deux essieux de 1903 qui, comme « cuisine d’équipe », nourrissait les ouvriers des équipes de voie sur la ligne. D’après ses inscriptions, il servait en dernier lieu de wagon pour le personnel. Il appartient au Musée du chemin de fer de l’Albula à Bergün."
+     "p": "Wagon de service à deux essieux de 1903 qui, comme « cuisine d’équipe », nourrissait les ouvriers des équipes de voie sur la ligne. D’après ses inscriptions, il servait en dernier lieu de wagon pour le personnel. Il appartient au Musée du chemin de fer de l’Albula à Bergün.",
+     "stx": "Musée du chemin de fer de l’Albula, Bergün"
     },
     "it": {
      "n": "Cucina di squadra",
-     "p": "Carro di servizio a due assi del 1903 che, come «cucina di squadra», nutriva gli operai delle squadre di binario lungo la linea. Secondo le scritte serviva da ultimo come carro per il personale. Appartiene al Museo ferroviario dell’Albula a Bergün."
+     "p": "Carro di servizio a due assi del 1903 che, come «cucina di squadra», nutriva gli operai delle squadre di binario lungo la linea. Secondo le scritte serviva da ultimo come carro per il personale. Appartiene al Museo ferroviario dell’Albula a Bergün.",
+     "stx": "Museo ferroviario dell’Albula, Bergün"
     },
     "en": {
      "n": "Track gang kitchen",
-     "p": "Two-axle service wagon of 1903 that served as a «track gang kitchen», feeding the track workers out on the line. According to its lettering it last served as a crew car. It belongs to the Albula Railway Museum in Bergün."
+     "p": "Two-axle service wagon of 1903 that served as a «track gang kitchen», feeding the track workers out on the line. According to its lettering it last served as a crew car. It belongs to the Albula Railway Museum in Bergün.",
+     "stx": "Albula Railway Museum, Bergün"
     }
    },
    "m": [
@@ -1230,7 +1249,8 @@
     "Rottenküche"
    ],
    "img": "img/fz/xk-9063",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "stx": "Bahnmuseum Albula, Bergün"
   },
   {
    "id": "n-1513",
