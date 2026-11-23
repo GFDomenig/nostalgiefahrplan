@@ -73,3 +73,4 @@ Regeln für Aktualisierungen (Fahrten und News):
 - Die Schemabilder werden aus `kat` und der Achsformel in `nr` (z. B. 4/5) gezeichnet.
 - `data/organisationen.json`: `k` (URL `#org-<k>`), `typ` (stiftung, dach, mitglied, rhb), `rf`, `g`, `s`, `w`, `lg` (Pfad zum Logo, z. B. `img/logos/club1889.png`; leer = Kürzel `ab` im Kreis), `nq` (Absender-Schlüssel in news.json), `op` (Veranstalter-Schlüssel in fahrten.json), `p`, `kz` (Kurztext, optional) + `i18n`.
 - Logos der Mitglieder: Datei in `img/logos/` ablegen und `lg` setzen.
+- Fahrzeugbilder: `img/fz/<id>-600.jpg` und `-1200.jpg`, im Eintrag `img: "img/fz/<id>"` und `imgc` (Urheber, erscheint als «Zeichnung: © …»). Ohne `img` wird das Schema gezeichnet. Die Zeichnungen von U. Finke brauchen vor der Publikation seine Zustimmung.
