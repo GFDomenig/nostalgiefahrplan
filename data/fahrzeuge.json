@@ -1442,6 +1442,38 @@
    "imgc": "U. Finke"
   },
   {
+   "id": "ab-1561",
+   "nr": "AB 1561 ff.",
+   "n": "Einheitswagen II",
+   "kat": "wagen",
+   "bj": "1975",
+   "b": "rhb",
+   "st": "regel",
+   "col": "",
+   "len": 18.5,
+   "gr": "wagen",
+   "zu": "hrhb",
+   "m": [
+    "AB 1561",
+    "Einheitswagen II"
+   ],
+   "p": "Einheitswagen II mit 1. und 2. Klasse von 1975, Serie ab AB 1561. Für Historic RhB ist ein Wagen dieser Serie designiert; er wird vorläufig noch im Regelbetrieb eingesetzt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "n": "Voiture unifiée II",
+     "p": "Voiture unifiée II à compartiments de 1re et 2e classe de 1975, série à partir de la AB 1561. Une voiture de cette série est désignée pour Historic RhB ; elle est pour l’instant encore utilisée en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "n": "Carrozza unificata II",
+     "p": "Carrozza unificata II con 1a e 2a classe del 1975, serie a partire dalla AB 1561. Per Historic RhB è designata una carrozza di questa serie; per ora è ancora impiegata nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "n": "Standard coach II",
+     "p": "Einheitswagen II standard coach with 1st and 2nd class from 1975, series from AB 1561 onwards. One coach of this series is designated for Historic RhB; for the time being it is still used in regular service. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   }
+  },
+  {
    "id": "b-2245",
    "nr": "B 2245",
    "n": "",
