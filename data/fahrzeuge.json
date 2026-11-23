@@ -1342,8 +1342,8 @@
    "mit": null
   },
   {
-   "id": "b-2354",
-   "nr": "B 2354",
+   "id": "b-2374",
+   "nr": "B 2374",
    "n": "Einheitswagen I",
    "kat": "wagen",
    "bj": "1964",
@@ -1368,11 +1368,12 @@
     }
    },
    "m": [
-    "B 2354"
+    "B 2374"
    ],
    "zu": "hrhb",
-   "img": "img/fz/b-2354",
-   "imgc": "U. Finke"
+   "img": "img/fz/b-2374",
+   "imgc": "U. Finke",
+   "stx": "Landquart"
   },
   {
    "id": "b-2245",
