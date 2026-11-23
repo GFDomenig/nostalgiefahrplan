@@ -1260,6 +1260,45 @@
    "len": 17.63,
    "zu": "hrhb",
    "img": "img/fz/a-1251",
+   "imgc": "U. Finke",
+   "rel": [
+    "b-2302"
+   ]
+  },
+  {
+   "id": "b-2302",
+   "nr": "B 2302",
+   "n": "Fliegender Rhätier",
+   "kat": "wagen",
+   "bj": "1939",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#d8322a",
+   "p": "Zweitklasswagen mit Mitteleinstieg von 1939, gebaut für den «Fliegenden Rhätier», zusammen mit dem Erstklasswagen A 1251. Mit einer Höchstgeschwindigkeit von 65 km/h war dieser Zug für damalige Verhältnisse der schnellste der RhB. Seine Fahrzeuge waren auch für lange Zeit die einzigen roten der RhB: Erst in den 1980er Jahren wurde Rot zur Farbe der RhB, und es entstand der Kosename «die kleine Rote». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "n": "Fliegender Rhätier",
+     "p": "Voiture de deuxième classe à entrée centrale de 1939, construite pour le « Fliegender Rhätier », avec la voiture de première classe A 1251. Avec une vitesse maximale de 65 km/h, ce train était pour l’époque le plus rapide des RhB. Ses véhicules furent aussi longtemps les seuls rouges des RhB : ce n’est que dans les années 1980 que le rouge devint la couleur des RhB, d’où le surnom affectueux « la petite rouge ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "n": "Fliegender Rhätier",
+     "p": "Carrozza di seconda classe con ingresso centrale del 1939, costruita per il «Fliegender Rhätier», insieme alla carrozza di prima classe A 1251. Con una velocità massima di 65 km/h, questo treno era per l’epoca il più veloce della RhB. I suoi veicoli furono anche a lungo gli unici rossi della RhB: solo negli anni 1980 il rosso divenne il colore della RhB e nacque il soprannome «il trenino rosso». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "n": "Fliegender Rhätier",
+     "p": "Second-class coach with centre entrance from 1939, built for the «Fliegender Rhätier» («Flying Rhaetian»), together with the first-class coach A 1251. With a top speed of 65 km/h, this train was the fastest on the RhB by the standards of the time. Its vehicles were also for a long time the only red ones on the RhB: only in the 1980s did red become the RhB’s colour, giving rise to the nickname «the little red train». The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "B 2302"
+   ],
+   "gr": "wagen",
+   "len": 17.73,
+   "zu": "hrhb",
+   "rel": [
+    "a-1251"
+   ],
+   "img": "img/fz/b-2302",
    "imgc": "U. Finke"
   },
   {
