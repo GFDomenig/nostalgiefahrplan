@@ -249,7 +249,7 @@ footer p{max-width:80ch}
 }
 @media(max-width:720px){.tlinks{flex:1 1 auto!important;justify-content:space-between}.tlinks a{font-size:20px;padding:9px 2px}.tlinks a.mitl{padding:5px 5px;border-color:rgba(255,255,255,.25)}.tbrand img{width:32px!important;height:32px!important}.topin{gap:10px!important}}@media(max-width:410px){.tlinks a{font-size:19px;padding:9px 1px}}
 @media(max-width:380px){.tlinks a{font-size:18px;padding:9px 0}.tbrand img{width:28px!important;height:28px!important}.topin{gap:7px!important}}
-.tov{display:flex;gap:8px;align-items:center;flex:none}.tov[hidden]{display:none}.tov .btn{margin:0;padding:7px 12px;font-size:15px;line-height:1.2;font-family:Barlow,sans-serif;font-weight:600;border-radius:6px;cursor:pointer;color:#fff}.tov .btn:hover{background:#a8001a;border-color:#a8001a}@media(max-width:1100px){.topin{flex-wrap:wrap;align-content:center}.topin:has(.tov:not([hidden])){padding-top:6px}.tov{order:3;width:100%;padding:0 0 8px}}@media(max-width:720px){.tov .btn{flex:1 1 0;white-space:normal;padding:7px 8px}}</style>
+.tov{display:flex;gap:8px;align-items:center;flex:none}.tov[hidden]{display:none}.tov .btn{margin:0;padding:7px 12px;font-size:15px;line-height:1.2;font-family:Barlow,sans-serif;font-weight:600;border-radius:6px;cursor:pointer;color:#fff}.tov .btn:hover{background:#a8001a;border-color:#a8001a}@media(max-width:1100px){.topin{flex-wrap:wrap;align-content:center}.topin:has(.tov:not([hidden])){padding-top:6px}.tov{order:3;width:100%;padding:0 0 8px}}@media(max-width:720px){.tov .btn{flex:1 1 0;white-space:normal;padding:7px 8px}}body:not(.home) .hero .lede{display:none}</style>
 <script src="js/i18n.js"></script>
 </head>
 <body>
@@ -261,7 +261,7 @@ footer p{max-width:80ch}
 <header class="hero">
  <img id="heroimg" src="img/titel-1200.jpg" srcset="img/titel-800.jpg 800w, img/titel-1200.jpg 1200w, img/titel-2400.jpg 2400w" sizes="100vw" alt="" fetchpriority="high">
  <div class="herotext">
-  <h1>Historic RhB<span class="hsub" id="hsub"></span></h1>
+  <h1 id="htitle">Historic RhB</h1>
   <p class="lede" data-i="lede"></p>
  </div>
  <div class="brand">
@@ -559,7 +559,7 @@ const render=()=>{const v=document.getElementById("view");
  document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.v===st.v));
  const isD=st.v.startsWith("fahrt-"),isF=st.v==="fahrzeuge"||st.v.startsWith("fz-"),isO=st.v==="ueber"||st.v.startsWith("org-"),isM=st.v==="mitglieder";
  document.body.classList.toggle("nv",st.v==="news"||isD);document.body.classList.toggle("sec",isF||isO||isM||st.v==="news");document.body.classList.toggle("home",!!st.home);document.body.classList.toggle("opv",st.v==="veranstalter");
- const sec=isM?"mit":isF?"fz":isO?"ueber":st.v==="news"?"news":"fahrten";{const key=st.home?"home":sec;if(LASTSEC!==undefined&&LASTSEC!==key&&!isD&&!/^(fz|org)-/.test(st.v)){window.scrollTo({top:0});requestAnimationFrame(()=>window.scrollTo({top:0}))}LASTSEC=key}setHero(st.home?"def":sec);document.getElementById("hsub").textContent=st.home?"":"– "+L(sec==="news"?"nav_news":sec==="fz"?"nav_fz":sec==="ueber"?"nav_ueber":sec==="mit"?"nav_mit":"nav_fahrten");document.querySelectorAll(".tlinks a,.tbrand").forEach(a=>{if(!st.home&&a.dataset.s===sec&&a.closest(".tlinks"))a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
+ const sec=isM?"mit":isF?"fz":isO?"ueber":st.v==="news"?"news":"fahrten";{const key=st.home?"home":sec;if(LASTSEC!==undefined&&LASTSEC!==key&&!isD&&!/^(fz|org)-/.test(st.v)){window.scrollTo({top:0});requestAnimationFrame(()=>window.scrollTo({top:0}))}LASTSEC=key}setHero(st.home?"def":sec);document.getElementById("htitle").textContent=st.home?"Historic RhB":L("ht_"+(["news","fz","ueber","mit"].includes(sec)?sec:"fahrten"));document.querySelectorAll(".tlinks a,.tbrand").forEach(a=>{if(!st.home&&a.dataset.s===sec&&a.closest(".tlinks"))a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
  if(MAP){MAP.remove();MAP=null}
  v.innerHTML=isM?vMit():isD?vDetail(st.v.slice(6)):st.v==="fahrzeuge"?vFz():st.v.startsWith("fz-")?vFzD(st.v.slice(3)):st.v==="ueber"?vUe():st.v.startsWith("org-")?vOrg(st.v.slice(4)):st.v==="liste"?vList():st.v==="kalender"?vCal():st.v==="karte"?vMap():st.v==="news"?vNews():vOps();
  if(st.v==="karte")drawMap();
