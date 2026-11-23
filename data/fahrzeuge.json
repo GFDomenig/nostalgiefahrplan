@@ -946,6 +946,35 @@
    ],
    "img": "img/fz/a-1225",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "b-2245",
+   "nr": "B 2245",
+   "n": "ex ChA C 51",
+   "kat": "wagen",
+   "bj": "",
+   "b": "rhb",
+   "st": "",
+   "col": "#a8cdee",
+   "len": 16.6,
+   "gr": "wagen",
+   "p": "Personenwagen der früheren Chur–Arosa-Bahn, die 1914 eröffnet und 1942 mit der RhB zusammengelegt wurde. Die Skizze zeigt ihn als Drittklasswagen C 51 in der ursprünglichen weiss-hellblauen Farbgebung der Arosabahn, mit Abteilen für Raucher und Nichtraucher; bei der RhB trägt er die Nummer B 2245.",
+   "i18n": {
+    "fr": {
+     "p": "Voiture de l’ancien chemin de fer Coire–Arosa, ouvert en 1914 et fusionné avec les RhB en 1942. Le dessin la montre comme voiture de troisième classe C 51 dans la livrée d’origine blanc et bleu clair de la ligne d’Arosa, avec compartiments fumeurs et non-fumeurs ; aux RhB, elle porte le numéro B 2245."
+    },
+    "it": {
+     "p": "Carrozza dell’ex ferrovia Coira–Arosa, aperta nel 1914 e fusa con la RhB nel 1942. Il disegno la mostra come carrozza di terza classe C 51 nella livrea originale bianca e azzurra della linea di Arosa, con scompartimenti fumatori e non fumatori; alla RhB porta il numero B 2245."
+    },
+    "en": {
+     "p": "Coach of the former Chur–Arosa Railway, opened in 1914 and merged into the RhB in 1942. The drawing shows it as third-class coach C 51 in the Arosa line’s original white and light-blue livery, with smoking and non-smoking sections; with the RhB it is numbered B 2245."
+    }
+   },
+   "m": [
+    "B 2245"
+   ],
+   "img": "img/fz/b-2245",
+   "imgc": "U. Finke"
   }
  ]
 }
