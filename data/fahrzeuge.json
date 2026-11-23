@@ -1075,6 +1075,36 @@
    ],
    "img": "img/fz/k1-5615",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "uh-8101",
+   "nr": "Uh 8101 / WN 9862",
+   "n": "",
+   "kat": "gueter",
+   "bj": "",
+   "b": "rhb",
+   "st": "",
+   "col": "#f2d43a",
+   "len": 7.79,
+   "gr": "gueter",
+   "p": "Zweiachsiger Kesselwagen der RhB. Die Skizze zeigt ihn in Gelb mit rotem Band und der rätoromanischen Anschrift «Viafier retica».",
+   "i18n": {
+    "fr": {
+     "p": "Wagon-citerne à deux essieux des RhB. Le dessin le montre en jaune avec une bande rouge et l’inscription romanche « Viafier retica »."
+    },
+    "it": {
+     "p": "Carro cisterna a due assi della RhB. Il disegno lo mostra in giallo con una fascia rossa e la scritta romancia «Viafier retica»."
+    },
+    "en": {
+     "p": "Two-axle tank wagon of the RhB. The drawing shows it in yellow with a red band and the Romansh lettering «Viafier retica»."
+    }
+   },
+   "m": [
+    "Uh 8101",
+    "WN 9862"
+   ],
+   "img": "img/fz/uh-8101",
+   "imgc": "U. Finke"
   }
  ]
 }
