@@ -1,0 +1,554 @@
+{
+ "stand": "2026-11-23",
+ "fahrzeuge": [
+  {
+   "id": "g34-1",
+   "nr": "G 3/4 1",
+   "n": "Rhætia",
+   "kat": "dampf",
+   "bj": "1889",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#23272b",
+   "p": "Die älteste Lokomotive der RhB, gebaut für die Eröffnung der Schmalspurbahn Landquart–Davos. Die Restaurierung finanzierte eine Projektgruppe aus Club 1889 und Dampffreunden unter dem Dach von Historic RhB; im September 2026 wurde die Lok in Schiers mit einer eigens komponierten Operette neu eingeweiht.",
+   "i18n": {
+    "fr": {
+     "p": "La plus ancienne locomotive des RhB, construite pour l’ouverture de la ligne Landquart–Davos. Sa restauration a été financée par un groupe de projet du Club 1889 et des Dampffreunde sous l’égide de Historic RhB ; elle a été réinaugurée en septembre 2026 à Schiers avec une opérette composée pour l’occasion."
+    },
+    "it": {
+     "p": "La locomotiva più antica della RhB, costruita per l’apertura della Landquart–Davos. Il restauro è stato finanziato da un gruppo di progetto di Club 1889 e Dampffreunde sotto l’egida di Historic RhB; nel settembre 2026 è stata reinaugurata a Schiers con un’operetta composta per l’occasione."
+    },
+    "en": {
+     "p": "The RhB’s oldest locomotive, built for the opening of the Landquart–Davos line. Its restoration was funded by a project group of Club 1889 and the Dampffreunde under the Historic RhB umbrella; it was rededicated in Schiers in September 2026 with a specially composed operetta."
+    }
+   },
+   "m": [
+    "Rhætia",
+    "Rhaetia"
+   ],
+   "mit": [
+    "club1889",
+    "dfrhb"
+   ]
+  },
+  {
+   "id": "g34-11",
+   "nr": "G 3/4 11",
+   "n": "Heidi",
+   "kat": "dampf",
+   "bj": "1902",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#23272b",
+   "p": "Leichte Dampflok derselben Bauart wie die «Rhætia»; sie stand bis 1977 im Plandienst und wird heute mit Öl gefeuert. Sie fährt bei Dampffahrten im Engadin und auf der Albulalinie, oft zusammen mit einer G 4/5.",
+   "i18n": {
+    "fr": {
+     "p": "Locomotive à vapeur légère du même type que la « Rhætia » ; en service régulier jusqu’en 1977, elle est aujourd’hui chauffée au mazout. Elle circule lors des voyages à vapeur en Engadine et sur l’Albula, souvent avec une G 4/5."
+    },
+    "it": {
+     "p": "Locomotiva a vapore leggera dello stesso tipo della «Rhætia»; in servizio regolare fino al 1977, oggi è alimentata a olio. Circola nei viaggi a vapore in Engadina e sull’Albula, spesso insieme a una G 4/5."
+    },
+    "en": {
+     "p": "Light steam locomotive of the same type as «Rhætia»; in regular service until 1977, it is now oil-fired. It runs on steam trips in the Engadine and on the Albula line, often together with a G 4/5."
+    }
+   },
+   "m": [
+    "Heidi"
+   ]
+  },
+  {
+   "id": "g45-107",
+   "nr": "G 4/5 107",
+   "n": "Albula",
+   "kat": "dampf",
+   "bj": "1906",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#23272b",
+   "p": "Eine von 29 Dampfloks der Reihe G 4/5 und zusammen mit der 108 die erste RhB-Lok mit Heissdampf. Sie ist in Samedan stationiert und zieht Dampfextrazüge, etwa den Samiklaus-Express.",
+   "i18n": {
+    "fr": {
+     "p": "L’une des 29 locomotives G 4/5 et, avec la 108, la première locomotive RhB à vapeur surchauffée. Basée à Samedan, elle tire des trains spéciaux à vapeur, comme le Samiklaus-Express."
+    },
+    "it": {
+     "p": "Una delle 29 locomotive G 4/5 e, con la 108, la prima locomotiva RhB a vapore surriscaldato. Ha sede a Samedan e traina treni speciali a vapore, come il Samiklaus-Express."
+    },
+    "en": {
+     "p": "One of 29 G 4/5 steam locomotives and, together with no. 108, the first RhB locomotive with superheated steam. Based in Samedan, it hauls steam specials such as the Samiklaus-Express."
+    }
+   },
+   "m": [
+    "G 4/5 107"
+   ]
+  },
+  {
+   "id": "g45-108",
+   "nr": "G 4/5 108",
+   "n": "Engiadina",
+   "kat": "dampf",
+   "bj": "1906",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#23272b",
+   "p": "Schwesterlok der 107, ebenfalls mit Heissdampf und in Samedan stationiert. Sie fährt Dampfzüge auf dem Stammnetz, etwa ins Unterengadin oder über die Albula.",
+   "i18n": {
+    "fr": {
+     "p": "Sœur de la 107, également à vapeur surchauffée et basée à Samedan. Elle tire des trains à vapeur sur le réseau principal, par exemple en Basse-Engadine ou sur l’Albula."
+    },
+    "it": {
+     "p": "Gemella della 107, anch’essa a vapore surriscaldato e con sede a Samedan. Traina treni a vapore sulla rete principale, ad esempio in Bassa Engadina o sull’Albula."
+    },
+    "en": {
+     "p": "Sister of no. 107, also superheated and based in Samedan. It hauls steam trains on the core network, for example to the Lower Engadine or over the Albula."
+    }
+   },
+   "m": [
+    "G 4/5 108"
+   ]
+  },
+  {
+   "id": "ge24-222",
+   "nr": "Ge 2/4 222",
+   "n": "",
+   "kat": "stange",
+   "bj": "1913",
+   "b": "rhb",
+   "st": "betr",
+   "col": "",
+   "p": "Aus der ersten Serie elektrischer Lokomotiven, 1912–1913 für die neu elektrifizierte Engadinerlinie beschafft. Als einzige ihrer Klasse ist sie noch betriebsfähig.",
+   "i18n": {
+    "fr": {
+     "p": "Issue de la première série de locomotives électriques, acquise en 1912–1913 pour la ligne de l’Engadine nouvellement électrifiée. C’est la seule de sa série encore en état de marche."
+    },
+    "it": {
+     "p": "Della prima serie di locomotive elettriche, acquistata nel 1912–1913 per la linea dell’Engadina appena elettrificata. È l’unica della sua serie ancora in esercizio."
+    },
+    "en": {
+     "p": "From the first series of electric locomotives, bought in 1912–1913 for the newly electrified Engadine line. It is the only one of its class still in working order."
+    }
+   },
+   "m": [
+    "Ge 2/4 222"
+   ]
+  },
+  {
+   "id": "ge46-353",
+   "nr": "Ge 4/6 353",
+   "n": "",
+   "kat": "stange",
+   "bj": "1914",
+   "b": "rhb",
+   "st": "betr",
+   "col": "",
+   "p": "Eine von nur acht Lokomotiven der Reihe Ge 4/6, der ersten grösseren Elektroloks der RhB. Bei historischen Anlässen fährt sie oft zusammen mit der Ge 2/4 222.",
+   "i18n": {
+    "fr": {
+     "p": "L’une des huit seules locomotives Ge 4/6, les premières grandes locomotives électriques des RhB. Lors d’événements historiques, elle circule souvent avec la Ge 2/4 222."
+    },
+    "it": {
+     "p": "Una delle sole otto locomotive Ge 4/6, le prime grandi locomotive elettriche della RhB. Negli eventi storici circola spesso insieme alla Ge 2/4 222."
+    },
+    "en": {
+     "p": "One of only eight Ge 4/6 locomotives, the RhB’s first larger electric locomotives. At heritage events it often runs together with Ge 2/4 222."
+    }
+   },
+   "m": [
+    "Ge 4/6 353"
+   ]
+  },
+  {
+   "id": "ge66-414",
+   "nr": "Ge 6/6 I 414",
+   "n": "",
+   "kat": "kroko",
+   "bj": "1929",
+   "b": "rhb",
+   "st": "betr",
+   "col": "",
+   "p": "Eines der berühmten «Rhätischen Krokodile», die über Jahrzehnte die schweren Züge über die Albula zogen. Mit der 415 eine der beiden noch betriebsfähigen Maschinen; sie zieht unter anderem den historischen Zug Davos–Filisur.",
+   "i18n": {
+    "fr": {
+     "p": "L’un des célèbres « crocodiles rhétiques » qui ont tiré pendant des décennies les trains lourds sur l’Albula. Avec la 415, l’une des deux machines encore en état de marche ; elle tire notamment le train historique Davos–Filisur."
+    },
+    "it": {
+     "p": "Uno dei celebri «coccodrilli retici» che per decenni hanno trainato i treni pesanti sull’Albula. Con la 415 è una delle due macchine ancora in esercizio; traina tra l’altro il treno storico Davos–Filisur."
+    },
+    "en": {
+     "p": "One of the famous «Rhaetian Crocodiles» that hauled heavy trains over the Albula for decades. With no. 415 it is one of the two still in working order; among other duties it hauls the historic Davos–Filisur train."
+    }
+   },
+   "m": [
+    "Ge 6/6 I 414",
+    "Krokodil"
+   ]
+  },
+  {
+   "id": "ge66-415",
+   "nr": "Ge 6/6 I 415",
+   "n": "",
+   "kat": "kroko",
+   "bj": "1929",
+   "b": "rhb",
+   "st": "betr",
+   "col": "",
+   "p": "Schwesterlok der 414 und ebenfalls betriebsfähig. Die Krokodile wurden ab 1921 gebaut und erst von den Ge 4/4 II abgelöst.",
+   "i18n": {
+    "fr": {
+     "p": "Sœur de la 414, également en état de marche. Les crocodiles ont été construits à partir de 1921 et n’ont été remplacés que par les Ge 4/4 II."
+    },
+    "it": {
+     "p": "Gemella della 414, anch’essa in esercizio. I coccodrilli furono costruiti dal 1921 e sostituiti solo dalle Ge 4/4 II."
+    },
+    "en": {
+     "p": "Sister of no. 414 and also in working order. The Crocodiles were built from 1921 and were only replaced by the Ge 4/4 II."
+    }
+   },
+   "m": [
+    "Ge 6/6 I 415",
+    "Krokodil"
+   ]
+  },
+  {
+   "id": "ge66-407",
+   "nr": "Ge 6/6 I 407",
+   "n": "",
+   "kat": "kroko",
+   "bj": "1922",
+   "b": "abc",
+   "st": "ausst",
+   "col": "",
+   "p": "Gehört dem Albula-Bahn-Club Bergün und steht als Leihgabe im Bahnmuseum Albula am Bahnhof Bergün. Die Lok ist nicht mehr betriebsfähig.",
+   "i18n": {
+    "fr": {
+     "p": "Appartient à l’Albula-Bahn-Club Bergün et est exposée en prêt au Musée du chemin de fer de l’Albula, à la gare de Bergün. Elle n’est plus en état de marche."
+    },
+    "it": {
+     "p": "Appartiene all’Albula-Bahn-Club Bergün ed è esposta in prestito al Museo ferroviario dell’Albula, alla stazione di Bergün. Non è più in esercizio."
+    },
+    "en": {
+     "p": "Owned by the Albula-Bahn-Club Bergün and on loan to the Albula Railway Museum at Bergün station. It is no longer in working order."
+    }
+   },
+   "m": [
+    "Ge 6/6 I 407"
+   ],
+   "mit": [
+    "bma"
+   ]
+  },
+  {
+   "id": "ge44-182",
+   "nr": "Ge 4/4 182",
+   "n": "Bernina-Krokodil",
+   "kat": "dg",
+   "bj": "1928",
+   "b": "club1889",
+   "st": "betr",
+   "col": "#8a5a33",
+   "p": "1928 für die damals selbständige Berninabahn gebaut (dort Nr. 82) und 1977 ausgemustert. Die Lok gehört heute dem Club 1889 und ist in Pontresina stationiert; sie zieht Pullmanzüge über den Bernina und schiebt bei Vorführungen die Dampfschneeschleuder. Sie ist auf dem Titelbild dieser Seite zu sehen.",
+   "i18n": {
+    "fr": {
+     "p": "Construite en 1928 pour le chemin de fer de la Bernina, alors indépendant (n° 82), et retirée en 1977. Elle appartient aujourd’hui au Club 1889 et est basée à Pontresina ; elle tire des trains Pullman sur la Bernina et pousse le chasse-neige à vapeur lors des démonstrations. On la voit sur l’image d’en-tête de ce site."
+    },
+    "it": {
+     "p": "Costruita nel 1928 per la Ferrovia del Bernina, allora indipendente (n. 82), e ritirata nel 1977. Oggi appartiene al Club 1889 e ha sede a Pontresina; traina treni Pullman sul Bernina e spinge lo spazzaneve a vapore durante le dimostrazioni. È visibile nell’immagine di testata di questo sito."
+    },
+    "en": {
+     "p": "Built in 1928 for the then independent Bernina Railway (as no. 82) and withdrawn in 1977. It now belongs to Club 1889 and is based in Pontresina; it hauls Pullman trains over the Bernina and pushes the steam snow blower at demonstrations. It is the locomotive in this site’s header picture."
+    }
+   },
+   "m": [
+    "Ge 4/4 182",
+    "Lok 182",
+    "Bernina-Krokodil"
+   ]
+  },
+  {
+   "id": "abe44-30",
+   "nr": "ABe 4/4 I 30",
+   "n": "",
+   "kat": "tw",
+   "bj": "1911",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#d9a521",
+   "p": "Als BCFe 4/4 22 der Berninabahn in Dienst gestellt und 1953 umgebaut. Zusammen mit dem Schwesterwagen 34 bildet er die historischen gelben Bernina-Triebwagen der RhB.",
+   "i18n": {
+    "fr": {
+     "p": "Mise en service comme BCFe 4/4 22 du chemin de fer de la Bernina et transformée en 1953. Avec sa sœur 34, elle forme les automotrices historiques jaunes de la Bernina des RhB."
+    },
+    "it": {
+     "p": "Messa in servizio come BCFe 4/4 22 della Ferrovia del Bernina e ricostruita nel 1953. Con la gemella 34 forma le automotrici storiche gialle del Bernina della RhB."
+    },
+    "en": {
+     "p": "Entered service as Bernina Railway BCFe 4/4 22 and rebuilt in 1953. With its sister no. 34 it forms the RhB’s historic yellow Bernina railcars."
+    }
+   },
+   "m": [
+    "ABe 4/4 I 30",
+    "ABe 4/4 30"
+   ]
+  },
+  {
+   "id": "abe44-34",
+   "nr": "ABe 4/4 I 34",
+   "n": "",
+   "kat": "tw",
+   "bj": "1908",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#d9a521",
+   "p": "Einer der ersten Triebwagen der Berninabahn, die ab 1908 für die steile Passstrecke gebaut wurden. Er fährt zusammen mit dem ABe 4/4 I 30 historische Bernina-Züge.",
+   "i18n": {
+    "fr": {
+     "p": "L’une des premières automotrices du chemin de fer de la Bernina, construites dès 1908 pour la ligne de col très raide. Elle circule avec l’ABe 4/4 I 30 dans des trains historiques de la Bernina."
+    },
+    "it": {
+     "p": "Una delle prime automotrici della Ferrovia del Bernina, costruite dal 1908 per la ripida linea di valico. Circola con l’ABe 4/4 I 30 nei treni storici del Bernina."
+    },
+    "en": {
+     "p": "One of the first Bernina Railway railcars, built from 1908 for the steep pass line. It runs historic Bernina trains together with ABe 4/4 I 30."
+    }
+   },
+   "m": [
+    "ABe 4/4 I 34",
+    "ABe 4/4 34"
+   ]
+  },
+  {
+   "id": "abe44-501",
+   "nr": "ABe 4/4 501",
+   "n": "Fliegender Rhätier",
+   "kat": "tw",
+   "bj": "1940",
+   "b": "rhb",
+   "st": "betr",
+   "col": "",
+   "p": "Erster von vier schnellen Triebwagen für das Stammnetz, 1939–1940 als Antwort auf die Konkurrenz der Strasse beschafft. Als einziger der Serie erhalten; mit passenden Leichtstahlwagen als «Fliegender Rhätier» bekannt.",
+   "i18n": {
+    "fr": {
+     "p": "Première de quatre automotrices rapides pour le réseau principal, acquises en 1939–1940 face à la concurrence de la route. Seule conservée de la série ; connue avec ses voitures légères assorties sous le nom de « Fliegender Rhätier »."
+    },
+    "it": {
+     "p": "Prima di quattro automotrici veloci per la rete principale, acquistate nel 1939–1940 per far fronte alla concorrenza della strada. Unica conservata della serie; nota con le carrozze leggere abbinate come «Fliegender Rhätier»."
+    },
+    "en": {
+     "p": "First of four fast railcars for the core network, bought in 1939–1940 to compete with road transport. The only one of the series preserved; known with its matching lightweight cars as the «Flying Rhaetian»."
+    }
+   },
+   "m": [
+    "ABe 4/4 501",
+    "Fliegender Rhätier"
+   ]
+  },
+  {
+   "id": "xrotd-9213",
+   "nr": "Xrot d 9213",
+   "n": "",
+   "kat": "schnee",
+   "bj": "1910",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#23272b",
+   "p": "Dampfbetriebene Schneeschleuder, 1910 von der SLM für die Berninabahn gebaut. Sie wird von einem elektrischen Fahrzeug geschoben, damit die ganze Dampfkraft dem Schleuderrad zugutekommt, und ist an Vorführtagen auf dem Berninapass zu erleben.",
+   "i18n": {
+    "fr": {
+     "p": "Chasse-neige rotatif à vapeur, construit en 1910 par la SLM pour le chemin de fer de la Bernina. Il est poussé par un véhicule électrique afin que toute la puissance de la vapeur serve à la turbine ; on peut le voir lors des journées de démonstration au col de la Bernina."
+    },
+    "it": {
+     "p": "Spazzaneve rotante a vapore, costruito nel 1910 dalla SLM per la Ferrovia del Bernina. Viene spinto da un veicolo elettrico affinché tutta la forza del vapore vada alla turbina; lo si può vedere nelle giornate dimostrative al passo del Bernina."
+    },
+    "en": {
+     "p": "Steam-powered rotary snow blower, built by SLM in 1910 for the Bernina Railway. It is pushed by an electric vehicle so that all the steam power goes to the rotor, and can be seen on demonstration days on the Bernina Pass."
+    }
+   },
+   "m": [
+    "Dampfschneeschleuder",
+    "Xrot"
+   ],
+   "mit": [
+    "dfrhb"
+   ]
+  },
+  {
+   "id": "ge44ii-611",
+   "nr": "Ge 4/4 II 611",
+   "n": "Landquart",
+   "kat": "dg",
+   "bj": "1973",
+   "b": "gc",
+   "st": "betr",
+   "col": "#2f6b3a",
+   "p": "Erste Lok der Serie Ge 4/4 II. Auf Initiative von Grün & Chrom erhielt sie in der Hauptwerkstätte Landquart wieder ihr ursprüngliches Aussehen in Grün mit Chromschriften und runden Lampen; vorgestellt im April 2024.",
+   "i18n": {
+    "fr": {
+     "p": "Première locomotive de la série Ge 4/4 II. À l’initiative de Grün & Chrom, l’atelier principal de Landquart lui a rendu son aspect d’origine, vert avec lettres chromées et phares ronds ; présentée en avril 2024."
+    },
+    "it": {
+     "p": "Prima locomotiva della serie Ge 4/4 II. Su iniziativa di Grün & Chrom l’officina principale di Landquart le ha restituito l’aspetto originale, verde con scritte cromate e fari rotondi; presentata nell’aprile 2024."
+    },
+    "en": {
+     "p": "First locomotive of the Ge 4/4 II class. At the initiative of Grün & Chrom, the Landquart main workshop returned it to its original look, green with chrome lettering and round lamps; presented in April 2024."
+    }
+   },
+   "m": [
+    "Ge 4/4 II 611"
+   ]
+  },
+  {
+   "id": "ge66ii-702",
+   "nr": "Ge 6/6 II 702",
+   "n": "Curia",
+   "kat": "dg6",
+   "bj": "1958",
+   "b": "gc",
+   "st": "ausst",
+   "col": "",
+   "p": "Grün & Chrom hat die Lok optisch aufgefrischt; seit Herbst 2026 steht sie vor dem Verkehrshaus der Schweiz in Luzern.",
+   "i18n": {
+    "fr": {
+     "p": "Grün & Chrom a rafraîchi son aspect ; depuis l’automne 2026, elle est exposée devant le Musée suisse des transports à Lucerne."
+    },
+    "it": {
+     "p": "Grün & Chrom ne ha rinnovato l’aspetto; dall’autunno 2026 è esposta davanti al Museo svizzero dei trasporti a Lucerna."
+    },
+    "en": {
+     "p": "Grün & Chrom has cosmetically refreshed the locomotive; since autumn 2026 it has stood outside the Swiss Museum of Transport in Lucerne."
+    }
+   },
+   "m": [
+    "Ge 6/6 II 702"
+   ]
+  },
+  {
+   "id": "c-114",
+   "nr": "C 114",
+   "n": "La Bucunada",
+   "kat": "wagen",
+   "bj": "",
+   "b": "club1889",
+   "st": "rest",
+   "col": "",
+   "p": "Historischer Personenwagen aus der Bernina-Flotte, den der Club 1889 zusammen mit der RhB aufarbeitet.",
+   "i18n": {
+    "fr": {
+     "p": "Voiture historique de la flotte de la Bernina, que le Club 1889 restaure avec les RhB."
+    },
+    "it": {
+     "p": "Carrozza storica della flotta del Bernina, che il Club 1889 sta restaurando con la RhB."
+    },
+    "en": {
+     "p": "Historic passenger coach from the Bernina fleet, being restored by Club 1889 together with the RhB."
+    }
+   },
+   "m": [
+    "C 114"
+   ]
+  },
+  {
+   "id": "as-1141",
+   "nr": "As 1141–1144",
+   "n": "Alpine Classic Pullman",
+   "kat": "salon",
+   "bj": "1931",
+   "b": "vps",
+   "st": "betr",
+   "col": "#1f3a6b",
+   "p": "Vier Salonwagen im Pullman-Stil, 1931 für den «Golden Mountain Pullman Express» der Montreux-Berner Oberland-Bahn gebaut und seit 1939 bei der RhB. Heute bilden sie den «Alpine Classic Pullman-Express»; der As 1141 ist seit Herbst 2026 frisch restauriert wieder unterwegs und dem Andenken an Willy Hochstrasser gewidmet.",
+   "i18n": {
+    "fr": {
+     "p": "Quatre voitures-salons de style Pullman, construites en 1931 pour le « Golden Mountain Pullman Express » du Montreux-Oberland bernois et aux RhB depuis 1939. Elles forment aujourd’hui l’« Alpine Classic Pullman-Express » ; l’As 1141, fraîchement restaurée, circule à nouveau depuis l’automne 2026 et est dédiée à la mémoire de Willy Hochstrasser."
+    },
+    "it": {
+     "p": "Quattro carrozze salone in stile Pullman, costruite nel 1931 per il «Golden Mountain Pullman Express» della Montreux–Oberland Bernese e alla RhB dal 1939. Oggi formano l’«Alpine Classic Pullman-Express»; l’As 1141, appena restaurata, è di nuovo in servizio dall’autunno 2026 ed è dedicata alla memoria di Willy Hochstrasser."
+    },
+    "en": {
+     "p": "Four Pullman-style saloon cars, built in 1931 for the Montreux–Bernese Oberland Railway’s «Golden Mountain Pullman Express» and with the RhB since 1939. Today they form the «Alpine Classic Pullman-Express»; As 1141, freshly restored, has been back in service since autumn 2026 and is dedicated to the memory of Willy Hochstrasser."
+    }
+   },
+   "m": [
+    "As 114",
+    "Pullman",
+    "Salonwagen"
+   ],
+   "mit": [
+    "rhb"
+   ]
+  },
+  {
+   "id": "as-1161",
+   "nr": "As 1161",
+   "n": "",
+   "kat": "salon",
+   "bj": "",
+   "b": "vps",
+   "st": "",
+   "col": "#1f3a6b",
+   "p": "Weiterer Salonwagen in der Obhut des Vereins Pro Salonwagen RhB.",
+   "i18n": {
+    "fr": {
+     "p": "Autre voiture-salon confiée à l’association Pro Salonwagen RhB."
+    },
+    "it": {
+     "p": "Altra carrozza salone affidata all’associazione Pro Salonwagen RhB."
+    },
+    "en": {
+     "p": "Another saloon car in the care of the Verein Pro Salonwagen RhB."
+    }
+   },
+   "m": [
+    "As 1161"
+   ]
+  },
+  {
+   "id": "wr-3820",
+   "nr": "WR 3820",
+   "n": "",
+   "kat": "salon",
+   "bj": "",
+   "b": "vps",
+   "st": "",
+   "col": "#1f3a6b",
+   "p": "Ehemaliger Speisewagen, den der Verein zum Pianobarwagen umgebaut hat; er ergänzt die Salonwagen im Alpine Classic Pullman-Express.",
+   "i18n": {
+    "fr": {
+     "p": "Ancienne voiture-restaurant transformée par l’association en voiture piano-bar ; elle complète les voitures-salons de l’Alpine Classic Pullman-Express."
+    },
+    "it": {
+     "p": "Ex carrozza ristorante trasformata dall’associazione in carrozza piano-bar; completa le carrozze salone dell’Alpine Classic Pullman-Express."
+    },
+    "en": {
+     "p": "Former dining car that the association converted into a piano-bar car; it complements the saloon cars of the Alpine Classic Pullman-Express."
+    }
+   },
+   "m": [
+    "3820"
+   ]
+  },
+  {
+   "id": "d-4052",
+   "nr": "D 4052",
+   "n": "",
+   "kat": "gep",
+   "bj": "",
+   "b": "vps",
+   "st": "",
+   "col": "",
+   "p": "Gepäckwagen, der zum Zugsverband der Salonwagen gehört.",
+   "i18n": {
+    "fr": {
+     "p": "Fourgon à bagages qui fait partie de la composition des voitures-salons."
+    },
+    "it": {
+     "p": "Bagagliaio che fa parte della composizione delle carrozze salone."
+    },
+    "en": {
+     "p": "Luggage van that forms part of the saloon-car train."
+    }
+   },
+   "m": [
+    "D 4052"
+   ]
+  }
+ ]
+}

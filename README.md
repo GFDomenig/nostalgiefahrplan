@@ -65,3 +65,11 @@ Regeln für Aktualisierungen (Fahrten und News):
 2. `robots.txt` und die `noindex`-Zeilen entfernen.
 3. Impressum auf die Stiftung umstellen.
 4. Auf belimmo.ch eine dauerhafte Weiterleitung (301) einrichten.
+
+
+## Fahrzeuge und Organisationen
+
+- `data/fahrzeuge.json`: ein Eintrag pro Fahrzeug: `id` (URL `#fz-<id>`), `nr` (offizielle Bezeichnung), `n` (Name, optional), `kat` (Bauart fürs Schema: dampf, stange, kroko, dg, dg6, tw, schnee, wagen, salon, gep), `bj`, `b` (betreuende Organisation, Schlüssel aus organisationen.json), `mit` (weitere Beteiligte), `st` (betr, ausst, rest), `col` (Farbe des Schemas, leer = neutral), `m` (Suchbegriffe, um Fahrten zuzuordnen), `p` + `i18n`.
+- Die Schemabilder werden aus `kat` und der Achsformel in `nr` (z. B. 4/5) gezeichnet.
+- `data/organisationen.json`: `k` (URL `#org-<k>`), `typ` (stiftung, dach, mitglied, rhb), `rf`, `g`, `s`, `w`, `lg` (Pfad zum Logo, z. B. `img/logos/club1889.png`; leer = Kürzel `ab` im Kreis), `nq` (Absender-Schlüssel in news.json), `op` (Veranstalter-Schlüssel in fahrten.json), `p`, `kz` (Kurztext, optional) + `i18n`.
+- Logos der Mitglieder: Datei in `img/logos/` ablegen und `lg` setzen.

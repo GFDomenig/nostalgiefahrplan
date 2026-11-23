@@ -1,0 +1,299 @@
+{
+ "stand": "2026-11-23",
+ "org": [
+  {
+   "k": "stiftung",
+   "typ": "stiftung",
+   "n": "Stiftung Bahnkultur RhB",
+   "rf": "stiftung",
+   "g": "2025",
+   "s": "Chur",
+   "w": "",
+   "lg": "img/logo-160.png",
+   "nq": "stiftung",
+   "p": "Die Stiftung Bahnkultur RhB wurde im Januar 2025 in Chur errichtet. Sie will das bahnkulturelle Erbe der Rhätischen Bahn und das UNESCO-Welterbe RhB langfristig schützen und für alle erlebbar machen. Dazu kann sie ausgewählte Kulturgüter selbst übernehmen oder Projekte anderer unterstützen; sie ist gemeinnützig sowie politisch und konfessionell neutral. Diese Webseite ist ein Projekt der Stiftung.",
+   "i18n": {
+    "fr": {
+     "p": "La Fondation Bahnkultur RhB a été créée en janvier 2025 à Coire. Elle veut protéger durablement le patrimoine ferroviaire des Chemins de fer rhétiques et le site UNESCO RhB, et le rendre accessible à tous. Elle peut reprendre elle-même certains biens culturels ou soutenir des projets de tiers ; elle est d’utilité publique et neutre sur les plans politique et confessionnel. Ce site est un projet de la fondation.",
+     "kz": "Elle veut protéger durablement le patrimoine ferroviaire des Chemins de fer rhétiques et le site UNESCO RhB, et le rendre accessible à tous."
+    },
+    "it": {
+     "p": "La Fondazione Bahnkultur RhB è stata costituita nel gennaio 2025 a Coira. Vuole proteggere a lungo termine il patrimonio ferroviario della Ferrovia retica e il Patrimonio mondiale UNESCO RhB, rendendolo accessibile a tutti. Può assumere direttamente beni culturali scelti o sostenere progetti di terzi; è di pubblica utilità e neutrale dal punto di vista politico e confessionale. Questo sito è un progetto della fondazione.",
+     "kz": "Vuole proteggere a lungo termine il patrimonio ferroviario della Ferrovia retica e il Patrimonio mondiale UNESCO RhB, rendendolo accessibile a tutti."
+    },
+    "en": {
+     "p": "The Stiftung Bahnkultur RhB (Rhaetian Railway Heritage Foundation) was established in Chur in January 2025. It aims to protect the railway heritage of the Rhaetian Railway and the RhB UNESCO World Heritage site for the long term and to make it accessible to everyone. It can take over selected heritage items itself or support projects run by others; it is non-profit and politically and religiously neutral. This website is a project of the foundation.",
+     "kz": "It aims to protect the railway heritage of the Rhaetian Railway and the RhB UNESCO World Heritage site for the long term and to make it accessible to everyone."
+    }
+   },
+   "ab": "SBK",
+   "kz": "Sie will das bahnkulturelle Erbe der Rhätischen Bahn und das UNESCO-Welterbe RhB langfristig schützen und für alle erlebbar machen."
+  },
+  {
+   "k": "hrhb",
+   "typ": "dach",
+   "n": "Historic RhB",
+   "rf": "verein",
+   "g": "2003",
+   "s": "Bergün/Bravuogn",
+   "w": "https://www.historic-rhb.ch",
+   "lg": "img/logo-160.png",
+   "nq": "hrhb",
+   "p": "Historic RhB ist der Dachverband der Vereine und Stiftungen, die sich um das historische Erbe der Rhätischen Bahn kümmern. Er wurde 2003 gegründet und vereint heute sieben Vereine und zwei Stiftungen. Er will historische RhB-Fahrzeuge erhalten, restaurieren, zeigen und auf dem RhB-Netz betreiben, koordiniert Fahrten mit bahnhistorischem Charakter und gibt das Magazin «Die Bündner Kulturbahn» heraus. Seit 2026 führt er zudem den Ticket-Corner im Bahnhof Bonaduz.",
+   "i18n": {
+    "fr": {
+     "p": "Historic RhB est l’association faîtière des associations et fondations qui prennent soin du patrimoine historique des Chemins de fer rhétiques. Fondée en 2003, elle réunit aujourd’hui sept associations et deux fondations. Elle veut conserver, restaurer, présenter et faire circuler sur le réseau RhB des véhicules historiques, coordonne des voyages à caractère historique et publie le magazine « Die Bündner Kulturbahn ». Depuis 2026, elle gère aussi le Ticket-Corner de la gare de Bonaduz."
+    },
+    "it": {
+     "p": "Historic RhB è l’associazione mantello delle associazioni e fondazioni che si occupano del patrimonio storico della Ferrovia retica. Fondata nel 2003, riunisce oggi sette associazioni e due fondazioni. Vuole conservare, restaurare, esporre e far circolare sulla rete RhB i veicoli storici, coordina viaggi di carattere storico e pubblica la rivista «Die Bündner Kulturbahn». Dal 2026 gestisce anche il Ticket-Corner della stazione di Bonaduz."
+    },
+    "en": {
+     "p": "Historic RhB is the umbrella organisation of the associations and foundations that look after the historic heritage of the Rhaetian Railway. Founded in 2003, it now brings together seven associations and two foundations. It aims to preserve, restore, display and operate historic RhB vehicles on the RhB network, coordinates heritage trips and publishes the magazine «Die Bündner Kulturbahn». Since 2026 it has also run the ticket corner at Bonaduz station."
+    }
+   },
+   "ab": "HRhB"
+  },
+  {
+   "k": "club1889",
+   "typ": "mitglied",
+   "n": "Club 1889",
+   "rf": "verein",
+   "g": "1996",
+   "s": "Samedan",
+   "w": "https://www.club1889.ch",
+   "lg": "",
+   "nq": "club1889",
+   "p": "Der Club 1889 restauriert historische Lokomotiven und Wagen der RhB und ihrer Vorgängerbahnen Landquart–Davos und Berninabahn. Freiwillige haben seit der Gründung rund einen Viertel der historischen Bündner Bahnfahrzeuge wieder instand gestellt, darunter Fahrzeuge aus den Jahren 1889 bis 1962. Heute sammelt der Club vor allem Spenden, damit weitere Restaurierungen mit der Hauptwerkstätte Landquart möglich werden.",
+   "i18n": {
+    "fr": {
+     "p": "Le Club 1889 restaure des locomotives et voitures historiques des RhB et de leurs prédécesseurs, la ligne Landquart–Davos et le chemin de fer de la Bernina. Depuis sa fondation, des bénévoles ont remis en état environ un quart des véhicules ferroviaires historiques des Grisons, construits entre 1889 et 1962. Aujourd’hui, le club récolte surtout des dons pour permettre de nouvelles restaurations avec l’atelier principal de Landquart."
+    },
+    "it": {
+     "p": "Il Club 1889 restaura locomotive e carrozze storiche della RhB e delle ferrovie che l’hanno preceduta, la Landquart–Davos e la Ferrovia del Bernina. Dalla fondazione, volontari hanno rimesso in sesto circa un quarto dei veicoli ferroviari storici grigionesi, costruiti tra il 1889 e il 1962. Oggi il club raccoglie soprattutto donazioni per rendere possibili altri restauri con l’officina principale di Landquart."
+    },
+    "en": {
+     "p": "Club 1889 restores historic locomotives and carriages of the RhB and of its predecessors, the Landquart–Davos line and the Bernina Railway. Since its founding, volunteers have brought back about a quarter of Graubünden’s historic rail vehicles, built between 1889 and 1962. Today the club mainly raises donations so that further restorations can be carried out with the Landquart main workshop."
+    }
+   },
+   "ab": "1889"
+  },
+  {
+   "k": "abc",
+   "typ": "mitglied",
+   "n": "Albula-Bahn-Club Bergün",
+   "rf": "verein",
+   "g": "1986",
+   "s": "Bergün/Bravuogn",
+   "w": "https://www.albula-bahn-club.ch",
+   "lg": "",
+   "nq": "abc",
+   "p": "Der Albula-Bahn-Club zeigt im Ortsmuseum Bergün die Strecke Bergün–Preda als Modellanlage im Massstab 1:87. So wird anschaulich, wie die Bahn mit Kehrtunnels und Wechseln der Talseite an Höhe gewinnt. Dem Club gehört ausserdem das Krokodil Ge 6/6 I 407, das als Leihgabe im Bahnmuseum Albula steht.",
+   "i18n": {
+    "fr": {
+     "p": "L’Albula-Bahn-Club présente au musée local de Bergün la ligne Bergün–Preda sous forme de maquette à l’échelle 1:87. On y comprend comment le train gagne de l’altitude grâce aux tunnels hélicoïdaux et aux changements de versant. Le club possède aussi le « crocodile » Ge 6/6 I 407, prêté au Musée du chemin de fer de l’Albula."
+    },
+    "it": {
+     "p": "L’Albula-Bahn-Club presenta nel museo locale di Bergün la tratta Bergün–Preda come plastico in scala 1:87. Si capisce così come il treno guadagni quota con gallerie elicoidali e cambi di versante. Il club possiede anche il «coccodrillo» Ge 6/6 I 407, in prestito al Museo ferroviario dell’Albula."
+    },
+    "en": {
+     "p": "The Albula-Bahn-Club shows the Bergün–Preda line as a 1:87 model layout in the local museum in Bergün. It makes clear how the railway gains height through spiral tunnels and changes of valley side. The club also owns the «Crocodile» Ge 6/6 I 407, on loan to the Albula Railway Museum."
+    }
+   },
+   "ab": "ABC"
+  },
+  {
+   "k": "bma",
+   "typ": "mitglied",
+   "n": "Stiftung Bahnmuseum Albula",
+   "rf": "stiftung",
+   "g": "2010",
+   "s": "Bergün/Bravuogn",
+   "w": "https://www.bahnmuseum-albula.ch",
+   "lg": "",
+   "nq": "bma",
+   "p": "Die Stiftung betreibt das Bahnmuseum Albula am Bahnhof Bergün. Das familienfreundliche Museum erzählt mit Originalobjekten und Multimedia vom Bau, von der Geschichte und der Gegenwart der Albulalinie und davon, wie die Bahn die Region verändert hat.",
+   "i18n": {
+    "fr": {
+     "p": "La fondation exploite le Musée du chemin de fer de l’Albula à la gare de Bergün. Ce musée familial raconte, avec des objets originaux et du multimédia, la construction, l’histoire et le présent de la ligne de l’Albula et la façon dont le train a transformé la région."
+    },
+    "it": {
+     "p": "La fondazione gestisce il Museo ferroviario dell’Albula alla stazione di Bergün. Il museo, adatto alle famiglie, racconta con oggetti originali e multimedia la costruzione, la storia e il presente della linea dell’Albula e come la ferrovia ha cambiato la regione."
+    },
+    "en": {
+     "p": "The foundation runs the Albula Railway Museum at Bergün station. The family-friendly museum uses original objects and multimedia to tell the story of how the Albula line was built, its history and present, and how the railway changed the region."
+    }
+   },
+   "ab": "BMA"
+  },
+  {
+   "k": "fds",
+   "typ": "mitglied",
+   "n": "Freunde der Schmalspurbahnen",
+   "rf": "verein",
+   "g": "1988",
+   "s": "Thusis",
+   "w": "https://schmalspur.ch",
+   "lg": "",
+   "nq": "fds",
+   "p": "Der Verein bringt Freundinnen und Freunde von Schmalspurbahnen zusammen, im Original wie im Modell. Die Mitglieder bauen Modulanlagen der RhB im Massstab 1:87, bieten Baukurse und Vorträge an und unternehmen Exkursionen zu Schmalspurbahnen in der Schweiz und im nahen Ausland.",
+   "i18n": {
+    "fr": {
+     "p": "L’association réunit les amis des chemins de fer à voie étroite, en grandeur réelle comme en modèle réduit. Les membres construisent des modules RhB à l’échelle 1:87, proposent des cours et des conférences et organisent des excursions vers des lignes à voie étroite en Suisse et dans les pays voisins."
+    },
+    "it": {
+     "p": "L’associazione riunisce gli appassionati di ferrovie a scartamento ridotto, sia reali sia in modello. I soci costruiscono moduli RhB in scala 1:87, offrono corsi e conferenze e organizzano escursioni verso linee a scartamento ridotto in Svizzera e nei paesi vicini."
+    },
+    "en": {
+     "p": "The association brings together friends of narrow-gauge railways, both full-size and in model form. Members build modular RhB layouts in 1:87 scale, offer building courses and talks, and organise excursions to narrow-gauge lines in Switzerland and neighbouring countries."
+    }
+   },
+   "ab": "FdS"
+  },
+  {
+   "k": "gc",
+   "typ": "mitglied",
+   "n": "Stiftung Grün & Chrom",
+   "rf": "stiftung",
+   "g": "2022",
+   "s": "",
+   "w": "https://www.gruen-und-chrom.ch",
+   "lg": "",
+   "nq": "gc",
+   "p": "Grün & Chrom setzt sich dafür ein, die historischen Drehgestell-Lokomotiven der RhB betriebsfähig zu erhalten. Der Name erinnert an die grüne Lackierung und die erhabenen Chromschriften der älteren RhB-Loks. Seit 2023 ist die Stiftung Mitglied von Historic RhB.",
+   "i18n": {
+    "fr": {
+     "p": "Grün & Chrom s’engage pour maintenir en état de marche les locomotives historiques à bogies des RhB. Le nom rappelle la livrée verte et les lettres chromées en relief des anciennes locomotives RhB. La fondation est membre de Historic RhB depuis 2023."
+    },
+    "it": {
+     "p": "Grün & Chrom si impegna a mantenere in esercizio le locomotive storiche a carrelli della RhB. Il nome ricorda la livrea verde e le scritte cromate in rilievo delle vecchie locomotive RhB. La fondazione è membro di Historic RhB dal 2023."
+    },
+    "en": {
+     "p": "Grün & Chrom («Green & Chrome») works to keep the RhB’s historic bogie locomotives in working order. The name recalls the green livery and raised chrome lettering of older RhB locomotives. The foundation has been a member of Historic RhB since 2023."
+    }
+   },
+   "ab": "G&C"
+  },
+  {
+   "k": "igzl",
+   "typ": "mitglied",
+   "n": "Interessengemeinschaft Zügen-Landwasser",
+   "rf": "ig",
+   "g": "",
+   "s": "Davos Wiesen",
+   "w": "https://www.igzl.ch",
+   "lg": "",
+   "nq": "igzl",
+   "op": "igzl",
+   "p": "Die IGZL will den Tourismus entlang des Landwassers und in der Zügenschlucht mitgestalten und Natur, Kultur und Geschichte der Gegend vermitteln. Sie bietet Wanderungen und Führungen zum Wiesnerviadukt an, begleitet Nostalgie- und Erlebniszüge und führt in der Saison das Zügabeizli.",
+   "i18n": {
+    "fr": {
+     "p": "L’IGZL veut contribuer au tourisme le long du Landwasser et dans les gorges de Zügen, et faire connaître la nature, la culture et l’histoire de la région. Elle propose des randonnées et des visites guidées du viaduc de Wiesen, accompagne des trains nostalgiques et des trains événementiels et tient en saison le « Zügabeizli »."
+    },
+    "it": {
+     "p": "L’IGZL vuole contribuire al turismo lungo il Landwasser e nella gola dello Zügen e far conoscere natura, cultura e storia della zona. Offre escursioni e visite guidate al viadotto di Wiesen, accompagna treni nostalgici ed esperienziali e gestisce in stagione lo «Zügabeizli»."
+    },
+    "en": {
+     "p": "The IGZL helps shape tourism along the Landwasser and in the Zügen gorge and shares the area’s nature, culture and history. It offers hikes and guided tours to the Wiesen Viaduct, accompanies nostalgia and experience trains and runs the «Zügabeizli» snack bar in season."
+    }
+   },
+   "ab": "IGZL"
+  },
+  {
+   "k": "dfrhb",
+   "typ": "mitglied",
+   "n": "Verein Dampffreunde der Rhätischen Bahn",
+   "rf": "verein",
+   "g": "1977",
+   "s": "Bonaduz",
+   "w": "https://www.dampfvereinrhb.ch",
+   "lg": "",
+   "nq": "dfrhb",
+   "p": "Die Dampffreunde helfen seit 1977 mit, die historischen Fahrzeuge der RhB zu erhalten und regelmässig fahren zu lassen. Sie unterstützen die jährlichen Dampffahrten der RhB, organisieren eigene Extrafahrten, sind offizieller Catering-Partner und beteiligen sich an der Finanzierung von Restaurierungen, etwa der Dampflok «Rhætia».",
+   "i18n": {
+    "fr": {
+     "p": "Depuis 1977, les Dampffreunde contribuent à conserver les véhicules historiques des RhB et à les faire circuler régulièrement. Ils soutiennent les voyages à vapeur annuels des RhB, organisent leurs propres trains spéciaux, sont partenaire officiel de restauration à bord et participent au financement de restaurations, comme celle de la locomotive « Rhætia »."
+    },
+    "it": {
+     "p": "Dal 1977 i Dampffreunde aiutano a conservare i veicoli storici della RhB e a farli circolare regolarmente. Sostengono i viaggi a vapore annuali della RhB, organizzano treni speciali propri, sono partner ufficiale per la ristorazione e partecipano al finanziamento di restauri, come quello della locomotiva «Rhætia»."
+    },
+    "en": {
+     "p": "Since 1977 the Dampffreunde («Friends of Steam») have helped preserve the RhB’s historic vehicles and keep them running regularly. They support the RhB’s annual steam trips, organise their own specials, are the official catering partner and help fund restorations, such as that of the steam locomotive «Rhætia»."
+    }
+   },
+   "ab": "DF"
+  },
+  {
+   "k": "vps",
+   "typ": "mitglied",
+   "n": "Verein Pro Salonwagen RhB",
+   "rf": "verein",
+   "g": "1996",
+   "s": "Chur",
+   "w": "https://www.verein-pro-salonwagen.ch",
+   "lg": "",
+   "nq": "vps",
+   "p": "Der Verein entstand, um die Salonwagen der RhB vor dem Abbruch zu bewahren. Gemeinsam mit der RhB restauriert und erhält er sie und bietet mit dem «Alpine Classic Pullman-Express» Fahrten mit kulturellen und kulinarischen Themen an, darunter eine Adventsfahrt für Mitglieder. Einen ehemaligen Speisewagen hat er zum Pianobarwagen umgebaut.",
+   "i18n": {
+    "fr": {
+     "p": "L’association a été créée pour sauver de la démolition les voitures-salons des RhB. Avec les RhB, elle les restaure et les entretient, et propose avec l’« Alpine Classic Pullman-Express » des voyages à thème culturel et culinaire, dont un voyage de l’Avent pour ses membres. Elle a transformé une ancienne voiture-restaurant en voiture piano-bar."
+    },
+    "it": {
+     "p": "L’associazione è nata per salvare dalla demolizione le carrozze salone della RhB. Insieme alla RhB le restaura e le conserva, e con l’«Alpine Classic Pullman-Express» offre viaggi a tema culturale e culinario, tra cui un viaggio d’Avvento per i soci. Ha trasformato un’ex carrozza ristorante in carrozza piano-bar."
+    },
+    "en": {
+     "p": "The association was founded to save the RhB’s saloon cars from scrapping. Together with the RhB it restores and maintains them and runs the «Alpine Classic Pullman-Express» with cultural and culinary themes, including an Advent trip for members. It has converted a former dining car into a piano-bar car."
+    }
+   },
+   "ab": "PS"
+  },
+  {
+   "k": "welterbe",
+   "typ": "mitglied",
+   "n": "Verein Welterbe Rhätische Bahn",
+   "rf": "verein",
+   "g": "2007",
+   "s": "Chur",
+   "w": "https://www.rhb.ch/de/unesco-welterbe-rhb/verein-welterbe-rhb",
+   "lg": "",
+   "nq": "",
+   "p": "Der Verein koordiniert die Institutionen, die das UNESCO-Welterbe «Rhätische Bahn in der Landschaft Albula/Bernina» erhalten und weiterentwickeln. Zwei Fachkommissionen beraten ihn beim Schutz der Bahn und der Kulturlandschaft. Er informiert Gäste und Einheimische und fördert die Bahn als umweltfreundliches Verkehrsmittel.",
+   "i18n": {
+    "fr": {
+     "p": "L’association coordonne les institutions qui conservent et développent le site UNESCO « Chemin de fer rhétique dans les paysages de l’Albula et de la Bernina ». Deux commissions spécialisées la conseillent sur la protection du chemin de fer et du paysage culturel. Elle informe visiteurs et habitants et promeut le train comme moyen de transport respectueux de l’environnement."
+    },
+    "it": {
+     "p": "L’associazione coordina le istituzioni che conservano e sviluppano il Patrimonio UNESCO «Ferrovia retica nel paesaggio dell’Albula e del Bernina». Due commissioni specialistiche la consigliano sulla tutela della ferrovia e del paesaggio culturale. Informa ospiti e residenti e promuove il treno come mezzo di trasporto ecologico."
+    },
+    "en": {
+     "p": "The association coordinates the institutions that preserve and develop the UNESCO World Heritage site «Rhaetian Railway in the Albula/Bernina Landscapes». Two expert committees advise it on protecting the railway and the cultural landscape. It informs visitors and residents and promotes the railway as an environmentally friendly way to travel."
+    }
+   },
+   "ab": "WE"
+  },
+  {
+   "k": "rhb",
+   "typ": "rhb",
+   "n": "Rhätische Bahn",
+   "rf": "ag",
+   "g": "1888",
+   "s": "Chur",
+   "w": "https://www.rhb.ch/de/nostalgiefahrten",
+   "lg": "",
+   "nq": "",
+   "op": "rhb",
+   "p": "Die Rhätische Bahn erschliesst mit ihrem Meterspurnetz den Kanton Graubünden und fährt bis Tirano in Italien. Ihre Geschichte beginnt 1888 mit der Gründung der Schmalspurbahn Landquart–Davos; seit 1895 heisst die Gesellschaft Rhätische Bahn. Die Albula- und die Berninalinie gehören seit 2008 zum UNESCO-Welterbe. Die RhB unterhält eine historische Fahrzeugflotte und bietet regelmässig Nostalgiefahrten an.",
+   "i18n": {
+    "fr": {
+     "p": "Les Chemins de fer rhétiques desservent le canton des Grisons avec leur réseau à voie métrique et vont jusqu’à Tirano en Italie. Leur histoire commence en 1888 avec la fondation de la ligne à voie étroite Landquart–Davos ; depuis 1895, la société s’appelle Chemins de fer rhétiques. Les lignes de l’Albula et de la Bernina sont inscrites au patrimoine mondial de l’UNESCO depuis 2008. Les RhB entretiennent une flotte historique et proposent régulièrement des voyages nostalgiques."
+    },
+    "it": {
+     "p": "La Ferrovia retica serve il Cantone dei Grigioni con la sua rete a scartamento metrico e arriva fino a Tirano in Italia. La sua storia inizia nel 1888 con la fondazione della ferrovia a scartamento ridotto Landquart–Davos; dal 1895 la società si chiama Ferrovia retica. Le linee dell’Albula e del Bernina sono Patrimonio mondiale UNESCO dal 2008. La RhB conserva una flotta storica e offre regolarmente viaggi nostalgici."
+    },
+    "en": {
+     "p": "The Rhaetian Railway serves the canton of Graubünden with its metre-gauge network and runs as far as Tirano in Italy. Its history begins in 1888 with the founding of the Landquart–Davos narrow-gauge railway; the company has been called the Rhaetian Railway since 1895. The Albula and Bernina lines have been a UNESCO World Heritage site since 2008. The RhB maintains a historic fleet and regularly runs nostalgia trips."
+    }
+   },
+   "ab": "RhB"
+  }
+ ]
+}
