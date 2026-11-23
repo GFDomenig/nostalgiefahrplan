@@ -1044,6 +1044,44 @@
    "mit": null
   },
   {
+   "id": "b-2092",
+   "nr": "B 2092",
+   "n": "",
+   "kat": "wagen",
+   "bj": "",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "ausst",
+   "col": "#b9bcbf",
+   "len": 8.94,
+   "gr": "wagen",
+   "bem": "1929 zum Aussichtswagen umgebaut",
+   "stx": "Verkehrshaus der Schweiz, Luzern",
+   "p": "Zweiachsiger offener Aussichtswagen mit 36 Plätzen, 1929 zum Aussichtswagen umgebaut. Heute ist er im Verkehrshaus der Schweiz in Luzern ausgestellt. Er trägt dort die gelbe Farbe der RhB-Aussichtswagen; die Skizze zeigt ihn in der früheren, historisch ebenfalls korrekten grauen Farbgebung. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "bem": "Transformée en voiture panoramique en 1929",
+     "stx": "Musée suisse des transports, Lucerne",
+     "p": "Voiture panoramique ouverte à deux essieux, 36 places, transformée en voiture panoramique en 1929. Elle est aujourd’hui exposée au Musée suisse des transports à Lucerne. Elle y porte la couleur jaune des voitures panoramiques RhB ; le dessin la montre dans l’ancienne livrée grise, elle aussi historiquement correcte. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "bem": "Trasformata in carrozza panoramica nel 1929",
+     "stx": "Museo svizzero dei trasporti, Lucerna",
+     "p": "Carrozza panoramica aperta a due assi con 36 posti, trasformata in carrozza panoramica nel 1929. Oggi è esposta al Museo svizzero dei trasporti a Lucerna. Lì porta il colore giallo delle carrozze panoramiche RhB; il disegno la mostra nella precedente livrea grigia, anch’essa storicamente corretta. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "bem": "Rebuilt as an observation car in 1929",
+     "stx": "Swiss Museum of Transport, Lucerne",
+     "p": "Two-axle open observation car with 36 seats, rebuilt as an observation car in 1929. It is now on display at the Swiss Museum of Transport in Lucerne. There it carries the yellow livery of RhB observation cars; the drawing shows it in the earlier grey livery, which is also historically correct. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "B 2092"
+   ],
+   "img": "img/fz/b-2092",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "b-2093",
    "nr": "B 2093",
    "n": "",
