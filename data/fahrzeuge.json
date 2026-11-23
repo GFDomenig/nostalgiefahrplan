@@ -33,7 +33,8 @@
    "img": "img/fz/g34-1",
    "imgc": "U. Finke",
    "len": 7.95,
-   "gr": "dampf"
+   "gr": "dampf",
+   "zu": "hrhb"
   },
   {
    "id": "g34-11",
@@ -62,7 +63,8 @@
    "img": "img/fz/g34-11",
    "imgc": "U. Finke",
    "len": 8.43,
-   "gr": "dampf"
+   "gr": "dampf",
+   "zu": "hrhb"
   },
   {
    "id": "g45-107",
@@ -91,7 +93,8 @@
    "img": "img/fz/g45-107",
    "imgc": "U. Finke",
    "len": 13.97,
-   "gr": "dampf"
+   "gr": "dampf",
+   "zu": "hrhb"
   },
   {
    "id": "g45-108",
@@ -120,7 +123,8 @@
    "img": "img/fz/g45-108",
    "imgc": "U. Finke",
    "len": 13.97,
-   "gr": "dampf"
+   "gr": "dampf",
+   "zu": "hrhb"
   },
   {
    "id": "ge24-222",
@@ -149,7 +153,8 @@
    "img": "img/fz/ge24-222",
    "imgc": "U. Finke",
    "len": 8.7,
-   "gr": "rhb"
+   "gr": "rhb",
+   "zu": "hrhb"
   },
   {
    "id": "ge46-353",
@@ -178,7 +183,8 @@
    "img": "img/fz/ge46-353",
    "imgc": "U. Finke",
    "len": 11.1,
-   "gr": "rhb"
+   "gr": "rhb",
+   "zu": "hrhb"
   },
   {
    "id": "ge66-414",
@@ -208,7 +214,8 @@
    "img": "img/fz/ge66-414",
    "imgc": "U. Finke",
    "len": 13.3,
-   "gr": "rhb"
+   "gr": "rhb",
+   "zu": "hrhb"
   },
   {
    "id": "ge66-415",
@@ -238,7 +245,8 @@
    "img": "img/fz/ge66-415",
    "imgc": "U. Finke",
    "len": 13.3,
-   "gr": "rhb"
+   "gr": "rhb",
+   "zu": "hrhb"
   },
   {
    "id": "ge66-407",
@@ -270,7 +278,8 @@
    "gr": "rhb",
    "img": "img/fz/ge66-407",
    "imgc": "U. Finke",
-   "len": 13.3
+   "len": 13.3,
+   "zu": "bma"
   },
   {
    "id": "ge44i-605",
@@ -300,7 +309,8 @@
    "img": "img/fz/ge44i-605",
    "imgc": "U. Finke",
    "gr": "rhb",
-   "len": 12.1
+   "len": 12.1,
+   "zu": "hrhb"
   },
   {
    "id": "ge22-161",
@@ -330,7 +340,8 @@
     "Asnin"
    ],
    "img": "img/fz/ge22-161",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "zu": "hrhb"
   },
   {
    "id": "ge44-182",
@@ -362,7 +373,8 @@
    "img": "img/fz/ge44-182",
    "imgc": "U. Finke",
    "gr": "bb",
-   "len": 14.4
+   "len": 14.4,
+   "zu": "hrhb"
   },
   {
    "id": "abe44-30",
@@ -391,7 +403,8 @@
    ],
    "img": "img/fz/abe44-30",
    "imgc": "U. Finke",
-   "gr": "bb"
+   "gr": "bb",
+   "zu": "hrhb"
   },
   {
    "id": "abe44-34",
@@ -424,7 +437,8 @@
    "img": "img/fz/abe44-34",
    "imgc": "U. Finke",
    "gr": "bb",
-   "bem": "Zusammen mit ABe 4/4 I 30 «Kessler Zwillinge» genannt"
+   "bem": "Zusammen mit ABe 4/4 I 30 «Kessler Zwillinge» genannt",
+   "zu": "hrhb"
   },
   {
    "id": "abe44ii-46",
@@ -454,7 +468,8 @@
    "img": "img/fz/abe44ii-46",
    "imgc": "U. Finke",
    "gr": "bb",
-   "len": 16.54
+   "len": 16.54,
+   "zu": "hrhb"
   },
   {
    "id": "abe44iii-54",
@@ -484,7 +499,8 @@
     "Hakone"
    ],
    "img": "img/fz/abe44iii-54",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "zu": "hrhb"
   },
   {
    "id": "abe44-501",
@@ -514,7 +530,8 @@
    "img": "img/fz/abe44-501",
    "imgc": "U. Finke",
    "len": 18.0,
-   "gr": "rhb"
+   "gr": "rhb",
+   "zu": "hrhb"
   },
   {
    "id": "xrotd-9213",
@@ -547,7 +564,8 @@
    "gr": "schnee",
    "img": "img/fz/xrotd-9213",
    "imgc": "U. Finke",
-   "len": 14.41
+   "len": 14.41,
+   "zu": "hrhb"
   },
   {
    "id": "ge44ii-611",
@@ -576,7 +594,8 @@
    "img": "img/fz/ge44ii-611",
    "imgc": "U. Finke",
    "gr": "rhb",
-   "len": 12.96
+   "len": 12.96,
+   "zu": "hrhb"
   },
   {
    "id": "ge44ii-626",
@@ -608,7 +627,8 @@
    ],
    "img": "img/fz/ge44ii-626",
    "imgc": "U. Finke",
-   "gr": "rhb"
+   "gr": "rhb",
+   "zu": "hrhb"
   },
   {
    "id": "ge44iii-652",
@@ -637,7 +657,8 @@
     "Ge 4/4 III 652"
    ],
    "img": "img/fz/ge44iii-652",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "zu": "rhb"
   },
   {
    "id": "ge66ii-702",
@@ -666,7 +687,8 @@
    "gr": "rhb",
    "img": "img/fz/ge66ii-702",
    "imgc": "U. Finke",
-   "len": 14.5
+   "len": 14.5,
+   "zu": "hrhb"
   },
   {
    "id": "ge66ii-707",
@@ -695,7 +717,8 @@
     "Ge 6/6 II 707"
    ],
    "img": "img/fz/ge66ii-707",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "zu": "hrhb"
   },
   {
    "id": "c-114",
@@ -724,7 +747,8 @@
    "gr": "wagen",
    "img": "img/fz/c-114",
    "imgc": "U. Finke",
-   "len": 9.75
+   "len": 9.75,
+   "zu": "hrhb"
   },
   {
    "id": "as-1141",
@@ -758,7 +782,8 @@
    "gr": "wagen",
    "img": "img/fz/as-1141",
    "imgc": "U. Finke",
-   "len": 16.4
+   "len": 16.4,
+   "zu": "hrhb"
   },
   {
    "id": "as-1161",
@@ -787,7 +812,8 @@
    "gr": "wagen",
    "img": "img/fz/as-1161",
    "imgc": "U. Finke",
-   "len": 16.44
+   "len": 16.44,
+   "zu": "hrhb"
   },
   {
    "id": "wr-3820",
@@ -816,7 +842,8 @@
    "gr": "wagen",
    "img": "img/fz/wr-3820",
    "imgc": "U. Finke",
-   "len": 15.32
+   "len": 15.32,
+   "zu": "hrhb"
   },
   {
    "id": "d-4052",
@@ -845,7 +872,8 @@
    "gr": "wagen",
    "img": "img/fz/d-4052",
    "imgc": "U. Finke",
-   "len": 10.64
+   "len": 10.64,
+   "zu": "hrhb"
   },
   {
    "id": "b-2091",
@@ -879,7 +907,8 @@
    ],
    "img": "img/fz/b-2091",
    "imgc": "U. Finke",
-   "bem": "1981 zum Aussichtswagen umgebaut"
+   "bem": "1981 zum Aussichtswagen umgebaut",
+   "zu": "hrhb"
   },
   {
    "id": "b-2093",
@@ -912,7 +941,8 @@
    ],
    "img": "img/fz/b-2093",
    "imgc": "U. Finke",
-   "bem": "1981 zum Aussichtswagen umgebaut"
+   "bem": "1981 zum Aussichtswagen umgebaut",
+   "zu": "hrhb"
   },
   {
    "id": "b-2111",
@@ -944,7 +974,8 @@
     "B 2111"
    ],
    "img": "img/fz/b-2111",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "zu": "hrhb"
   },
   {
    "id": "a-1225",
@@ -976,7 +1007,8 @@
     "A 1225"
    ],
    "img": "img/fz/a-1225",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "zu": "hrhb"
   },
   {
    "id": "b-2245",
@@ -1009,7 +1041,8 @@
    ],
    "img": "img/fz/b-2245",
    "imgc": "U. Finke",
-   "bem": "Ehemaliger Wagen C 51 der Chur-Arosa-Bahn"
+   "bem": "Ehemaliger Wagen C 51 der Chur-Arosa-Bahn",
+   "zu": "hrhb"
   },
   {
    "id": "b-2246",
@@ -1039,7 +1072,8 @@
     "B 2247"
    ],
    "img": "img/fz/b-2246",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "zu": "hrhb"
   },
   {
    "id": "m-7070",
@@ -1068,7 +1102,8 @@
     "M 7070"
    ],
    "img": "img/fz/m-7070",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "zu": "hrhb"
   },
   {
    "id": "k1-5615",
@@ -1098,7 +1133,8 @@
     "WN 9852"
    ],
    "img": "img/fz/k1-5615",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "zu": "hrhb"
   },
   {
    "id": "uh-8101",
@@ -1128,7 +1164,8 @@
     "WN 9862"
    ],
    "img": "img/fz/uh-8101",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "zu": "hrhb"
   },
   {
    "id": "m-8604",
@@ -1156,7 +1193,9 @@
     "M 8604"
    ],
    "img": "img/fz/m-8604",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "len": 6.5,
+   "zu": "bma"
   }
  ]
 }

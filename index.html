@@ -151,6 +151,7 @@ body.sec .bar{display:none}
 .fzg{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:14px;margin-top:10px}
 .fzc{display:flex;flex-direction:column;gap:2px;border:1px solid var(--line);border-radius:10px;padding:12px 14px 14px;background:var(--soft);text-decoration:none;color:var(--ink);transition:border-color .15s,transform .15s}
 .fzc:hover{border-color:var(--red);transform:translateY(-2px)}
+.zu{display:inline-block;align-self:flex-start;font:600 12px/1 Barlow,sans-serif;padding:4px 8px;border-radius:99px;margin:4px 0 2px;letter-spacing:.02em}.zu.hrhb{background:var(--red);color:#fff}.zu.bma{background:#1f4e79;color:#fff}.zu.rhb{background:#e4e4e0;color:#333}.fx .zu{margin:0}
 .fzc .nr{font:700 21px/1.1 "Barlow Condensed",sans-serif;margin-top:6px}
 .fzc span{font-size:14px;color:var(--mut)}
 .sch{background:#fff;border-radius:6px;border:1px solid var(--line)}
@@ -464,8 +465,10 @@ const sch=v=>{const c=v.col||"#4a5157",m=/(\d)\/(\d)/.exec(v.nr)||[0,0,0],dr=+m[
  return `<svg viewBox="0 0 260 86" role="img" aria-label="${esc(L("kat")[k]||"")}"><rect x="0" y="80" width="260" height="3" fill="#8a8f94"/>${g}</svg>`};
 const LMAX=Math.max(18,...FZ.map(v=>v.len||0));
 const pic=(v,big)=>v.img?`<img${!big&&v.len?` class="sc" style="width:${Math.min(100,v.len/LMAX*100).toFixed(1)}%"`:""} src="${v.img}-${big?1200:600}.jpg" srcset="${v.img}-600.jpg 600w, ${v.img}-1200.jpg 1200w" sizes="${big?"(max-width:720px) 100vw, 520px":"(max-width:520px) 100vw, 260px"}" alt="${esc(v.nr)}" loading="lazy">`:(!big&&v.len?`<div class="scw" style="width:${Math.min(100,v.len/LMAX*100).toFixed(1)}%">${sch(v)}</div>`:sch(v));
+const ZU={hrhb:"Historic RhB",bma:"Bahnmuseum Albula",rhb:"Rhätische Bahn"};
+const zuChip=v=>v.zu?`<span class="zu ${v.zu}">${ZU[v.zu]}</span>`:"";
 const fzName=v=>v.n?`«${esc(LT(v,"n"))}»`:"";
-const fzCard=v=>`<a class="fzc" href="#fz-${v.id}"><div class="sch${v.img?" ph":""}">${pic(v)}${v.imgc?`<small class="cr">© ${esc(v.imgc)}</small>`:""}</div><b class="nr">${esc(v.nr)}</b><span>${(v.bem?[v.bj,esc(LT(v,"bem"))]:[fzName(v),v.bj]).filter(Boolean).join(" · ")||"&nbsp;"}</span></a>`;
+const fzCard=v=>`<a class="fzc" href="#fz-${v.id}"><div class="sch${v.img?" ph":""}">${pic(v)}${v.imgc?`<small class="cr">© ${esc(v.imgc)}</small>`:""}</div><b class="nr">${esc(v.nr)}</b>${zuChip(v)}<span>${(v.bem?[v.bj,esc(LT(v,"bem"))]:[fzName(v),v.bj]).filter(Boolean).join(" · ")||"&nbsp;"}</span></a>`;
 const vFz=()=>{const grp=["dampf","rhb","bb","schnee","wagen","gueter"];return `<h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L("nav_fz")}</h2><p style="max-width:62ch">${L("fz_lede")}</p>`+
  grp.map(gk=>{const l=FZ.filter(v=>(v.gr||KG[v.kat])===gk).map((v,i)=>[v,i]).sort((a,b)=>((+a[0].bj||9999)-(+b[0].bj||9999))||a[1]-b[1]).map(x=>x[0]);return l.length?`<h2 class="month">${L("kg")[gk]}</h2><div class="fzg">${l.map(fzCard).join("")}</div>`:gk==="gueter"?`<h2 class="month">${L("kg")[gk]}</h2><p class="note">${L("fz_soon")}</p>`:""}).join("")+`<p class="note" style="margin-top:20px">${L("fz_note")}</p>`};
 const oLink=k=>OK[k]?`<a href="#org-${k}">${esc(OK[k].n)}</a>`:esc(k);
@@ -476,7 +479,7 @@ const vFzD=id=>{const v=FZ.find(x=>x.id===id);if(!v)return `<p class="empty">${L
  const tr=upList(fzTrips(v)),G=x=>x.gr||KG[x.kat],oth=FZ.filter(x=>x!==v&&G(x)===G(v)).sort((a,b)=>(+a.bj||9999)-(+b.bj||9999)).slice(0,8);
  return `<div class="det" style="max-width:1000px"><a class="back bk" href="#fahrzeuge">← ${L("fz_back")}</a><div class="fzh"><figure style="margin:0"><div class="sch${v.img?" ph":""}">${pic(v,1)}</div>${v.imgc?`<figcaption class="note" style="margin-top:6px;font-size:13px">${L("fz_img")}: © ${esc(v.imgc)}</figcaption>`:""}</figure><div>
  <h2 style="margin-top:0">${esc(v.nr)}${v.n?`<br><span style="font-weight:500">${fzName(v)}</span>`:""}</h2>${v.bem?`<p style="font-size:18px;margin:4px 0 0;color:var(--mut)">${esc(LT(v,"bem"))}</p>`:""}
- <dl class="fx"><dt>${L("fz_typ")}</dt><dd>${esc(L("kat")[v.kat]||"")}</dd>${v.bj?`<dt>${L("fz_bj")}</dt><dd>${v.bj}</dd>`:""}${v.st?`<dt>${L("fz_st")}</dt><dd><span class="stb ${v.st}">${L("stc")[v.st]}</span></dd>`:""}<dt>${L("fz_b")}</dt><dd>${oLink(v.b)}</dd>${v.mit?`<dt>${L("fz_mit")}</dt><dd>${v.mit.map(oLink).join(", ")}</dd>`:""}</dl></div></div>
+ <dl class="fx">${v.zu?`<dt>${L("fz_zu")}</dt><dd>${zuChip(v)}</dd>`:""}<dt>${L("fz_typ")}</dt><dd>${esc(L("kat")[v.kat]||"")}</dd>${v.bj?`<dt>${L("fz_bj")}</dt><dd>${v.bj}</dd>`:""}${v.st?`<dt>${L("fz_st")}</dt><dd><span class="stb ${v.st}">${L("stc")[v.st]}</span></dd>`:""}<dt>${L("fz_b")}</dt><dd>${oLink(v.b)}</dd>${v.mit?`<dt>${L("fz_mit")}</dt><dd>${v.mit.map(oLink).join(", ")}</dd>`:""}</dl></div></div>
  <p style="font-size:18px;max-width:68ch;margin-top:22px">${esc(LT(v,"p"))}</p>
  ${tr?`<h3 style="margin-top:26px">${L("fz_trips")}</h3>${tr}`:""}
  <p style="margin-top:28px"><a class="back bk" href="#fahrzeuge">← ${L("fz_back")}</a></p>${oth.length?`<h3 style="margin-top:26px">${L("fz_more")} · ${esc(L("kg")[G(v)]||"")}</h3><div class="fzg">${oth.map(fzCard).join("")}</div>`:""}</div>`};
