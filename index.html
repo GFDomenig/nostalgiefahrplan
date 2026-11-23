@@ -46,9 +46,9 @@ h1,h2,h3,.cond{font-family:"Barlow Condensed",Barlow,sans-serif;letter-spacing:-
 .ncard.st,.stbox{border:2px solid var(--red);background:color-mix(in srgb,var(--red) 6%,var(--bg))}
 .stbox{border-radius:12px;padding:18px;margin:18px 0 8px;display:grid;grid-template-columns:72px minmax(0,1fr);gap:16px;align-items:start}
 .stbox h2{margin:0 0 4px;font-size:26px;line-height:1.1}
-.nitem{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:4px 18px;padding:14px 0;border-bottom:1px solid var(--line)}
+.nitem{display:grid;grid-template-columns:7.5em minmax(0,1fr) auto;gap:4px 18px;padding:14px 0;border-bottom:1px solid var(--line)}
 .nitem .dt{font-size:20px}
-.nitem a{font-weight:600;font-size:15px}
+.nitem a{font-weight:600;font-size:15px}.nact{display:flex;flex-direction:column;align-items:stretch;justify-content:start}.nact a.btn{margin-top:0}
 .vlist{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
 .vlist a{font-size:14px;border:1px solid var(--line);border-radius:99px;padding:4px 10px;text-decoration:none}
 .ncard.st{border:2px solid var(--red);background:color-mix(in srgb,var(--red) 7%,var(--bg));padding-top:0;overflow:hidden}
@@ -57,7 +57,7 @@ h1,h2,h3,.cond{font-family:"Barlow Condensed",Barlow,sans-serif;letter-spacing:-
 .stbox{border-width:3px}
 .stbox .stlabel{display:inline-block;background:var(--red);color:#fff;font-size:13px;font-weight:600;padding:2px 8px;border-radius:4px;margin-bottom:6px}
 body.nv .flt{display:none!important}
-@media(max-width:600px){.nitem{grid-template-columns:minmax(0,1fr)}.stbox{grid-template-columns:48px minmax(0,1fr)}.stbox img{width:48px;height:48px}}
+@media(max-width:600px){.nitem{grid-template-columns:minmax(0,1fr)}.nact{align-items:flex-start;margin-top:6px}.stbox{grid-template-columns:48px minmax(0,1fr)}.stbox img{width:48px;height:48px}}
 .statsband{padding-top:16px;padding-bottom:16px;border-bottom:1px solid var(--line)}
 @media(max-width:600px){.hero{height:380px}.hero img{object-position:48% 62%}.hero .lede{font-size:16px}.stats{gap:14px;flex-wrap:nowrap}.stat b{font-size:28px}.stat span{font-size:13px}.herotext{max-width:none;right:16px}.hero::after{background:linear-gradient(180deg,rgba(10,20,35,.75) 0%,rgba(10,20,35,.35) 45%,rgba(10,20,35,0) 70%)}}
 .top{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:16px}
@@ -426,7 +426,7 @@ const nLogo=k=>{const o=OK[k];return o&&o.lg?`<img src="${o.lg}" alt="">`:`<span
 const teaser=()=>{const l=[...NN.filter(n=>n.q.includes("stiftung")).slice(0,1),...NN.filter(n=>n.d&&!n.q.includes("stiftung"))].slice(0,6);
  document.getElementById("nteaser").innerHTML=l.map(n=>{const isS=n.q.includes("stiftung"),k=n.q[0];return `<a class="ncard${isS?" st":""}" href="${n.u||"#news"}"><span class="sthead">${nLogo(k)}${isS?L("st_head"):L("msg_from",{s:esc(nSrc(n))})}</span><span class="nq">${esc(nDate(n))}</span><b>${esc(LT(n,"t"))}</b><p>${esc(LT(n,"x"))}</p></a>`}).join("")};
 let nf="";
-const nItem=n=>`<article class="nitem"><div class="dt">${esc(nDate(n))||`<small>${L("no_date")}</small>`}</div><div><div class="nq">${esc(nSrc(n))}${n.s==="d"?` · <span class="chip d3">${L("d3")}</span>`:''}</div><h3 style="margin:2px 0 4px">${esc(LT(n,"t"))}</h3><p>${esc(LT(n,"x"))}</p>${n.u?`<p style="margin:10px 0 0"><a class="btn p it" href="${n.u}">${L("read")}</a></p>`:""}</div></article>`;
+const nItem=n=>`<article class="nitem"><div class="dt">${esc(nDate(n))||`<small>${L("no_date")}</small>`}</div><div><div class="nq">${esc(nSrc(n))}${n.s==="d"?` · <span class="chip d3">${L("d3")}</span>`:''}</div><h3 style="margin:2px 0 4px">${esc(LT(n,"t"))}</h3><p>${esc(LT(n,"x"))}</p></div><div class="nact">${n.u?`<a class="btn p it" href="${n.u}">${L("read")}</a>`:""}</div></article>`;
 const vNews=()=>{const sn=NN.filter(n=>n.q.includes("stiftung")),o=NN.filter(n=>!n.q.includes("stiftung")&&(!nf||n.q.includes(nf)));
  const vs=Object.entries(NQ).filter(([k])=>k!=="stiftung");
  return `<section class="stbox"><img src="img/logo-160.png" width="72" height="72" alt=""><div><span class="stlabel">${L("st_label")}</span><h2>Stiftung Bahnkultur RhB</h2>${sn.length?sn.map(nItem).join(""):`<p class="note" style="margin:0">${L("st_empty")}</p>`}</div></section>
