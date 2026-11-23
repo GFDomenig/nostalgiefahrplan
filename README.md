@@ -75,3 +75,6 @@ Regeln für Aktualisierungen (Fahrten und News):
 - Logos der Mitglieder: Datei in `img/logos/` ablegen und `lg` setzen.
 - Fahrzeugbilder: `img/fz/<id>-600.jpg` und `-1200.jpg`, im Eintrag `img: "img/fz/<id>"` und `imgc` (Urheber, erscheint als «Zeichnung: © …»). Ohne `img` wird das Schema gezeichnet. U. Finke hat der Verwendung seiner Zeichnungen auf dieser Webseite zugestimmt (Vermerk «© U. Finke» beibehalten).
 - Weitere Felder: `b` = Eigentümer (Schlüssel aus organisationen.json), `auf` = Liste der Organisationen, die das Fahrzeug aufgearbeitet haben (Anzeige mit dem Zusatz «mit der Hauptwerkstätte der RhB»), `trs` = Link zur ausführlichen Beschreibung auf the-rolling-stocks.com (wird eingebettet geöffnet), `zu` = Zugehörigkeit (hrhb / bma), `st` = Zustand (betr, regel, abg, ausst, nb), `stx` = Standort zum Zustand, `bem` = Vermerk statt Name, `rel` = verknüpfte Fahrzeuge, `gr` = Rubrik(en).
+
+- Beschreibungen (`p`): höchstens 1000 Anschläge pro Sprache (inkl. Leerzeichen).
+- Bildnachweis `imgc`: wird als «Zeichnung: © …» und auf der Karte als «© …» angezeigt. Die Skizze der Ge 4/4 II 626 stammt nicht von U. Finke, sondern von G. F. Domenig.
