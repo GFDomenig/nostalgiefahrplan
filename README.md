@@ -77,4 +77,4 @@ Regeln für Aktualisierungen (Fahrten und News):
 - Weitere Felder: `b` = Eigentümer (Schlüssel aus organisationen.json), `auf` = Liste der Organisationen, die das Fahrzeug aufgearbeitet haben (Anzeige mit dem Zusatz «mit der Hauptwerkstätte der RhB»), `trs` = Link zur ausführlichen Beschreibung auf the-rolling-stocks.com (wird eingebettet geöffnet), `zu` = Zugehörigkeit (hrhb / bma), `st` = Zustand (betr, regel, abg, ausst, nb), `stx` = Standort zum Zustand, `bem` = Vermerk statt Name, `rel` = verknüpfte Fahrzeuge, `gr` = Rubrik(en).
 
 - Beschreibungen (`p`): höchstens 1000 Anschläge pro Sprache (inkl. Leerzeichen).
-- Bildnachweis `imgc`: wird als «Zeichnung: © …» und auf der Karte als «© …» angezeigt. Die Skizze der Ge 4/4 II 626 stammt nicht von U. Finke, sondern von G. F. Domenig.
+- Bildnachweis `imgc`: wird als «Zeichnung: © …» und auf der Karte als «© …» angezeigt. Abweichender Bildnachweis als ganzer Text in `imgcap`, z. B. Ge 4/4 II 626: «Foto Gaudenz Domenig, Skizze Claude».
