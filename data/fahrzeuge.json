@@ -275,7 +275,7 @@
   {
    "id": "ge44i-605",
    "nr": "Ge 4/4 I 605",
-   "n": "",
+   "n": "Silvretta",
    "kat": "dg",
    "bj": "1953",
    "b": "rhb",
@@ -295,11 +295,13 @@
    },
    "m": [
     "Ge 4/4 I 605",
+    "Silvretta",
     "Ge 4/4 I statt"
    ],
    "img": "img/fz/ge44i-605",
    "imgc": "U. Finke",
-   "gr": "rhb"
+   "gr": "rhb",
+   "len": 12.1
   },
   {
    "id": "ge44-182",
