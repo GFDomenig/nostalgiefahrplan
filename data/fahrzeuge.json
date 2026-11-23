@@ -1310,7 +1310,7 @@
   {
    "id": "a-1225",
    "nr": "A 1225",
-   "n": "Einheitswagen I",
+   "n": "Einheitswagen I, lang",
    "kat": "wagen",
    "bj": "1962",
    "b": "rhb",
@@ -1322,15 +1322,15 @@
    "i18n": {
     "fr": {
      "p": "Voiture de première classe de la première génération des voitures unifiées des RhB (voiture unifiée I), datant de 1962, dans l’ancienne livrée verte. D’après les inscriptions, elle comportait une partie fumeurs et une partie non-fumeurs. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
-     "n": "Voiture unifiée I"
+     "n": "Voiture unifiée I, longue"
     },
     "it": {
      "p": "Carrozza di prima classe della prima generazione delle carrozze unificate RhB (carrozza unificata I), del 1962, nella vecchia livrea verde. Secondo le scritte aveva una parte per fumatori e una per non fumatori. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
-     "n": "Carrozza unificata I"
+     "n": "Carrozza unificata I, lunga"
     },
     "en": {
      "p": "First-class coach of the first generation of RhB standard coaches (Einheitswagen I) from 1962, in the former green livery. According to its lettering it had a smoking and a non-smoking section. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
-     "n": "Standard coach I"
+     "n": "Standard coach I, long"
     }
    },
    "m": [
@@ -1344,7 +1344,7 @@
   {
    "id": "b-2354",
    "nr": "B 2354",
-   "n": "Einheitswagen I",
+   "n": "Einheitswagen I, lang",
    "kat": "wagen",
    "bj": "1964",
    "b": "rhb",
@@ -1355,15 +1355,15 @@
    "p": "Zweitklasswagen der ersten Generation der RhB-Einheitswagen (Einheitswagen I) aus dem Jahr 1964, in der früheren grünen Farbgebung, mit Bereichen für Raucher und Nichtraucher. Der Wagen ist zurzeit abgestellt und für Historic RhB designiert. Zu gegebener Zeit ist seine Revision geplant; danach soll er als historisches Fahrzeug wieder in Betrieb genommen werden. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "n": "Voiture unifiée I",
+     "n": "Voiture unifiée I, longue",
      "p": "Voiture de deuxième classe de la première génération des voitures unifiées des RhB (voiture unifiée I), datant de 1964, dans l’ancienne livrée verte, avec parties fumeurs et non-fumeurs. La voiture est actuellement garée et désignée pour Historic RhB. Sa révision est prévue en temps voulu ; elle doit ensuite être remise en service comme véhicule historique. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "n": "Carrozza unificata I",
+     "n": "Carrozza unificata I, lunga",
      "p": "Carrozza di seconda classe della prima generazione delle carrozze unificate RhB (carrozza unificata I), del 1964, nella vecchia livrea verde, con parti per fumatori e non fumatori. La carrozza è attualmente accantonata e designata per Historic RhB. A tempo debito è prevista la sua revisione; in seguito dovrà tornare in servizio come veicolo storico. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "n": "Standard coach I",
+     "n": "Standard coach I, long",
      "p": "Second-class coach of the first generation of RhB standard coaches (Einheitswagen I) from 1964, in the former green livery, with smoking and non-smoking sections. The coach is currently stored and designated for Historic RhB. An overhaul is planned in due course, after which it is to return to service as a historic vehicle. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
@@ -1371,12 +1371,14 @@
     "B 2354"
    ],
    "zu": "hrhb",
-   "stx": "Landquart"
+   "stx": "Landquart",
+   "img": "img/fz/b-2354",
+   "imgc": "U. Finke"
   },
   {
    "id": "ab-1541",
    "nr": "AB 1541 ff.",
-   "n": "Einheitswagen I",
+   "n": "Einheitswagen I, kurz",
    "kat": "wagen",
    "bj": "1968",
    "b": "rhb",
@@ -1392,15 +1394,15 @@
    "p": "Kurzer Einheitswagen I mit 1. und 2. Klasse von 1968, in der kürzeren Ausführung, die auch auf der Berninalinie eingesetzt werden kann. Aus der Serie AB 1541 ff. ist ein Wagen als historisches Fahrzeug für Historic RhB designiert; welche Nummer es sein wird, ist noch nicht bestimmt. Die Skizze zeigt den AB 1544. Die Wagen werden noch mehrere Jahre im Regelbetrieb eingesetzt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "n": "Voiture unifiée I",
+     "n": "Voiture unifiée I, courte",
      "p": "Voiture unifiée I courte à compartiments de 1re et 2e classe de 1968, dans la version plus courte qui peut aussi circuler sur la ligne de la Bernina. Dans la série AB 1541 ff., une voiture est désignée comme véhicule historique pour Historic RhB ; son numéro n’est pas encore fixé. Le dessin montre la AB 1544. Les voitures resteront encore plusieurs années en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "n": "Carrozza unificata I",
+     "n": "Carrozza unificata I, corta",
      "p": "Carrozza unificata I corta con 1a e 2a classe del 1968, nella versione più corta che può circolare anche sulla linea del Bernina. Della serie AB 1541 ff. una carrozza è designata come veicolo storico per Historic RhB; il numero non è ancora stabilito. Il disegno mostra la AB 1544. Le carrozze resteranno ancora per diversi anni nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "n": "Standard coach I",
+     "n": "Standard coach I, short",
      "p": "Short first/second-class Standard coach I from 1968, in the shorter version that can also run on the Bernina line. One coach of the AB 1541 ff. series is designated as a historic vehicle for Historic RhB; which number it will be has not yet been decided. The drawing shows AB 1544. The coaches will remain in regular service for several more years. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
@@ -1410,7 +1412,7 @@
   {
    "id": "b-2307",
    "nr": "B 2307 ff.",
-   "n": "Einheitswagen I",
+   "n": "Einheitswagen I, kurz",
    "kat": "wagen",
    "bj": "1972",
    "b": "rhb",
@@ -1426,15 +1428,15 @@
    "p": "Kurzer Einheitswagen I 2. Klasse von 1972, in der kürzeren Ausführung, die auch auf der Berninalinie eingesetzt werden kann. Aus der Serie B 2307 ff. oder der baugleichen Serie B 2451 ff. ist ein Wagen als historisches Fahrzeug für Historic RhB designiert; welche Nummer es sein wird, ist noch nicht bestimmt. Die Skizze zeigt den B 2455. Die Wagen werden noch mehrere Jahre im Regelbetrieb eingesetzt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "n": "Voiture unifiée I",
+     "n": "Voiture unifiée I, courte",
      "p": "Voiture unifiée I courte de 2e classe de 1972, dans la version plus courte qui peut aussi circuler sur la ligne de la Bernina. Dans la série B 2307 ff. ou de la série identique B 2451 ss., une voiture est désignée comme véhicule historique pour Historic RhB ; son numéro n’est pas encore fixé. Le dessin montre la B 2455. Les voitures resteront encore plusieurs années en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "n": "Carrozza unificata I",
+     "n": "Carrozza unificata I, corta",
      "p": "Carrozza unificata I corta di 2a classe del 1972, nella versione più corta che può circolare anche sulla linea del Bernina. Della serie B 2307 ff. o della serie identica B 2451 segg. una carrozza è designata come veicolo storico per Historic RhB; il numero non è ancora stabilito. Il disegno mostra la B 2455. Le carrozze resteranno ancora per diversi anni nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "n": "Standard coach I",
+     "n": "Standard coach I, short",
      "p": "Short second-class Standard coach I from 1972, in the shorter version that can also run on the Bernina line. One coach of the B 2307 ff. series or the identical B 2451 ff. series is designated as a historic vehicle for Historic RhB; which number it will be has not yet been decided. The drawing shows B 2455. The coaches will remain in regular service for several more years. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
@@ -1444,7 +1446,7 @@
   {
    "id": "ab-1561",
    "nr": "AB 1561 ff.",
-   "n": "Einheitswagen II",
+   "n": "Einheitswagen II, lang",
    "kat": "wagen",
    "bj": "1975",
    "b": "rhb",
@@ -1457,26 +1459,28 @@
     "AB 1561",
     "Einheitswagen II"
    ],
-   "p": "Einheitswagen II mit 1. und 2. Klasse von 1975. Aus der Serie AB 1561 ff. ist ein Wagen als historisches Fahrzeug für Historic RhB designiert; welche Nummer es sein wird, ist noch nicht bestimmt. Die Wagen werden noch mehrere Jahre im Regelbetrieb eingesetzt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Einheitswagen II mit 1. und 2. Klasse von 1975. Aus der Serie AB 1561 ff. ist ein Wagen als historisches Fahrzeug für Historic RhB designiert; welche Nummer es sein wird, ist noch nicht bestimmt. Die Skizze zeigt den AB 1569. Die Wagen werden noch mehrere Jahre im Regelbetrieb eingesetzt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "n": "Voiture unifiée II",
-     "p": "Voiture unifiée II à compartiments de 1re et 2e classe de 1975. Dans la série AB 1561 ff., une voiture est désignée comme véhicule historique pour Historic RhB ; son numéro n’est pas encore fixé. Les voitures resteront encore plusieurs années en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "n": "Voiture unifiée II, longue",
+     "p": "Voiture unifiée II à compartiments de 1re et 2e classe de 1975. Dans la série AB 1561 ff., une voiture est désignée comme véhicule historique pour Historic RhB ; son numéro n’est pas encore fixé. Le dessin montre la AB 1569. Les voitures resteront encore plusieurs années en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "n": "Carrozza unificata II",
-     "p": "Carrozza unificata II con 1a e 2a classe del 1975. Della serie AB 1561 ff. una carrozza è designata come veicolo storico per Historic RhB; il numero non è ancora stabilito. Le carrozze resteranno ancora per diversi anni nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "n": "Carrozza unificata II, lunga",
+     "p": "Carrozza unificata II con 1a e 2a classe del 1975. Della serie AB 1561 ff. una carrozza è designata come veicolo storico per Historic RhB; il numero non è ancora stabilito. Il disegno mostra la AB 1569. Le carrozze resteranno ancora per diversi anni nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "n": "Standard coach II",
-     "p": "First/second-class Standard coach II from 1975. One coach of the AB 1561 ff. series is designated as a historic vehicle for Historic RhB; which number it will be has not yet been decided. The coaches will remain in regular service for several more years. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "n": "Standard coach II, long",
+     "p": "First/second-class Standard coach II from 1975. One coach of the AB 1561 ff. series is designated as a historic vehicle for Historic RhB; which number it will be has not yet been decided. The drawing shows AB 1569. The coaches will remain in regular service for several more years. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
-   }
+   },
+   "img": "img/fz/ab-1561",
+   "imgc": "U. Finke"
   },
   {
    "id": "b-2374",
    "nr": "B 2374",
-   "n": "Einheitswagen II",
+   "n": "Einheitswagen II, lang",
    "kat": "wagen",
    "bj": "1976",
    "b": "rhb",
@@ -1492,15 +1496,15 @@
    "p": "Einheitswagen II 2. Klasse von 1976. Aus der Serie, zu welcher der B 2374 gehört, ist ein Wagen als historisches Fahrzeug für Historic RhB designiert; welche Nummer es sein wird, ist noch nicht bestimmt. Die Wagen werden noch mehrere Jahre im Regelbetrieb eingesetzt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "n": "Voiture unifiée II",
+     "n": "Voiture unifiée II, longue",
      "p": "Voiture unifiée II de 2e classe de 1976. Dans la série à laquelle appartient la B 2374, une voiture est désignée comme véhicule historique pour Historic RhB ; son numéro n’est pas encore fixé. Les voitures resteront encore plusieurs années en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "n": "Carrozza unificata II",
+     "n": "Carrozza unificata II, lunga",
      "p": "Carrozza unificata II di 2a classe del 1976. Della serie a cui appartiene la B 2374, una carrozza è designata come veicolo storico per Historic RhB; il numero non è ancora stabilito. Le carrozze resteranno ancora per diversi anni nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "n": "Standard coach II",
+     "n": "Standard coach II, long",
      "p": "Second-class Standard coach II from 1976. One coach of the series to which B 2374 belongs is designated as a historic vehicle for Historic RhB; which number it will be has not yet been decided. The coaches will remain in regular service for several more years. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
@@ -1510,7 +1514,7 @@
   {
    "id": "bd-2471",
    "nr": "BD 2471 ff.",
-   "n": "Einheitswagen III",
+   "n": "Einheitswagen III, kurz",
    "kat": "wagen",
    "bj": "1982",
    "b": "rhb",
@@ -1526,15 +1530,15 @@
    "p": "Kurzer Einheitswagen III 2. Klasse mit Gepäckabteil von 1982. Die kurzen Einheitswagen III und IV wurden alle in der Farbe Anthrazit-Rot abgeliefert und waren zu Beginn für den Bernina Express bestimmt, der damit erstmals farblich klar erkennbar wurde. Aus der Serie BD 2471 ff. ist ein Wagen als historisches Fahrzeug für Historic RhB designiert; welche Nummer es sein wird, ist noch nicht bestimmt. Die Skizze zeigt den BD 2472. Die Wagen werden noch mehrere Jahre im Regelbetrieb eingesetzt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "n": "Voiture unifiée III",
+     "n": "Voiture unifiée III, courte",
      "p": "Voiture unifiée III courte de 2e classe avec compartiment à bagages de 1982. Les voitures unifiées III et IV courtes ont toutes été livrées en livrée anthracite et rouge et étaient d’abord destinées au Bernina Express, qui devint ainsi pour la première fois clairement reconnaissable à sa couleur. Dans la série BD 2471 ff., une voiture est désignée comme véhicule historique pour Historic RhB ; son numéro n’est pas encore fixé. Le dessin montre la BD 2472. Les voitures resteront encore plusieurs années en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "n": "Carrozza unificata III",
+     "n": "Carrozza unificata III, corta",
      "p": "Carrozza unificata III corta di 2a classe con bagagliaio del 1982. Le carrozze unificate III e IV corte furono tutte consegnate nella livrea antracite e rossa ed erano inizialmente destinate al Bernina Express, che divenne così per la prima volta chiaramente riconoscibile dal colore. Della serie BD 2471 ff. una carrozza è designata come veicolo storico per Historic RhB; il numero non è ancora stabilito. Il disegno mostra la BD 2472. Le carrozze resteranno ancora per diversi anni nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "n": "Standard coach III",
+     "n": "Standard coach III, short",
      "p": "Short second-class Standard coach III with luggage compartment from 1982. The short Standard coaches III and IV were all delivered in anthracite and red and were initially intended for the Bernina Express, which thus became clearly recognisable by its colours for the first time. One coach of the BD 2471 ff. series is designated as a historic vehicle for Historic RhB; which number it will be has not yet been decided. The drawing shows BD 2472. The coaches will remain in regular service for several more years. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
@@ -1544,7 +1548,7 @@
   {
    "id": "b-2461",
    "nr": "B 2461 ff.",
-   "n": "Einheitswagen III",
+   "n": "Einheitswagen III, kurz",
    "kat": "wagen",
    "bj": "1983",
    "b": "rhb",
@@ -1560,15 +1564,15 @@
    "p": "Kurzer Einheitswagen III 2. Klasse von 1983. Die kurzen Einheitswagen III und IV wurden alle in der Farbe Anthrazit-Rot abgeliefert und waren zu Beginn für den Bernina Express bestimmt, der damit erstmals farblich klar erkennbar wurde. Aus der Serie B 2461 ff. ist ein Wagen als historisches Fahrzeug für Historic RhB designiert; welche Nummer es sein wird, ist noch nicht bestimmt. Die Skizze zeigt den B 2462. Die Wagen werden noch mehrere Jahre im Regelbetrieb eingesetzt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "n": "Voiture unifiée III",
+     "n": "Voiture unifiée III, courte",
      "p": "Voiture unifiée III courte de 2e classe de 1983. Les voitures unifiées III et IV courtes ont toutes été livrées en livrée anthracite et rouge et étaient d’abord destinées au Bernina Express, qui devint ainsi pour la première fois clairement reconnaissable à sa couleur. Dans la série B 2461 ff., une voiture est désignée comme véhicule historique pour Historic RhB ; son numéro n’est pas encore fixé. Le dessin montre la B 2462. Les voitures resteront encore plusieurs années en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "n": "Carrozza unificata III",
+     "n": "Carrozza unificata III, corta",
      "p": "Carrozza unificata III corta di 2a classe del 1983. Le carrozze unificate III e IV corte furono tutte consegnate nella livrea antracite e rossa ed erano inizialmente destinate al Bernina Express, che divenne così per la prima volta chiaramente riconoscibile dal colore. Della serie B 2461 ff. una carrozza è designata come veicolo storico per Historic RhB; il numero non è ancora stabilito. Il disegno mostra la B 2462. Le carrozze resteranno ancora per diversi anni nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "n": "Standard coach III",
+     "n": "Standard coach III, short",
      "p": "Short second-class Standard coach III from 1983. The short Standard coaches III and IV were all delivered in anthracite and red and were initially intended for the Bernina Express, which thus became clearly recognisable by its colours for the first time. One coach of the B 2461 ff. series is designated as a historic vehicle for Historic RhB; which number it will be has not yet been decided. The drawing shows B 2462. The coaches will remain in regular service for several more years. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
@@ -1578,7 +1582,7 @@
   {
    "id": "a-1273",
    "nr": "A 1273 ff.",
-   "n": "Einheitswagen IV",
+   "n": "Einheitswagen IV, kurz",
    "kat": "wagen",
    "bj": "1993",
    "b": "rhb",
@@ -1594,15 +1598,15 @@
    "p": "Kurzer Einheitswagen IV 1. Klasse von 1993. Die kurzen Einheitswagen III und IV wurden alle in der Farbe Anthrazit-Rot abgeliefert und waren zu Beginn für den Bernina Express bestimmt, der damit erstmals farblich klar erkennbar wurde. Aus der Serie A 1273 ff. ist ein Wagen als historisches Fahrzeug für Historic RhB designiert; welche Nummer es sein wird, ist noch nicht bestimmt. Die Wagen werden noch mehrere Jahre im Regelbetrieb eingesetzt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "n": "Voiture unifiée IV",
+     "n": "Voiture unifiée IV, courte",
      "p": "Voiture unifiée IV courte de 1re classe de 1993. Les voitures unifiées III et IV courtes ont toutes été livrées en livrée anthracite et rouge et étaient d’abord destinées au Bernina Express, qui devint ainsi pour la première fois clairement reconnaissable à sa couleur. Dans la série A 1273 ff., une voiture est désignée comme véhicule historique pour Historic RhB ; son numéro n’est pas encore fixé. Les voitures resteront encore plusieurs années en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "n": "Carrozza unificata IV",
+     "n": "Carrozza unificata IV, corta",
      "p": "Carrozza unificata IV corta di 1a classe del 1993. Le carrozze unificate III e IV corte furono tutte consegnate nella livrea antracite e rossa ed erano inizialmente destinate al Bernina Express, che divenne così per la prima volta chiaramente riconoscibile dal colore. Della serie A 1273 ff. una carrozza è designata come veicolo storico per Historic RhB; il numero non è ancora stabilito. Le carrozze resteranno ancora per diversi anni nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "n": "Standard coach IV",
+     "n": "Standard coach IV, short",
      "p": "Short first-class Standard coach IV from 1993. The short Standard coaches III and IV were all delivered in anthracite and red and were initially intended for the Bernina Express, which thus became clearly recognisable by its colours for the first time. One coach of the A 1273 ff. series is designated as a historic vehicle for Historic RhB; which number it will be has not yet been decided. The coaches will remain in regular service for several more years. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    }
