@@ -64,7 +64,8 @@
    "imgc": "U. Finke",
    "len": 8.43,
    "gr": "dampf",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "g45-107",
@@ -94,7 +95,8 @@
    "imgc": "U. Finke",
    "len": 13.97,
    "gr": "dampf",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "g45-108",
@@ -124,7 +126,8 @@
    "imgc": "U. Finke",
    "len": 13.97,
    "gr": "dampf",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "ge24-222",
@@ -154,7 +157,8 @@
    "imgc": "U. Finke",
    "len": 8.7,
    "gr": "rhb",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "ge46-353",
@@ -184,7 +188,8 @@
    "imgc": "U. Finke",
    "len": 11.1,
    "gr": "rhb",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "ge66-414",
@@ -215,7 +220,8 @@
    "imgc": "U. Finke",
    "len": 13.3,
    "gr": "rhb",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "ge66-415",
@@ -246,7 +252,8 @@
    "imgc": "U. Finke",
    "len": 13.3,
    "gr": "rhb",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "ge66-407",
@@ -314,7 +321,8 @@
    "imgc": "U. Finke",
    "gr": "rhb",
    "len": 12.1,
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "ge22-161",
@@ -345,7 +353,8 @@
    ],
    "img": "img/fz/ge22-161",
    "imgc": "U. Finke",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "ge44-182",
@@ -378,7 +387,8 @@
    "imgc": "U. Finke",
    "gr": "bb",
    "len": 14.4,
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "abe44-30",
@@ -408,7 +418,8 @@
    "img": "img/fz/abe44-30",
    "imgc": "U. Finke",
    "gr": "bb",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "abe44-34",
@@ -442,7 +453,8 @@
    "imgc": "U. Finke",
    "gr": "bb",
    "bem": "Zusammen mit ABe 4/4 I 30 «Kessler Zwillinge» genannt",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "abe44ii-46",
@@ -473,7 +485,8 @@
    "imgc": "U. Finke",
    "gr": "bb",
    "len": 16.54,
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "abe44iii-54",
@@ -504,7 +517,8 @@
    ],
    "img": "img/fz/abe44iii-54",
    "imgc": "U. Finke",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "abe44-501",
@@ -535,7 +549,8 @@
    "imgc": "U. Finke",
    "len": 18.0,
    "gr": "rhb",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "xrotd-9213",
@@ -577,19 +592,19 @@
    "n": "Landquart",
    "kat": "dg",
    "bj": "1973",
-   "b": "gc",
-   "st": "betr",
+   "b": "rhb",
+   "st": "regel",
    "col": "#2f6b3a",
-   "p": "Erste Lok der Serie Ge 4/4 II. Auf Initiative von Grün & Chrom erhielt sie in der Hauptwerkstätte Landquart wieder ihr ursprüngliches Aussehen in Grün mit Chromschriften und runden Lampen; vorgestellt im April 2024.",
+   "p": "Erste Lok der Serie Ge 4/4 II. Auf Initiative von Grün & Chrom erhielt sie in der Hauptwerkstätte Landquart wieder ihr ursprüngliches Aussehen in Grün mit Chromschriften und runden Lampen; vorgestellt im April 2024. Die Lok ist als Fahrzeug von Historic RhB designiert, wird aber vorläufig noch im Regelbetrieb eingesetzt.",
    "i18n": {
     "fr": {
-     "p": "Première locomotive de la série Ge 4/4 II. À l’initiative de Grün & Chrom, l’atelier principal de Landquart lui a rendu son aspect d’origine, vert avec lettres chromées et phares ronds ; présentée en avril 2024."
+     "p": "Première locomotive de la série Ge 4/4 II. À l’initiative de Grün & Chrom, l’atelier principal de Landquart lui a rendu son aspect d’origine, vert avec lettres chromées et phares ronds ; présentée en avril 2024. La locomotive est désignée comme véhicule de Historic RhB, mais elle est encore utilisée pour l’instant en service régulier."
     },
     "it": {
-     "p": "Prima locomotiva della serie Ge 4/4 II. Su iniziativa di Grün & Chrom l’officina principale di Landquart le ha restituito l’aspetto originale, verde con scritte cromate e fari rotondi; presentata nell’aprile 2024."
+     "p": "Prima locomotiva della serie Ge 4/4 II. Su iniziativa di Grün & Chrom l’officina principale di Landquart le ha restituito l’aspetto originale, verde con scritte cromate e fari rotondi; presentata nell’aprile 2024. La locomotiva è designata come veicolo di Historic RhB, ma per ora è ancora impiegata nel servizio regolare."
     },
     "en": {
-     "p": "First locomotive of the Ge 4/4 II class. At the initiative of Grün & Chrom, the Landquart main workshop returned it to its original look, green with chrome lettering and round lamps; presented in April 2024."
+     "p": "First locomotive of the Ge 4/4 II class. At the initiative of Grün & Chrom, the Landquart main workshop returned it to its original look, green with chrome lettering and round lamps; presented in April 2024. The locomotive is designated as a Historic RhB vehicle but is still used in regular service for the time being."
     }
    },
    "m": [
@@ -599,7 +614,10 @@
    "imgc": "U. Finke",
    "gr": "rhb",
    "len": 12.96,
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": [
+    "gc"
+   ]
   },
   {
    "id": "ge44ii-626",
@@ -611,18 +629,18 @@
    "mit": [
     "vps"
    ],
-   "st": "betr",
+   "st": "regel",
    "col": "#1f3a6b",
-   "p": "Auf Anregung des Vereins Pro Salonwagen erhielt die «Malans» im September 2024 die Pullman-Farben Kobaltblau und Elfenbein, passend zu den Wagen des Alpine Classic Pullman-Express. Am 21. März 2025 wurde sie in Samedan auf den Namen «Alby Glatt» getauft. Alby Glatt (1933–2014) gründete 1976 den Nostalgie-Istanbul-Orient-Express und 1996 zusammen mit Willy Hochstrasser den Verein Pro Salonwagen RhB. Die Lok fährt im normalen Dienst, etwa vor Güterzügen und dem Glacier Express, und zieht auch den Pullman-Express.",
+   "p": "Auf Anregung des Vereins Pro Salonwagen erhielt die «Malans» im September 2024 die Pullman-Farben Kobaltblau und Elfenbein, passend zu den Wagen des Alpine Classic Pullman-Express. Am 21. März 2025 wurde sie in Samedan auf den Namen «Alby Glatt» getauft. Alby Glatt (1933–2014) gründete 1976 den Nostalgie-Istanbul-Orient-Express und 1996 zusammen mit Willy Hochstrasser den Verein Pro Salonwagen RhB. Die Lok fährt im normalen Dienst, etwa vor Güterzügen und dem Glacier Express, und zieht auch den Pullman-Express. Sie ist als Fahrzeug von Historic RhB designiert, steht aber vorläufig noch im Regelbetrieb.",
    "i18n": {
     "fr": {
-     "p": "À l’initiative de l’association Pro Salonwagen, la « Malans » a reçu en septembre 2024 les couleurs Pullman bleu cobalt et ivoire, assorties aux voitures de l’Alpine Classic Pullman-Express. Le 21 mars 2025, elle a été baptisée « Alby Glatt » à Samedan. Alby Glatt (1933–2014) a fondé en 1976 le Nostalgie-Istanbul-Orient-Express et en 1996, avec Willy Hochstrasser, l’association Pro Salonwagen RhB. La locomotive circule en service normal, par exemple en tête de trains de marchandises et du Glacier Express, et tire aussi le Pullman-Express."
+     "p": "À l’initiative de l’association Pro Salonwagen, la « Malans » a reçu en septembre 2024 les couleurs Pullman bleu cobalt et ivoire, assorties aux voitures de l’Alpine Classic Pullman-Express. Le 21 mars 2025, elle a été baptisée « Alby Glatt » à Samedan. Alby Glatt (1933–2014) a fondé en 1976 le Nostalgie-Istanbul-Orient-Express et en 1996, avec Willy Hochstrasser, l’association Pro Salonwagen RhB. La locomotive circule en service normal, par exemple en tête de trains de marchandises et du Glacier Express, et tire aussi le Pullman-Express. Elle est désignée comme véhicule de Historic RhB, mais reste pour l’instant en service régulier."
     },
     "it": {
-     "p": "Su proposta dell’associazione Pro Salonwagen, nel settembre 2024 la «Malans» ha ricevuto i colori Pullman blu cobalto e avorio, in armonia con le carrozze dell’Alpine Classic Pullman-Express. Il 21 marzo 2025 è stata battezzata «Alby Glatt» a Samedan. Alby Glatt (1933–2014) fondò nel 1976 il Nostalgie-Istanbul-Orient-Express e nel 1996, con Willy Hochstrasser, l’associazione Pro Salonwagen RhB. La locomotiva è in servizio normale, ad esempio con treni merci e con il Glacier Express, e traina anche il Pullman-Express."
+     "p": "Su proposta dell’associazione Pro Salonwagen, nel settembre 2024 la «Malans» ha ricevuto i colori Pullman blu cobalto e avorio, in armonia con le carrozze dell’Alpine Classic Pullman-Express. Il 21 marzo 2025 è stata battezzata «Alby Glatt» a Samedan. Alby Glatt (1933–2014) fondò nel 1976 il Nostalgie-Istanbul-Orient-Express e nel 1996, con Willy Hochstrasser, l’associazione Pro Salonwagen RhB. La locomotiva è in servizio normale, ad esempio con treni merci e con il Glacier Express, e traina anche il Pullman-Express. È designata come veicolo di Historic RhB, ma per ora resta nel servizio regolare."
     },
     "en": {
-     "p": "At the suggestion of the Verein Pro Salonwagen, «Malans» received the Pullman colours of cobalt blue and ivory in September 2024 to match the Alpine Classic Pullman-Express cars. On 21 March 2025 it was named «Alby Glatt» at Samedan. Alby Glatt (1933–2014) founded the Nostalgie-Istanbul-Orient-Express in 1976 and, with Willy Hochstrasser, the Verein Pro Salonwagen RhB in 1996. The locomotive runs in normal service, for example on freight trains and the Glacier Express, and also hauls the Pullman-Express."
+     "p": "At the suggestion of the Verein Pro Salonwagen, «Malans» received the Pullman colours of cobalt blue and ivory in September 2024 to match the Alpine Classic Pullman-Express cars. On 21 March 2025 it was named «Alby Glatt» at Samedan. Alby Glatt (1933–2014) founded the Nostalgie-Istanbul-Orient-Express in 1976 and, with Willy Hochstrasser, the Verein Pro Salonwagen RhB in 1996. The locomotive runs in normal service, for example on freight trains and the Glacier Express, and also hauls the Pullman-Express. It is designated as a Historic RhB vehicle but remains in regular service for now."
     }
    },
    "m": [
@@ -641,20 +659,20 @@
    "kat": "dg",
    "bj": "1999",
    "b": "rhb",
-   "st": "betr",
+   "st": "regel",
    "col": "#2a6fd6",
    "len": 16.0,
    "gr": "rhb",
-   "p": "Lok der dritten Ge-4/4-Generation, die ab 1993 in Dienst kam; die 652 wurde im November 1999 in Betrieb genommen. Sie trägt eine Werbebemalung für den HC Davos und die Graubündner Kantonalbank und zieht Regio-Express- und Güterzüge. Sie ist kein historisches Fahrzeug, zeigt aber zum Vergleich die heutige RhB.",
+   "p": "Lok der dritten Ge-4/4-Generation, die ab 1993 in Dienst kam; die 652 wurde im November 1999 in Betrieb genommen. Sie trägt eine Werbebemalung für den HC Davos und die Graubündner Kantonalbank und zieht Regio-Express- und Güterzüge. Eine Lok dieser Reihe soll als historisches Fahrzeug erhalten bleiben; welche, ist noch nicht entschieden. Die 652 steht hier stellvertretend für die Serie und wird weiterhin im Regelbetrieb eingesetzt.",
    "i18n": {
     "fr": {
-     "p": "Locomotive de la troisième génération Ge 4/4, mise en service à partir de 1993 ; la 652 circule depuis novembre 1999. Elle porte une livrée publicitaire pour le HC Davos et la Banque cantonale des Grisons et tire des RegioExpress et des trains de marchandises. Ce n’est pas un véhicule historique, mais elle montre à titre de comparaison les RhB d’aujourd’hui."
+     "p": "Locomotive de la troisième génération Ge 4/4, mise en service à partir de 1993 ; la 652 circule depuis novembre 1999. Elle porte une livrée publicitaire pour le HC Davos et la Banque cantonale des Grisons et tire des RegioExpress et des trains de marchandises. Une locomotive de cette série doit être conservée comme véhicule historique ; laquelle, ce n’est pas encore décidé. La 652 représente ici la série et reste en service régulier."
     },
     "it": {
-     "p": "Locomotiva della terza generazione Ge 4/4, in servizio dal 1993; la 652 è entrata in esercizio nel novembre 1999. Porta una livrea pubblicitaria per l’HC Davos e la Banca cantonale grigione e traina RegioExpress e treni merci. Non è un veicolo storico, ma mostra a confronto la RhB di oggi."
+     "p": "Locomotiva della terza generazione Ge 4/4, in servizio dal 1993; la 652 è entrata in esercizio nel novembre 1999. Porta una livrea pubblicitaria per l’HC Davos e la Banca cantonale grigione e traina RegioExpress e treni merci. Una locomotiva di questa serie sarà conservata come veicolo storico; quale, non è ancora deciso. La 652 rappresenta qui la serie e resta nel servizio regolare."
     },
     "en": {
-     "p": "Locomotive of the third Ge 4/4 generation, introduced from 1993; no. 652 entered service in November 1999. It carries an advertising livery for HC Davos and the Graubündner Kantonalbank and hauls RegioExpress and freight trains. It is not a historic vehicle but shows today’s RhB for comparison."
+     "p": "Locomotive of the third Ge 4/4 generation, introduced from 1993; no. 652 entered service in November 1999. It carries an advertising livery for HC Davos and the Graubündner Kantonalbank and hauls RegioExpress and freight trains. One locomotive of this class is to be preserved as a historic vehicle; which one has not yet been decided. No. 652 stands in for the class here and remains in regular service."
     }
    },
    "m": [
@@ -662,7 +680,8 @@
    ],
    "img": "img/fz/ge44iii-652",
    "imgc": "U. Finke",
-   "zu": "rhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "ge66ii-702",
@@ -670,7 +689,7 @@
    "n": "Curia",
    "kat": "dg6",
    "bj": "1958",
-   "b": "gc",
+   "b": "rhb",
    "st": "ausst",
    "col": "#2f6b3a",
    "p": "Grün & Chrom hat die Lok optisch aufgefrischt; seit Herbst 2026 steht sie vor dem Verkehrshaus der Schweiz in Luzern.",
@@ -696,7 +715,10 @@
    "imgc": "U. Finke",
    "len": 14.5,
    "zu": "hrhb",
-   "stx": "Verkehrshaus der Schweiz, Luzern"
+   "stx": "Verkehrshaus der Schweiz, Luzern",
+   "mit": [
+    "gc"
+   ]
   },
   {
    "id": "ge66ii-707",
@@ -730,7 +752,8 @@
    "img": "img/fz/ge66ii-707",
    "imgc": "U. Finke",
    "zu": "hrhb",
-   "stx": "Depot Samedan"
+   "stx": "Depot Samedan",
+   "mit": null
   },
   {
    "id": "c-114",
@@ -738,7 +761,7 @@
    "n": "La Bucunada",
    "kat": "wagen",
    "bj": "1910",
-   "b": "club1889",
+   "b": "rhb",
    "st": "betr",
    "col": "#e8b923",
    "p": "Zweiachsiger Drittklasswagen der früheren Berninabahn von 1910, den der Club 1889 zusammen mit der RhB restauriert hat. Die Skizze zeigt ihn in der gelben Bernina-Farbgebung mit der Anschrift «Veltlin» und 32 Plätzen.",
@@ -760,7 +783,10 @@
    "img": "img/fz/c-114",
    "imgc": "U. Finke",
    "len": 9.75,
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": [
+    "club1889"
+   ]
   },
   {
    "id": "as-1141",
@@ -768,7 +794,7 @@
    "n": "Alpine Classic Pullman",
    "kat": "salon",
    "bj": "1931",
-   "b": "vps",
+   "b": "rhb",
    "st": "betr",
    "col": "#1f3a6b",
    "p": "Vier Salonwagen im Pullman-Stil, 1931 für den «Golden Mountain Pullman Express» der Montreux-Berner Oberland-Bahn gebaut und seit 1939 bei der RhB. Heute bilden sie den «Alpine Classic Pullman-Express»; der As 1141 ist seit Herbst 2026 frisch restauriert wieder unterwegs und dem Andenken an Willy Hochstrasser gewidmet.",
@@ -789,7 +815,7 @@
     "Salonwagen"
    ],
    "mit": [
-    "rhb"
+    "vps"
    ],
    "gr": "wagen",
    "img": "img/fz/as-1141",
@@ -803,7 +829,7 @@
    "n": "Bener Wagen",
    "kat": "salon",
    "bj": "1929",
-   "b": "vps",
+   "b": "rhb",
    "st": "betr",
    "col": "#2f6b3a",
    "p": "Salonwagen erster Klasse in der Obhut des Vereins Pro Salonwagen RhB. Die Skizze zeigt ihn mit seiner früheren Nummer 61 in der crème-grünen Farbgebung, mit Abteilen für Raucher und Nichtraucher.",
@@ -825,7 +851,10 @@
    "img": "img/fz/as-1161",
    "imgc": "U. Finke",
    "len": 16.44,
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": [
+    "vps"
+   ]
   },
   {
    "id": "wr-3820",
@@ -833,7 +862,7 @@
    "n": "Piano Bar",
    "kat": "salon",
    "bj": "1928",
-   "b": "vps",
+   "b": "rhb",
    "st": "betr",
    "col": "#1f3a6b",
    "p": "Ehemaliger Speisewagen von 1928, den der Verein Pro Salonwagen zum Pianobarwagen umgebaut hat. In den Farben Kobaltblau und Elfenbein ergänzt er die Salonwagen im Alpine Classic Pullman-Express.",
@@ -855,7 +884,10 @@
    "img": "img/fz/wr-3820",
    "imgc": "U. Finke",
    "len": 15.32,
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": [
+    "vps"
+   ]
   },
   {
    "id": "d-4052",
@@ -863,7 +895,7 @@
    "n": "Rhätia Stübli",
    "kat": "gep",
    "bj": "1913",
-   "b": "vps",
+   "b": "rhb",
    "st": "betr",
    "col": "#2f6b3a",
    "p": "Zweiachsiger Gepäckwagen in grüner Farbgebung, früher als D 4043 unterwegs. Er gehört zum Zugsverband der Salonwagen des Vereins Pro Salonwagen RhB.",
@@ -885,7 +917,10 @@
    "img": "img/fz/d-4052",
    "imgc": "U. Finke",
    "len": 10.64,
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": [
+    "vps"
+   ]
   },
   {
    "id": "b-2091",
@@ -920,7 +955,8 @@
    "img": "img/fz/b-2091",
    "imgc": "U. Finke",
    "bem": "1981 zum Aussichtswagen umgebaut",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "b-2093",
@@ -954,7 +990,8 @@
    "img": "img/fz/b-2093",
    "imgc": "U. Finke",
    "bem": "1981 zum Aussichtswagen umgebaut",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "b-2111",
@@ -987,7 +1024,8 @@
    ],
    "img": "img/fz/b-2111",
    "imgc": "U. Finke",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "a-1225",
@@ -1020,7 +1058,8 @@
    ],
    "img": "img/fz/a-1225",
    "imgc": "U. Finke",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "b-2245",
@@ -1054,7 +1093,8 @@
    "img": "img/fz/b-2245",
    "imgc": "U. Finke",
    "bem": "Ehemaliger Wagen C 51 der Chur-Arosa-Bahn",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "b-2246",
@@ -1085,7 +1125,8 @@
    ],
    "img": "img/fz/b-2246",
    "imgc": "U. Finke",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "m-7070",
@@ -1115,7 +1156,8 @@
    ],
    "img": "img/fz/m-7070",
    "imgc": "U. Finke",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "k1-5615",
@@ -1146,7 +1188,8 @@
    ],
    "img": "img/fz/k1-5615",
    "imgc": "U. Finke",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "uh-8101",
@@ -1177,7 +1220,8 @@
    ],
    "img": "img/fz/uh-8101",
    "imgc": "U. Finke",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "mit": null
   },
   {
    "id": "m-8604",
@@ -1211,7 +1255,8 @@
    "imgc": "U. Finke",
    "len": 6.5,
    "zu": "bma",
-   "stx": "Bahnmuseum Albula, Bergün"
+   "stx": "Bahnmuseum Albula, Bergün",
+   "mit": null
   },
   {
    "id": "xk-9063",
@@ -1250,7 +1295,8 @@
    ],
    "img": "img/fz/xk-9063",
    "imgc": "U. Finke",
-   "stx": "Bahnmuseum Albula, Bergün"
+   "stx": "Bahnmuseum Albula, Bergün",
+   "mit": null
   },
   {
    "id": "n-1513",
@@ -1287,7 +1333,8 @@
     "WN 9851"
    ],
    "img": "img/fz/n-1513",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "mit": null
   },
   {
    "id": "l-6603",
@@ -1326,7 +1373,8 @@
     "WN 9855"
    ],
    "img": "img/fz/l-6603",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "mit": null
   },
   {
    "id": "k1-5563",
@@ -1405,7 +1453,8 @@
     "Gbk-v 5586"
    ],
    "img": "img/fz/d2-4079",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "mit": null
   },
   {
    "id": "f-4",
@@ -1437,7 +1486,8 @@
     "Doris"
    ],
    "img": "img/fz/f-4",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "mit": null
   },
   {
    "id": "d-4205",
@@ -1467,7 +1517,8 @@
     "D 4205"
    ],
    "img": "img/fz/d-4205",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "mit": null
   }
  ]
 }
