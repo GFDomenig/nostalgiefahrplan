@@ -1841,6 +1841,36 @@
    "stx": "betriebsfähig"
   },
   {
+   "id": "uce-8017",
+   "nr": "Uce 8017 / Xc 931 21",
+   "n": "",
+   "kat": "gueter",
+   "bj": "1926",
+   "b": "rhb",
+   "st": "abg",
+   "col": "#8a8f94",
+   "len": 7.79,
+   "gr": "gueter",
+   "p": "Zweiachsiger Zementtransportwagen der RhB von 1926, heute als Dienstfahrzeug Xc 931 21 bezeichnet. Der Wagen ist zurzeit abgestellt und für Historic RhB designiert. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Wagon à deux essieux des RhB pour le transport de ciment, de 1926, aujourd’hui désigné comme véhicule de service Xc 931 21. Le wagon est actuellement garé et désigné pour Historic RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Carro a due assi della RhB per il trasporto di cemento, del 1926, oggi designato come veicolo di servizio Xc 931 21. Il carro è attualmente accantonato e designato per Historic RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Two-axle cement wagon of the RhB from 1926, today designated as service vehicle Xc 931 21. The wagon is currently stored and designated for Historic RhB. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "Uce 8017",
+    "Xc 931 21",
+    "Xc 93121"
+   ],
+   "zu": "hrhb"
+  },
+  {
    "id": "m-8604",
    "nr": "M 8604",
    "n": "",
