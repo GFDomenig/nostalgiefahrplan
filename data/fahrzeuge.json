@@ -303,6 +303,36 @@
    "len": 12.1
   },
   {
+   "id": "ge22-161",
+   "nr": "Ge 2/2 161",
+   "n": "Asnin",
+   "kat": "rang",
+   "bj": "1911",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#8a5a33",
+   "len": 7.74,
+   "gr": "bb",
+   "p": "Kleine Vorspann- und Rangierlok, 1911 von SIG und Alioth für die damals selbständige Berninabahn gebaut (dort Nr. 61); nach der Übernahme durch die RhB erhielt sie die Nummer 161. Der Übername «Asnin» bedeutet «Eselchen». Sie gehört zu den ältesten betriebsfähigen Elektroloks der Schweiz und rangiert noch heute täglich in Poschiavo; bei Extrafahrten hilft sie auch auf der Passstrecke.",
+   "i18n": {
+    "fr": {
+     "p": "Petite locomotive de renfort et de manœuvre, construite en 1911 par SIG et Alioth pour le chemin de fer de la Bernina, alors indépendant (n° 61) ; après la reprise par les RhB, elle a reçu le numéro 161. Le surnom « Asnin » signifie « petit âne ». C’est l’une des plus anciennes locomotives électriques en état de marche de Suisse ; elle fait encore chaque jour des manœuvres à Poschiavo et aide aussi sur la ligne du col lors de trains spéciaux."
+    },
+    "it": {
+     "p": "Piccola locomotiva di rinforzo e da manovra, costruita nel 1911 da SIG e Alioth per la Ferrovia del Bernina, allora indipendente (n. 61); dopo l’acquisizione da parte della RhB ricevette il numero 161. Il soprannome «Asnin» significa «asinello». È una delle più antiche locomotive elettriche in esercizio della Svizzera; manovra ancora ogni giorno a Poschiavo e aiuta anche sulla linea del passo con i treni speciali."
+    },
+    "en": {
+     "p": "Small banking and shunting locomotive, built in 1911 by SIG and Alioth for the then independent Bernina Railway (as no. 61); after the RhB takeover it became no. 161. Its nickname «Asnin» means «little donkey». It is one of the oldest working electric locomotives in Switzerland, still shunts daily at Poschiavo and also helps on the pass line with special trains."
+    }
+   },
+   "m": [
+    "Ge 2/2 161",
+    "Asnin"
+   ],
+   "img": "img/fz/ge22-161",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "ge44-182",
    "nr": "Ge 4/4 182",
    "n": "Bernina-Krokodil",
