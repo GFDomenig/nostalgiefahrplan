@@ -36,7 +36,7 @@ h1,h2,h3,.cond{font-family:"Barlow Condensed",Barlow,sans-serif;letter-spacing:-
 .hero img.logo{position:absolute;z-index:2;inset:auto;top:clamp(16px,3vw,36px);right:max(3vw,16px);width:clamp(72px,8vw,112px);height:auto;object-fit:contain;filter:drop-shadow(0 3px 10px rgba(0,0,0,.35))}
 .newsband{background:var(--soft);border-bottom:1px solid var(--line)}
 .newsband .boardhead span,.more{font-size:15px;font-weight:600;color:var(--red)}
-.nteaser{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:14px}
+.nteaser{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}@media(max-width:900px){.nteaser{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.nteaser{grid-template-columns:1fr}}
 .ncard{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:4px;text-decoration:none}
 .ncard:hover{border-color:var(--ink)}
 .nq{font-size:13px;color:var(--mut)}
@@ -126,8 +126,9 @@ h2 .hrb{font-size:15px;padding:5px 9px;top:-6px}
 .op .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:8px}
 .note{font-size:14px;color:var(--mut)}
 .chip.hr{background:var(--red);border-color:var(--red);color:#fff;font-weight:600}
-label.hrchk{background:var(--red);border:1px solid var(--red);border-radius:6px;padding:0 12px;color:#fff;font-weight:600;cursor:pointer}label.hrchk input{accent-color:#fff}label.hrchk:has(input:checked){background:#9e0016;box-shadow:inset 0 0 0 2px #fff}
+label.hrchk{background:var(--red);border:1px solid var(--red);border-radius:6px;padding:0 14px;min-width:142px;min-height:0;height:43px;box-sizing:border-box;align-self:center;justify-content:center;font-size:15px;line-height:1.2;color:#fff;font-weight:600;cursor:pointer}label.hrchk input{accent-color:#fff}label.hrchk:has(input:checked){background:#9e0016;box-shadow:inset 0 0 0 2px #fff}
 body.opv #q,body.opv #tr,body.opv #th,body.opv #op{display:none!important}
+body.home .bar,body.home main.band{display:none}
 body:not(.home) .statsband,body:not(.home) .newsband,body:not(.home) .boardband{display:none}
 .trip h3 a,.dep .t a{text-decoration:none}
 .trip h3 a:hover,.dep .t a:hover{text-decoration:underline}
@@ -267,7 +268,7 @@ footer p{max-width:80ch}
 </div></section>
 
 <section class="boardband" aria-labelledby="bh"><div class="wrap">
- <div class="boardhead"><h2 id="bh" data-i="next"></h2><span id="stand"></span></div>
+ <div class="boardhead"><h2 id="bh" data-i="next"></h2><span><span id="stand"></span> · <a href="#liste" class="more" data-i="all_trips2"></a></span></div>
  <div id="board"></div>
 </div></section>
 
@@ -407,7 +408,7 @@ const vCal=()=>{const y=st.cm.getFullYear(),m=st.cm.getMonth(),n=new Date(y,m+1,
  return `<div class="calnav"><button id="pm" aria-label="${L("prev")}">‹</button><b>${cap(M[m])} ${y} – ${cap(M[n.getMonth()])} ${n.getFullYear()}</b><button id="nm" aria-label="${L("next_m")}">›</button></div>${calM(y,m)}${calM(n.getFullYear(),n.getMonth())}<div id="cdet"></div>`};
 const nDate=n=>n.dl?n.dl:n.d?fd(n.d)+pd(n.d).getFullYear():"";
 const nSrc=n=>n.q.map(k=>NQ[k]?NQ[k].n:k).join(" · ");
-const teaser=()=>{const l=[...NN.filter(n=>n.q.includes("stiftung")).slice(0,1),...NN.filter(n=>n.d&&!n.q.includes("stiftung"))].slice(0,3);
+const teaser=()=>{const l=[...NN.filter(n=>n.q.includes("stiftung")).slice(0,1),...NN.filter(n=>n.d&&!n.q.includes("stiftung"))].slice(0,6);
  document.getElementById("nteaser").innerHTML=l.map(n=>`<a class="ncard${n.q.includes("stiftung")?" st":""}" href="${n.u||"#news"}">${n.q.includes("stiftung")?`<span class="sthead"><img src="img/logo-160.png" alt="">${L("st_head")}</span>`:""}<span class="nq">${esc(nDate(n))} · ${esc(nSrc(n))}</span><b>${esc(LT(n,"t"))}</b><p>${esc(LT(n,"x"))}</p></a>`).join("")};
 let nf="";
 const nItem=n=>`<article class="nitem"><div class="dt">${esc(nDate(n))||`<small>${L("no_date")}</small>`}</div><div><div class="nq">${esc(nSrc(n))}${n.s==="d"?` · <span class="chip d3">${L("d3")}</span>`:''}</div><h3 style="margin:2px 0 4px">${esc(LT(n,"t"))}</h3><p>${esc(LT(n,"x"))}</p>${n.u?`<a href="${n.u}">${L("read")}</a>`:""}</div></article>`;
@@ -536,14 +537,14 @@ const drawMap=()=>{if(!window.L){document.getElementById("map").innerHTML=`<p cl
   window.L.marker(o.geo[0],{icon:ic,title:o.n}).bindPopup(pop,{maxWidth:320}).bindTooltip(o.n).addTo(MAP);all.push(...o.geo)});
  if(!all.length)idle.forEach(([k,o])=>all.push(...o.geo));
  if(all.length)MAP.fitBounds(all,{padding:[30,30],maxZoom:11})};
-const board=()=>{const seen=new Set(),up=OCC.filter(oc=>oc.end>=TODAY).filter(oc=>{if(seen.has(oc.i))return false;seen.add(oc.i);return true}).slice(0,5);
+const board=()=>{const seen=new Set(),up=OCC.filter(oc=>oc.end>=TODAY).filter(oc=>{if(seen.has(oc.i))return false;seen.add(oc.i);return true}).slice(0,6);
  document.getElementById("board").innerHTML=up.map(oc=>{const t=T[oc.i],d=pd(oc.day),mn=MO()[d.getMonth()];return `<div class="dep"><div class="d">${d.getDate()}${LG==="de"?".":""} ${["de","en"].includes(LG)?mn.charAt(0).toUpperCase()+mn.slice(1,3):mn.slice(0,3)}.<small>${WD()[d.getDay()]}${t.h?" · "+t.h:""}</small></div><div><div class="t"><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a>${HR(t.o)?` <span class="hrb">Historic RhB</span>`:""}</div><div class="o">${esc(OPS[t.o].n)} · ${esc(LT(t,"r"))}</div></div><div class="act2"><a class="go" href="${t.b}">${L("info_t")}</a></div></div>`}).join("")};
 const stats=()=>{const up=OCC.filter(oc=>oc.end>=TODAY);document.getElementById("stats").innerHTML=`<div class="stat"><b>${up.length}</b><span>${L("st_up")}</span></div><div class="stat"><b>${Object.keys(OPS).length}</b><span>${L("st_ops")}</span></div><div class="stat"><b>${new Set(up.filter(oc=>oc.day<"2027-01-01").map(oc=>oc.i)).size}</b><span>${L("st_adv")}</span></div>`};
 const render=()=>{const v=document.getElementById("view");
  document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.v===st.v));
  const isD=st.v.startsWith("fahrt-"),isF=st.v==="fahrzeuge"||st.v.startsWith("fz-"),isO=st.v==="ueber"||st.v.startsWith("org-");
  document.body.classList.toggle("nv",st.v==="news"||isD);document.body.classList.toggle("sec",isF||isO||st.v==="news");document.body.classList.toggle("home",!!st.home);document.body.classList.toggle("opv",st.v==="veranstalter");
- const sec=isF?"fz":isO?"ueber":st.v==="news"?"news":"fahrten";document.querySelectorAll(".tlinks a,.tbrand").forEach(a=>{if(a.dataset.s===sec&&a.closest(".tlinks"))a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
+ const sec=isF?"fz":isO?"ueber":st.v==="news"?"news":"fahrten";document.querySelectorAll(".tlinks a,.tbrand").forEach(a=>{if(!st.home&&a.dataset.s===sec&&a.closest(".tlinks"))a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
  if(MAP){MAP.remove();MAP=null}
  v.innerHTML=isD?vDetail(st.v.slice(6)):st.v==="fahrzeuge"?vFz():st.v.startsWith("fz-")?vFzD(st.v.slice(3)):st.v==="ueber"?vUe():st.v.startsWith("org-")?vOrg(st.v.slice(4)):st.v==="liste"?vList():st.v==="kalender"?vCal():st.v==="karte"?vMap():st.v==="news"?vNews():vOps();
  if(st.v==="karte")drawMap();
