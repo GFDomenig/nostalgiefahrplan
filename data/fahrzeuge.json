@@ -888,6 +888,35 @@
    ],
    "img": "img/fz/b-2093",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "b-2111",
+   "nr": "B 2111",
+   "n": "Carrozza panoramica",
+   "kat": "wagen",
+   "bj": "",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#f2d43a",
+   "len": 15.93,
+   "gr": "wagen",
+   "p": "Offener Aussichtswagen auf Drehgestellen mit 64 Plätzen, deutlich länger als die zweiachsigen Aussichtswagen. Die Anschrift «Carrozza panoramica» weist auf den Einsatz auf der Berninalinie zwischen St. Moritz und Tirano hin, wo die gelben offenen Wagen im Sommer verkehren.",
+   "i18n": {
+    "fr": {
+     "p": "Voiture panoramique ouverte sur bogies, 64 places, nettement plus longue que les voitures panoramiques à deux essieux. L’inscription « Carrozza panoramica » rappelle son service sur la ligne de la Bernina entre Saint-Moritz et Tirano, où les voitures jaunes ouvertes circulent en été."
+    },
+    "it": {
+     "p": "Carrozza panoramica aperta su carrelli con 64 posti, molto più lunga delle carrozze panoramiche a due assi. La scritta «Carrozza panoramica» ricorda il servizio sulla linea del Bernina tra St. Moritz e Tirano, dove le carrozze gialle aperte circolano in estate."
+    },
+    "en": {
+     "p": "Open bogie observation car with 64 seats, much longer than the two-axle observation cars. The lettering «Carrozza panoramica» points to its use on the Bernina line between St. Moritz and Tirano, where the yellow open cars run in summer."
+    }
+   },
+   "m": [
+    "B 2111"
+   ],
+   "img": "img/fz/b-2111",
+   "imgc": "U. Finke"
   }
  ]
 }
