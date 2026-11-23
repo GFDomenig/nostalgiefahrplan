@@ -37,7 +37,7 @@ h1,h2,h3,.cond{font-family:"Barlow Condensed",Barlow,sans-serif;letter-spacing:-
 .newsband{background:var(--soft);border-bottom:1px solid var(--line)}
 .newsband .boardhead span,.more{font-size:15px;font-weight:600;color:var(--red)}
 .nteaser{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}@media(max-width:900px){.nteaser{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.nteaser{grid-template-columns:1fr}}
-.ncard{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:4px;text-decoration:none}
+.ncard{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:0 16px 14px;overflow:hidden;display:flex;flex-direction:column;gap:4px;text-decoration:none}
 .ncard:hover{border-color:var(--ink)}
 .nq{font-size:13px;color:var(--mut)}
 .ncard b,.nitem h3{font:600 20px/1.15 "Barlow Condensed",sans-serif}
@@ -52,7 +52,7 @@ h1,h2,h3,.cond{font-family:"Barlow Condensed",Barlow,sans-serif;letter-spacing:-
 .vlist a{font-size:14px;border:1px solid var(--line);border-radius:99px;padding:4px 10px;text-decoration:none}
 .ncard.st{border:2px solid var(--red);background:color-mix(in srgb,var(--red) 7%,var(--bg));padding-top:0;overflow:hidden}
 .ncard .sthead{display:flex;align-items:center;gap:8px;margin:0 -16px 8px;padding:7px 16px;background:var(--red);color:#fff;font-size:14px;font-weight:600}
-.ncard .sthead img{width:22px;height:22px;border-radius:50%;background:#fff}
+.ncard .sthead img,.ncard .sthead .nlg{flex:none;width:22px;height:22px;border-radius:50%;background:#fff}.ncard .sthead .nlg{display:grid;place-items:center;color:var(--red);font:700 8.5px/1 Barlow,sans-serif;letter-spacing:-.02em;overflow:hidden}
 .stbox{border-width:3px}
 .stbox .stlabel{display:inline-block;background:var(--red);color:#fff;font-size:13px;font-weight:600;padding:2px 8px;border-radius:4px;margin-bottom:6px}
 body.nv .flt{display:none!important}
@@ -268,7 +268,7 @@ footer p{max-width:80ch}
 </div></section>
 
 <section class="boardband" aria-labelledby="bh"><div class="wrap">
- <div class="boardhead"><h2 id="bh" data-i="next"></h2><span><span id="stand"></span> · <a href="#liste" class="more" data-i="all_trips2"></a></span></div>
+ <div class="boardhead"><h2 id="bh" data-i="next30"></h2><span><span id="stand"></span> · <a href="#liste" class="more" data-i="all_trips2"></a></span></div>
  <div id="board"></div>
 </div></section>
 
@@ -408,8 +408,9 @@ const vCal=()=>{const y=st.cm.getFullYear(),m=st.cm.getMonth(),n=new Date(y,m+1,
  return `<div class="calnav"><button id="pm" aria-label="${L("prev")}">‹</button><b>${cap(M[m])} ${y} – ${cap(M[n.getMonth()])} ${n.getFullYear()}</b><button id="nm" aria-label="${L("next_m")}">›</button></div>${calM(y,m)}${calM(n.getFullYear(),n.getMonth())}<div id="cdet"></div>`};
 const nDate=n=>n.dl?n.dl:n.d?fd(n.d)+pd(n.d).getFullYear():"";
 const nSrc=n=>n.q.map(k=>NQ[k]?NQ[k].n:k).join(" · ");
+const nLogo=k=>{const o=OK[k];return o&&o.lg?`<img src="${o.lg}" alt="">`:`<span class="nlg">${esc(o?o.ab:k)}</span>`};
 const teaser=()=>{const l=[...NN.filter(n=>n.q.includes("stiftung")).slice(0,1),...NN.filter(n=>n.d&&!n.q.includes("stiftung"))].slice(0,6);
- document.getElementById("nteaser").innerHTML=l.map(n=>`<a class="ncard${n.q.includes("stiftung")?" st":""}" href="${n.u||"#news"}">${n.q.includes("stiftung")?`<span class="sthead"><img src="img/logo-160.png" alt="">${L("st_head")}</span>`:""}<span class="nq">${esc(nDate(n))} · ${esc(nSrc(n))}</span><b>${esc(LT(n,"t"))}</b><p>${esc(LT(n,"x"))}</p></a>`).join("")};
+ document.getElementById("nteaser").innerHTML=l.map(n=>{const isS=n.q.includes("stiftung"),k=n.q[0];return `<a class="ncard${isS?" st":""}" href="${n.u||"#news"}"><span class="sthead">${nLogo(k)}${isS?L("st_head"):L("msg_from",{s:esc(nSrc(n))})}</span><span class="nq">${esc(nDate(n))}</span><b>${esc(LT(n,"t"))}</b><p>${esc(LT(n,"x"))}</p></a>`}).join("")};
 let nf="";
 const nItem=n=>`<article class="nitem"><div class="dt">${esc(nDate(n))||`<small>${L("no_date")}</small>`}</div><div><div class="nq">${esc(nSrc(n))}${n.s==="d"?` · <span class="chip d3">${L("d3")}</span>`:''}</div><h3 style="margin:2px 0 4px">${esc(LT(n,"t"))}</h3><p>${esc(LT(n,"x"))}</p>${n.u?`<a href="${n.u}">${L("read")}</a>`:""}</div></article>`;
 const vNews=()=>{const sn=NN.filter(n=>n.q.includes("stiftung")),o=NN.filter(n=>!n.q.includes("stiftung")&&(!nf||n.q.includes(nf)));
@@ -537,7 +538,7 @@ const drawMap=()=>{if(!window.L){document.getElementById("map").innerHTML=`<p cl
   window.L.marker(o.geo[0],{icon:ic,title:o.n}).bindPopup(pop,{maxWidth:320}).bindTooltip(o.n).addTo(MAP);all.push(...o.geo)});
  if(!all.length)idle.forEach(([k,o])=>all.push(...o.geo));
  if(all.length)MAP.fitBounds(all,{padding:[30,30],maxZoom:11})};
-const board=()=>{const seen=new Set(),up=OCC.filter(oc=>oc.end>=TODAY).filter(oc=>{if(seen.has(oc.i))return false;seen.add(oc.i);return true}).slice(0,6);
+const board=()=>{const seen=new Set(),_e=pd(TODAY);_e.setDate(_e.getDate()+30);const E=_e.getFullYear()+"-"+String(_e.getMonth()+1).padStart(2,"0")+"-"+String(_e.getDate()).padStart(2,"0"),up=OCC.filter(oc=>oc.end>=TODAY&&oc.day<=E).filter(oc=>{if(seen.has(oc.i))return false;seen.add(oc.i);return true});
  document.getElementById("board").innerHTML=up.map(oc=>{const t=T[oc.i],d=pd(oc.day),mn=MO()[d.getMonth()];return `<div class="dep"><div class="d">${d.getDate()}${LG==="de"?".":""} ${["de","en"].includes(LG)?mn.charAt(0).toUpperCase()+mn.slice(1,3):mn.slice(0,3)}.<small>${WD()[d.getDay()]}${t.h?" · "+t.h:""}</small></div><div><div class="t"><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a>${HR(t.o)?` <span class="hrb">Historic RhB</span>`:""}</div><div class="o">${esc(OPS[t.o].n)} · ${esc(LT(t,"r"))}</div></div><div class="act2"><a class="go" href="${t.b}">${L("info_t")}</a></div></div>`}).join("")};
 const stats=()=>{const up=OCC.filter(oc=>oc.end>=TODAY);document.getElementById("stats").innerHTML=`<div class="stat"><b>${up.length}</b><span>${L("st_up")}</span></div><div class="stat"><b>${Object.keys(OPS).length}</b><span>${L("st_ops")}</span></div><div class="stat"><b>${new Set(up.filter(oc=>oc.day<"2027-01-01").map(oc=>oc.i)).size}</b><span>${L("st_adv")}</span></div>`};
 const render=()=>{const v=document.getElementById("view");
