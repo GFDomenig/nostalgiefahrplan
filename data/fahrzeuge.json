@@ -2077,6 +2077,41 @@
    ],
    "img": "img/fz/as-1154",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "wr-3812",
+   "nr": "WR 3812",
+   "n": "Gourmino",
+   "kat": "salon",
+   "bj": "1930",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "betr",
+   "col": "#1f3a6b",
+   "len": 16.44,
+   "gr": "wagen",
+   "rel": [
+    "wr-3821",
+    "as-1154"
+   ],
+   "p": "Speisewagen aus Stahl von 1930. Die Mitropa beschaffte ihn für den Einsatz auf der RhB zwischen Chur und St. Moritz; 1949 ging er an die RhB über. Heute fährt er als Speisewagen «Gourmino» in Blau mit goldenen Zierlinien. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Voiture-restaurant en acier de 1930. La Mitropa l’a acquise pour le service sur les RhB entre Coire et Saint-Moritz ; elle est passée aux RhB en 1949. Elle circule aujourd’hui comme voiture-restaurant « Gourmino », en bleu avec filets dorés. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Carrozza ristorante in acciaio del 1930. La Mitropa la acquistò per il servizio sulla RhB tra Coira e St. Moritz; nel 1949 passò alla RhB. Oggi circola come carrozza ristorante «Gourmino», in blu con filetti dorati. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Steel dining car from 1930. Mitropa acquired it for service on the RhB between Chur and St. Moritz; it passed to the RhB in 1949. Today it runs as the «Gourmino» dining car, in blue with gold lining. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "WR 3812",
+    "Gourmino"
+   ],
+   "img": "img/fz/wr-3812",
+   "imgc": "U. Finke"
   }
  ]
 }
