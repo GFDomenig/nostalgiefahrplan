@@ -612,7 +612,7 @@
    "bj": "1958",
    "b": "gc",
    "st": "ausst",
-   "col": "",
+   "col": "#2f6b3a",
    "p": "Grün & Chrom hat die Lok optisch aufgefrischt; seit Herbst 2026 steht sie vor dem Verkehrshaus der Schweiz in Luzern.",
    "i18n": {
     "fr": {
@@ -628,7 +628,10 @@
    "m": [
     "Ge 6/6 II 702"
    ],
-   "gr": "rhb"
+   "gr": "rhb",
+   "img": "img/fz/ge66ii-702",
+   "imgc": "U. Finke",
+   "len": 14.5
   },
   {
    "id": "ge66ii-707",
