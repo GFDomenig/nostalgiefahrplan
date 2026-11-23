@@ -407,13 +407,16 @@
    "p": "Einer der ersten Triebwagen der Berninabahn, die ab 1908 für die steile Passstrecke gebaut wurden. Er fährt zusammen mit dem ABe 4/4 I 30 historische Bernina-Züge.",
    "i18n": {
     "fr": {
-     "p": "L’une des premières automotrices du chemin de fer de la Bernina, construites dès 1908 pour la ligne de col très raide. Elle circule avec l’ABe 4/4 I 30 dans des trains historiques de la Bernina."
+     "p": "L’une des premières automotrices du chemin de fer de la Bernina, construites dès 1908 pour la ligne de col très raide. Elle circule avec l’ABe 4/4 I 30 dans des trains historiques de la Bernina.",
+     "bem": "Appelées « jumelles Kessler » avec l’ABe 4/4 I 30"
     },
     "it": {
-     "p": "Una delle prime automotrici della Ferrovia del Bernina, costruite dal 1908 per la ripida linea di valico. Circola con l’ABe 4/4 I 30 nei treni storici del Bernina."
+     "p": "Una delle prime automotrici della Ferrovia del Bernina, costruite dal 1908 per la ripida linea di valico. Circola con l’ABe 4/4 I 30 nei treni storici del Bernina.",
+     "bem": "Chiamate «gemelle Kessler» insieme all’ABe 4/4 I 30"
     },
     "en": {
-     "p": "One of the first Bernina Railway railcars, built from 1908 for the steep pass line. It runs historic Bernina trains together with ABe 4/4 I 30."
+     "p": "One of the first Bernina Railway railcars, built from 1908 for the steep pass line. It runs historic Bernina trains together with ABe 4/4 I 30.",
+     "bem": "Together with ABe 4/4 I 30 known as the «Kessler twins»"
     }
    },
    "m": [
@@ -422,7 +425,8 @@
    ],
    "img": "img/fz/abe44-34",
    "imgc": "U. Finke",
-   "gr": "bb"
+   "gr": "bb",
+   "bem": "Zusammen mit ABe 4/4 I 30 «Kessler Zwillinge» genannt"
   },
   {
    "id": "abe44ii-46",
@@ -700,7 +704,7 @@
    "nr": "C 114",
    "n": "La Bucunada",
    "kat": "wagen",
-   "bj": "",
+   "bj": "1910",
    "b": "club1889",
    "st": "rest",
    "col": "#e8b923",
@@ -761,9 +765,9 @@
   {
    "id": "as-1161",
    "nr": "As 1161",
-   "n": "",
+   "n": "Bener Wagen",
    "kat": "salon",
-   "bj": "",
+   "bj": "1929",
    "b": "vps",
    "st": "",
    "col": "#2f6b3a",
@@ -819,9 +823,9 @@
   {
    "id": "d-4052",
    "nr": "D 4052 II",
-   "n": "",
+   "n": "Rhätia Stübli",
    "kat": "gep",
-   "bj": "",
+   "bj": "1913",
    "b": "vps",
    "st": "",
    "col": "#2f6b3a",
@@ -848,24 +852,27 @@
   {
    "id": "b-2091",
    "nr": "B 2091",
-   "n": "Aussichtswagen",
+   "n": "",
    "kat": "wagen",
-   "bj": "",
+   "bj": "1908",
    "b": "rhb",
    "st": "betr",
    "col": "#e8b923",
    "len": 8.94,
    "gr": "wagen",
-   "p": "Offener, zweiachsiger Aussichtswagen mit 36 Plätzen in der typischen gelben Farbe. Die «gelben Cabrios» der RhB fahren im Sommer zwischen Davos und Filisur, zwischen Alvaneu und Filisur sowie zwischen St. Moritz und Tirano.",
+   "p": "Zweiachsiger Wagen von 1908, der 1981 zum offenen Aussichtswagen mit 36 Plätzen umgebaut wurde, in der typischen gelben Farbe. Die «gelben Cabrios» der RhB fahren im Sommer zwischen Davos und Filisur, zwischen Alvaneu und Filisur sowie zwischen St. Moritz und Tirano.",
    "i18n": {
     "fr": {
-     "p": "Voiture panoramique ouverte à deux essieux, 36 places, dans la couleur jaune typique. Les « cabriolets jaunes » des RhB circulent en été entre Davos et Filisur, entre Alvaneu et Filisur ainsi qu’entre Saint-Moritz et Tirano."
+     "p": "Voiture à deux essieux de 1908, transformée en 1981 en voiture panoramique ouverte de 36 places, dans la couleur jaune typique. Les « cabriolets jaunes » des RhB circulent en été entre Davos et Filisur, entre Alvaneu et Filisur ainsi qu’entre Saint-Moritz et Tirano.",
+     "bem": "Transformée en voiture panoramique en 1981"
     },
     "it": {
-     "p": "Carrozza panoramica aperta a due assi con 36 posti, nel tipico colore giallo. I «cabriolet gialli» della RhB circolano in estate tra Davos e Filisur, tra Alvaneu e Filisur e tra St. Moritz e Tirano."
+     "p": "Carrozza a due assi del 1908, trasformata nel 1981 in carrozza panoramica aperta con 36 posti, nel tipico colore giallo. I «cabriolet gialli» della RhB circolano in estate tra Davos e Filisur, tra Alvaneu e Filisur e tra St. Moritz e Tirano.",
+     "bem": "Trasformata in carrozza panoramica nel 1981"
     },
     "en": {
-     "p": "Open two-axle observation car with 36 seats in the typical yellow livery. The RhB’s «yellow convertibles» run in summer between Davos and Filisur, between Alvaneu and Filisur and between St. Moritz and Tirano."
+     "p": "Two-axle coach of 1908, rebuilt in 1981 as an open observation car with 36 seats, in the typical yellow livery. The RhB’s «yellow convertibles» run in summer between Davos and Filisur, between Alvaneu and Filisur and between St. Moritz and Tirano.",
+     "bem": "Rebuilt as an observation car in 1981"
     }
    },
    "m": [
@@ -873,58 +880,66 @@
     "Aussichtswagen"
    ],
    "img": "img/fz/b-2091",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "bem": "1981 zum Aussichtswagen umgebaut"
   },
   {
    "id": "b-2093",
    "nr": "B 2093",
-   "n": "Aussichtswagen",
+   "n": "",
    "kat": "wagen",
-   "bj": "",
+   "bj": "1908",
    "b": "rhb",
    "st": "betr",
    "col": "#e8b923",
    "len": 8.94,
    "gr": "wagen",
-   "p": "Offener, zweiachsiger Aussichtswagen mit 36 Plätzen in der typischen gelben Farbe. Die «gelben Cabrios» der RhB fahren im Sommer zwischen Davos und Filisur, zwischen Alvaneu und Filisur sowie zwischen St. Moritz und Tirano.",
+   "p": "Zweiachsiger Wagen von 1908, der 1981 zum offenen Aussichtswagen mit 36 Plätzen umgebaut wurde, in der typischen gelben Farbe. Die «gelben Cabrios» der RhB fahren im Sommer zwischen Davos und Filisur, zwischen Alvaneu und Filisur sowie zwischen St. Moritz und Tirano.",
    "i18n": {
     "fr": {
-     "p": "Voiture panoramique ouverte à deux essieux, 36 places, dans la couleur jaune typique. Les « cabriolets jaunes » des RhB circulent en été entre Davos et Filisur, entre Alvaneu et Filisur ainsi qu’entre Saint-Moritz et Tirano."
+     "p": "Voiture à deux essieux de 1908, transformée en 1981 en voiture panoramique ouverte de 36 places, dans la couleur jaune typique. Les « cabriolets jaunes » des RhB circulent en été entre Davos et Filisur, entre Alvaneu et Filisur ainsi qu’entre Saint-Moritz et Tirano.",
+     "bem": "Transformée en voiture panoramique en 1981"
     },
     "it": {
-     "p": "Carrozza panoramica aperta a due assi con 36 posti, nel tipico colore giallo. I «cabriolet gialli» della RhB circolano in estate tra Davos e Filisur, tra Alvaneu e Filisur e tra St. Moritz e Tirano."
+     "p": "Carrozza a due assi del 1908, trasformata nel 1981 in carrozza panoramica aperta con 36 posti, nel tipico colore giallo. I «cabriolet gialli» della RhB circolano in estate tra Davos e Filisur, tra Alvaneu e Filisur e tra St. Moritz e Tirano.",
+     "bem": "Trasformata in carrozza panoramica nel 1981"
     },
     "en": {
-     "p": "Open two-axle observation car with 36 seats in the typical yellow livery. The RhB’s «yellow convertibles» run in summer between Davos and Filisur, between Alvaneu and Filisur and between St. Moritz and Tirano."
+     "p": "Two-axle coach of 1908, rebuilt in 1981 as an open observation car with 36 seats, in the typical yellow livery. The RhB’s «yellow convertibles» run in summer between Davos and Filisur, between Alvaneu and Filisur and between St. Moritz and Tirano.",
+     "bem": "Rebuilt as an observation car in 1981"
     }
    },
    "m": [
     "B 2093"
    ],
    "img": "img/fz/b-2093",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "bem": "1981 zum Aussichtswagen umgebaut"
   },
   {
    "id": "b-2111",
    "nr": "B 2111",
-   "n": "Carrozza panoramica",
+   "n": "Aussichtswagen",
    "kat": "wagen",
-   "bj": "",
+   "bj": "1930",
    "b": "rhb",
    "st": "betr",
    "col": "#f2d43a",
    "len": 15.93,
    "gr": "wagen",
-   "p": "Offener Aussichtswagen auf Drehgestellen mit 64 Plätzen, deutlich länger als die zweiachsigen Aussichtswagen. Die Anschrift «Carrozza panoramica» weist auf den Einsatz auf der Berninalinie zwischen St. Moritz und Tirano hin, wo die gelben offenen Wagen im Sommer verkehren.",
+   "p": "Offener Aussichtswagen auf Drehgestellen aus dem Jahr 1930, mit 64 Plätzen deutlich grösser als die zweiachsigen Aussichtswagen. Die Anschrift «Carrozza panoramica» weist auf den Einsatz auf der Berninalinie zwischen St. Moritz und Tirano hin, wo die gelben offenen Wagen im Sommer verkehren.",
    "i18n": {
     "fr": {
-     "p": "Voiture panoramique ouverte sur bogies, 64 places, nettement plus longue que les voitures panoramiques à deux essieux. L’inscription « Carrozza panoramica » rappelle son service sur la ligne de la Bernina entre Saint-Moritz et Tirano, où les voitures jaunes ouvertes circulent en été."
+     "p": "Voiture panoramique ouverte sur bogies de 1930, avec 64 places, nettement plus grande que les voitures panoramiques à deux essieux. L’inscription « Carrozza panoramica » rappelle son service sur la ligne de la Bernina entre Saint-Moritz et Tirano, où les voitures jaunes ouvertes circulent en été.",
+     "n": "Voiture panoramique"
     },
     "it": {
-     "p": "Carrozza panoramica aperta su carrelli con 64 posti, molto più lunga delle carrozze panoramiche a due assi. La scritta «Carrozza panoramica» ricorda il servizio sulla linea del Bernina tra St. Moritz e Tirano, dove le carrozze gialle aperte circolano in estate."
+     "p": "Carrozza panoramica aperta su carrelli del 1930, con 64 posti, molto più grande delle carrozze panoramiche a due assi. La scritta «Carrozza panoramica» ricorda il servizio sulla linea del Bernina tra St. Moritz e Tirano, dove le carrozze gialle aperte circolano in estate.",
+     "n": "Carrozza panoramica"
     },
     "en": {
-     "p": "Open bogie observation car with 64 seats, much longer than the two-axle observation cars. The lettering «Carrozza panoramica» points to its use on the Bernina line between St. Moritz and Tirano, where the yellow open cars run in summer."
+     "p": "Open bogie observation car from 1930 with 64 seats, much larger than the two-axle observation cars. The lettering «Carrozza panoramica» points to its use on the Bernina line between St. Moritz and Tirano, where the yellow open cars run in summer.",
+     "n": "Observation car"
     }
    },
    "m": [
@@ -936,24 +951,27 @@
   {
    "id": "a-1225",
    "nr": "A 1225",
-   "n": "",
+   "n": "Einheitswagen I",
    "kat": "wagen",
-   "bj": "",
+   "bj": "1962",
    "b": "rhb",
    "st": "",
    "col": "#2f6b3a",
    "len": 18.42,
    "gr": "wagen",
-   "p": "Personenwagen erster Klasse auf Drehgestellen in der früheren grünen Farbgebung der RhB. Laut Anschrift hatte er je einen Bereich für Raucher und für Nichtraucher.",
+   "p": "Erstklasswagen der ersten Generation der RhB-Einheitswagen (Einheitswagen I) aus dem Jahr 1962, in der früheren grünen Farbgebung. Laut Anschrift hatte er je einen Bereich für Raucher und für Nichtraucher.",
    "i18n": {
     "fr": {
-     "p": "Voiture de première classe sur bogies, dans l’ancienne livrée verte des RhB. D’après les inscriptions, elle comportait une partie fumeurs et une partie non-fumeurs."
+     "p": "Voiture de première classe de la première génération des voitures unifiées des RhB (voiture unifiée I), datant de 1962, dans l’ancienne livrée verte. D’après les inscriptions, elle comportait une partie fumeurs et une partie non-fumeurs.",
+     "n": "Voiture unifiée I"
     },
     "it": {
-     "p": "Carrozza di prima classe su carrelli, nella vecchia livrea verde della RhB. Secondo le scritte aveva una parte per fumatori e una per non fumatori."
+     "p": "Carrozza di prima classe della prima generazione delle carrozze unificate RhB (carrozza unificata I), del 1962, nella vecchia livrea verde. Secondo le scritte aveva una parte per fumatori e una per non fumatori.",
+     "n": "Carrozza unificata I"
     },
     "en": {
-     "p": "First-class bogie coach in the former green RhB livery. According to its lettering it had a smoking and a non-smoking section."
+     "p": "First-class coach of the first generation of RhB standard coaches (Einheitswagen I) from 1962, in the former green livery. According to its lettering it had a smoking and a non-smoking section.",
+     "n": "Standard coach I"
     }
    },
    "m": [
@@ -965,9 +983,9 @@
   {
    "id": "b-2245",
    "nr": "B 2245",
-   "n": "ex ChA C 51",
+   "n": "",
    "kat": "wagen",
-   "bj": "",
+   "bj": "1928",
    "b": "rhb",
    "st": "",
    "col": "#a8cdee",
@@ -976,20 +994,24 @@
    "p": "Personenwagen der früheren Chur–Arosa-Bahn, die 1914 eröffnet und 1942 mit der RhB zusammengelegt wurde. Die Skizze zeigt ihn als Drittklasswagen C 51 in der ursprünglichen weiss-hellblauen Farbgebung der Arosabahn, mit Abteilen für Raucher und Nichtraucher; bei der RhB trägt er die Nummer B 2245.",
    "i18n": {
     "fr": {
-     "p": "Voiture de l’ancien chemin de fer Coire–Arosa, ouvert en 1914 et fusionné avec les RhB en 1942. Le dessin la montre comme voiture de troisième classe C 51 dans la livrée d’origine blanc et bleu clair de la ligne d’Arosa, avec compartiments fumeurs et non-fumeurs ; aux RhB, elle porte le numéro B 2245."
+     "p": "Voiture de l’ancien chemin de fer Coire–Arosa, ouvert en 1914 et fusionné avec les RhB en 1942. Le dessin la montre comme voiture de troisième classe C 51 dans la livrée d’origine blanc et bleu clair de la ligne d’Arosa, avec compartiments fumeurs et non-fumeurs ; aux RhB, elle porte le numéro B 2245.",
+     "bem": "Ancienne voiture C 51 du chemin de fer Coire–Arosa"
     },
     "it": {
-     "p": "Carrozza dell’ex ferrovia Coira–Arosa, aperta nel 1914 e fusa con la RhB nel 1942. Il disegno la mostra come carrozza di terza classe C 51 nella livrea originale bianca e azzurra della linea di Arosa, con scompartimenti fumatori e non fumatori; alla RhB porta il numero B 2245."
+     "p": "Carrozza dell’ex ferrovia Coira–Arosa, aperta nel 1914 e fusa con la RhB nel 1942. Il disegno la mostra come carrozza di terza classe C 51 nella livrea originale bianca e azzurra della linea di Arosa, con scompartimenti fumatori e non fumatori; alla RhB porta il numero B 2245.",
+     "bem": "Ex carrozza C 51 della ferrovia Coira–Arosa"
     },
     "en": {
-     "p": "Coach of the former Chur–Arosa Railway, opened in 1914 and merged into the RhB in 1942. The drawing shows it as third-class coach C 51 in the Arosa line’s original white and light-blue livery, with smoking and non-smoking sections; with the RhB it is numbered B 2245."
+     "p": "Coach of the former Chur–Arosa Railway, opened in 1914 and merged into the RhB in 1942. The drawing shows it as third-class coach C 51 in the Arosa line’s original white and light-blue livery, with smoking and non-smoking sections; with the RhB it is numbered B 2245.",
+     "bem": "Former coach C 51 of the Chur–Arosa Railway"
     }
    },
    "m": [
     "B 2245"
    ],
    "img": "img/fz/b-2245",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "bem": "Ehemaliger Wagen C 51 der Chur-Arosa-Bahn"
   },
   {
    "id": "b-2246",
@@ -1052,10 +1074,10 @@
   },
   {
    "id": "k1-5615",
-   "nr": "K1 5615",
+   "nr": "K1 5615 / WN 9852",
    "n": "",
    "kat": "gueter",
-   "bj": "",
+   "bj": "1913",
    "b": "rhb",
    "st": "",
    "col": "#8a8f94",
@@ -1074,7 +1096,8 @@
     }
    },
    "m": [
-    "K1 5615"
+    "K1 5615",
+    "WN 9852"
    ],
    "img": "img/fz/k1-5615",
    "imgc": "U. Finke"
@@ -1084,7 +1107,7 @@
    "nr": "Uh 8101 / WN 9862",
    "n": "",
    "kat": "gueter",
-   "bj": "",
+   "bj": "1926",
    "b": "rhb",
    "st": "",
    "col": "#f2d43a",
