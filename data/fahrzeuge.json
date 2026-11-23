@@ -32,7 +32,8 @@
    ],
    "img": "img/fz/g34-1",
    "imgc": "U. Finke",
-   "len": 7.95
+   "len": 7.95,
+   "gr": "dampf"
   },
   {
    "id": "g34-11",
@@ -60,7 +61,8 @@
    ],
    "img": "img/fz/g34-11",
    "imgc": "U. Finke",
-   "len": 8.43
+   "len": 8.43,
+   "gr": "dampf"
   },
   {
    "id": "g45-107",
@@ -87,7 +89,9 @@
     "G 4/5 107"
    ],
    "img": "img/fz/g45-107",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "len": 13.97,
+   "gr": "dampf"
   },
   {
    "id": "g45-108",
@@ -114,7 +118,9 @@
     "G 4/5 108"
    ],
    "img": "img/fz/g45-108",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "len": 13.97,
+   "gr": "dampf"
   },
   {
    "id": "ge24-222",
@@ -141,7 +147,9 @@
     "Ge 2/4 222"
    ],
    "img": "img/fz/ge24-222",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "len": 8.7,
+   "gr": "rhb"
   },
   {
    "id": "ge46-353",
@@ -168,7 +176,9 @@
     "Ge 4/6 353"
    ],
    "img": "img/fz/ge46-353",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "len": 11.1,
+   "gr": "rhb"
   },
   {
    "id": "ge66-414",
@@ -196,7 +206,9 @@
     "Krokodil"
    ],
    "img": "img/fz/ge66-414",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "len": 13.3,
+   "gr": "rhb"
   },
   {
    "id": "ge66-415",
@@ -224,7 +236,9 @@
     "Krokodil"
    ],
    "img": "img/fz/ge66-415",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "len": 13.3,
+   "gr": "rhb"
   },
   {
    "id": "ge66-407",
@@ -252,7 +266,8 @@
    ],
    "mit": [
     "bma"
-   ]
+   ],
+   "gr": "rhb"
   },
   {
    "id": "ge44i-605",
@@ -280,7 +295,8 @@
     "Ge 4/4 I statt"
    ],
    "img": "img/fz/ge44i-605",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "gr": "rhb"
   },
   {
    "id": "ge44-182",
@@ -312,7 +328,8 @@
     "Bernina-Krokodil"
    ],
    "img": "img/fz/ge44-182",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "gr": "bb"
   },
   {
    "id": "abe44-30",
@@ -340,7 +357,8 @@
     "ABe 4/4 30"
    ],
    "img": "img/fz/abe44-30",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "gr": "bb"
   },
   {
    "id": "abe44-34",
@@ -368,7 +386,8 @@
     "ABe 4/4 34"
    ],
    "img": "img/fz/abe44-34",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "gr": "bb"
   },
   {
    "id": "abe44ii-46",
@@ -396,7 +415,8 @@
     "Goldliner"
    ],
    "img": "img/fz/abe44ii-46",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "gr": "bb"
   },
   {
    "id": "abe44-501",
@@ -425,7 +445,8 @@
    ],
    "img": "img/fz/abe44-501",
    "imgc": "U. Finke",
-   "len": 18.0
+   "len": 18.0,
+   "gr": "rhb"
   },
   {
    "id": "xrotd-9213",
@@ -454,7 +475,8 @@
    ],
    "mit": [
     "dfrhb"
-   ]
+   ],
+   "gr": "schnee"
   },
   {
    "id": "ge44ii-611",
@@ -481,7 +503,8 @@
     "Ge 4/4 II 611"
    ],
    "img": "img/fz/ge44ii-611",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "gr": "rhb"
   },
   {
    "id": "ge44ii-626",
@@ -512,7 +535,8 @@
     "Alby Glatt"
    ],
    "img": "img/fz/ge44ii-626",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "gr": "rhb"
   },
   {
    "id": "ge66ii-702",
@@ -537,7 +561,8 @@
    },
    "m": [
     "Ge 6/6 II 702"
-   ]
+   ],
+   "gr": "rhb"
   },
   {
    "id": "c-114",
@@ -562,7 +587,8 @@
    },
    "m": [
     "C 114"
-   ]
+   ],
+   "gr": "wagen"
   },
   {
    "id": "as-1141",
@@ -592,7 +618,8 @@
    ],
    "mit": [
     "rhb"
-   ]
+   ],
+   "gr": "wagen"
   },
   {
    "id": "as-1161",
@@ -617,7 +644,8 @@
    },
    "m": [
     "As 1161"
-   ]
+   ],
+   "gr": "wagen"
   },
   {
    "id": "wr-3820",
@@ -642,7 +670,8 @@
    },
    "m": [
     "3820"
-   ]
+   ],
+   "gr": "wagen"
   },
   {
    "id": "d-4052",
@@ -667,7 +696,8 @@
    },
    "m": [
     "D 4052"
-   ]
+   ],
+   "gr": "wagen"
   }
  ]
 }
