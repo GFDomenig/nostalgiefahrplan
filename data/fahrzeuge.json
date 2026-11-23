@@ -1844,6 +1844,44 @@
    ],
    "img": "img/fz/b-2060",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "bc-110",
+   "nr": "BC 110 / WN 9804",
+   "n": "Ul Mesolcines",
+   "kat": "wagen",
+   "bj": "1909",
+   "b": "rhb",
+   "zu": "hrhb",
+   "auf": [
+    "club1889"
+   ],
+   "mit": [
+    "club1889"
+   ],
+   "st": "betr",
+   "col": "#e8c923",
+   "len": 11.4,
+   "gr": "wagen",
+   "p": "Zweiachsiger Personenwagen zweiter und dritter Klasse der früheren Berninabahn von 1909, in der gelben Bernina-Farbgebung mit der Anschrift «Veltlin». Der Club 1889 hat ihn mit Unterstützung der Hauptwerkstätte der RhB aufgearbeitet. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Voiture à deux essieux de deuxième et troisième classes de l’ancien chemin de fer de la Bernina, datant de 1909, dans la livrée jaune de la Bernina avec l’inscription « Veltlin ». Le Club 1889 l’a restaurée avec le soutien de l’atelier principal des RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Carrozza a due assi di seconda e terza classe dell’ex Ferrovia del Bernina, del 1909, nella livrea gialla del Bernina con la scritta «Veltlin». Il Club 1889 l’ha restaurata con il sostegno dell’officina principale della RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Two-axle second- and third-class coach of the former Bernina Railway from 1909, in the yellow Bernina livery with the «Veltlin» lettering. Club 1889 restored it with the support of the RhB main workshop. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "BC 110",
+    "WN 9804",
+    "Mesolcines"
+   ],
+   "img": "img/fz/bc-110",
+   "imgc": "U. Finke"
   }
  ]
 }
