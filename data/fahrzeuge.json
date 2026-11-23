@@ -1873,6 +1873,38 @@
    "imgc": "U. Finke"
   },
   {
+   "id": "os-8658",
+   "nr": "OS 8658 / Xc 9421",
+   "n": "",
+   "kat": "gueter",
+   "bj": "1965",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#d9d4bd",
+   "len": 7.99,
+   "gr": "gueter",
+   "p": "Zweiachsiger Schüttgutwagen der RhB von 1965, heute als Dienstfahrzeug Xc 9421 bezeichnet. Die Skizze zeigt den Schwesterwagen Fd 8656. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Wagon à deux essieux des RhB pour marchandises en vrac, de 1965, aujourd’hui désigné comme véhicule de service Xc 9421. Le dessin montre le wagon frère Fd 8656. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Carro a due assi della RhB per merci alla rinfusa, del 1965, oggi designato come veicolo di servizio Xc 9421. Il disegno mostra il carro gemello Fd 8656. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Two-axle bulk goods wagon of the RhB from 1965, today designated as service vehicle Xc 9421. The drawing shows its sister wagon Fd 8656. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "OS 8658",
+    "Xc 9421",
+    "Fd 8656"
+   ],
+   "zu": "hrhb",
+   "img": "img/fz/os-8658",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "m-8604",
    "nr": "M 8604",
    "n": "",
