@@ -1745,6 +1745,36 @@
    ],
    "img": "img/fz/rhb-c-66",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "a-1102",
+   "nr": "A 1102",
+   "n": "",
+   "kat": "wagen",
+   "bj": "1903",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "betr",
+   "col": "#2f6b3a",
+   "len": 10.44,
+   "gr": "wagen",
+   "p": "Zweiachsiger Erstklasswagen von 1903 in grüner Farbgebung, mit einem verzierten Wappenschild an der Wagenmitte. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Voiture de première classe à deux essieux de 1903, de couleur verte, avec un écusson décoré au milieu de la caisse. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Carrozza di prima classe a due assi del 1903, di colore verde, con uno stemma decorato al centro della cassa. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Two-axle first-class coach from 1903 in green livery, with a decorated crest in the middle of the body. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "A 1102"
+   ],
+   "img": "img/fz/a-1102",
+   "imgc": "U. Finke"
   }
  ]
 }
