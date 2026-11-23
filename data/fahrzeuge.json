@@ -703,23 +703,26 @@
    "bj": "",
    "b": "club1889",
    "st": "rest",
-   "col": "",
-   "p": "Historischer Personenwagen aus der Bernina-Flotte, den der Club 1889 zusammen mit der RhB aufarbeitet.",
+   "col": "#e8b923",
+   "p": "Zweiachsiger Drittklasswagen der früheren Berninabahn, den der Club 1889 zusammen mit der RhB aufarbeitet. Die Skizze zeigt ihn in der gelben Bernina-Farbgebung mit der Anschrift «Veltlin» und 32 Plätzen.",
    "i18n": {
     "fr": {
-     "p": "Voiture historique de la flotte de la Bernina, que le Club 1889 restaure avec les RhB."
+     "p": "Voiture de troisième classe à deux essieux de l’ancien chemin de fer de la Bernina, que le Club 1889 restaure avec les RhB. Le dessin la montre dans la livrée jaune de la Bernina, avec l’inscription « Veltlin » et 32 places."
     },
     "it": {
-     "p": "Carrozza storica della flotta del Bernina, che il Club 1889 sta restaurando con la RhB."
+     "p": "Carrozza di terza classe a due assi dell’ex Ferrovia del Bernina, che il Club 1889 sta restaurando con la RhB. Il disegno la mostra nella livrea gialla del Bernina, con la scritta «Veltlin» e 32 posti."
     },
     "en": {
-     "p": "Historic passenger coach from the Bernina fleet, being restored by Club 1889 together with the RhB."
+     "p": "Two-axle third-class coach of the former Bernina Railway, being restored by Club 1889 together with the RhB. The drawing shows it in the yellow Bernina livery with the «Veltlin» lettering and 32 seats."
     }
    },
    "m": [
     "C 114"
    ],
-   "gr": "wagen"
+   "gr": "wagen",
+   "img": "img/fz/c-114",
+   "imgc": "U. Finke",
+   "len": 9.75
   },
   {
    "id": "as-1141",
