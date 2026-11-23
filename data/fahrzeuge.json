@@ -1346,6 +1346,46 @@
    ],
    "img": "img/fz/k1-5563",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "d2-4079",
+   "nr": "D2 4079 / D2 4080",
+   "n": "",
+   "kat": "gep",
+   "bj": "1913",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "betr",
+   "col": "#5b3a2a",
+   "len": 8.45,
+   "gr": [
+    "wagen",
+    "gueter"
+   ],
+   "bem": "früher Gbk-v 5580 / Gbk-v 5586",
+   "p": "Zwei zweiachsige gedeckte Wagen von 1913, die als Güterwagen Gbk-v 5580 und 5586 unterwegs waren. Heute dienen sie als Gepäckwagen D2 4079 und D2 4080 in historischen Zügen und können weiterhin auch Güter befördern.",
+   "i18n": {
+    "fr": {
+     "bem": "anciennement Gbk-v 5580 / Gbk-v 5586",
+     "p": "Deux wagons couverts à deux essieux de 1913, qui circulaient comme wagons marchandises Gbk-v 5580 et 5586. Ils servent aujourd’hui de fourgons à bagages D2 4079 et D2 4080 dans les trains historiques et peuvent toujours transporter des marchandises."
+    },
+    "it": {
+     "bem": "già Gbk-v 5580 / Gbk-v 5586",
+     "p": "Due carri coperti a due assi del 1913, che circolavano come carri merci Gbk-v 5580 e 5586. Oggi servono da bagagliai D2 4079 e D2 4080 nei treni storici e possono ancora trasportare merci."
+    },
+    "en": {
+     "bem": "formerly Gbk-v 5580 / Gbk-v 5586",
+     "p": "Two two-axle covered wagons from 1913 that ran as goods wagons Gbk-v 5580 and 5586. Today they serve as luggage vans D2 4079 and D2 4080 in historic trains and can still carry goods as well."
+    }
+   },
+   "m": [
+    "D2 4079",
+    "D2 4080",
+    "Gbk-v 5580",
+    "Gbk-v 5586"
+   ],
+   "img": "img/fz/d2-4079",
+   "imgc": "U. Finke"
   }
  ]
 }
