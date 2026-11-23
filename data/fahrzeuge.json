@@ -1129,6 +1129,34 @@
    ],
    "img": "img/fz/uh-8101",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "m-8604",
+   "nr": "M 8604",
+   "n": "",
+   "kat": "gueter",
+   "bj": "1889",
+   "b": "bma",
+   "st": "",
+   "col": "#8a8f94",
+   "gr": "gueter",
+   "p": "Zweiachsiger Niederbordwagen aus dem Jahr 1889, also aus der Gründungszeit der Landquart–Davos-Bahn, mit Bremserplattform an einem Wagenende. Der Wagen gehört zum Bahnmuseum Albula in Bergün.",
+   "i18n": {
+    "fr": {
+     "p": "Wagon à bords bas à deux essieux de 1889, donc de l’époque de la fondation du chemin de fer Landquart–Davos, avec plateforme de serre-frein à une extrémité. Il appartient au Musée du chemin de fer de l’Albula à Bergün."
+    },
+    "it": {
+     "p": "Carro a sponde basse a due assi del 1889, cioè dell’epoca della fondazione della ferrovia Landquart–Davos, con piattaforma del frenatore a un’estremità. Appartiene al Museo ferroviario dell’Albula a Bergün."
+    },
+    "en": {
+     "p": "Two-axle low-sided wagon from 1889, the founding era of the Landquart–Davos Railway, with a brakeman’s platform at one end. It belongs to the Albula Railway Museum in Bergün."
+    }
+   },
+   "m": [
+    "M 8604"
+   ],
+   "img": "img/fz/m-8604",
+   "imgc": "U. Finke"
   }
  ]
 }
