@@ -859,6 +859,35 @@
    ],
    "img": "img/fz/b-2091",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "b-2093",
+   "nr": "B 2093",
+   "n": "Aussichtswagen",
+   "kat": "wagen",
+   "bj": "",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#e8b923",
+   "len": 8.94,
+   "gr": "wagen",
+   "p": "Offener, zweiachsiger Aussichtswagen mit 36 Plätzen in der typischen gelben Farbe. Die «gelben Cabrios» der RhB fahren im Sommer zwischen Davos und Filisur, zwischen Alvaneu und Filisur sowie zwischen St. Moritz und Tirano.",
+   "i18n": {
+    "fr": {
+     "p": "Voiture panoramique ouverte à deux essieux, 36 places, dans la couleur jaune typique. Les « cabriolets jaunes » des RhB circulent en été entre Davos et Filisur, entre Alvaneu et Filisur ainsi qu’entre Saint-Moritz et Tirano."
+    },
+    "it": {
+     "p": "Carrozza panoramica aperta a due assi con 36 posti, nel tipico colore giallo. I «cabriolet gialli» della RhB circolano in estate tra Davos e Filisur, tra Alvaneu e Filisur e tra St. Moritz e Tirano."
+    },
+    "en": {
+     "p": "Open two-axle observation car with 36 seats in the typical yellow livery. The RhB’s «yellow convertibles» run in summer between Davos and Filisur, between Alvaneu and Filisur and between St. Moritz and Tirano."
+    }
+   },
+   "m": [
+    "B 2093"
+   ],
+   "img": "img/fz/b-2093",
+   "imgc": "U. Finke"
   }
  ]
 }
