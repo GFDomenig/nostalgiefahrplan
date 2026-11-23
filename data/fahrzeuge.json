@@ -2353,6 +2353,41 @@
    "mit": null
   },
   {
+   "id": "m-8616",
+   "nr": "M 8616",
+   "n": "",
+   "kat": "gueter",
+   "bj": "1896",
+   "b": "bma",
+   "zu": "bma",
+   "st": "nb",
+   "stx": "abgestellt in Bergün, in sehr schlechtem Zustand",
+   "col": "#9a9a9a",
+   "gr": "gueter",
+   "p": "Zweiachsiger Niederbord-Güterwagen von 1896. Die Skizze zeigt ihn in grauer Farbgebung mit der späteren Dienstbezeichnung Xk 8616. Der Wagen gehört dem Bahnmuseum Albula; er ist in Bergün abgestellt und in sehr schlechtem Zustand.",
+   "i18n": {
+    "fr": {
+     "stx": "garé à Bergün, en très mauvais état",
+     "p": "Wagon à ridelles basses à deux essieux de 1896. Le dessin le montre en gris avec la désignation de service ultérieure Xk 8616. Le wagon appartient au Bahnmuseum Albula ; il est garé à Bergün et en très mauvais état."
+    },
+    "it": {
+     "stx": "accantonato a Bergün, in pessime condizioni",
+     "p": "Carro a sponde basse a due assi del 1896. Il disegno lo mostra in grigio con la successiva designazione di servizio Xk 8616. Il carro appartiene al Bahnmuseum Albula; è accantonato a Bergün ed è in pessime condizioni."
+    },
+    "en": {
+     "stx": "stored in Bergün, in very poor condition",
+     "p": "Two-axle low-sided goods wagon from 1896. The drawing shows it in grey with its later service designation Xk 8616. The wagon belongs to the Bahnmuseum Albula; it is stored in Bergün and in very poor condition."
+    }
+   },
+   "m": [
+    "M 8616",
+    "Xk 8616"
+   ],
+   "img": "img/fz/m-8616",
+   "imgc": "U. Finke",
+   "len": 6.5
+  },
+  {
    "id": "xk-9063",
    "nr": "Xk 9063",
    "n": "Rottenküche",
