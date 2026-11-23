@@ -10,16 +10,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#23272b",
-   "p": "Die älteste Lokomotive der RhB, gebaut für die Eröffnung der Schmalspurbahn Landquart–Davos. Die Restaurierung finanzierte eine Projektgruppe aus Club 1889 und Dampffreunden unter dem Dach von Historic RhB; im September 2026 wurde die Lok in Schiers mit einer eigens komponierten Operette neu eingeweiht. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Die älteste Lokomotive der RhB, gebaut für die Eröffnung der Schmalspurbahn Landquart–Davos. Die Restaurierung finanzierte eine Projektgruppe aus Club 1889 und Dampffreunden unter dem Dach von Historic RhB; im September 2026 wurde die Lok in Schiers mit einer eigens komponierten Operette neu eingeweiht. Gerettet und aufgearbeitet haben die Lok der Club 1889 und die Dampffreunde der RhB gemeinsam. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "La plus ancienne locomotive des RhB, construite pour l’ouverture de la ligne Landquart–Davos. Sa restauration a été financée par un groupe de projet du Club 1889 et des Dampffreunde sous l’égide de Historic RhB ; elle a été réinaugurée en septembre 2026 à Schiers avec une opérette composée pour l’occasion. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "La plus ancienne locomotive des RhB, construite pour l’ouverture de la ligne Landquart–Davos. Sa restauration a été financée par un groupe de projet du Club 1889 et des Dampffreunde sous l’égide de Historic RhB ; elle a été réinaugurée en septembre 2026 à Schiers avec une opérette composée pour l’occasion. La locomotive a été sauvée et restaurée conjointement par le Club 1889 et les Dampffreunde der RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "La locomotiva più antica della RhB, costruita per l’apertura della Landquart–Davos. Il restauro è stato finanziato da un gruppo di progetto di Club 1889 e Dampffreunde sotto l’egida di Historic RhB; nel settembre 2026 è stata reinaugurata a Schiers con un’operetta composta per l’occasione. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "La locomotiva più antica della RhB, costruita per l’apertura della Landquart–Davos. Il restauro è stato finanziato da un gruppo di progetto di Club 1889 e Dampffreunde sotto l’egida di Historic RhB; nel settembre 2026 è stata reinaugurata a Schiers con un’operetta composta per l’occasione. La locomotiva è stata salvata e restaurata insieme dal Club 1889 e dai Dampffreunde der RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "The RhB’s oldest locomotive, built for the opening of the Landquart–Davos line. Its restoration was funded by a project group of Club 1889 and the Dampffreunde under the Historic RhB umbrella; it was rededicated in Schiers in September 2026 with a specially composed operetta. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "The RhB’s oldest locomotive, built for the opening of the Landquart–Davos line. Its restoration was funded by a project group of Club 1889 and the Dampffreunde under the Historic RhB umbrella; it was rededicated in Schiers in September 2026 with a specially composed operetta. The locomotive was rescued and restored jointly by Club 1889 and the Dampffreunde der RhB. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -45,16 +45,16 @@
    "b": "club1889",
    "st": "betr",
    "col": "#23272b",
-   "p": "Leichte Dampflok derselben Bauart wie die «Rhætia»; sie stand bis 1977 im Plandienst und wird heute mit Öl gefeuert. Sie fährt bei Dampffahrten im Engadin und auf der Albulalinie, oft zusammen mit einer G 4/5. Die Lok ist Eigentum des Club 1889, der sie gerettet und aufgearbeitet hat; sie fährt unter der Marke Historic RhB.",
+   "p": "Leichte Dampflok derselben Bauart wie die «Rhætia»; sie stand bis 1977 im Plandienst und wird heute mit Öl gefeuert. Sie fährt bei Dampffahrten im Engadin und auf der Albulalinie, oft zusammen mit einer G 4/5. Gerettet und aufgearbeitet haben die Lok der Club 1889 und die Dampffreunde der RhB gemeinsam; sie ist Eigentum des Club 1889 und fährt unter der Marke Historic RhB.",
    "i18n": {
     "fr": {
-     "p": "Locomotive à vapeur légère du même type que la « Rhætia » ; en service régulier jusqu’en 1977, elle est aujourd’hui chauffée au mazout. Elle circule lors des voyages à vapeur en Engadine et sur l’Albula, souvent avec une G 4/5. La locomotive appartient au Club 1889, qui l’a sauvée et restaurée ; elle circule sous la marque Historic RhB."
+     "p": "Locomotive à vapeur légère du même type que la « Rhætia » ; en service régulier jusqu’en 1977, elle est aujourd’hui chauffée au mazout. Elle circule lors des voyages à vapeur en Engadine et sur l’Albula, souvent avec une G 4/5. La locomotive a été sauvée et restaurée conjointement par le Club 1889 et les Dampffreunde der RhB ; elle appartient au Club 1889 et circule sous la marque Historic RhB."
     },
     "it": {
-     "p": "Locomotiva a vapore leggera dello stesso tipo della «Rhætia»; in servizio regolare fino al 1977, oggi è alimentata a olio. Circola nei viaggi a vapore in Engadina e sull’Albula, spesso insieme a una G 4/5. La locomotiva è di proprietà del Club 1889, che l’ha salvata e restaurata; circola con il marchio Historic RhB."
+     "p": "Locomotiva a vapore leggera dello stesso tipo della «Rhætia»; in servizio regolare fino al 1977, oggi è alimentata a olio. Circola nei viaggi a vapore in Engadina e sull’Albula, spesso insieme a una G 4/5. La locomotiva è stata salvata e restaurata insieme dal Club 1889 e dai Dampffreunde der RhB; è di proprietà del Club 1889 e circola con il marchio Historic RhB."
     },
     "en": {
-     "p": "Light steam locomotive of the same type as «Rhætia»; in regular service until 1977, it is now oil-fired. It runs on steam trips in the Engadine and on the Albula line, often together with a G 4/5. The locomotive is owned by Club 1889, which rescued and restored it; it runs under the Historic RhB brand."
+     "p": "Light steam locomotive of the same type as «Rhætia»; in regular service until 1977, it is now oil-fired. It runs on steam trips in the Engadine and on the Albula line, often together with a G 4/5. The locomotive was rescued and restored jointly by Club 1889 and the Dampffreunde der RhB; it is owned by Club 1889 and runs under the Historic RhB brand."
     }
    },
    "m": [
@@ -65,7 +65,9 @@
    "len": 8.43,
    "gr": "dampf",
    "zu": "hrhb",
-   "mit": null
+   "mit": [
+    "dfrhb"
+   ]
   },
   {
    "id": "g45-107",
