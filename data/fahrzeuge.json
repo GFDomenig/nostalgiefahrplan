@@ -1230,6 +1230,39 @@
    "bem": "2000 zum Aussichtswagen umgebaut"
   },
   {
+   "id": "a-1251",
+   "nr": "A 1251",
+   "n": "Fliegender Rhätier",
+   "kat": "wagen",
+   "bj": "1939",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#d8322a",
+   "p": "Erstklasswagen mit Mitteleinstieg von 1939, gebaut für den «Fliegenden Rhätier». Mit einer Höchstgeschwindigkeit von 65 km/h war dieser Zug für damalige Verhältnisse der schnellste der RhB. Seine Fahrzeuge waren auch für lange Zeit die einzigen roten der RhB: Erst in den 1980er Jahren wurde Rot zur Farbe der RhB, und es entstand der Kosename «die kleine Rote». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "n": "Fliegender Rhätier",
+     "p": "Voiture de première classe à entrée centrale de 1939, construite pour le « Fliegender Rhätier ». Avec une vitesse maximale de 65 km/h, ce train était pour l’époque le plus rapide des RhB. Ses véhicules furent aussi longtemps les seuls rouges des RhB : ce n’est que dans les années 1980 que le rouge devint la couleur des RhB, d’où le surnom affectueux « la petite rouge ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "n": "Fliegender Rhätier",
+     "p": "Carrozza di prima classe con ingresso centrale del 1939, costruita per il «Fliegender Rhätier». Con una velocità massima di 65 km/h, questo treno era per l’epoca il più veloce della RhB. I suoi veicoli furono anche a lungo gli unici rossi della RhB: solo negli anni 1980 il rosso divenne il colore della RhB e nacque il soprannome «il trenino rosso». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "n": "Fliegender Rhätier",
+     "p": "First-class coach with centre entrance from 1939, built for the «Fliegender Rhätier» («Flying Rhaetian»). With a top speed of 65 km/h, this train was the fastest on the RhB by the standards of the time. Its vehicles were also for a long time the only red ones on the RhB: only in the 1980s did red become the RhB’s colour, giving rise to the nickname «the little red train». The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "A 1251"
+   ],
+   "gr": "wagen",
+   "len": 17.63,
+   "zu": "hrhb",
+   "img": "img/fz/a-1251",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "a-1225",
    "nr": "A 1225",
    "n": "Einheitswagen I",
