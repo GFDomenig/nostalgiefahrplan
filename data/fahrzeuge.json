@@ -1017,6 +1017,33 @@
    ],
    "img": "img/fz/b-2246",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "m-7070",
+   "nr": "M 7070",
+   "n": "",
+   "kat": "gueter",
+   "bj": "1903",
+   "b": "rhb",
+   "st": "",
+   "col": "#6b4a2f",
+   "len": 7.49,
+   "gr": "gueter",
+   "p": "Güterwagen der RhB aus dem Jahr 1903.",
+   "i18n": {
+    "fr": {
+     "p": "Wagon marchandises des RhB datant de 1903."
+    },
+    "it": {
+     "p": "Carro merci della RhB del 1903."
+    },
+    "en": {
+     "p": "RhB freight wagon dating from 1903."
+    }
+   },
+   "m": [
+    "M 7070"
+   ]
   }
  ]
 }
