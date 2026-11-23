@@ -223,7 +223,7 @@ footer p{max-width:80ch}
 .langs button:focus-visible{outline:3px solid #ffbf47}
 .ov{position:fixed;inset:60px 0 0 0;z-index:50;background:var(--bg);display:flex;flex-direction:column}
 .ov[hidden],.dlgw[hidden]{display:none}
-.ovbar{display:flex;align-items:center;gap:12px;padding:8px max(2vw,10px);background:var(--board);color:#fff;flex:none}
+.ovbar{display:none!important;align-items:center;gap:12px;padding:8px max(2vw,10px);background:var(--board);color:#fff;flex:none}
 .ovbar .home{display:flex;align-items:center;gap:10px;border:0;background:none;color:#fff;cursor:pointer;font:600 16px "Barlow Condensed",sans-serif;padding:4px 8px 4px 4px;border-radius:8px;min-height:44px}
 .ovbar .home img{width:44px;height:44px}
 .ovbar .home:hover,.ovbar .home:focus-visible{background:rgba(255,255,255,.14);outline:none}
@@ -249,12 +249,13 @@ footer p{max-width:80ch}
 }
 @media(max-width:720px){.tlinks{flex:1 1 auto!important;justify-content:space-between}.tlinks a{font-size:20px;padding:9px 2px}.tlinks a.mitl{padding:5px 5px;border-color:rgba(255,255,255,.25)}.tbrand img{width:32px!important;height:32px!important}.topin{gap:10px!important}}@media(max-width:410px){.tlinks a{font-size:19px;padding:9px 1px}}
 @media(max-width:380px){.tlinks a{font-size:18px;padding:9px 0}.tbrand img{width:28px!important;height:28px!important}.topin{gap:7px!important}}
-</style>
+.tov{display:flex;gap:8px;align-items:center;flex:none}.tov[hidden]{display:none}.tov .btn{margin:0;padding:7px 12px;font-size:15px;line-height:1.2;font-family:Barlow,sans-serif;font-weight:600;border-radius:6px;cursor:pointer;color:#fff}.tov .btn:hover{background:#a8001a;border-color:#a8001a}@media(max-width:1100px){.topin{flex-wrap:wrap;align-content:center}.topin:has(.tov:not([hidden])){padding-top:6px}.tov{order:3;width:100%;padding:0 0 8px}}@media(max-width:720px){.tov .btn{flex:1 1 0;white-space:normal;padding:7px 8px}}</style>
 <script src="js/i18n.js"></script>
 </head>
 <body>
 <nav class="top" id="top" data-ia="nav_aria"><div class="topin">
  <a class="tbrand" href="./" data-s="fahrten"><img src="img/logo-160.png" width="38" height="38" alt=""><span data-i="home_l"></span></a>
+ <div class="tov" id="tov" hidden><button class="btn p" id="tback" type="button" data-i="back_s"></button><a class="btn p" id="tnew" href="#" target="_blank" rel="noopener"><span data-i="newtab"></span> ↗</a></div>
  <div class="tlinks"><a href="#liste" data-s="fahrten" data-i="nav_fahrten"></a><a href="#news" data-s="news" data-i="nav_news"></a><a href="#fahrzeuge" data-s="fz" data-i="nav_fz"></a><a href="#ueber" data-s="ueber" data-i="nav_ueber"></a><a href="#mitglieder" data-s="mit" class="mitl"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm-3 8V7a3 3 0 0 1 6 0v3z"/></svg> <span data-i="nav_mit"></span></a></div>
 </div></nav>
 <header class="hero">
@@ -340,9 +341,9 @@ const kind=u=>{let x;try{x=new URL(u,location.href)}catch(e){return "int"}
  return "ext"};
 const ov=document.getElementById("ov"),ovf=document.getElementById("ovf"),dlgw=document.getElementById("dlgw");
 let lastF=null,ovHist=false;
-const openOv=u=>{lastF=document.activeElement;ovf.src=u;ovf.title=hostOf(u);document.getElementById("ovdom").textContent=hostOf(u);document.getElementById("ovnew").href=u;ov.hidden=false;document.body.style.overflow="hidden";history.pushState({ov:1},"");ovHist=true;document.getElementById("ovclose").focus()};
-const closeOv=fromPop=>{if(ov.hidden)return;ov.hidden=true;ovf.src="about:blank";document.body.style.overflow="";if(ovHist&&!fromPop){ovHist=false;history.back()}ovHist=false;lastF&&lastF.focus()};
-document.getElementById("ovclose").onclick=()=>closeOv(false);
+const openOv=u=>{lastF=document.activeElement;ovf.src=u;ovf.title=hostOf(u);document.getElementById("ovdom").textContent=hostOf(u);document.getElementById("ovnew").href=u;ov.hidden=false;const tv=document.getElementById("tov");tv.hidden=false;document.getElementById("tnew").href=u;document.getElementById("tnew").title=hostOf(u);ovTop();document.body.style.overflow="hidden";history.pushState({ov:1},"");ovHist=true;document.getElementById("tback").focus()};
+const closeOv=fromPop=>{if(ov.hidden)return;ov.hidden=true;document.getElementById("tov").hidden=true;ovf.src="about:blank";document.body.style.overflow="";if(ovHist&&!fromPop){ovHist=false;history.back()}ovHist=false;lastF&&lastF.focus()};
+document.getElementById("ovclose").onclick=()=>closeOv(false);document.getElementById("tback").onclick=()=>closeOv(false);function ovTop(){ov.style.top=document.getElementById("top").getBoundingClientRect().bottom+"px"}window.addEventListener("resize",()=>{if(!ov.hidden)ovTop()});
 window.addEventListener("popstate",()=>{if(!ov.hidden)closeOv(true)});
 let noask=false;try{noask=sessionStorage.getItem("noask")==="1"}catch(e){}
 const openDlg=u=>{lastF=document.activeElement;document.getElementById("dlgx").innerHTML=L("leave_x",{d:'<span class="dom2">'+esc(hostOf(u))+'</span>'});document.getElementById("dlggo").href=u;document.getElementById("noask").checked=false;dlgw.hidden=false;document.getElementById("dlggo").focus()};
