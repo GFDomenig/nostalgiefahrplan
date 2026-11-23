@@ -240,6 +240,15 @@ footer p{max-width:80ch}
 .flnote{font-size:14px;color:var(--mut);margin:8px 0 0}
 @media(max-width:600px){.brand{top:auto;bottom:12px;right:16px}.brand img.logo{width:64px}.langs{position:absolute;top:auto;bottom:0;right:76px;gap:2px;padding:4px}.langs button{min-width:38px}.langs svg,.langs .tx{width:30px;height:20px}.credit{bottom:62px!important;max-width:calc(100% - 32px)!important}}
 @media(max-width:420px){.tlinks a{padding:9px 4px;font-size:14px}.tlinks a.mitl{padding:7px 5px}.topin{padding:0 5px;gap:3px}}
+@media(max-width:600px){
+ .brand{position:static}
+ .brand img.logo{position:absolute;top:14px;right:14px;width:58px;z-index:2}
+ .langs{position:absolute;right:12px;bottom:12px;top:auto;gap:2px;padding:4px}
+ .herotext{max-width:calc(100% - 100px)}
+ .credit{left:12px;right:auto;bottom:66px;max-width:calc(100% - 24px)}
+}
+@media(max-width:720px){.tlinks{flex:1;justify-content:space-between}.tlinks a{font-size:17px;padding:9px 3px}.tlinks a.mitl{padding:6px 6px}}@media(max-width:410px){.tlinks a{font-size:16px;padding:9px 2px}}
+@media(max-width:380px){.tlinks a{font-size:15px;padding:9px 1px}.tbrand img{width:30px!important;height:30px!important}}
 </style>
 <script src="js/i18n.js"></script>
 </head>
