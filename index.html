@@ -341,7 +341,7 @@ const kind=u=>{let x;try{x=new URL(u,location.href)}catch(e){return "int"}
  return "ext"};
 const ov=document.getElementById("ov"),ovf=document.getElementById("ovf"),dlgw=document.getElementById("dlgw");
 let lastF=null,ovHist=false;
-const openOv=u=>{lastF=document.activeElement;ovf.src=u;ovf.title=hostOf(u);document.getElementById("ovdom").textContent=hostOf(u);document.getElementById("ovnew").href=u;ov.hidden=false;const tv=document.getElementById("tov");tv.hidden=false;document.getElementById("tnew").href=u;document.getElementById("tnew").title=hostOf(u);ovTop();document.body.style.overflow="hidden";history.pushState({ov:1},"");ovHist=true;document.getElementById("tback").focus()};
+const openOv=u=>{lastF=document.activeElement;ovf.src=u;ovf.title=hostOf(u);document.getElementById("ovdom").textContent=hostOf(u);document.getElementById("ovnew").href=u;ov.hidden=false;const tv=document.getElementById("tov");tv.hidden=false;document.getElementById("tnew").href=u;document.getElementById("tnew").title=hostOf(u);ovTop();document.body.style.overflow="hidden";history.pushState({ov:1},"");ovHist=true};
 const closeOv=fromPop=>{if(ov.hidden)return;ov.hidden=true;document.getElementById("tov").hidden=true;ovf.src="about:blank";document.body.style.overflow="";if(ovHist&&!fromPop){ovHist=false;history.back()}ovHist=false;lastF&&lastF.focus()};
 document.getElementById("ovclose").onclick=()=>closeOv(false);document.getElementById("tback").onclick=()=>closeOv(false);function ovTop(){ov.style.top=document.getElementById("top").getBoundingClientRect().bottom+"px"}window.addEventListener("resize",()=>{if(!ov.hidden)ovTop()});
 window.addEventListener("popstate",()=>{if(!ov.hidden)closeOv(true)});
