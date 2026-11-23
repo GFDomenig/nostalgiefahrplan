@@ -1595,21 +1595,23 @@
     "A 1273",
     "Einheitswagen IV"
    ],
-   "p": "Kurzer Einheitswagen IV 1. Klasse von 1993. Die kurzen Einheitswagen III und IV wurden alle in der Farbe Anthrazit-Rot abgeliefert und waren zu Beginn für den Bernina Express bestimmt, der damit erstmals farblich klar erkennbar wurde. Aus der Serie A 1273 ff. ist ein Wagen als historisches Fahrzeug für Historic RhB designiert; welche Nummer es sein wird, ist noch nicht bestimmt. Die Wagen werden noch mehrere Jahre im Regelbetrieb eingesetzt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Kurzer Einheitswagen IV 1. Klasse von 1993. Die kurzen Einheitswagen III und IV wurden alle in der Farbe Anthrazit-Rot abgeliefert und waren zu Beginn für den Bernina Express bestimmt, der damit erstmals farblich klar erkennbar wurde. Aus der Serie A 1273 ff. ist ein Wagen als historisches Fahrzeug für Historic RhB designiert; welche Nummer es sein wird, ist noch nicht bestimmt. Die Skizze zeigt den A 1275. Die Wagen werden noch mehrere Jahre im Regelbetrieb eingesetzt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
      "n": "Voiture unifiée IV, courte",
-     "p": "Voiture unifiée IV courte de 1re classe de 1993. Les voitures unifiées III et IV courtes ont toutes été livrées en livrée anthracite et rouge et étaient d’abord destinées au Bernina Express, qui devint ainsi pour la première fois clairement reconnaissable à sa couleur. Dans la série A 1273 ff., une voiture est désignée comme véhicule historique pour Historic RhB ; son numéro n’est pas encore fixé. Les voitures resteront encore plusieurs années en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Voiture unifiée IV courte de 1re classe de 1993. Les voitures unifiées III et IV courtes ont toutes été livrées en livrée anthracite et rouge et étaient d’abord destinées au Bernina Express, qui devint ainsi pour la première fois clairement reconnaissable à sa couleur. Dans la série A 1273 ff., une voiture est désignée comme véhicule historique pour Historic RhB ; son numéro n’est pas encore fixé. Le dessin montre la A 1275. Les voitures resteront encore plusieurs années en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
      "n": "Carrozza unificata IV, corta",
-     "p": "Carrozza unificata IV corta di 1a classe del 1993. Le carrozze unificate III e IV corte furono tutte consegnate nella livrea antracite e rossa ed erano inizialmente destinate al Bernina Express, che divenne così per la prima volta chiaramente riconoscibile dal colore. Della serie A 1273 ff. una carrozza è designata come veicolo storico per Historic RhB; il numero non è ancora stabilito. Le carrozze resteranno ancora per diversi anni nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Carrozza unificata IV corta di 1a classe del 1993. Le carrozze unificate III e IV corte furono tutte consegnate nella livrea antracite e rossa ed erano inizialmente destinate al Bernina Express, che divenne così per la prima volta chiaramente riconoscibile dal colore. Della serie A 1273 ff. una carrozza è designata come veicolo storico per Historic RhB; il numero non è ancora stabilito. Il disegno mostra la A 1275. Le carrozze resteranno ancora per diversi anni nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
      "n": "Standard coach IV, short",
-     "p": "Short first-class Standard coach IV from 1993. The short Standard coaches III and IV were all delivered in anthracite and red and were initially intended for the Bernina Express, which thus became clearly recognisable by its colours for the first time. One coach of the A 1273 ff. series is designated as a historic vehicle for Historic RhB; which number it will be has not yet been decided. The coaches will remain in regular service for several more years. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Short first-class Standard coach IV from 1993. The short Standard coaches III and IV were all delivered in anthracite and red and were initially intended for the Bernina Express, which thus became clearly recognisable by its colours for the first time. One coach of the A 1273 ff. series is designated as a historic vehicle for Historic RhB; which number it will be has not yet been decided. The drawing shows A 1275. The coaches will remain in regular service for several more years. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
-   }
+   },
+   "img": "img/fz/a-1273",
+   "imgc": "U. Finke"
   },
   {
    "id": "b-2245",
