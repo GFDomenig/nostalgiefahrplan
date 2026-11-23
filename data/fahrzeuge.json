@@ -1814,6 +1814,36 @@
    ],
    "img": "img/fz/b-2138",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "b-2060",
+   "nr": "B 2060",
+   "n": "",
+   "kat": "wagen",
+   "bj": "1908",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "betr",
+   "col": "#2f6b3a",
+   "len": 11.06,
+   "gr": "wagen",
+   "p": "Zweiachsiger Zweitklasswagen von 1908 in grüner Farbgebung, mit Abteilen für Raucher und Nichtraucher. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Voiture de deuxième classe à deux essieux de 1908, de couleur verte, avec compartiments fumeurs et non-fumeurs. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Carrozza di seconda classe a due assi del 1908, di colore verde, con scompartimenti fumatori e non fumatori. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Two-axle second-class coach from 1908 in green livery, with smoking and non-smoking compartments. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "B 2060"
+   ],
+   "img": "img/fz/b-2060",
+   "imgc": "U. Finke"
   }
  ]
 }
