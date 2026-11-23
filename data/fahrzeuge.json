@@ -154,6 +154,43 @@
    "mit": null
   },
   {
+   "id": "ge24-205",
+   "nr": "Ge 2/4 205",
+   "n": "",
+   "kat": "stange",
+   "bj": "1913",
+   "b": "bma",
+   "zu": "bma",
+   "st": "nb",
+   "stx": "abgestellt in der Remise Filisur",
+   "col": "#b5602a",
+   "len": 8.7,
+   "gr": "rhb",
+   "p": "Aus der ersten Serie elektrischer Lokomotiven, 1912–1913 für die neu elektrifizierte Engadinerlinie beschafft, in der braunen Farbgebung mit der Anschrift «Rh.B.». Anders als ihre Schwesterlok Ge 2/4 222, die umgebaut wurde, besitzt sie noch den originalen Déri-Grossmotor. Die Lok gehört dem Bahnmuseum Albula, ist nicht betriebsfähig und in der Remise Filisur abgestellt; geplant ist ihre Aufarbeitung als Ausstellungsfahrzeug.",
+   "i18n": {
+    "fr": {
+     "stx": "garée dans la remise de Filisur",
+     "p": "Issue de la première série de locomotives électriques, acquise en 1912–1913 pour la ligne de l’Engadine nouvellement électrifiée, dans la livrée brune avec l’inscription « Rh.B. ». Contrairement à sa sœur la Ge 2/4 222, qui a été transformée, elle possède encore le grand moteur Déri d’origine. La locomotive appartient au Bahnmuseum Albula, n’est pas en état de marche et est garée dans la remise de Filisur ; sa restauration comme véhicule d’exposition est prévue."
+    },
+    "it": {
+     "stx": "accantonata nella rimessa di Filisur",
+     "p": "Della prima serie di locomotive elettriche, acquistata nel 1912–1913 per la linea dell’Engadina appena elettrificata, nella livrea marrone con la scritta «Rh.B.». A differenza della gemella Ge 2/4 222, che è stata trasformata, conserva ancora il grande motore Déri originale. La locomotiva appartiene al Bahnmuseum Albula, non è in grado di circolare ed è accantonata nella rimessa di Filisur; è previsto il suo restauro come veicolo da esposizione."
+    },
+    "en": {
+     "stx": "stored in the Filisur engine shed",
+     "p": "From the first series of electric locomotives, bought in 1912–1913 for the newly electrified Engadine line, in the brown livery with the lettering «Rh.B.». Unlike its sister Ge 2/4 222, which was rebuilt, it still has the original large Déri motor. The locomotive belongs to the Bahnmuseum Albula, is not in working order and is stored in the Filisur engine shed; it is to be restored as an exhibition vehicle."
+    }
+   },
+   "m": [
+    "Ge 2/4 205"
+   ],
+   "rel": [
+    "ge24-222"
+   ],
+   "img": "img/fz/ge24-205",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "ge24-222",
    "nr": "Ge 2/4 222",
    "n": "",
@@ -162,16 +199,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "",
-   "p": "Aus der ersten Serie elektrischer Lokomotiven, 1912–1913 für die neu elektrifizierte Engadinerlinie beschafft. Als einzige ihrer Klasse ist sie noch betriebsfähig. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Aus der ersten Serie elektrischer Lokomotiven, 1912–1913 für die neu elektrifizierte Engadinerlinie beschafft. Als einzige ihrer Klasse ist sie noch betriebsfähig. Sie wurde später umgebaut; den originalen Déri-Grossmotor besitzt nur noch ihre Schwesterlok Ge 2/4 205 des Bahnmuseums Albula. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Issue de la première série de locomotives électriques, acquise en 1912–1913 pour la ligne de l’Engadine nouvellement électrifiée. C’est la seule de sa série encore en état de marche. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Issue de la première série de locomotives électriques, acquise en 1912–1913 pour la ligne de l’Engadine nouvellement électrifiée. C’est la seule de sa série encore en état de marche. Elle a été transformée par la suite ; seule sa sœur la Ge 2/4 205 du Bahnmuseum Albula possède encore le grand moteur Déri d’origine. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Della prima serie di locomotive elettriche, acquistata nel 1912–1913 per la linea dell’Engadina appena elettrificata. È l’unica della sua serie ancora in esercizio. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Della prima serie di locomotive elettriche, acquistata nel 1912–1913 per la linea dell’Engadina appena elettrificata. È l’unica della sua serie ancora in esercizio. In seguito è stata trasformata; solo la gemella Ge 2/4 205 del Bahnmuseum Albula conserva ancora il grande motore Déri originale. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "From the first series of electric locomotives, bought in 1912–1913 for the newly electrified Engadine line. It is the only one of its class still in working order. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "From the first series of electric locomotives, bought in 1912–1913 for the newly electrified Engadine line. It is the only one of its class still in working order. It was later rebuilt; only its sister Ge 2/4 205 of the Bahnmuseum Albula still has the original large Déri motor. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -182,7 +219,10 @@
    "len": 8.7,
    "gr": "rhb",
    "zu": "hrhb",
-   "mit": null
+   "mit": null,
+   "rel": [
+    "ge24-205"
+   ]
   },
   {
    "id": "ge46-353",
