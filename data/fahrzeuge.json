@@ -852,25 +852,28 @@
    "n": "Schneepflug",
    "kat": "schnee",
    "bj": "1903",
-   "b": "rhb",
-   "zu": "hrhb",
+   "b": "bma",
+   "zu": "bma",
    "st": "nb",
    "col": "#8e2318",
    "len": 6.9,
    "gr": "schnee",
-   "p": "Zweiachsiger Schneepflug der RhB von 1903 mit grossem Keilpflug an der Front, heute Dienstfahrzeug WN 9859. Die Skizze zeigt ihn in der rotbraunen Farbgebung mit der Anschrift «RhB». Anders als der Schneeräumer X 9132 ist er nicht betriebsfähig. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Zweiachsiger Schneepflug der RhB von 1903 mit grossem Keilpflug an der Front, heute Dienstfahrzeug WN 9859. Die Skizze zeigt ihn in der rotbraunen Farbgebung mit der Anschrift «RhB». Anders als der Schneeräumer X 9132 ist er nicht betriebsfähig. Er gehört dem Bahnmuseum Albula und ist zurzeit im Depot Samedan eingestellt.",
    "i18n": {
     "fr": {
      "n": "Chasse-neige à étrave",
-     "p": "Chasse-neige à deux essieux des RhB de 1903, avec une grande étrave à l’avant, aujourd’hui véhicule de service WN 9859. Le dessin le montre dans la livrée brun-rouge avec l’inscription « RhB ». Contrairement au chasse-neige X 9132, il n’est pas en état de marche. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Chasse-neige à deux essieux des RhB de 1903, avec une grande étrave à l’avant, aujourd’hui véhicule de service WN 9859. Le dessin le montre dans la livrée brun-rouge avec l’inscription « RhB ». Contrairement au chasse-neige X 9132, il n’est pas en état de marche. Il appartient au Bahnmuseum Albula et est actuellement remisé au dépôt de Samedan.",
+     "stx": "remisé au dépôt de Samedan"
     },
     "it": {
      "n": "Spazzaneve a vomere",
-     "p": "Spazzaneve a due assi della RhB del 1903 con un grande vomere a cuneo sul davanti, oggi veicolo di servizio WN 9859. Il disegno lo mostra nella livrea rosso-bruna con la scritta «RhB». A differenza dello spartineve X 9132, non è in grado di circolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Spazzaneve a due assi della RhB del 1903 con un grande vomere a cuneo sul davanti, oggi veicolo di servizio WN 9859. Il disegno lo mostra nella livrea rosso-bruna con la scritta «RhB». A differenza dello spartineve X 9132, non è in grado di circolare. Appartiene al Bahnmuseum Albula ed è attualmente ricoverato nel deposito di Samedan.",
+     "stx": "ricoverato nel deposito di Samedan"
     },
     "en": {
      "n": "Snow plough",
-     "p": "Two-axle RhB snow plough from 1903 with a large wedge plough at the front, today service vehicle WN 9859. The drawing shows it in red-brown livery with the lettering «RhB». Unlike the snow plough X 9132, it is not in working order. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Two-axle RhB snow plough from 1903 with a large wedge plough at the front, today service vehicle WN 9859. The drawing shows it in red-brown livery with the lettering «RhB». Unlike the snow plough X 9132, it is not in working order. It belongs to the Bahnmuseum Albula and is currently kept in the Samedan depot.",
+     "stx": "kept in the Samedan depot"
     }
    },
    "m": [
@@ -879,7 +882,8 @@
     "Schneepflug"
    ],
    "img": "img/fz/x-9103",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "stx": "eingestellt im Depot Samedan"
   },
   {
    "id": "x-9132",
