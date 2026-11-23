@@ -371,6 +371,44 @@
    "stx": "Bahnmuseum Albula, Bergün"
   },
   {
+   "id": "ge44i-602",
+   "nr": "Ge 4/4 I 602",
+   "n": "Bernina",
+   "kat": "dg",
+   "bj": "1947",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "abg",
+   "stx": "Landquart",
+   "col": "#2f6b3a",
+   "len": 12.1,
+   "gr": "rhb",
+   "mit": [
+    "gc"
+   ],
+   "p": "Lok aus der ersten Serie der Ge 4/4 I von 1947, die die Nummern 601 bis 604 umfasste; die 605 «Silvretta» gehört zur zweiten Serie. Die Skizze zeigt sie in der früheren grünen Farbgebung mit der Anschrift «Rh B» und dem Namen «Bernina». Zurzeit ist die Lok in Landquart abgestellt; als mögliches Projekt von Grün & Chrom könnte sie für Historic RhB wieder aufgearbeitet werden. Das Fahrzeug ist Eigentum der Rhätischen Bahn.",
+   "i18n": {
+    "fr": {
+     "stx": "Landquart",
+     "p": "Locomotive de la première série de Ge 4/4 I de 1947, qui comprenait les numéros 601 à 604 ; la 605 « Silvretta » fait partie de la deuxième série. Le dessin la montre dans l’ancienne livrée verte avec l’inscription « Rh B » et le nom « Bernina ». La locomotive est actuellement garée à Landquart ; en tant que projet possible de Grün & Chrom, elle pourrait être restaurée pour Historic RhB. Le véhicule appartient aux Chemins de fer rhétiques."
+    },
+    "it": {
+     "stx": "Landquart",
+     "p": "Locomotiva della prima serie di Ge 4/4 I del 1947, che comprendeva i numeri da 601 a 604; la 605 «Silvretta» appartiene alla seconda serie. Il disegno la mostra nella vecchia livrea verde con la scritta «Rh B» e il nome «Bernina». Attualmente la locomotiva è accantonata a Landquart; come possibile progetto di Grün & Chrom potrebbe essere restaurata per Historic RhB. Il veicolo è di proprietà della Ferrovia retica."
+    },
+    "en": {
+     "stx": "Landquart",
+     "p": "Locomotive from the first series of Ge 4/4 I of 1947, which comprised numbers 601 to 604; No. 605 «Silvretta» belongs to the second series. The drawing shows it in the former green livery with the lettering «Rh B» and the name «Bernina». The locomotive is currently stored in Landquart; as a possible project of Grün & Chrom, it could be restored for Historic RhB. The vehicle is owned by the Rhaetian Railway."
+    }
+   },
+   "m": [
+    "Ge 4/4 I 602",
+    "Bernina"
+   ],
+   "img": "img/fz/ge44i-602",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "ge44i-605",
    "nr": "Ge 4/4 I 605",
    "n": "Silvretta",
