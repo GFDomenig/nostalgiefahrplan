@@ -570,6 +570,36 @@
    "gr": "rhb"
   },
   {
+   "id": "ge66ii-707",
+   "nr": "Ge 6/6 II 707",
+   "n": "Scuol",
+   "kat": "dg6",
+   "bj": "1965",
+   "b": "rhb",
+   "st": "",
+   "col": "#c8102e",
+   "len": 14.5,
+   "gr": "rhb",
+   "p": "Schwere Güterzuglok der Reihe Ge 6/6 II mit drei Drehgestellen, 1965 in Dienst gestellt. Die 707 wurde als künftige historische Lok und Vertreterin der Serie 701–707 bestimmt, weil sie technisch im besten Zustand war. Sie soll die RhB der 1970er- und 1980er-Jahre zeigen: grün lackiert, mit Scherenstromabnehmern und runden Stirnlampen.",
+   "i18n": {
+    "fr": {
+     "p": "Lourde locomotive marchandises de la série Ge 6/6 II à trois bogies, mise en service en 1965. La 707 a été désignée future locomotive historique et représentante de la série 701–707, car elle était techniquement en meilleur état. Elle doit montrer les RhB des années 1970 et 1980 : livrée verte, pantographes en losange et phares ronds."
+    },
+    "it": {
+     "p": "Pesante locomotiva merci della serie Ge 6/6 II a tre carrelli, entrata in servizio nel 1965. La 707 è stata scelta come futura locomotiva storica e rappresentante della serie 701–707, perché era tecnicamente nelle condizioni migliori. Dovrà mostrare la RhB degli anni 1970 e 1980: livrea verde, pantografi a losanga e fari rotondi."
+    },
+    "en": {
+     "p": "Heavy freight locomotive of the Ge 6/6 II class with three bogies, in service since 1965. No. 707 was chosen as the future historic representative of the 701–707 series because it was in the best technical condition. It is to show the RhB of the 1970s and 1980s: green livery, diamond pantographs and round headlamps."
+    }
+   },
+   "m": [
+    "Ge 6/6 II 707",
+    "Scuol"
+   ],
+   "img": "img/fz/ge66ii-707",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "c-114",
    "nr": "C 114",
    "n": "La Bucunada",
