@@ -544,6 +544,35 @@
    "gr": "rhb"
   },
   {
+   "id": "ge44iii-652",
+   "nr": "Ge 4/4 III 652",
+   "n": "Vaz/Obervaz Lenzerheide-Valbella",
+   "kat": "dg",
+   "bj": "1999",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#2a6fd6",
+   "len": 16.0,
+   "gr": "rhb",
+   "p": "Lok der dritten Ge-4/4-Generation, die ab 1993 in Dienst kam; die 652 wurde im November 1999 in Betrieb genommen. Sie trägt eine Werbebemalung für den HC Davos und die Graubündner Kantonalbank und zieht Regio-Express- und Güterzüge. Sie ist kein historisches Fahrzeug, zeigt aber zum Vergleich die heutige RhB.",
+   "i18n": {
+    "fr": {
+     "p": "Locomotive de la troisième génération Ge 4/4, mise en service à partir de 1993 ; la 652 circule depuis novembre 1999. Elle porte une livrée publicitaire pour le HC Davos et la Banque cantonale des Grisons et tire des RegioExpress et des trains de marchandises. Ce n’est pas un véhicule historique, mais elle montre à titre de comparaison les RhB d’aujourd’hui."
+    },
+    "it": {
+     "p": "Locomotiva della terza generazione Ge 4/4, in servizio dal 1993; la 652 è entrata in esercizio nel novembre 1999. Porta una livrea pubblicitaria per l’HC Davos e la Banca cantonale grigione e traina RegioExpress e treni merci. Non è un veicolo storico, ma mostra a confronto la RhB di oggi."
+    },
+    "en": {
+     "p": "Locomotive of the third Ge 4/4 generation, introduced from 1993; no. 652 entered service in November 1999. It carries an advertising livery for HC Davos and the Graubündner Kantonalbank and hauls RegioExpress and freight trains. It is not a historic vehicle but shows today’s RhB for comparison."
+    }
+   },
+   "m": [
+    "Ge 4/4 III 652"
+   ],
+   "img": "img/fz/ge44iii-652",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "ge66ii-702",
    "nr": "Ge 6/6 II 702",
    "n": "Curia",
