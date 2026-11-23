@@ -760,23 +760,26 @@
    "bj": "",
    "b": "vps",
    "st": "",
-   "col": "#1f3a6b",
-   "p": "Weiterer Salonwagen in der Obhut des Vereins Pro Salonwagen RhB.",
+   "col": "#2f6b3a",
+   "p": "Salonwagen erster Klasse in der Obhut des Vereins Pro Salonwagen RhB. Die Skizze zeigt ihn mit seiner früheren Nummer 61 in der crème-grünen Farbgebung, mit Abteilen für Raucher und Nichtraucher.",
    "i18n": {
     "fr": {
-     "p": "Autre voiture-salon confiée à l’association Pro Salonwagen RhB."
+     "p": "Voiture-salon de première classe confiée à l’association Pro Salonwagen RhB. Le dessin la montre avec son ancien numéro 61, dans la livrée crème et verte, avec compartiments fumeurs et non-fumeurs."
     },
     "it": {
-     "p": "Altra carrozza salone affidata all’associazione Pro Salonwagen RhB."
+     "p": "Carrozza salone di prima classe affidata all’associazione Pro Salonwagen RhB. Il disegno la mostra con il vecchio numero 61, nella livrea crema e verde, con scompartimenti fumatori e non fumatori."
     },
     "en": {
-     "p": "Another saloon car in the care of the Verein Pro Salonwagen RhB."
+     "p": "First-class saloon car in the care of the Verein Pro Salonwagen RhB. The drawing shows it with its former number 61 in the cream and green livery, with smoking and non-smoking sections."
     }
    },
    "m": [
     "As 1161"
    ],
-   "gr": "wagen"
+   "gr": "wagen",
+   "img": "img/fz/as-1161",
+   "imgc": "U. Finke",
+   "len": 16.44
   },
   {
    "id": "wr-3820",
