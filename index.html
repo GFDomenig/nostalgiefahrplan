@@ -148,6 +148,8 @@ html{scroll-padding-top:120px}
 .tlinks{display:flex;gap:4px;margin-left:auto;overflow-x:auto;scrollbar-width:none}
 .tlinks::-webkit-scrollbar{display:none}
 .tlinks a{flex:none;color:#e9e9e4;text-decoration:none;font:600 17px "Barlow Condensed",sans-serif;padding:9px 13px;border-radius:6px;white-space:nowrap;border-bottom:3px solid transparent}
+.tlinks a.mitl{display:inline-flex;align-items:center;gap:5px;border:1px solid rgba(255,255,255,.35);margin-left:6px}@media(max-width:720px){.tlinks a.mitl span{display:none}.tlinks a.mitl{margin-left:2px;padding:7px 6px}}
+.mitf{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:18px 0;max-width:560px}.mitf input{flex:1 1 220px;font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:6px;min-height:43px;box-sizing:border-box}.mitf label{width:100%;font-weight:600}.mitf .note{width:100%;margin:0}
 .tlinks a:hover{background:rgba(255,255,255,.1)}
 .tlinks a[aria-current=page]{color:#fff;border-bottom-color:var(--red);border-radius:6px 6px 0 0}
 @media(max-width:720px){.tbrand{font-size:0;gap:0;flex:none;padding:3px}.tbrand img{width:34px;height:34px}.topin{gap:4px;padding:0 8px}.tlinks{margin-left:0;gap:0}.tlinks a{padding:9px 6px;font-size:15px}}
@@ -235,13 +237,14 @@ footer p{max-width:80ch}
 @media(max-width:600px){.ovbar .home span{display:none}}
 .flnote{font-size:14px;color:var(--mut);margin:8px 0 0}
 @media(max-width:600px){.brand{top:auto;bottom:12px;right:16px}.brand img.logo{width:64px}.langs{position:absolute;top:auto;bottom:0;right:76px;gap:2px;padding:4px}.langs button{min-width:38px}.langs svg,.langs .tx{width:30px;height:20px}.credit{bottom:62px!important;max-width:calc(100% - 32px)!important}}
+@media(max-width:420px){.tlinks a{padding:9px 4px;font-size:14px}.tlinks a.mitl{padding:7px 5px}.topin{padding:0 5px;gap:3px}}
 </style>
 <script src="js/i18n.js"></script>
 </head>
 <body>
 <nav class="top" id="top" data-ia="nav_aria"><div class="topin">
  <a class="tbrand" href="./" data-s="fahrten"><img src="img/logo-160.png" width="38" height="38" alt=""><span data-i="home_l"></span></a>
- <div class="tlinks"><a href="#liste" data-s="fahrten" data-i="nav_fahrten"></a><a href="#news" data-s="news" data-i="nav_news"></a><a href="#fahrzeuge" data-s="fz" data-i="nav_fz"></a><a href="#ueber" data-s="ueber" data-i="nav_ueber"></a></div>
+ <div class="tlinks"><a href="#liste" data-s="fahrten" data-i="nav_fahrten"></a><a href="#news" data-s="news" data-i="nav_news"></a><a href="#fahrzeuge" data-s="fz" data-i="nav_fz"></a><a href="#ueber" data-s="ueber" data-i="nav_ueber"></a><a href="#mitglieder" data-s="mit" class="mitl"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm-3 8V7a3 3 0 0 1 6 0v3z"/></svg> <span data-i="nav_mit"></span></a></div>
 </div></nav>
 <header class="hero">
  <img id="heroimg" src="img/titel-1200.jpg" srcset="img/titel-800.jpg 800w, img/titel-1200.jpg 1200w, img/titel-2400.jpg 2400w" sizes="100vw" alt="" fetchpriority="high">
@@ -543,17 +546,18 @@ const board=()=>{const seen=new Set(),_e=pd(TODAY);_e.setDate(_e.getDate()+30);c
 const stats=()=>{const up=OCC.filter(oc=>oc.end>=TODAY);document.getElementById("stats").innerHTML=`<div class="stat"><b>${up.length}</b><span>${L("st_up")}</span></div><div class="stat"><b>${Object.keys(OPS).length}</b><span>${L("st_ops")}</span></div><div class="stat"><b>${new Set(up.filter(oc=>oc.day<"2027-01-01").map(oc=>oc.i)).size}</b><span>${L("st_adv")}</span></div>`};
 const render=()=>{const v=document.getElementById("view");
  document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.v===st.v));
- const isD=st.v.startsWith("fahrt-"),isF=st.v==="fahrzeuge"||st.v.startsWith("fz-"),isO=st.v==="ueber"||st.v.startsWith("org-");
- document.body.classList.toggle("nv",st.v==="news"||isD);document.body.classList.toggle("sec",isF||isO||st.v==="news");document.body.classList.toggle("home",!!st.home);document.body.classList.toggle("opv",st.v==="veranstalter");
- const sec=isF?"fz":isO?"ueber":st.v==="news"?"news":"fahrten";{const key=st.home?"home":sec;if(LASTSEC!==undefined&&LASTSEC!==key&&!isD&&!/^(fz|org)-/.test(st.v)){window.scrollTo({top:0});requestAnimationFrame(()=>window.scrollTo({top:0}))}LASTSEC=key}setHero(st.home?"def":sec);document.getElementById("hsub").textContent=st.home?"":"– "+L(sec==="news"?"nav_news":sec==="fz"?"nav_fz":sec==="ueber"?"nav_ueber":"nav_fahrten");document.querySelectorAll(".tlinks a,.tbrand").forEach(a=>{if(!st.home&&a.dataset.s===sec&&a.closest(".tlinks"))a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
+ const isD=st.v.startsWith("fahrt-"),isF=st.v==="fahrzeuge"||st.v.startsWith("fz-"),isO=st.v==="ueber"||st.v.startsWith("org-"),isM=st.v==="mitglieder";
+ document.body.classList.toggle("nv",st.v==="news"||isD);document.body.classList.toggle("sec",isF||isO||isM||st.v==="news");document.body.classList.toggle("home",!!st.home);document.body.classList.toggle("opv",st.v==="veranstalter");
+ const sec=isM?"mit":isF?"fz":isO?"ueber":st.v==="news"?"news":"fahrten";{const key=st.home?"home":sec;if(LASTSEC!==undefined&&LASTSEC!==key&&!isD&&!/^(fz|org)-/.test(st.v)){window.scrollTo({top:0});requestAnimationFrame(()=>window.scrollTo({top:0}))}LASTSEC=key}setHero(st.home?"def":sec);document.getElementById("hsub").textContent=st.home?"":"– "+L(sec==="news"?"nav_news":sec==="fz"?"nav_fz":sec==="ueber"?"nav_ueber":sec==="mit"?"nav_mit":"nav_fahrten");document.querySelectorAll(".tlinks a,.tbrand").forEach(a=>{if(!st.home&&a.dataset.s===sec&&a.closest(".tlinks"))a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
  if(MAP){MAP.remove();MAP=null}
- v.innerHTML=isD?vDetail(st.v.slice(6)):st.v==="fahrzeuge"?vFz():st.v.startsWith("fz-")?vFzD(st.v.slice(3)):st.v==="ueber"?vUe():st.v.startsWith("org-")?vOrg(st.v.slice(4)):st.v==="liste"?vList():st.v==="kalender"?vCal():st.v==="karte"?vMap():st.v==="news"?vNews():vOps();
+ v.innerHTML=isM?vMit():isD?vDetail(st.v.slice(6)):st.v==="fahrzeuge"?vFz():st.v.startsWith("fz-")?vFzD(st.v.slice(3)):st.v==="ueber"?vUe():st.v.startsWith("org-")?vOrg(st.v.slice(4)):st.v==="liste"?vList():st.v==="kalender"?vCal():st.v==="karte"?vMap():st.v==="news"?vNews():vOps();
  if(st.v==="karte")drawMap();
  if(isD){const t=T[TID[st.v.slice(6)]];document.title=(t?LT(t,"t")+" – ":"")+"Historic RhB";const T2=document.getElementById("toast");
   const ib=document.getElementById("icsb");if(ib)ib.onclick=()=>{const b=new Blob([ics(t,nextDay(t))],{type:"text/calendar"}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=t.id+".ics";document.body.appendChild(a);a.click();a.remove();T2.textContent=L("ics_ok")};
   const cb=document.getElementById("cpy");if(cb)cb.onclick=()=>{const u=location.href;navigator.clipboard.writeText(u).then(()=>T2.textContent=L("copied"),()=>T2.textContent=u)};
   goMain()} else if(st.v.startsWith("fz-")||st.v.startsWith("org-")){const x=st.v.startsWith("fz-")?FZ.find(y=>y.id===st.v.slice(3)):OK[st.v.slice(4)];document.title=(x?(x.nr||x.n)+" – ":"")+"Historic RhB";goMain()} else document.title="Historic RhB";
  if(st.v==="fahrzeuge"&&PEND){const h=document.getElementById("fzg-"+PEND);PEND=null;if(h){const b=document.querySelector(".bar"),off=document.getElementById("top").offsetHeight+(getComputedStyle(b).display==="none"||getComputedStyle(b).position!=="sticky"?0:b.offsetHeight);window.scrollTo({top:h.getBoundingClientRect().top+scrollY-off-12})}}
+ if(isM)bindMit();
  if(st.v==="news")document.getElementById("nf").onchange=e=>{nf=e.target.value;render()};
  if(st.v==="kalender"){document.getElementById("pm").onclick=()=>{st.cm=new Date(st.cm.getFullYear(),st.cm.getMonth()-1,1);render()};
   document.getElementById("nm").onclick=()=>{st.cm=new Date(st.cm.getFullYear(),st.cm.getMonth()+1,1);render()};
@@ -561,6 +565,20 @@ const render=()=>{const v=document.getElementById("view");
 var LASTSEC;let PEND=null;document.addEventListener("click",e=>{const a=e.target.closest("a[data-g]");if(a)PEND=a.dataset.g},true);
 const HERO={def:{f:"titel",w:[800,1200,2400],c:"credit",pos:"62% 58%"},news:{f:"news",w:[800,1200],c:"credit_news",pos:"50% 60%"},fahrten:{f:"fahrten",w:[800,1200],c:"credit_fahrten",pos:"60% 55%"},ueber:{f:"ueber",w:[800,1144],c:"credit_ueber",pos:"50% 62%"},fz:{f:"fz",w:[800,1144],c:"credit_fz",pos:"60% 55%"}};
 const setHero=sec=>{const h=HERO[sec]||HERO.def,i=document.getElementById("heroimg");const ss=h.w.map(w=>`img/${h.f}-${w}.jpg ${w}w`).join(", ");if(i.getAttribute("srcset")!==ss){i.setAttribute("srcset",ss);i.src=`img/${h.f}-${h.w[1]||h.w[0]}.jpg`}i.style.objectPosition=h.pos;const c=document.querySelector(".hero .credit");c.dataset.i=h.c;c.textContent=L(h.c)};
+let MIT=null;
+const b64=x=>Uint8Array.from(atob(x),c=>c.charCodeAt(0));
+const unlock=async pw=>{const e=await fetch("data/mitglieder.enc.json",{cache:"no-cache"}).then(r=>r.json());const km=await crypto.subtle.importKey("raw",new TextEncoder().encode(pw),"PBKDF2",false,["deriveKey"]);
+ const key=await crypto.subtle.deriveKey({name:"PBKDF2",salt:b64(e.salt),iterations:e.it,hash:"SHA-256"},km,{name:"AES-GCM",length:256},false,["decrypt"]);
+ const pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b64(e.iv)},key,b64(e.ct));return JSON.parse(new TextDecoder().decode(pt))};
+const TL=o=>o?(o[LG]||o.de):"";
+const vMit=()=>{if(!MIT)return `<h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L("nav_mit")}</h2><p style="max-width:62ch">${L("mit_lede")}</p>
+ <form id="mitf" class="mitf"><label for="mitpw">${L("mit_pw")}</label><input type="password" id="mitpw" autocomplete="current-password" required><button class="btn p it" type="submit">${L("mit_go")}</button><p class="note" id="mitmsg" role="status"></p></form>`;
+ let cur="";const tr=MIT.fahrten.map(f=>{const d=f.d?pd(f.d):null;const o=OK[f.o];const g=d?(x=>x.charAt(0).toUpperCase()+x.slice(1))(MO()[d.getMonth()])+" "+d.getFullYear():TL(f.grp);const hd=g!==cur?`<h2 class="month">${esc(g)}</h2>`:"";cur=g;return hd+`<article class="trip hrt"><div class="dt">${d?`${d.getDate()}.${d.getMonth()+1}.<small>${WD()[d.getDay()]}${f.h?" · "+f.h:""}</small>`:esc(TL(f.dl))}</div><div><h3>${esc(TL(f.t))} <span class="hrb">${L("nav_mit")}</span></h3><div class="meta">${o?esc(o.n):""}${f.r?" · "+esc(f.r):""}</div><p class="desc">${esc(TL(f.x))}</p></div><div class="act"><a class="btn p it" href="${f.b}">${L("info_t")}</a></div></article>`}).join("");
+ return `<div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap"><h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L("nav_mit")}</h2><button class="btn" id="mitout">${L("mit_out")}</button></div><p style="max-width:62ch">${esc(TL(MIT.intro))}</p><h3 style="margin:26px 0 0">${L("mit_trips")}</h3>${tr}`};
+const bindMit=()=>{const f=document.getElementById("mitf");if(f)f.onsubmit=async e=>{e.preventDefault();const m=document.getElementById("mitmsg");m.textContent=L("mit_wait");const pw=document.getElementById("mitpw").value;
+  try{MIT=await unlock(pw);try{sessionStorage.setItem("mitpw",pw)}catch(x){}render()}catch(x){m.textContent=L("mit_bad")}};
+ const o=document.getElementById("mitout");if(o)o.onclick=()=>{MIT=null;try{sessionStorage.removeItem("mitpw")}catch(x){}render()}};
+try{const pw=sessionStorage.getItem("mitpw");if(pw)unlock(pw).then(d=>{MIT=d;if(st.v==="mitglieder")render()}).catch(()=>{})}catch(e){}
 const goMain=()=>{const v=document.getElementById("view"),b=document.querySelector(".bar"),off=document.getElementById("top").offsetHeight+(getComputedStyle(b).display==="none"||getComputedStyle(b).position!=="sticky"?0:b.offsetHeight);window.scrollTo({top:v.getBoundingClientRect().top+scrollY-off-8,behavior:"smooth"})};
 const all=()=>{statics();opts();standTxt();board();stats();teaser();render()};
 const setV=v=>{const wasHome=st.home;st.home=false;st.v=v;if(location.hash!=="#"+v)history.replaceState(null,"","#"+v);render();if(wasHome)window.scrollTo({top:0})};
@@ -569,9 +587,9 @@ document.querySelectorAll(".langs button").forEach(b=>b.onclick=()=>{LG=b.datase
 document.addEventListener("click",e=>{const b=e.target.closest("[data-op]");if(!b)return;e.preventDefault();st.op=b.dataset.op;document.getElementById("op").value=st.op;setV("liste")});
 document.getElementById("hr").onchange=e=>{st.hr=e.target.checked;render()};
 ["q","kt","tr","th","op"].forEach(id=>document.getElementById(id).addEventListener("input",e=>{st[id]=e.target.value;render()}));
-const fromHash=()=>{const h=location.hash.slice(1);st.home=(h===""||h==="start");if(st.home)st.v="liste";if(["liste","kalender","karte","veranstalter","news","fahrzeuge","ueber"].includes(h)||/^(fahrt|fz|org)-/.test(h))st.v=h;render()};
+const fromHash=()=>{const h=location.hash.slice(1);st.home=(h===""||h==="start");if(st.home)st.v="liste";if(["liste","kalender","karte","veranstalter","news","fahrzeuge","ueber","mitglieder"].includes(h)||/^(fahrt|fz|org)-/.test(h))st.v=h;render()};
 document.querySelectorAll(".tlinks a,.tbrand").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();e.stopPropagation();if(!ov.hidden){closeOv(true);ovHist=false}const s2=a.dataset.s;
- const v2=s2==="fahrten"?(["liste","kalender","karte","veranstalter"].includes(st.v)?st.v:"liste"):s2==="news"?"news":s2==="fz"?"fahrzeuge":"ueber";
+ const v2=s2==="fahrten"?(["liste","kalender","karte","veranstalter"].includes(st.v)?st.v:"liste"):s2==="news"?"news":s2==="fz"?"fahrzeuge":s2==="mit"?"mitglieder":"ueber";
  if(a.classList.contains("tbrand")){st.v="liste";st.home=true;history.pushState(null,"",location.pathname+location.search);render();window.scrollTo({top:0,behavior:"smooth"});return}
 st.home=false;st.v=v2;if(location.hash!=="#"+v2)history.pushState(null,"","#"+v2);render();window.scrollTo({top:0})}));
 window.addEventListener("hashchange",fromHash);

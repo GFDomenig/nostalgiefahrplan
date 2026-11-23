@@ -78,3 +78,11 @@ Regeln für Aktualisierungen (Fahrten und News):
 
 - Beschreibungen (`p`): höchstens 1000 Anschläge pro Sprache (inkl. Leerzeichen).
 - Bildnachweis `imgc`: wird als «Zeichnung: © …» und auf der Karte als «© …» angezeigt. Abweichender Bildnachweis als ganzer Text in `imgcap`, z. B. Ge 4/4 II 626: «Foto Gaudenz Domenig, Skizze Claude».
+
+## Mitgliederbereich
+
+- Der Inhalt liegt nur verschlüsselt im Repository: `data/mitglieder.enc.json` (AES-256-GCM, Schlüssel per PBKDF2-SHA256 mit 310 000 Iterationen). Entschlüsselt wird im Browser mit dem Passwort; ohne Passwort ist der Inhalt nicht lesbar.
+- Klartext (JSON mit `intro` und `fahrten`) liegt ausserhalb des Repositorys. Nach jeder Änderung neu verschlüsseln: `python3 tools/encrypt_members.py <klartext.json> <passwort>`.
+- Passwort wechseln = mit neuem Passwort neu verschlüsseln. Das alte Passwort funktioniert danach nicht mehr.
+- Grenzen: ein gemeinsames Passwort für alle; keine persönlichen Konten, keine Sperre nach Fehlversuchen. Wer das Passwort weitergibt, gibt den Zugang weiter. Für persönliche Logins braucht es später einen Server oder einen Dienst (z. B. das Login des RhB-Shops).
+- Die wöchentliche Aktualisierung kennt das Passwort nicht und ändert den Mitgliederbereich nicht.
