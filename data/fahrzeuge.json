@@ -10,16 +10,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#23272b",
-   "p": "Die älteste Lokomotive der RhB, gebaut für die Eröffnung der Schmalspurbahn Landquart–Davos. Die Restaurierung finanzierte eine Projektgruppe aus Club 1889 und Dampffreunden unter dem Dach von Historic RhB; im September 2026 wurde die Lok in Schiers mit einer eigens komponierten Operette neu eingeweiht.",
+   "p": "Die älteste Lokomotive der RhB, gebaut für die Eröffnung der Schmalspurbahn Landquart–Davos. Die Restaurierung finanzierte eine Projektgruppe aus Club 1889 und Dampffreunden unter dem Dach von Historic RhB; im September 2026 wurde die Lok in Schiers mit einer eigens komponierten Operette neu eingeweiht. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "La plus ancienne locomotive des RhB, construite pour l’ouverture de la ligne Landquart–Davos. Sa restauration a été financée par un groupe de projet du Club 1889 et des Dampffreunde sous l’égide de Historic RhB ; elle a été réinaugurée en septembre 2026 à Schiers avec une opérette composée pour l’occasion."
+     "p": "La plus ancienne locomotive des RhB, construite pour l’ouverture de la ligne Landquart–Davos. Sa restauration a été financée par un groupe de projet du Club 1889 et des Dampffreunde sous l’égide de Historic RhB ; elle a été réinaugurée en septembre 2026 à Schiers avec une opérette composée pour l’occasion. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "La locomotiva più antica della RhB, costruita per l’apertura della Landquart–Davos. Il restauro è stato finanziato da un gruppo di progetto di Club 1889 e Dampffreunde sotto l’egida di Historic RhB; nel settembre 2026 è stata reinaugurata a Schiers con un’operetta composta per l’occasione."
+     "p": "La locomotiva più antica della RhB, costruita per l’apertura della Landquart–Davos. Il restauro è stato finanziato da un gruppo di progetto di Club 1889 e Dampffreunde sotto l’egida di Historic RhB; nel settembre 2026 è stata reinaugurata a Schiers con un’operetta composta per l’occasione. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "The RhB’s oldest locomotive, built for the opening of the Landquart–Davos line. Its restoration was funded by a project group of Club 1889 and the Dampffreunde under the Historic RhB umbrella; it was rededicated in Schiers in September 2026 with a specially composed operetta."
+     "p": "The RhB’s oldest locomotive, built for the opening of the Landquart–Davos line. Its restoration was funded by a project group of Club 1889 and the Dampffreunde under the Historic RhB umbrella; it was rededicated in Schiers in September 2026 with a specially composed operetta. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -45,16 +45,16 @@
    "b": "club1889",
    "st": "betr",
    "col": "#23272b",
-   "p": "Leichte Dampflok derselben Bauart wie die «Rhætia»; sie stand bis 1977 im Plandienst und wird heute mit Öl gefeuert. Sie fährt bei Dampffahrten im Engadin und auf der Albulalinie, oft zusammen mit einer G 4/5.",
+   "p": "Leichte Dampflok derselben Bauart wie die «Rhætia»; sie stand bis 1977 im Plandienst und wird heute mit Öl gefeuert. Sie fährt bei Dampffahrten im Engadin und auf der Albulalinie, oft zusammen mit einer G 4/5. Die Lok ist Eigentum des Club 1889, der sie gerettet und aufgearbeitet hat; sie fährt unter der Marke Historic RhB.",
    "i18n": {
     "fr": {
-     "p": "Locomotive à vapeur légère du même type que la « Rhætia » ; en service régulier jusqu’en 1977, elle est aujourd’hui chauffée au mazout. Elle circule lors des voyages à vapeur en Engadine et sur l’Albula, souvent avec une G 4/5."
+     "p": "Locomotive à vapeur légère du même type que la « Rhætia » ; en service régulier jusqu’en 1977, elle est aujourd’hui chauffée au mazout. Elle circule lors des voyages à vapeur en Engadine et sur l’Albula, souvent avec une G 4/5. La locomotive appartient au Club 1889, qui l’a sauvée et restaurée ; elle circule sous la marque Historic RhB."
     },
     "it": {
-     "p": "Locomotiva a vapore leggera dello stesso tipo della «Rhætia»; in servizio regolare fino al 1977, oggi è alimentata a olio. Circola nei viaggi a vapore in Engadina e sull’Albula, spesso insieme a una G 4/5."
+     "p": "Locomotiva a vapore leggera dello stesso tipo della «Rhætia»; in servizio regolare fino al 1977, oggi è alimentata a olio. Circola nei viaggi a vapore in Engadina e sull’Albula, spesso insieme a una G 4/5. La locomotiva è di proprietà del Club 1889, che l’ha salvata e restaurata; circola con il marchio Historic RhB."
     },
     "en": {
-     "p": "Light steam locomotive of the same type as «Rhætia»; in regular service until 1977, it is now oil-fired. It runs on steam trips in the Engadine and on the Albula line, often together with a G 4/5."
+     "p": "Light steam locomotive of the same type as «Rhætia»; in regular service until 1977, it is now oil-fired. It runs on steam trips in the Engadine and on the Albula line, often together with a G 4/5. The locomotive is owned by Club 1889, which rescued and restored it; it runs under the Historic RhB brand."
     }
    },
    "m": [
@@ -76,16 +76,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#23272b",
-   "p": "Eine von 29 Dampfloks der Reihe G 4/5 und zusammen mit der 108 die erste RhB-Lok mit Heissdampf. Sie ist in Samedan stationiert und zieht Dampfextrazüge, etwa den Samiklaus-Express.",
+   "p": "Eine von 29 Dampfloks der Reihe G 4/5 und zusammen mit der 108 die erste RhB-Lok mit Heissdampf. Sie ist in Samedan stationiert und zieht Dampfextrazüge, etwa den Samiklaus-Express. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "L’une des 29 locomotives G 4/5 et, avec la 108, la première locomotive RhB à vapeur surchauffée. Basée à Samedan, elle tire des trains spéciaux à vapeur, comme le Samiklaus-Express."
+     "p": "L’une des 29 locomotives G 4/5 et, avec la 108, la première locomotive RhB à vapeur surchauffée. Basée à Samedan, elle tire des trains spéciaux à vapeur, comme le Samiklaus-Express. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Una delle 29 locomotive G 4/5 e, con la 108, la prima locomotiva RhB a vapore surriscaldato. Ha sede a Samedan e traina treni speciali a vapore, come il Samiklaus-Express."
+     "p": "Una delle 29 locomotive G 4/5 e, con la 108, la prima locomotiva RhB a vapore surriscaldato. Ha sede a Samedan e traina treni speciali a vapore, come il Samiklaus-Express. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "One of 29 G 4/5 steam locomotives and, together with no. 108, the first RhB locomotive with superheated steam. Based in Samedan, it hauls steam specials such as the Samiklaus-Express."
+     "p": "One of 29 G 4/5 steam locomotives and, together with no. 108, the first RhB locomotive with superheated steam. Based in Samedan, it hauls steam specials such as the Samiklaus-Express. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -107,16 +107,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#23272b",
-   "p": "Schwesterlok der 107, ebenfalls mit Heissdampf und in Samedan stationiert. Sie fährt Dampfzüge auf dem Stammnetz, etwa ins Unterengadin oder über die Albula.",
+   "p": "Schwesterlok der 107, ebenfalls mit Heissdampf und in Samedan stationiert. Sie fährt Dampfzüge auf dem Stammnetz, etwa ins Unterengadin oder über die Albula. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Sœur de la 107, également à vapeur surchauffée et basée à Samedan. Elle tire des trains à vapeur sur le réseau principal, par exemple en Basse-Engadine ou sur l’Albula."
+     "p": "Sœur de la 107, également à vapeur surchauffée et basée à Samedan. Elle tire des trains à vapeur sur le réseau principal, par exemple en Basse-Engadine ou sur l’Albula. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Gemella della 107, anch’essa a vapore surriscaldato e con sede a Samedan. Traina treni a vapore sulla rete principale, ad esempio in Bassa Engadina o sull’Albula."
+     "p": "Gemella della 107, anch’essa a vapore surriscaldato e con sede a Samedan. Traina treni a vapore sulla rete principale, ad esempio in Bassa Engadina o sull’Albula. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Sister of no. 107, also superheated and based in Samedan. It hauls steam trains on the core network, for example to the Lower Engadine or over the Albula."
+     "p": "Sister of no. 107, also superheated and based in Samedan. It hauls steam trains on the core network, for example to the Lower Engadine or over the Albula. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -138,16 +138,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "",
-   "p": "Aus der ersten Serie elektrischer Lokomotiven, 1912–1913 für die neu elektrifizierte Engadinerlinie beschafft. Als einzige ihrer Klasse ist sie noch betriebsfähig.",
+   "p": "Aus der ersten Serie elektrischer Lokomotiven, 1912–1913 für die neu elektrifizierte Engadinerlinie beschafft. Als einzige ihrer Klasse ist sie noch betriebsfähig. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Issue de la première série de locomotives électriques, acquise en 1912–1913 pour la ligne de l’Engadine nouvellement électrifiée. C’est la seule de sa série encore en état de marche."
+     "p": "Issue de la première série de locomotives électriques, acquise en 1912–1913 pour la ligne de l’Engadine nouvellement électrifiée. C’est la seule de sa série encore en état de marche. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Della prima serie di locomotive elettriche, acquistata nel 1912–1913 per la linea dell’Engadina appena elettrificata. È l’unica della sua serie ancora in esercizio."
+     "p": "Della prima serie di locomotive elettriche, acquistata nel 1912–1913 per la linea dell’Engadina appena elettrificata. È l’unica della sua serie ancora in esercizio. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "From the first series of electric locomotives, bought in 1912–1913 for the newly electrified Engadine line. It is the only one of its class still in working order."
+     "p": "From the first series of electric locomotives, bought in 1912–1913 for the newly electrified Engadine line. It is the only one of its class still in working order. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -169,16 +169,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "",
-   "p": "Eine von nur acht Lokomotiven der Reihe Ge 4/6, der ersten grösseren Elektroloks der RhB. Bei historischen Anlässen fährt sie oft zusammen mit der Ge 2/4 222.",
+   "p": "Eine von nur acht Lokomotiven der Reihe Ge 4/6, der ersten grösseren Elektroloks der RhB. Bei historischen Anlässen fährt sie oft zusammen mit der Ge 2/4 222. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "L’une des huit seules locomotives Ge 4/6, les premières grandes locomotives électriques des RhB. Lors d’événements historiques, elle circule souvent avec la Ge 2/4 222."
+     "p": "L’une des huit seules locomotives Ge 4/6, les premières grandes locomotives électriques des RhB. Lors d’événements historiques, elle circule souvent avec la Ge 2/4 222. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Una delle sole otto locomotive Ge 4/6, le prime grandi locomotive elettriche della RhB. Negli eventi storici circola spesso insieme alla Ge 2/4 222."
+     "p": "Una delle sole otto locomotive Ge 4/6, le prime grandi locomotive elettriche della RhB. Negli eventi storici circola spesso insieme alla Ge 2/4 222. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "One of only eight Ge 4/6 locomotives, the RhB’s first larger electric locomotives. At heritage events it often runs together with Ge 2/4 222."
+     "p": "One of only eight Ge 4/6 locomotives, the RhB’s first larger electric locomotives. At heritage events it often runs together with Ge 2/4 222. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -200,16 +200,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "",
-   "p": "Eines der berühmten «Rhätischen Krokodile», die über Jahrzehnte die schweren Züge über die Albula zogen. Mit der 415 eine der beiden noch betriebsfähigen Maschinen; sie zieht unter anderem den historischen Zug Davos–Filisur.",
+   "p": "Eines der berühmten «Rhätischen Krokodile», die über Jahrzehnte die schweren Züge über die Albula zogen. Mit der 415 eine der beiden noch betriebsfähigen Maschinen; sie zieht unter anderem den historischen Zug Davos–Filisur. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "L’un des célèbres « crocodiles rhétiques » qui ont tiré pendant des décennies les trains lourds sur l’Albula. Avec la 415, l’une des deux machines encore en état de marche ; elle tire notamment le train historique Davos–Filisur."
+     "p": "L’un des célèbres « crocodiles rhétiques » qui ont tiré pendant des décennies les trains lourds sur l’Albula. Avec la 415, l’une des deux machines encore en état de marche ; elle tire notamment le train historique Davos–Filisur. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Uno dei celebri «coccodrilli retici» che per decenni hanno trainato i treni pesanti sull’Albula. Con la 415 è una delle due macchine ancora in esercizio; traina tra l’altro il treno storico Davos–Filisur."
+     "p": "Uno dei celebri «coccodrilli retici» che per decenni hanno trainato i treni pesanti sull’Albula. Con la 415 è una delle due macchine ancora in esercizio; traina tra l’altro il treno storico Davos–Filisur. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "One of the famous «Rhaetian Crocodiles» that hauled heavy trains over the Albula for decades. With no. 415 it is one of the two still in working order; among other duties it hauls the historic Davos–Filisur train."
+     "p": "One of the famous «Rhaetian Crocodiles» that hauled heavy trains over the Albula for decades. With no. 415 it is one of the two still in working order; among other duties it hauls the historic Davos–Filisur train. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -232,16 +232,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "",
-   "p": "Schwesterlok der 414 und ebenfalls betriebsfähig. Die Krokodile wurden ab 1921 gebaut und erst von den Ge 4/4 II abgelöst.",
+   "p": "Schwesterlok der 414 und ebenfalls betriebsfähig. Die Krokodile wurden ab 1921 gebaut und erst von den Ge 4/4 II abgelöst. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Sœur de la 414, également en état de marche. Les crocodiles ont été construits à partir de 1921 et n’ont été remplacés que par les Ge 4/4 II."
+     "p": "Sœur de la 414, également en état de marche. Les crocodiles ont été construits à partir de 1921 et n’ont été remplacés que par les Ge 4/4 II. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Gemella della 414, anch’essa in esercizio. I coccodrilli furono costruiti dal 1921 e sostituiti solo dalle Ge 4/4 II."
+     "p": "Gemella della 414, anch’essa in esercizio. I coccodrilli furono costruiti dal 1921 e sostituiti solo dalle Ge 4/4 II. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Sister of no. 414 and also in working order. The Crocodiles were built from 1921 and were only replaced by the Ge 4/4 II."
+     "p": "Sister of no. 414 and also in working order. The Crocodiles were built from 1921 and were only replaced by the Ge 4/4 II. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -289,7 +289,7 @@
    "img": "img/fz/ge66-407",
    "imgc": "U. Finke",
    "len": 13.3,
-   "zu": "abc",
+   "zu": "bma",
    "stx": "Bahnmuseum Albula, Bergün"
   },
   {
@@ -301,16 +301,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#c8102e",
-   "p": "Eine der zehn Ge 4/4 I, der ersten Elektroloks der RhB ohne Stangenantrieb; geliefert am 12. März 1953 von SLM, BBC und MFO. Heute fährt sie nur noch in Nostalgiezügen, etwa im Landwasser Express Davos Platz–Filisur durch die Zügenschlucht. Dieser Zug ist regulär finanziert und kann mit gewöhnlichen Billetten benützt werden.",
+   "p": "Eine der zehn Ge 4/4 I, der ersten Elektroloks der RhB ohne Stangenantrieb; geliefert am 12. März 1953 von SLM, BBC und MFO. Heute fährt sie nur noch in Nostalgiezügen, etwa im Landwasser Express Davos Platz–Filisur durch die Zügenschlucht. Dieser Zug ist regulär finanziert und kann mit gewöhnlichen Billetten benützt werden. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "L’une des dix Ge 4/4 I, premières locomotives électriques des RhB sans entraînement par bielles ; livrée le 12 mars 1953 par SLM, BBC et MFO. Elle ne circule plus aujourd’hui que dans des trains nostalgiques, par exemple le Landwasser Express Davos Platz–Filisur à travers les gorges de Zügen. Ce train est financé régulièrement et accessible avec des billets ordinaires."
+     "p": "L’une des dix Ge 4/4 I, premières locomotives électriques des RhB sans entraînement par bielles ; livrée le 12 mars 1953 par SLM, BBC et MFO. Elle ne circule plus aujourd’hui que dans des trains nostalgiques, par exemple le Landwasser Express Davos Platz–Filisur à travers les gorges de Zügen. Ce train est financé régulièrement et accessible avec des billets ordinaires. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Una delle dieci Ge 4/4 I, le prime locomotive elettriche della RhB senza trasmissione a bielle; consegnata il 12 marzo 1953 da SLM, BBC e MFO. Oggi circola solo nei treni nostalgici, ad esempio nel Landwasser Express Davos Platz–Filisur attraverso la gola dello Zügen. Questo treno è finanziato regolarmente e si può usare con biglietti normali."
+     "p": "Una delle dieci Ge 4/4 I, le prime locomotive elettriche della RhB senza trasmissione a bielle; consegnata il 12 marzo 1953 da SLM, BBC e MFO. Oggi circola solo nei treni nostalgici, ad esempio nel Landwasser Express Davos Platz–Filisur attraverso la gola dello Zügen. Questo treno è finanziato regolarmente e si può usare con biglietti normali. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "One of the ten Ge 4/4 I, the RhB’s first electric locomotives without rod drive; delivered on 12 March 1953 by SLM, BBC and MFO. Today it runs only in nostalgia trains, such as the Landwasser Express Davos Platz–Filisur through the Zügen gorge. This train is regularly funded and can be used with ordinary tickets."
+     "p": "One of the ten Ge 4/4 I, the RhB’s first electric locomotives without rod drive; delivered on 12 March 1953 by SLM, BBC and MFO. Today it runs only in nostalgia trains, such as the Landwasser Express Davos Platz–Filisur through the Zügen gorge. This train is regularly funded and can be used with ordinary tickets. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -336,16 +336,16 @@
    "col": "#8a5a33",
    "len": 7.74,
    "gr": "bb",
-   "p": "Kleine Vorspann- und Rangierlok, 1911 von SIG und Alioth für die damals selbständige Berninabahn gebaut (dort Nr. 61); nach der Übernahme durch die RhB erhielt sie die Nummer 161. Der Übername «Asnin» bedeutet «Eselchen». Sie gehört zu den ältesten betriebsfähigen Elektroloks der Schweiz und rangiert noch heute täglich in Poschiavo; bei Extrafahrten hilft sie auch auf der Passstrecke.",
+   "p": "Kleine Vorspann- und Rangierlok, 1911 von SIG und Alioth für die damals selbständige Berninabahn gebaut (dort Nr. 61); nach der Übernahme durch die RhB erhielt sie die Nummer 161. Der Übername «Asnin» bedeutet «Eselchen». Sie gehört zu den ältesten betriebsfähigen Elektroloks der Schweiz und rangiert noch heute täglich in Poschiavo; bei Extrafahrten hilft sie auch auf der Passstrecke. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Petite locomotive de renfort et de manœuvre, construite en 1911 par SIG et Alioth pour le chemin de fer de la Bernina, alors indépendant (n° 61) ; après la reprise par les RhB, elle a reçu le numéro 161. Le surnom « Asnin » signifie « petit âne ». C’est l’une des plus anciennes locomotives électriques en état de marche de Suisse ; elle fait encore chaque jour des manœuvres à Poschiavo et aide aussi sur la ligne du col lors de trains spéciaux."
+     "p": "Petite locomotive de renfort et de manœuvre, construite en 1911 par SIG et Alioth pour le chemin de fer de la Bernina, alors indépendant (n° 61) ; après la reprise par les RhB, elle a reçu le numéro 161. Le surnom « Asnin » signifie « petit âne ». C’est l’une des plus anciennes locomotives électriques en état de marche de Suisse ; elle fait encore chaque jour des manœuvres à Poschiavo et aide aussi sur la ligne du col lors de trains spéciaux. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Piccola locomotiva di rinforzo e da manovra, costruita nel 1911 da SIG e Alioth per la Ferrovia del Bernina, allora indipendente (n. 61); dopo l’acquisizione da parte della RhB ricevette il numero 161. Il soprannome «Asnin» significa «asinello». È una delle più antiche locomotive elettriche in esercizio della Svizzera; manovra ancora ogni giorno a Poschiavo e aiuta anche sulla linea del passo con i treni speciali."
+     "p": "Piccola locomotiva di rinforzo e da manovra, costruita nel 1911 da SIG e Alioth per la Ferrovia del Bernina, allora indipendente (n. 61); dopo l’acquisizione da parte della RhB ricevette il numero 161. Il soprannome «Asnin» significa «asinello». È una delle più antiche locomotive elettriche in esercizio della Svizzera; manovra ancora ogni giorno a Poschiavo e aiuta anche sulla linea del passo con i treni speciali. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Small banking and shunting locomotive, built in 1911 by SIG and Alioth for the then independent Bernina Railway (as no. 61); after the RhB takeover it became no. 161. Its nickname «Asnin» means «little donkey». It is one of the oldest working electric locomotives in Switzerland, still shunts daily at Poschiavo and also helps on the pass line with special trains."
+     "p": "Small banking and shunting locomotive, built in 1911 by SIG and Alioth for the then independent Bernina Railway (as no. 61); after the RhB takeover it became no. 161. Its nickname «Asnin» means «little donkey». It is one of the oldest working electric locomotives in Switzerland, still shunts daily at Poschiavo and also helps on the pass line with special trains. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -400,16 +400,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#d9a521",
-   "p": "Als BCFe 4/4 22 der Berninabahn in Dienst gestellt und 1953 umgebaut. Zusammen mit dem Schwesterwagen 34 bildet er die historischen gelben Bernina-Triebwagen der RhB. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im regulär finanzierten Nostalgiezug «Bernina Glaciers», der mit gewöhnlichen Billetten benützt werden kann.",
+   "p": "Als BCFe 4/4 22 der Berninabahn in Dienst gestellt und 1953 umgebaut. Zusammen mit dem Schwesterwagen 34 bildet er die historischen gelben Bernina-Triebwagen der RhB. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im regulär finanzierten Nostalgiezug «Bernina Glaciers», der mit gewöhnlichen Billetten benützt werden kann. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Mise en service comme BCFe 4/4 22 du chemin de fer de la Bernina et transformée en 1953. Avec sa sœur 34, elle forme les automotrices historiques jaunes de la Bernina des RhB. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers », financé régulièrement et accessible avec des billets ordinaires."
+     "p": "Mise en service comme BCFe 4/4 22 du chemin de fer de la Bernina et transformée en 1953. Avec sa sœur 34, elle forme les automotrices historiques jaunes de la Bernina des RhB. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers », financé régulièrement et accessible avec des billets ordinaires. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Messa in servizio come BCFe 4/4 22 della Ferrovia del Bernina e ricostruita nel 1953. Con la gemella 34 forma le automotrici storiche gialle del Bernina della RhB. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers», finanziato regolarmente e utilizzabile con biglietti normali."
+     "p": "Messa in servizio come BCFe 4/4 22 della Ferrovia del Bernina e ricostruita nel 1953. Con la gemella 34 forma le automotrici storiche gialle del Bernina della RhB. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers», finanziato regolarmente e utilizzabile con biglietti normali. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Entered service as Bernina Railway BCFe 4/4 22 and rebuilt in 1953. With its sister no. 34 it forms the RhB’s historic yellow Bernina railcars. In summer the two «Kessler twins» also run in part in the regularly funded «Bernina Glaciers» nostalgia train, which can be used with ordinary tickets."
+     "p": "Entered service as Bernina Railway BCFe 4/4 22 and rebuilt in 1953. With its sister no. 34 it forms the RhB’s historic yellow Bernina railcars. In summer the two «Kessler twins» also run in part in the regularly funded «Bernina Glaciers» nostalgia train, which can be used with ordinary tickets. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -432,18 +432,18 @@
    "b": "rhb",
    "st": "betr",
    "col": "#d9a521",
-   "p": "Einer der ersten Triebwagen der Berninabahn, die ab 1908 für die steile Passstrecke gebaut wurden. Er fährt zusammen mit dem ABe 4/4 I 30 historische Bernina-Züge. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im regulär finanzierten Nostalgiezug «Bernina Glaciers», der mit gewöhnlichen Billetten benützt werden kann.",
+   "p": "Einer der ersten Triebwagen der Berninabahn, die ab 1908 für die steile Passstrecke gebaut wurden. Er fährt zusammen mit dem ABe 4/4 I 30 historische Bernina-Züge. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im regulär finanzierten Nostalgiezug «Bernina Glaciers», der mit gewöhnlichen Billetten benützt werden kann. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "L’une des premières automotrices du chemin de fer de la Bernina, construites dès 1908 pour la ligne de col très raide. Elle circule avec l’ABe 4/4 I 30 dans des trains historiques de la Bernina. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers », financé régulièrement et accessible avec des billets ordinaires.",
+     "p": "L’une des premières automotrices du chemin de fer de la Bernina, construites dès 1908 pour la ligne de col très raide. Elle circule avec l’ABe 4/4 I 30 dans des trains historiques de la Bernina. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers », financé régulièrement et accessible avec des billets ordinaires. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
      "bem": "Appelées « jumelles Kessler » avec l’ABe 4/4 I 30"
     },
     "it": {
-     "p": "Una delle prime automotrici della Ferrovia del Bernina, costruite dal 1908 per la ripida linea di valico. Circola con l’ABe 4/4 I 30 nei treni storici del Bernina. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers», finanziato regolarmente e utilizzabile con biglietti normali.",
+     "p": "Una delle prime automotrici della Ferrovia del Bernina, costruite dal 1908 per la ripida linea di valico. Circola con l’ABe 4/4 I 30 nei treni storici del Bernina. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers», finanziato regolarmente e utilizzabile con biglietti normali. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
      "bem": "Chiamate «gemelle Kessler» insieme all’ABe 4/4 I 30"
     },
     "en": {
-     "p": "One of the first Bernina Railway railcars, built from 1908 for the steep pass line. It runs historic Bernina trains together with ABe 4/4 I 30. In summer the two «Kessler twins» also run in part in the regularly funded «Bernina Glaciers» nostalgia train, which can be used with ordinary tickets.",
+     "p": "One of the first Bernina Railway railcars, built from 1908 for the steep pass line. It runs historic Bernina trains together with ABe 4/4 I 30. In summer the two «Kessler twins» also run in part in the regularly funded «Bernina Glaciers» nostalgia train, which can be used with ordinary tickets. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
      "bem": "Together with ABe 4/4 I 30 known as the «Kessler twins»"
     }
    },
@@ -471,16 +471,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#c8102e",
-   "p": "Triebwagen der zweiten Bernina-Generation («Tw II»), 1965 von SWS, SAAS und BBC geliefert. 2021 erhielt er in der Hauptwerkstätte Landquart wieder den roten Anstrich mit goldenen Zierlinien der Anfangsjahre und heisst seither «Goldliner». Heute dient er dem Infrastrukturdienst, fährt aber auch Extrazüge über den Bernina; später soll er ein historisches Fahrzeug werden.",
+   "p": "Triebwagen der zweiten Bernina-Generation («Tw II»), 1965 von SWS, SAAS und BBC geliefert. 2021 erhielt er in der Hauptwerkstätte Landquart wieder den roten Anstrich mit goldenen Zierlinien der Anfangsjahre und heisst seither «Goldliner». Heute dient er dem Infrastrukturdienst, fährt aber auch Extrazüge über den Bernina; später soll er ein historisches Fahrzeug werden. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Automotrice de la deuxième génération de la Bernina (« Tw II »), livrée en 1965 par SWS, SAAS et BBC. En 2021, l’atelier principal de Landquart lui a rendu sa livrée rouge à filets dorés des premières années, d’où son surnom « Goldliner ». Elle sert aujourd’hui au service de l’infrastructure, mais circule aussi en trains spéciaux sur la Bernina ; elle doit devenir plus tard un véhicule historique."
+     "p": "Automotrice de la deuxième génération de la Bernina (« Tw II »), livrée en 1965 par SWS, SAAS et BBC. En 2021, l’atelier principal de Landquart lui a rendu sa livrée rouge à filets dorés des premières années, d’où son surnom « Goldliner ». Elle sert aujourd’hui au service de l’infrastructure, mais circule aussi en trains spéciaux sur la Bernina ; elle doit devenir plus tard un véhicule historique. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Automotrice della seconda generazione del Bernina («Tw II»), consegnata nel 1965 da SWS, SAAS e BBC. Nel 2021 l’officina principale di Landquart le ha restituito la livrea rossa con filetti dorati dei primi anni, da cui il nome «Goldliner». Oggi serve il servizio infrastruttura, ma effettua anche treni speciali sul Bernina; in futuro diventerà un veicolo storico."
+     "p": "Automotrice della seconda generazione del Bernina («Tw II»), consegnata nel 1965 da SWS, SAAS e BBC. Nel 2021 l’officina principale di Landquart le ha restituito la livrea rossa con filetti dorati dei primi anni, da cui il nome «Goldliner». Oggi serve il servizio infrastruttura, ma effettua anche treni speciali sul Bernina; in futuro diventerà un veicolo storico. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Second-generation Bernina railcar («Tw II»), delivered in 1965 by SWS, SAAS and BBC. In 2021 the Landquart main workshop gave it back the red livery with gold lining of its early years, hence the name «Goldliner». Today it serves the infrastructure department but also runs specials over the Bernina; it is intended to become a historic vehicle later."
+     "p": "Second-generation Bernina railcar («Tw II»), delivered in 1965 by SWS, SAAS and BBC. In 2021 the Landquart main workshop gave it back the red livery with gold lining of its early years, hence the name «Goldliner». Today it serves the infrastructure department but also runs specials over the Bernina; it is intended to become a historic vehicle later. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -505,16 +505,16 @@
    "col": "#c8102e",
    "len": 16.89,
    "gr": "bb",
-   "p": "Triebwagen der dritten Bernina-Generation («Tw III»); sechs Wagen wurden 1988–1990 von SLM und ABB gebaut, die 54 im Jahr 1990. Ihr Name erinnert an die japanische Hakone Tozan-Bahn, eine Partnerbahn der RhB. Der Wagen soll als betriebsfähiges historisches Fahrzeug für die Berninalinie erhalten bleiben.",
+   "p": "Triebwagen der dritten Bernina-Generation («Tw III»); sechs Wagen wurden 1988–1990 von SLM und ABB gebaut, die 54 im Jahr 1990. Ihr Name erinnert an die japanische Hakone Tozan-Bahn, eine Partnerbahn der RhB. Der Wagen soll als betriebsfähiges historisches Fahrzeug für die Berninalinie erhalten bleiben. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Automotrice de la troisième génération de la Bernina (« Tw III ») ; six unités ont été construites en 1988–1990 par SLM et ABB, la 54 en 1990. Son nom rappelle le chemin de fer japonais Hakone Tozan, partenaire des RhB. Elle doit être conservée en état de marche comme véhicule historique de la ligne de la Bernina."
+     "p": "Automotrice de la troisième génération de la Bernina (« Tw III ») ; six unités ont été construites en 1988–1990 par SLM et ABB, la 54 en 1990. Son nom rappelle le chemin de fer japonais Hakone Tozan, partenaire des RhB. Elle doit être conservée en état de marche comme véhicule historique de la ligne de la Bernina. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Automotrice della terza generazione del Bernina («Tw III»); sei unità furono costruite nel 1988–1990 da SLM e ABB, la 54 nel 1990. Il nome ricorda la ferrovia giapponese Hakone Tozan, ferrovia partner della RhB. Sarà conservata in esercizio come veicolo storico della linea del Bernina."
+     "p": "Automotrice della terza generazione del Bernina («Tw III»); sei unità furono costruite nel 1988–1990 da SLM e ABB, la 54 nel 1990. Il nome ricorda la ferrovia giapponese Hakone Tozan, ferrovia partner della RhB. Sarà conservata in esercizio come veicolo storico della linea del Bernina. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Third-generation Bernina railcar («Tw III»); six were built by SLM and ABB in 1988–1990, no. 54 in 1990. Its name honours Japan’s Hakone Tozan Railway, a partner railway of the RhB. It is to be preserved in working order as a historic vehicle for the Bernina line."
+     "p": "Third-generation Bernina railcar («Tw III»); six were built by SLM and ABB in 1988–1990, no. 54 in 1990. Its name honours Japan’s Hakone Tozan Railway, a partner railway of the RhB. It is to be preserved in working order as a historic vehicle for the Bernina line. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -535,16 +535,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "",
-   "p": "Erster von vier schnellen Triebwagen für das Stammnetz, 1939–1940 als Antwort auf die Konkurrenz der Strasse beschafft. Als einziger der Serie erhalten; mit passenden Leichtstahlwagen als «Fliegender Rhätier» bekannt.",
+   "p": "Erster von vier schnellen Triebwagen für das Stammnetz, 1939–1940 als Antwort auf die Konkurrenz der Strasse beschafft. Als einziger der Serie erhalten; mit passenden Leichtstahlwagen als «Fliegender Rhätier» bekannt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Première de quatre automotrices rapides pour le réseau principal, acquises en 1939–1940 face à la concurrence de la route. Seule conservée de la série ; connue avec ses voitures légères assorties sous le nom de « Fliegender Rhätier »."
+     "p": "Première de quatre automotrices rapides pour le réseau principal, acquises en 1939–1940 face à la concurrence de la route. Seule conservée de la série ; connue avec ses voitures légères assorties sous le nom de « Fliegender Rhätier ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Prima di quattro automotrici veloci per la rete principale, acquistate nel 1939–1940 per far fronte alla concorrenza della strada. Unica conservata della serie; nota con le carrozze leggere abbinate come «Fliegender Rhätier»."
+     "p": "Prima di quattro automotrici veloci per la rete principale, acquistate nel 1939–1940 per far fronte alla concorrenza della strada. Unica conservata della serie; nota con le carrozze leggere abbinate come «Fliegender Rhätier». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "First of four fast railcars for the core network, bought in 1939–1940 to compete with road transport. The only one of the series preserved; known with its matching lightweight cars as the «Flying Rhaetian»."
+     "p": "First of four fast railcars for the core network, bought in 1939–1940 to compete with road transport. The only one of the series preserved; known with its matching lightweight cars as the «Flying Rhaetian». The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -567,16 +567,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#23272b",
-   "p": "Dampfbetriebene Schneeschleuder, 1910 von der SLM für die Berninabahn gebaut. Sie wird von einem elektrischen Fahrzeug geschoben, damit die ganze Dampfkraft dem Schleuderrad zugutekommt, und ist an Vorführtagen auf dem Berninapass zu erleben.",
+   "p": "Dampfbetriebene Schneeschleuder, 1910 von der SLM für die Berninabahn gebaut. Sie wird von einem elektrischen Fahrzeug geschoben, damit die ganze Dampfkraft dem Schleuderrad zugutekommt, und ist an Vorführtagen auf dem Berninapass zu erleben. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Chasse-neige rotatif à vapeur, construit en 1910 par la SLM pour le chemin de fer de la Bernina. Il est poussé par un véhicule électrique afin que toute la puissance de la vapeur serve à la turbine ; on peut le voir lors des journées de démonstration au col de la Bernina."
+     "p": "Chasse-neige rotatif à vapeur, construit en 1910 par la SLM pour le chemin de fer de la Bernina. Il est poussé par un véhicule électrique afin que toute la puissance de la vapeur serve à la turbine ; on peut le voir lors des journées de démonstration au col de la Bernina. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Spazzaneve rotante a vapore, costruito nel 1910 dalla SLM per la Ferrovia del Bernina. Viene spinto da un veicolo elettrico affinché tutta la forza del vapore vada alla turbina; lo si può vedere nelle giornate dimostrative al passo del Bernina."
+     "p": "Spazzaneve rotante a vapore, costruito nel 1910 dalla SLM per la Ferrovia del Bernina. Viene spinto da un veicolo elettrico affinché tutta la forza del vapore vada alla turbina; lo si può vedere nelle giornate dimostrative al passo del Bernina. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Steam-powered rotary snow blower, built by SLM in 1910 for the Bernina Railway. It is pushed by an electric vehicle so that all the steam power goes to the rotor, and can be seen on demonstration days on the Bernina Pass."
+     "p": "Steam-powered rotary snow blower, built by SLM in 1910 for the Bernina Railway. It is pushed by an electric vehicle so that all the steam power goes to the rotor, and can be seen on demonstration days on the Bernina Pass. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -601,16 +601,16 @@
    "b": "rhb",
    "st": "regel",
    "col": "#2f6b3a",
-   "p": "Erste Lok der Serie Ge 4/4 II. Auf Initiative von Grün & Chrom erhielt sie in der Hauptwerkstätte Landquart wieder ihr ursprüngliches Aussehen in Grün mit Chromschriften und runden Lampen; vorgestellt im April 2024. Die Lok ist als Fahrzeug von Historic RhB designiert, wird aber vorläufig noch im Regelbetrieb eingesetzt.",
+   "p": "Erste Lok der Serie Ge 4/4 II. Auf Initiative von Grün & Chrom erhielt sie in der Hauptwerkstätte Landquart wieder ihr ursprüngliches Aussehen in Grün mit Chromschriften und runden Lampen; vorgestellt im April 2024. Die Lok ist als Fahrzeug von Historic RhB designiert, wird aber vorläufig noch im Regelbetrieb eingesetzt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Première locomotive de la série Ge 4/4 II. À l’initiative de Grün & Chrom, l’atelier principal de Landquart lui a rendu son aspect d’origine, vert avec lettres chromées et phares ronds ; présentée en avril 2024. La locomotive est désignée comme véhicule de Historic RhB, mais elle est encore utilisée pour l’instant en service régulier."
+     "p": "Première locomotive de la série Ge 4/4 II. À l’initiative de Grün & Chrom, l’atelier principal de Landquart lui a rendu son aspect d’origine, vert avec lettres chromées et phares ronds ; présentée en avril 2024. La locomotive est désignée comme véhicule de Historic RhB, mais elle est encore utilisée pour l’instant en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Prima locomotiva della serie Ge 4/4 II. Su iniziativa di Grün & Chrom l’officina principale di Landquart le ha restituito l’aspetto originale, verde con scritte cromate e fari rotondi; presentata nell’aprile 2024. La locomotiva è designata come veicolo di Historic RhB, ma per ora è ancora impiegata nel servizio regolare."
+     "p": "Prima locomotiva della serie Ge 4/4 II. Su iniziativa di Grün & Chrom l’officina principale di Landquart le ha restituito l’aspetto originale, verde con scritte cromate e fari rotondi; presentata nell’aprile 2024. La locomotiva è designata come veicolo di Historic RhB, ma per ora è ancora impiegata nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "First locomotive of the Ge 4/4 II class. At the initiative of Grün & Chrom, the Landquart main workshop returned it to its original look, green with chrome lettering and round lamps; presented in April 2024. The locomotive is designated as a Historic RhB vehicle but is still used in regular service for the time being."
+     "p": "First locomotive of the Ge 4/4 II class. At the initiative of Grün & Chrom, the Landquart main workshop returned it to its original look, green with chrome lettering and round lamps; presented in April 2024. The locomotive is designated as a Historic RhB vehicle but is still used in regular service for the time being. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -637,16 +637,16 @@
    ],
    "st": "regel",
    "col": "#1f3a6b",
-   "p": "Auf Anregung des Vereins Pro Salonwagen erhielt die «Malans» im September 2024 die Pullman-Farben Kobaltblau und Elfenbein, passend zu den Wagen des Alpine Classic Pullman-Express. Am 21. März 2025 wurde sie in Samedan auf den Namen «Alby Glatt» getauft. Alby Glatt (1933–2014) gründete 1976 den Nostalgie-Istanbul-Orient-Express und 1996 zusammen mit Willy Hochstrasser den Verein Pro Salonwagen RhB. Die Lok fährt im normalen Dienst, etwa vor Güterzügen und dem Glacier Express, und zieht auch den Pullman-Express. Sie ist als Fahrzeug von Historic RhB designiert, steht aber vorläufig noch im Regelbetrieb.",
+   "p": "Auf Anregung des Vereins Pro Salonwagen erhielt die «Malans» im September 2024 die Pullman-Farben Kobaltblau und Elfenbein, passend zu den Wagen des Alpine Classic Pullman-Express. Am 21. März 2025 wurde sie in Samedan auf den Namen «Alby Glatt» getauft. Alby Glatt (1933–2014) gründete 1976 den Nostalgie-Istanbul-Orient-Express und 1996 zusammen mit Willy Hochstrasser den Verein Pro Salonwagen RhB. Die Lok fährt im normalen Dienst, etwa vor Güterzügen und dem Glacier Express, und zieht auch den Pullman-Express. Sie ist als Fahrzeug von Historic RhB designiert, steht aber vorläufig noch im Regelbetrieb. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "À l’initiative de l’association Pro Salonwagen, la « Malans » a reçu en septembre 2024 les couleurs Pullman bleu cobalt et ivoire, assorties aux voitures de l’Alpine Classic Pullman-Express. Le 21 mars 2025, elle a été baptisée « Alby Glatt » à Samedan. Alby Glatt (1933–2014) a fondé en 1976 le Nostalgie-Istanbul-Orient-Express et en 1996, avec Willy Hochstrasser, l’association Pro Salonwagen RhB. La locomotive circule en service normal, par exemple en tête de trains de marchandises et du Glacier Express, et tire aussi le Pullman-Express. Elle est désignée comme véhicule de Historic RhB, mais reste pour l’instant en service régulier."
+     "p": "À l’initiative de l’association Pro Salonwagen, la « Malans » a reçu en septembre 2024 les couleurs Pullman bleu cobalt et ivoire, assorties aux voitures de l’Alpine Classic Pullman-Express. Le 21 mars 2025, elle a été baptisée « Alby Glatt » à Samedan. Alby Glatt (1933–2014) a fondé en 1976 le Nostalgie-Istanbul-Orient-Express et en 1996, avec Willy Hochstrasser, l’association Pro Salonwagen RhB. La locomotive circule en service normal, par exemple en tête de trains de marchandises et du Glacier Express, et tire aussi le Pullman-Express. Elle est désignée comme véhicule de Historic RhB, mais reste pour l’instant en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Su proposta dell’associazione Pro Salonwagen, nel settembre 2024 la «Malans» ha ricevuto i colori Pullman blu cobalto e avorio, in armonia con le carrozze dell’Alpine Classic Pullman-Express. Il 21 marzo 2025 è stata battezzata «Alby Glatt» a Samedan. Alby Glatt (1933–2014) fondò nel 1976 il Nostalgie-Istanbul-Orient-Express e nel 1996, con Willy Hochstrasser, l’associazione Pro Salonwagen RhB. La locomotiva è in servizio normale, ad esempio con treni merci e con il Glacier Express, e traina anche il Pullman-Express. È designata come veicolo di Historic RhB, ma per ora resta nel servizio regolare."
+     "p": "Su proposta dell’associazione Pro Salonwagen, nel settembre 2024 la «Malans» ha ricevuto i colori Pullman blu cobalto e avorio, in armonia con le carrozze dell’Alpine Classic Pullman-Express. Il 21 marzo 2025 è stata battezzata «Alby Glatt» a Samedan. Alby Glatt (1933–2014) fondò nel 1976 il Nostalgie-Istanbul-Orient-Express e nel 1996, con Willy Hochstrasser, l’associazione Pro Salonwagen RhB. La locomotiva è in servizio normale, ad esempio con treni merci e con il Glacier Express, e traina anche il Pullman-Express. È designata come veicolo di Historic RhB, ma per ora resta nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "At the suggestion of the Verein Pro Salonwagen, «Malans» received the Pullman colours of cobalt blue and ivory in September 2024 to match the Alpine Classic Pullman-Express cars. On 21 March 2025 it was named «Alby Glatt» at Samedan. Alby Glatt (1933–2014) founded the Nostalgie-Istanbul-Orient-Express in 1976 and, with Willy Hochstrasser, the Verein Pro Salonwagen RhB in 1996. The locomotive runs in normal service, for example on freight trains and the Glacier Express, and also hauls the Pullman-Express. It is designated as a Historic RhB vehicle but remains in regular service for now."
+     "p": "At the suggestion of the Verein Pro Salonwagen, «Malans» received the Pullman colours of cobalt blue and ivory in September 2024 to match the Alpine Classic Pullman-Express cars. On 21 March 2025 it was named «Alby Glatt» at Samedan. Alby Glatt (1933–2014) founded the Nostalgie-Istanbul-Orient-Express in 1976 and, with Willy Hochstrasser, the Verein Pro Salonwagen RhB in 1996. The locomotive runs in normal service, for example on freight trains and the Glacier Express, and also hauls the Pullman-Express. It is designated as a Historic RhB vehicle but remains in regular service for now. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -669,16 +669,16 @@
    "col": "#2a6fd6",
    "len": 16.0,
    "gr": "rhb",
-   "p": "Lok der dritten Ge-4/4-Generation, die ab 1993 in Dienst kam; die 652 wurde im November 1999 in Betrieb genommen. Sie trägt eine Werbebemalung für den HC Davos und die Graubündner Kantonalbank und zieht Regio-Express- und Güterzüge. Eine Lok dieser Reihe soll als historisches Fahrzeug erhalten bleiben; welche, ist noch nicht entschieden. Die 652 steht hier stellvertretend für die Serie und wird weiterhin im Regelbetrieb eingesetzt.",
+   "p": "Lok der dritten Ge-4/4-Generation, die ab 1993 in Dienst kam; die 652 wurde im November 1999 in Betrieb genommen. Sie trägt eine Werbebemalung für den HC Davos und die Graubündner Kantonalbank und zieht Regio-Express- und Güterzüge. Eine Lok dieser Reihe soll als historisches Fahrzeug erhalten bleiben; welche, ist noch nicht entschieden. Die 652 steht hier stellvertretend für die Serie und wird weiterhin im Regelbetrieb eingesetzt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Locomotive de la troisième génération Ge 4/4, mise en service à partir de 1993 ; la 652 circule depuis novembre 1999. Elle porte une livrée publicitaire pour le HC Davos et la Banque cantonale des Grisons et tire des RegioExpress et des trains de marchandises. Une locomotive de cette série doit être conservée comme véhicule historique ; laquelle, ce n’est pas encore décidé. La 652 représente ici la série et reste en service régulier."
+     "p": "Locomotive de la troisième génération Ge 4/4, mise en service à partir de 1993 ; la 652 circule depuis novembre 1999. Elle porte une livrée publicitaire pour le HC Davos et la Banque cantonale des Grisons et tire des RegioExpress et des trains de marchandises. Une locomotive de cette série doit être conservée comme véhicule historique ; laquelle, ce n’est pas encore décidé. La 652 représente ici la série et reste en service régulier. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Locomotiva della terza generazione Ge 4/4, in servizio dal 1993; la 652 è entrata in esercizio nel novembre 1999. Porta una livrea pubblicitaria per l’HC Davos e la Banca cantonale grigione e traina RegioExpress e treni merci. Una locomotiva di questa serie sarà conservata come veicolo storico; quale, non è ancora deciso. La 652 rappresenta qui la serie e resta nel servizio regolare."
+     "p": "Locomotiva della terza generazione Ge 4/4, in servizio dal 1993; la 652 è entrata in esercizio nel novembre 1999. Porta una livrea pubblicitaria per l’HC Davos e la Banca cantonale grigione e traina RegioExpress e treni merci. Una locomotiva di questa serie sarà conservata come veicolo storico; quale, non è ancora deciso. La 652 rappresenta qui la serie e resta nel servizio regolare. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Locomotive of the third Ge 4/4 generation, introduced from 1993; no. 652 entered service in November 1999. It carries an advertising livery for HC Davos and the Graubündner Kantonalbank and hauls RegioExpress and freight trains. One locomotive of this class is to be preserved as a historic vehicle; which one has not yet been decided. No. 652 stands in for the class here and remains in regular service."
+     "p": "Locomotive of the third Ge 4/4 generation, introduced from 1993; no. 652 entered service in November 1999. It carries an advertising livery for HC Davos and the Graubündner Kantonalbank and hauls RegioExpress and freight trains. One locomotive of this class is to be preserved as a historic vehicle; which one has not yet been decided. No. 652 stands in for the class here and remains in regular service. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -698,18 +698,18 @@
    "b": "rhb",
    "st": "ausst",
    "col": "#2f6b3a",
-   "p": "Grün & Chrom hat die Lok optisch aufgefrischt; seit Herbst 2026 steht sie vor dem Verkehrshaus der Schweiz in Luzern.",
+   "p": "Grün & Chrom hat die Lok optisch aufgefrischt; seit Herbst 2026 steht sie vor dem Verkehrshaus der Schweiz in Luzern. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Grün & Chrom a rafraîchi son aspect ; depuis l’automne 2026, elle est exposée devant le Musée suisse des transports à Lucerne.",
+     "p": "Grün & Chrom a rafraîchi son aspect ; depuis l’automne 2026, elle est exposée devant le Musée suisse des transports à Lucerne. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
      "stx": "Musée suisse des transports, Lucerne"
     },
     "it": {
-     "p": "Grün & Chrom ne ha rinnovato l’aspetto; dall’autunno 2026 è esposta davanti al Museo svizzero dei trasporti a Lucerna.",
+     "p": "Grün & Chrom ne ha rinnovato l’aspetto; dall’autunno 2026 è esposta davanti al Museo svizzero dei trasporti a Lucerna. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
      "stx": "Museo svizzero dei trasporti, Lucerna"
     },
     "en": {
-     "p": "Grün & Chrom has cosmetically refreshed the locomotive; since autumn 2026 it has stood outside the Swiss Museum of Transport in Lucerne.",
+     "p": "Grün & Chrom has cosmetically refreshed the locomotive; since autumn 2026 it has stood outside the Swiss Museum of Transport in Lucerne. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
      "stx": "Swiss Museum of Transport, Lucerne"
     }
    },
@@ -737,18 +737,18 @@
    "col": "#c8102e",
    "len": 14.5,
    "gr": "rhb",
-   "p": "Schwere Güterzuglok der Reihe Ge 6/6 II mit drei Drehgestellen, 1965 in Dienst gestellt. Die 707 wurde als künftige historische Lok und Vertreterin der Serie 701–707 bestimmt, weil sie technisch im besten Zustand war. Sie soll die RhB der 1970er- und 1980er-Jahre zeigen: grün lackiert, mit Scherenstromabnehmern und runden Stirnlampen.",
+   "p": "Schwere Güterzuglok der Reihe Ge 6/6 II mit drei Drehgestellen, 1965 in Dienst gestellt. Die 707 wurde als künftige historische Lok und Vertreterin der Serie 701–707 bestimmt, weil sie technisch im besten Zustand war. Sie soll die RhB der 1970er- und 1980er-Jahre zeigen: grün lackiert, mit Scherenstromabnehmern und runden Stirnlampen. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Lourde locomotive marchandises de la série Ge 6/6 II à trois bogies, mise en service en 1965. La 707 a été désignée future locomotive historique et représentante de la série 701–707, car elle était techniquement en meilleur état. Elle doit montrer les RhB des années 1970 et 1980 : livrée verte, pantographes en losange et phares ronds.",
+     "p": "Lourde locomotive marchandises de la série Ge 6/6 II à trois bogies, mise en service en 1965. La 707 a été désignée future locomotive historique et représentante de la série 701–707, car elle était techniquement en meilleur état. Elle doit montrer les RhB des années 1970 et 1980 : livrée verte, pantographes en losange et phares ronds. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
      "stx": "dépôt de Samedan"
     },
     "it": {
-     "p": "Pesante locomotiva merci della serie Ge 6/6 II a tre carrelli, entrata in servizio nel 1965. La 707 è stata scelta come futura locomotiva storica e rappresentante della serie 701–707, perché era tecnicamente nelle condizioni migliori. Dovrà mostrare la RhB degli anni 1970 e 1980: livrea verde, pantografi a losanga e fari rotondi.",
+     "p": "Pesante locomotiva merci della serie Ge 6/6 II a tre carrelli, entrata in servizio nel 1965. La 707 è stata scelta come futura locomotiva storica e rappresentante della serie 701–707, perché era tecnicamente nelle condizioni migliori. Dovrà mostrare la RhB degli anni 1970 e 1980: livrea verde, pantografi a losanga e fari rotondi. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
      "stx": "deposito di Samedan"
     },
     "en": {
-     "p": "Heavy freight locomotive of the Ge 6/6 II class with three bogies, in service since 1965. No. 707 was chosen as the future historic representative of the 701–707 series because it was in the best technical condition. It is to show the RhB of the 1970s and 1980s: green livery, diamond pantographs and round headlamps.",
+     "p": "Heavy freight locomotive of the Ge 6/6 II class with three bogies, in service since 1965. No. 707 was chosen as the future historic representative of the 701–707 series because it was in the best technical condition. It is to show the RhB of the 1970s and 1980s: green livery, diamond pantographs and round headlamps. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
      "stx": "Samedan depot"
     }
    },
@@ -770,16 +770,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#e8b923",
-   "p": "Zweiachsiger Drittklasswagen der früheren Berninabahn von 1910, den der Club 1889 zusammen mit der RhB restauriert hat. Die Skizze zeigt ihn in der gelben Bernina-Farbgebung mit der Anschrift «Veltlin» und 32 Plätzen.",
+   "p": "Zweiachsiger Drittklasswagen der früheren Berninabahn von 1910, den der Club 1889 zusammen mit der RhB restauriert hat. Die Skizze zeigt ihn in der gelben Bernina-Farbgebung mit der Anschrift «Veltlin» und 32 Plätzen. Nach der Restaurierung hat der Club 1889 den Wagen der RhB übergeben; er gehört heute der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Voiture de troisième classe à deux essieux de l’ancien chemin de fer de la Bernina, datant de 1910, restaurée par le Club 1889 avec les RhB. Le dessin la montre dans la livrée jaune de la Bernina, avec l’inscription « Veltlin » et 32 places."
+     "p": "Voiture de troisième classe à deux essieux de l’ancien chemin de fer de la Bernina, datant de 1910, restaurée par le Club 1889 avec les RhB. Le dessin la montre dans la livrée jaune de la Bernina, avec l’inscription « Veltlin » et 32 places. Après la restauration, le Club 1889 a remis la voiture aux RhB ; elle appartient aujourd’hui aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Carrozza di terza classe a due assi dell’ex Ferrovia del Bernina, del 1910, restaurata dal Club 1889 insieme alla RhB. Il disegno la mostra nella livrea gialla del Bernina, con la scritta «Veltlin» e 32 posti."
+     "p": "Carrozza di terza classe a due assi dell’ex Ferrovia del Bernina, del 1910, restaurata dal Club 1889 insieme alla RhB. Il disegno la mostra nella livrea gialla del Bernina, con la scritta «Veltlin» e 32 posti. Dopo il restauro il Club 1889 ha consegnato la carrozza alla RhB; oggi appartiene alla Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Two-axle third-class coach of the former Bernina Railway from 1910, restored by Club 1889 together with the RhB. The drawing shows it in the yellow Bernina livery with the «Veltlin» lettering and 32 seats."
+     "p": "Two-axle third-class coach of the former Bernina Railway from 1910, restored by Club 1889 together with the RhB. The drawing shows it in the yellow Bernina livery with the «Veltlin» lettering and 32 seats. After the restoration Club 1889 handed the coach over to the RhB; it is now owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -803,16 +803,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#1f3a6b",
-   "p": "Vier Salonwagen im Pullman-Stil, 1931 für den «Golden Mountain Pullman Express» der Montreux-Berner Oberland-Bahn gebaut und seit 1939 bei der RhB. Heute bilden sie den «Alpine Classic Pullman-Express»; der As 1141 ist seit Herbst 2026 frisch restauriert wieder unterwegs und dem Andenken an Willy Hochstrasser gewidmet.",
+   "p": "Vier Salonwagen im Pullman-Stil, 1931 für den «Golden Mountain Pullman Express» der Montreux-Berner Oberland-Bahn gebaut und seit 1939 bei der RhB. Heute bilden sie den «Alpine Classic Pullman-Express»; der As 1141 ist seit Herbst 2026 frisch restauriert wieder unterwegs und dem Andenken an Willy Hochstrasser gewidmet. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Quatre voitures-salons de style Pullman, construites en 1931 pour le « Golden Mountain Pullman Express » du Montreux-Oberland bernois et aux RhB depuis 1939. Elles forment aujourd’hui l’« Alpine Classic Pullman-Express » ; l’As 1141, fraîchement restaurée, circule à nouveau depuis l’automne 2026 et est dédiée à la mémoire de Willy Hochstrasser."
+     "p": "Quatre voitures-salons de style Pullman, construites en 1931 pour le « Golden Mountain Pullman Express » du Montreux-Oberland bernois et aux RhB depuis 1939. Elles forment aujourd’hui l’« Alpine Classic Pullman-Express » ; l’As 1141, fraîchement restaurée, circule à nouveau depuis l’automne 2026 et est dédiée à la mémoire de Willy Hochstrasser. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Quattro carrozze salone in stile Pullman, costruite nel 1931 per il «Golden Mountain Pullman Express» della Montreux–Oberland Bernese e alla RhB dal 1939. Oggi formano l’«Alpine Classic Pullman-Express»; l’As 1141, appena restaurata, è di nuovo in servizio dall’autunno 2026 ed è dedicata alla memoria di Willy Hochstrasser."
+     "p": "Quattro carrozze salone in stile Pullman, costruite nel 1931 per il «Golden Mountain Pullman Express» della Montreux–Oberland Bernese e alla RhB dal 1939. Oggi formano l’«Alpine Classic Pullman-Express»; l’As 1141, appena restaurata, è di nuovo in servizio dall’autunno 2026 ed è dedicata alla memoria di Willy Hochstrasser. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Four Pullman-style saloon cars, built in 1931 for the Montreux–Bernese Oberland Railway’s «Golden Mountain Pullman Express» and with the RhB since 1939. Today they form the «Alpine Classic Pullman-Express»; As 1141, freshly restored, has been back in service since autumn 2026 and is dedicated to the memory of Willy Hochstrasser."
+     "p": "Four Pullman-style saloon cars, built in 1931 for the Montreux–Bernese Oberland Railway’s «Golden Mountain Pullman Express» and with the RhB since 1939. Today they form the «Alpine Classic Pullman-Express»; As 1141, freshly restored, has been back in service since autumn 2026 and is dedicated to the memory of Willy Hochstrasser. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -838,16 +838,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#2f6b3a",
-   "p": "Salonwagen erster Klasse in der Obhut des Vereins Pro Salonwagen RhB. Die Skizze zeigt ihn mit seiner früheren Nummer 61 in der crème-grünen Farbgebung, mit Abteilen für Raucher und Nichtraucher.",
+   "p": "Salonwagen erster Klasse in der Obhut des Vereins Pro Salonwagen RhB. Die Skizze zeigt ihn mit seiner früheren Nummer 61 in der crème-grünen Farbgebung, mit Abteilen für Raucher und Nichtraucher. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Voiture-salon de première classe confiée à l’association Pro Salonwagen RhB. Le dessin la montre avec son ancien numéro 61, dans la livrée crème et verte, avec compartiments fumeurs et non-fumeurs."
+     "p": "Voiture-salon de première classe confiée à l’association Pro Salonwagen RhB. Le dessin la montre avec son ancien numéro 61, dans la livrée crème et verte, avec compartiments fumeurs et non-fumeurs. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Carrozza salone di prima classe affidata all’associazione Pro Salonwagen RhB. Il disegno la mostra con il vecchio numero 61, nella livrea crema e verde, con scompartimenti fumatori e non fumatori."
+     "p": "Carrozza salone di prima classe affidata all’associazione Pro Salonwagen RhB. Il disegno la mostra con il vecchio numero 61, nella livrea crema e verde, con scompartimenti fumatori e non fumatori. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "First-class saloon car in the care of the Verein Pro Salonwagen RhB. The drawing shows it with its former number 61 in the cream and green livery, with smoking and non-smoking sections."
+     "p": "First-class saloon car in the care of the Verein Pro Salonwagen RhB. The drawing shows it with its former number 61 in the cream and green livery, with smoking and non-smoking sections. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -871,16 +871,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#1f3a6b",
-   "p": "Ehemaliger Speisewagen von 1928, den der Verein Pro Salonwagen zum Pianobarwagen umgebaut hat. In den Farben Kobaltblau und Elfenbein ergänzt er die Salonwagen im Alpine Classic Pullman-Express.",
+   "p": "Ehemaliger Speisewagen von 1928, den der Verein Pro Salonwagen zum Pianobarwagen umgebaut hat. In den Farben Kobaltblau und Elfenbein ergänzt er die Salonwagen im Alpine Classic Pullman-Express. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Ancienne voiture-restaurant de 1928, transformée par l’association Pro Salonwagen en voiture piano-bar. Aux couleurs bleu cobalt et ivoire, elle complète les voitures-salons de l’Alpine Classic Pullman-Express."
+     "p": "Ancienne voiture-restaurant de 1928, transformée par l’association Pro Salonwagen en voiture piano-bar. Aux couleurs bleu cobalt et ivoire, elle complète les voitures-salons de l’Alpine Classic Pullman-Express. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Ex carrozza ristorante del 1928, trasformata dall’associazione Pro Salonwagen in carrozza piano-bar. Nei colori blu cobalto e avorio completa le carrozze salone dell’Alpine Classic Pullman-Express."
+     "p": "Ex carrozza ristorante del 1928, trasformata dall’associazione Pro Salonwagen in carrozza piano-bar. Nei colori blu cobalto e avorio completa le carrozze salone dell’Alpine Classic Pullman-Express. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Former 1928 dining car that the Verein Pro Salonwagen converted into a piano-bar car. In cobalt blue and ivory, it complements the saloon cars of the Alpine Classic Pullman-Express."
+     "p": "Former 1928 dining car that the Verein Pro Salonwagen converted into a piano-bar car. In cobalt blue and ivory, it complements the saloon cars of the Alpine Classic Pullman-Express. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -904,16 +904,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#2f6b3a",
-   "p": "Zweiachsiger Gepäckwagen in grüner Farbgebung, früher als D 4043 unterwegs. Er gehört zum Zugsverband der Salonwagen des Vereins Pro Salonwagen RhB.",
+   "p": "Zweiachsiger Gepäckwagen in grüner Farbgebung, früher als D 4043 unterwegs. Er gehört zum Zugsverband der Salonwagen des Vereins Pro Salonwagen RhB. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Fourgon à bagages à deux essieux de couleur verte, qui circulait autrefois sous le numéro D 4043. Il fait partie de la composition des voitures-salons de l’association Pro Salonwagen RhB."
+     "p": "Fourgon à bagages à deux essieux de couleur verte, qui circulait autrefois sous le numéro D 4043. Il fait partie de la composition des voitures-salons de l’association Pro Salonwagen RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Bagagliaio a due assi di colore verde, un tempo in servizio come D 4043. Fa parte della composizione delle carrozze salone dell’associazione Pro Salonwagen RhB."
+     "p": "Bagagliaio a due assi di colore verde, un tempo in servizio come D 4043. Fa parte della composizione delle carrozze salone dell’associazione Pro Salonwagen RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Two-axle luggage van in green livery, formerly running as D 4043. It forms part of the saloon-car train of the Verein Pro Salonwagen RhB."
+     "p": "Two-axle luggage van in green livery, formerly running as D 4043. It forms part of the saloon-car train of the Verein Pro Salonwagen RhB. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -939,18 +939,18 @@
    "col": "#e8b923",
    "len": 8.94,
    "gr": "wagen",
-   "p": "Zweiachsiger Wagen von 1908, der 1981 zum offenen Aussichtswagen mit 36 Plätzen umgebaut wurde, in der typischen gelben Farbe. Die «gelben Cabrios» der RhB fahren im Sommer zwischen Davos und Filisur, zwischen Alvaneu und Filisur sowie zwischen St. Moritz und Tirano.",
+   "p": "Zweiachsiger Wagen von 1908, der 1981 zum offenen Aussichtswagen mit 36 Plätzen umgebaut wurde, in der typischen gelben Farbe. Die «gelben Cabrios» der RhB fahren im Sommer zwischen Davos und Filisur, zwischen Alvaneu und Filisur sowie zwischen St. Moritz und Tirano. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Voiture à deux essieux de 1908, transformée en 1981 en voiture panoramique ouverte de 36 places, dans la couleur jaune typique. Les « cabriolets jaunes » des RhB circulent en été entre Davos et Filisur, entre Alvaneu et Filisur ainsi qu’entre Saint-Moritz et Tirano.",
+     "p": "Voiture à deux essieux de 1908, transformée en 1981 en voiture panoramique ouverte de 36 places, dans la couleur jaune typique. Les « cabriolets jaunes » des RhB circulent en été entre Davos et Filisur, entre Alvaneu et Filisur ainsi qu’entre Saint-Moritz et Tirano. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
      "bem": "Transformée en voiture panoramique en 1981"
     },
     "it": {
-     "p": "Carrozza a due assi del 1908, trasformata nel 1981 in carrozza panoramica aperta con 36 posti, nel tipico colore giallo. I «cabriolet gialli» della RhB circolano in estate tra Davos e Filisur, tra Alvaneu e Filisur e tra St. Moritz e Tirano.",
+     "p": "Carrozza a due assi del 1908, trasformata nel 1981 in carrozza panoramica aperta con 36 posti, nel tipico colore giallo. I «cabriolet gialli» della RhB circolano in estate tra Davos e Filisur, tra Alvaneu e Filisur e tra St. Moritz e Tirano. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
      "bem": "Trasformata in carrozza panoramica nel 1981"
     },
     "en": {
-     "p": "Two-axle coach of 1908, rebuilt in 1981 as an open observation car with 36 seats, in the typical yellow livery. The RhB’s «yellow convertibles» run in summer between Davos and Filisur, between Alvaneu and Filisur and between St. Moritz and Tirano.",
+     "p": "Two-axle coach of 1908, rebuilt in 1981 as an open observation car with 36 seats, in the typical yellow livery. The RhB’s «yellow convertibles» run in summer between Davos and Filisur, between Alvaneu and Filisur and between St. Moritz and Tirano. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
      "bem": "Rebuilt as an observation car in 1981"
     }
    },
@@ -975,18 +975,18 @@
    "col": "#e8b923",
    "len": 8.94,
    "gr": "wagen",
-   "p": "Zweiachsiger Wagen von 1908, der 1981 zum offenen Aussichtswagen mit 36 Plätzen umgebaut wurde, in der typischen gelben Farbe. Die «gelben Cabrios» der RhB fahren im Sommer zwischen Davos und Filisur, zwischen Alvaneu und Filisur sowie zwischen St. Moritz und Tirano.",
+   "p": "Zweiachsiger Wagen von 1908, der 1981 zum offenen Aussichtswagen mit 36 Plätzen umgebaut wurde, in der typischen gelben Farbe. Die «gelben Cabrios» der RhB fahren im Sommer zwischen Davos und Filisur, zwischen Alvaneu und Filisur sowie zwischen St. Moritz und Tirano. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Voiture à deux essieux de 1908, transformée en 1981 en voiture panoramique ouverte de 36 places, dans la couleur jaune typique. Les « cabriolets jaunes » des RhB circulent en été entre Davos et Filisur, entre Alvaneu et Filisur ainsi qu’entre Saint-Moritz et Tirano.",
+     "p": "Voiture à deux essieux de 1908, transformée en 1981 en voiture panoramique ouverte de 36 places, dans la couleur jaune typique. Les « cabriolets jaunes » des RhB circulent en été entre Davos et Filisur, entre Alvaneu et Filisur ainsi qu’entre Saint-Moritz et Tirano. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
      "bem": "Transformée en voiture panoramique en 1981"
     },
     "it": {
-     "p": "Carrozza a due assi del 1908, trasformata nel 1981 in carrozza panoramica aperta con 36 posti, nel tipico colore giallo. I «cabriolet gialli» della RhB circolano in estate tra Davos e Filisur, tra Alvaneu e Filisur e tra St. Moritz e Tirano.",
+     "p": "Carrozza a due assi del 1908, trasformata nel 1981 in carrozza panoramica aperta con 36 posti, nel tipico colore giallo. I «cabriolet gialli» della RhB circolano in estate tra Davos e Filisur, tra Alvaneu e Filisur e tra St. Moritz e Tirano. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
      "bem": "Trasformata in carrozza panoramica nel 1981"
     },
     "en": {
-     "p": "Two-axle coach of 1908, rebuilt in 1981 as an open observation car with 36 seats, in the typical yellow livery. The RhB’s «yellow convertibles» run in summer between Davos and Filisur, between Alvaneu and Filisur and between St. Moritz and Tirano.",
+     "p": "Two-axle coach of 1908, rebuilt in 1981 as an open observation car with 36 seats, in the typical yellow livery. The RhB’s «yellow convertibles» run in summer between Davos and Filisur, between Alvaneu and Filisur and between St. Moritz and Tirano. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
      "bem": "Rebuilt as an observation car in 1981"
     }
    },
@@ -1010,18 +1010,18 @@
    "col": "#f2d43a",
    "len": 15.93,
    "gr": "wagen",
-   "p": "Offener Aussichtswagen auf Drehgestellen aus dem Jahr 1930, mit 64 Plätzen deutlich grösser als die zweiachsigen Aussichtswagen. Die Anschrift «Carrozza panoramica» weist auf den Einsatz auf der Berninalinie zwischen St. Moritz und Tirano hin, wo die gelben offenen Wagen im Sommer verkehren.",
+   "p": "Offener Aussichtswagen auf Drehgestellen aus dem Jahr 1930, mit 64 Plätzen deutlich grösser als die zweiachsigen Aussichtswagen. Die Anschrift «Carrozza panoramica» weist auf den Einsatz auf der Berninalinie zwischen St. Moritz und Tirano hin, wo die gelben offenen Wagen im Sommer verkehren. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Voiture panoramique ouverte sur bogies de 1930, avec 64 places, nettement plus grande que les voitures panoramiques à deux essieux. L’inscription « Carrozza panoramica » rappelle son service sur la ligne de la Bernina entre Saint-Moritz et Tirano, où les voitures jaunes ouvertes circulent en été.",
+     "p": "Voiture panoramique ouverte sur bogies de 1930, avec 64 places, nettement plus grande que les voitures panoramiques à deux essieux. L’inscription « Carrozza panoramica » rappelle son service sur la ligne de la Bernina entre Saint-Moritz et Tirano, où les voitures jaunes ouvertes circulent en été. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
      "n": "Voiture panoramique"
     },
     "it": {
-     "p": "Carrozza panoramica aperta su carrelli del 1930, con 64 posti, molto più grande delle carrozze panoramiche a due assi. La scritta «Carrozza panoramica» ricorda il servizio sulla linea del Bernina tra St. Moritz e Tirano, dove le carrozze gialle aperte circolano in estate.",
+     "p": "Carrozza panoramica aperta su carrelli del 1930, con 64 posti, molto più grande delle carrozze panoramiche a due assi. La scritta «Carrozza panoramica» ricorda il servizio sulla linea del Bernina tra St. Moritz e Tirano, dove le carrozze gialle aperte circolano in estate. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
      "n": "Carrozza panoramica"
     },
     "en": {
-     "p": "Open bogie observation car from 1930 with 64 seats, much larger than the two-axle observation cars. The lettering «Carrozza panoramica» points to its use on the Bernina line between St. Moritz and Tirano, where the yellow open cars run in summer.",
+     "p": "Open bogie observation car from 1930 with 64 seats, much larger than the two-axle observation cars. The lettering «Carrozza panoramica» points to its use on the Bernina line between St. Moritz and Tirano, where the yellow open cars run in summer. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
      "n": "Observation car"
     }
    },
@@ -1044,18 +1044,18 @@
    "col": "#2f6b3a",
    "len": 18.42,
    "gr": "wagen",
-   "p": "Erstklasswagen der ersten Generation der RhB-Einheitswagen (Einheitswagen I) aus dem Jahr 1962, in der früheren grünen Farbgebung. Laut Anschrift hatte er je einen Bereich für Raucher und für Nichtraucher.",
+   "p": "Erstklasswagen der ersten Generation der RhB-Einheitswagen (Einheitswagen I) aus dem Jahr 1962, in der früheren grünen Farbgebung. Laut Anschrift hatte er je einen Bereich für Raucher und für Nichtraucher. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Voiture de première classe de la première génération des voitures unifiées des RhB (voiture unifiée I), datant de 1962, dans l’ancienne livrée verte. D’après les inscriptions, elle comportait une partie fumeurs et une partie non-fumeurs.",
+     "p": "Voiture de première classe de la première génération des voitures unifiées des RhB (voiture unifiée I), datant de 1962, dans l’ancienne livrée verte. D’après les inscriptions, elle comportait une partie fumeurs et une partie non-fumeurs. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
      "n": "Voiture unifiée I"
     },
     "it": {
-     "p": "Carrozza di prima classe della prima generazione delle carrozze unificate RhB (carrozza unificata I), del 1962, nella vecchia livrea verde. Secondo le scritte aveva una parte per fumatori e una per non fumatori.",
+     "p": "Carrozza di prima classe della prima generazione delle carrozze unificate RhB (carrozza unificata I), del 1962, nella vecchia livrea verde. Secondo le scritte aveva una parte per fumatori e una per non fumatori. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
      "n": "Carrozza unificata I"
     },
     "en": {
-     "p": "First-class coach of the first generation of RhB standard coaches (Einheitswagen I) from 1962, in the former green livery. According to its lettering it had a smoking and a non-smoking section.",
+     "p": "First-class coach of the first generation of RhB standard coaches (Einheitswagen I) from 1962, in the former green livery. According to its lettering it had a smoking and a non-smoking section. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
      "n": "Standard coach I"
     }
    },
@@ -1078,18 +1078,18 @@
    "col": "#a8cdee",
    "len": 16.6,
    "gr": "wagen",
-   "p": "Personenwagen der früheren Chur–Arosa-Bahn, die 1914 eröffnet und 1942 mit der RhB zusammengelegt wurde. Die Skizze zeigt ihn als Drittklasswagen C 51 in der ursprünglichen weiss-hellblauen Farbgebung der Arosabahn, mit Abteilen für Raucher und Nichtraucher; bei der RhB trägt er die Nummer B 2245.",
+   "p": "Personenwagen der früheren Chur–Arosa-Bahn, die 1914 eröffnet und 1942 mit der RhB zusammengelegt wurde. Die Skizze zeigt ihn als Drittklasswagen C 51 in der ursprünglichen weiss-hellblauen Farbgebung der Arosabahn, mit Abteilen für Raucher und Nichtraucher; bei der RhB trägt er die Nummer B 2245. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Voiture de l’ancien chemin de fer Coire–Arosa, ouvert en 1914 et fusionné avec les RhB en 1942. Le dessin la montre comme voiture de troisième classe C 51 dans la livrée d’origine blanc et bleu clair de la ligne d’Arosa, avec compartiments fumeurs et non-fumeurs ; aux RhB, elle porte le numéro B 2245.",
+     "p": "Voiture de l’ancien chemin de fer Coire–Arosa, ouvert en 1914 et fusionné avec les RhB en 1942. Le dessin la montre comme voiture de troisième classe C 51 dans la livrée d’origine blanc et bleu clair de la ligne d’Arosa, avec compartiments fumeurs et non-fumeurs ; aux RhB, elle porte le numéro B 2245. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
      "bem": "Ancienne voiture C 51 du chemin de fer Coire–Arosa"
     },
     "it": {
-     "p": "Carrozza dell’ex ferrovia Coira–Arosa, aperta nel 1914 e fusa con la RhB nel 1942. Il disegno la mostra come carrozza di terza classe C 51 nella livrea originale bianca e azzurra della linea di Arosa, con scompartimenti fumatori e non fumatori; alla RhB porta il numero B 2245.",
+     "p": "Carrozza dell’ex ferrovia Coira–Arosa, aperta nel 1914 e fusa con la RhB nel 1942. Il disegno la mostra come carrozza di terza classe C 51 nella livrea originale bianca e azzurra della linea di Arosa, con scompartimenti fumatori e non fumatori; alla RhB porta il numero B 2245. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
      "bem": "Ex carrozza C 51 della ferrovia Coira–Arosa"
     },
     "en": {
-     "p": "Coach of the former Chur–Arosa Railway, opened in 1914 and merged into the RhB in 1942. The drawing shows it as third-class coach C 51 in the Arosa line’s original white and light-blue livery, with smoking and non-smoking sections; with the RhB it is numbered B 2245.",
+     "p": "Coach of the former Chur–Arosa Railway, opened in 1914 and merged into the RhB in 1942. The drawing shows it as third-class coach C 51 in the Arosa line’s original white and light-blue livery, with smoking and non-smoking sections; with the RhB it is numbered B 2245. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
      "bem": "Former coach C 51 of the Chur–Arosa Railway"
     }
    },
@@ -1113,16 +1113,16 @@
    "col": "#2f6b3a",
    "len": 16.57,
    "gr": "wagen",
-   "p": "Zwei Personenwagen, die 1932 von der RhB selbst gebaut wurden; der B 2246 fuhr ursprünglich als C 52 auf der Chur–Arosa-Bahn. Die Skizze zeigt ihn als Zweitklasswagen in Grün mit dem auffälligen Schriftzug «RHÄTISCHE BAHN» und je einem Bereich für Raucher und Nichtraucher.",
+   "p": "Zwei Personenwagen, die 1932 von der RhB selbst gebaut wurden; der B 2246 fuhr ursprünglich als C 52 auf der Chur–Arosa-Bahn. Die Skizze zeigt ihn als Zweitklasswagen in Grün mit dem auffälligen Schriftzug «RHÄTISCHE BAHN» und je einem Bereich für Raucher und Nichtraucher. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Deux voitures construites en 1932 par les RhB elles-mêmes ; la B 2246 circulait à l’origine comme C 52 sur la ligne Coire–Arosa. Le dessin la montre comme voiture de deuxième classe en vert, avec la frappante inscription « RHÄTISCHE BAHN » et une partie fumeurs et non-fumeurs."
+     "p": "Deux voitures construites en 1932 par les RhB elles-mêmes ; la B 2246 circulait à l’origine comme C 52 sur la ligne Coire–Arosa. Le dessin la montre comme voiture de deuxième classe en vert, avec la frappante inscription « RHÄTISCHE BAHN » et une partie fumeurs et non-fumeurs. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Due carrozze costruite nel 1932 dalla RhB stessa; la B 2246 circolava in origine come C 52 sulla Coira–Arosa. Il disegno la mostra come carrozza di seconda classe in verde, con la vistosa scritta «RHÄTISCHE BAHN» e una parte per fumatori e non fumatori."
+     "p": "Due carrozze costruite nel 1932 dalla RhB stessa; la B 2246 circolava in origine come C 52 sulla Coira–Arosa. Il disegno la mostra come carrozza di seconda classe in verde, con la vistosa scritta «RHÄTISCHE BAHN» e una parte per fumatori e non fumatori. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Two coaches built in 1932 by the RhB itself; B 2246 originally ran as C 52 on the Chur–Arosa line. The drawing shows it as a green second-class coach with the striking «RHÄTISCHE BAHN» lettering and smoking and non-smoking sections."
+     "p": "Two coaches built in 1932 by the RhB itself; B 2246 originally ran as C 52 on the Chur–Arosa line. The drawing shows it as a green second-class coach with the striking «RHÄTISCHE BAHN» lettering and smoking and non-smoking sections. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1145,16 +1145,16 @@
    "col": "#8a8f94",
    "len": 7.49,
    "gr": "gueter",
-   "p": "Zweiachsiger Niederbordwagen der RhB aus dem Jahr 1903, in grauer Farbgebung und mit Bremserplattform an einem Wagenende.",
+   "p": "Zweiachsiger Niederbordwagen der RhB aus dem Jahr 1903, in grauer Farbgebung und mit Bremserplattform an einem Wagenende. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Wagon à bords bas à deux essieux des RhB, datant de 1903, de couleur grise et avec plateforme de serre-frein à une extrémité."
+     "p": "Wagon à bords bas à deux essieux des RhB, datant de 1903, de couleur grise et avec plateforme de serre-frein à une extrémité. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Carro a sponde basse a due assi della RhB del 1903, di colore grigio e con piattaforma del frenatore a un’estremità."
+     "p": "Carro a sponde basse a due assi della RhB del 1903, di colore grigio e con piattaforma del frenatore a un’estremità. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Two-axle low-sided wagon of the RhB dating from 1903, in grey livery and with a brakeman’s platform at one end."
+     "p": "Two-axle low-sided wagon of the RhB dating from 1903, in grey livery and with a brakeman’s platform at one end. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1176,16 +1176,16 @@
    "col": "#8a8f94",
    "len": 8.45,
    "gr": "gueter",
-   "p": "Zweiachsiger gedeckter Güterwagen der RhB mit Schiebetür, in grauer Farbgebung und mit Bremserplattform an einem Wagenende.",
+   "p": "Zweiachsiger gedeckter Güterwagen der RhB mit Schiebetür, in grauer Farbgebung und mit Bremserplattform an einem Wagenende. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Wagon couvert à deux essieux des RhB, avec porte coulissante, de couleur grise et avec plateforme de serre-frein à une extrémité."
+     "p": "Wagon couvert à deux essieux des RhB, avec porte coulissante, de couleur grise et avec plateforme de serre-frein à une extrémité. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Carro coperto a due assi della RhB con porta scorrevole, di colore grigio e con piattaforma del frenatore a un’estremità."
+     "p": "Carro coperto a due assi della RhB con porta scorrevole, di colore grigio e con piattaforma del frenatore a un’estremità. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Two-axle covered goods wagon of the RhB with a sliding door, in grey livery and with a brakeman’s platform at one end."
+     "p": "Two-axle covered goods wagon of the RhB with a sliding door, in grey livery and with a brakeman’s platform at one end. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1208,16 +1208,16 @@
    "col": "#f2d43a",
    "len": 7.79,
    "gr": "gueter",
-   "p": "Zweiachsiger Kesselwagen der RhB. Die Skizze zeigt ihn in Gelb mit rotem Band und der rätoromanischen Anschrift «Viafier retica».",
+   "p": "Zweiachsiger Kesselwagen der RhB. Die Skizze zeigt ihn in Gelb mit rotem Band und der rätoromanischen Anschrift «Viafier retica». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Wagon-citerne à deux essieux des RhB. Le dessin le montre en jaune avec une bande rouge et l’inscription romanche « Viafier retica »."
+     "p": "Wagon-citerne à deux essieux des RhB. Le dessin le montre en jaune avec une bande rouge et l’inscription romanche « Viafier retica ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Carro cisterna a due assi della RhB. Il disegno lo mostra in giallo con una fascia rossa e la scritta romancia «Viafier retica»."
+     "p": "Carro cisterna a due assi della RhB. Il disegno lo mostra in giallo con una fascia rossa e la scritta romancia «Viafier retica». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Two-axle tank wagon of the RhB. The drawing shows it in yellow with a red band and the Romansh lettering «Viafier retica»."
+     "p": "Two-axle tank wagon of the RhB. The drawing shows it in yellow with a red band and the Romansh lettering «Viafier retica». The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1316,20 +1316,20 @@
    "col": "#3a3e42",
    "len": 7.4,
    "gr": "gueter",
-   "p": "Ein Paar zweiachsiger Langholzwagen von 1908. Die beiden kurzen Wagen tragen auf je einem drehbaren Schemel gemeinsam lange Baumstämme und werden deshalb immer zusammen eingesetzt. Als Dienstwagen tragen sie heute die Nummern WN 9850 und WN 9851.",
+   "p": "Ein Paar zweiachsiger Langholzwagen von 1908. Die beiden kurzen Wagen tragen auf je einem drehbaren Schemel gemeinsam lange Baumstämme und werden deshalb immer zusammen eingesetzt. Als Dienstwagen tragen sie heute die Nummern WN 9850 und WN 9851. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "bem": "heute WN 9850 / WN 9851",
    "i18n": {
     "fr": {
      "bem": "aujourd’hui WN 9850 / WN 9851",
-     "p": "Une paire de wagons à grumes à deux essieux de 1908. Les deux wagons courts portent ensemble de longs troncs, chacun sur une sellette pivotante, et circulent donc toujours ensemble. Comme véhicules de service, ils portent aujourd’hui les numéros WN 9850 et WN 9851."
+     "p": "Une paire de wagons à grumes à deux essieux de 1908. Les deux wagons courts portent ensemble de longs troncs, chacun sur une sellette pivotante, et circulent donc toujours ensemble. Comme véhicules de service, ils portent aujourd’hui les numéros WN 9850 et WN 9851. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
      "bem": "oggi WN 9850 / WN 9851",
-     "p": "Una coppia di carri per tronchi a due assi del 1908. I due carri corti portano insieme lunghi tronchi, ciascuno su una traversa girevole, e circolano quindi sempre insieme. Come veicoli di servizio portano oggi i numeri WN 9850 e WN 9851."
+     "p": "Una coppia di carri per tronchi a due assi del 1908. I due carri corti portano insieme lunghi tronchi, ciascuno su una traversa girevole, e circolano quindi sempre insieme. Come veicoli di servizio portano oggi i numeri WN 9850 e WN 9851. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
      "bem": "today WN 9850 / WN 9851",
-     "p": "A pair of two-axle timber wagons from 1908. The two short wagons carry long logs between them, each on a pivoting bolster, and therefore always run together. As service vehicles they now carry the numbers WN 9850 and WN 9851."
+     "p": "A pair of two-axle timber wagons from 1908. The two short wagons carry long logs between them, each on a pivoting bolster, and therefore always run together. As service vehicles they now carry the numbers WN 9850 and WN 9851. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1358,19 +1358,19 @@
     "g34-11"
    ],
    "bem": "Öltank zur Lok G 3/4 11 «Heidi»",
-   "p": "Zweiachsiger offener Hochbordwagen von 1911. Heute dient er als Dienstwagen WN 9855 und trägt den Öltank, der die ölgefeuerte Dampflok G 3/4 11 «Heidi» auf ihren Fahrten mit Brennstoff versorgt.",
+   "p": "Zweiachsiger offener Hochbordwagen von 1911. Heute dient er als Dienstwagen WN 9855 und trägt den Öltank, der die ölgefeuerte Dampflok G 3/4 11 «Heidi» auf ihren Fahrten mit Brennstoff versorgt. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
      "bem": "Citerne à mazout de la locomotive G 3/4 11 « Heidi »",
-     "p": "Wagon tombereau à deux essieux de 1911. Il sert aujourd’hui de wagon de service WN 9855 et porte la citerne qui alimente en combustible la locomotive à vapeur au mazout G 3/4 11 « Heidi » lors de ses voyages."
+     "p": "Wagon tombereau à deux essieux de 1911. Il sert aujourd’hui de wagon de service WN 9855 et porte la citerne qui alimente en combustible la locomotive à vapeur au mazout G 3/4 11 « Heidi » lors de ses voyages. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
      "bem": "Serbatoio d’olio della locomotiva G 3/4 11 «Heidi»",
-     "p": "Carro aperto a sponde alte a due assi del 1911. Oggi serve come carro di servizio WN 9855 e porta il serbatoio che rifornisce di combustibile la locomotiva a vapore a olio G 3/4 11 «Heidi» durante i suoi viaggi."
+     "p": "Carro aperto a sponde alte a due assi del 1911. Oggi serve come carro di servizio WN 9855 e porta il serbatoio che rifornisce di combustibile la locomotiva a vapore a olio G 3/4 11 «Heidi» durante i suoi viaggi. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
      "bem": "Oil tank for locomotive G 3/4 11 «Heidi»",
-     "p": "Two-axle high-sided open wagon from 1911. Today it serves as service wagon WN 9855 and carries the oil tank that supplies fuel to the oil-fired steam locomotive G 3/4 11 «Heidi» on its trips."
+     "p": "Two-axle high-sided open wagon from 1911. Today it serves as service wagon WN 9855 and carries the oil tank that supplies fuel to the oil-fired steam locomotive G 3/4 11 «Heidi» on its trips. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1398,19 +1398,19 @@
    "len": 8.45,
    "gr": "gueter",
    "bem": "Jubiläumswagen «25 Jahre Dampffreunde»",
-   "p": "Zweiachsiger gedeckter Güterwagen von 1913, heute Dienstwagen WN 9854. Die Skizze zeigt ihn hellgrau mit der Bezeichnung Gbk-v 5563 und dem Jubiläumsschmuck «25 Jahre 1977–2002» des Vereins Dampffreunde der Rhätischen Bahn.",
+   "p": "Zweiachsiger gedeckter Güterwagen von 1913, heute Dienstwagen WN 9854. Die Skizze zeigt ihn hellgrau mit der Bezeichnung Gbk-v 5563 und dem Jubiläumsschmuck «25 Jahre 1977–2002» des Vereins Dampffreunde der Rhätischen Bahn. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
      "bem": "Wagon du jubilé « 25 ans des Dampffreunde »",
-     "p": "Wagon couvert à deux essieux de 1913, aujourd’hui wagon de service WN 9854. Le dessin le montre gris clair, avec la désignation Gbk-v 5563 et la décoration du jubilé « 25 Jahre 1977–2002 » de l’association Dampffreunde der Rhätischen Bahn."
+     "p": "Wagon couvert à deux essieux de 1913, aujourd’hui wagon de service WN 9854. Le dessin le montre gris clair, avec la désignation Gbk-v 5563 et la décoration du jubilé « 25 Jahre 1977–2002 » de l’association Dampffreunde der Rhätischen Bahn. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
      "bem": "Carro del giubileo «25 anni Dampffreunde»",
-     "p": "Carro coperto a due assi del 1913, oggi carro di servizio WN 9854. Il disegno lo mostra grigio chiaro, con la designazione Gbk-v 5563 e la decorazione del giubileo «25 Jahre 1977–2002» dell’associazione Dampffreunde der Rhätischen Bahn."
+     "p": "Carro coperto a due assi del 1913, oggi carro di servizio WN 9854. Il disegno lo mostra grigio chiaro, con la designazione Gbk-v 5563 e la decorazione del giubileo «25 Jahre 1977–2002» dell’associazione Dampffreunde der Rhätischen Bahn. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
      "bem": "Jubilee wagon «25 years of the Dampffreunde»",
-     "p": "Two-axle covered goods wagon from 1913, now service wagon WN 9854. The drawing shows it in light grey with the designation Gbk-v 5563 and the «25 Jahre 1977–2002» jubilee decoration of the Verein Dampffreunde der Rhätischen Bahn."
+     "p": "Two-axle covered goods wagon from 1913, now service wagon WN 9854. The drawing shows it in light grey with the designation Gbk-v 5563 and the «25 Jahre 1977–2002» jubilee decoration of the Verein Dampffreunde der Rhätischen Bahn. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1437,19 +1437,19 @@
     "gueter"
    ],
    "bem": "früher Gbk-v 5580 / Gbk-v 5586",
-   "p": "Zwei zweiachsige gedeckte Wagen von 1913, die als Güterwagen Gbk-v 5580 und 5586 unterwegs waren. Heute dienen sie als Gepäckwagen D2 4079 und D2 4080 in historischen Zügen und können weiterhin auch Güter befördern.",
+   "p": "Zwei zweiachsige gedeckte Wagen von 1913, die als Güterwagen Gbk-v 5580 und 5586 unterwegs waren. Heute dienen sie als Gepäckwagen D2 4079 und D2 4080 in historischen Zügen und können weiterhin auch Güter befördern. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
      "bem": "anciennement Gbk-v 5580 / Gbk-v 5586",
-     "p": "Deux wagons couverts à deux essieux de 1913, qui circulaient comme wagons marchandises Gbk-v 5580 et 5586. Ils servent aujourd’hui de fourgons à bagages D2 4079 et D2 4080 dans les trains historiques et peuvent toujours transporter des marchandises."
+     "p": "Deux wagons couverts à deux essieux de 1913, qui circulaient comme wagons marchandises Gbk-v 5580 et 5586. Ils servent aujourd’hui de fourgons à bagages D2 4079 et D2 4080 dans les trains historiques et peuvent toujours transporter des marchandises. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
      "bem": "già Gbk-v 5580 / Gbk-v 5586",
-     "p": "Due carri coperti a due assi del 1913, che circolavano come carri merci Gbk-v 5580 e 5586. Oggi servono da bagagliai D2 4079 e D2 4080 nei treni storici e possono ancora trasportare merci."
+     "p": "Due carri coperti a due assi del 1913, che circolavano come carri merci Gbk-v 5580 e 5586. Oggi servono da bagagliai D2 4079 e D2 4080 nei treni storici e possono ancora trasportare merci. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
      "bem": "formerly Gbk-v 5580 / Gbk-v 5586",
-     "p": "Two two-axle covered wagons from 1913 that ran as goods wagons Gbk-v 5580 and 5586. Today they serve as luggage vans D2 4079 and D2 4080 in historic trains and can still carry goods as well."
+     "p": "Two two-axle covered wagons from 1913 that ran as goods wagons Gbk-v 5580 and 5586. Today they serve as luggage vans D2 4079 and D2 4080 in historic trains and can still carry goods as well. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1474,16 +1474,16 @@
    "col": "#2f6b3a",
    "len": 8.88,
    "gr": "wagen",
-   "p": "Zweiachsiger Gepäckwagen von 1895 in grüner Farbgebung, mit Schiebetür und vergitterten Fenstern. Als Dienstfahrzeug trägt er heute zusätzlich die Nummer WN 9805; in historischen Zügen läuft er weiterhin als Gepäckwagen mit, etwa bei Extrafahrten des Club 1889.",
+   "p": "Zweiachsiger Gepäckwagen von 1895 in grüner Farbgebung, mit Schiebetür und vergitterten Fenstern. Als Dienstfahrzeug trägt er heute zusätzlich die Nummer WN 9805; in historischen Zügen läuft er weiterhin als Gepäckwagen mit, etwa bei Extrafahrten des Club 1889. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Fourgon à bagages à deux essieux de 1895, de couleur verte, avec porte coulissante et fenêtres grillagées. Comme véhicule de service, il porte aujourd’hui aussi le numéro WN 9805 ; dans les trains historiques, il circule toujours comme fourgon, par exemple lors des voyages spéciaux du Club 1889."
+     "p": "Fourgon à bagages à deux essieux de 1895, de couleur verte, avec porte coulissante et fenêtres grillagées. Comme véhicule de service, il porte aujourd’hui aussi le numéro WN 9805 ; dans les trains historiques, il circule toujours comme fourgon, par exemple lors des voyages spéciaux du Club 1889. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Bagagliaio a due assi del 1895, di colore verde, con porta scorrevole e finestre con grate. Come veicolo di servizio porta oggi anche il numero WN 9805; nei treni storici circola ancora come bagagliaio, ad esempio nei viaggi speciali del Club 1889."
+     "p": "Bagagliaio a due assi del 1895, di colore verde, con porta scorrevole e finestre con grate. Come veicolo di servizio porta oggi anche il numero WN 9805; nei treni storici circola ancora come bagagliaio, ad esempio nei viaggi speciali del Club 1889. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Two-axle luggage van from 1895 in green livery, with a sliding door and barred windows. As a service vehicle it now also carries the number WN 9805; in historic trains it still runs as a luggage van, for example on Club 1889 specials."
+     "p": "Two-axle luggage van from 1895 in green livery, with a sliding door and barred windows. As a service vehicle it now also carries the number WN 9805; in historic trains it still runs as a luggage van, for example on Club 1889 specials. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -1507,16 +1507,16 @@
    "col": "#3f5f1f",
    "len": 12.94,
    "gr": "wagen",
-   "p": "Vierachsiger Gepäckwagen von 1948 in der früheren grünen Farbgebung der RhB, mit grosser Schiebetür für das Ein- und Ausladen. Er läuft in historischen Zügen mit.",
+   "p": "Vierachsiger Gepäckwagen von 1948 in der früheren grünen Farbgebung der RhB, mit grosser Schiebetür für das Ein- und Ausladen. Er läuft in historischen Zügen mit. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Fourgon à bagages à quatre essieux de 1948, dans l’ancienne livrée verte des RhB, avec une grande porte coulissante pour le chargement. Il circule dans les trains historiques."
+     "p": "Fourgon à bagages à quatre essieux de 1948, dans l’ancienne livrée verte des RhB, avec une grande porte coulissante pour le chargement. Il circule dans les trains historiques. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Bagagliaio a quattro assi del 1948, nella vecchia livrea verde della RhB, con grande porta scorrevole per il carico. Circola nei treni storici."
+     "p": "Bagagliaio a quattro assi del 1948, nella vecchia livrea verde della RhB, con grande porta scorrevole per il carico. Circola nei treni storici. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Four-axle luggage van from 1948 in the former green RhB livery, with a large sliding door for loading. It runs in historic trains."
+     "p": "Four-axle luggage van from 1948 in the former green RhB livery, with a large sliding door for loading. It runs in historic trains. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
