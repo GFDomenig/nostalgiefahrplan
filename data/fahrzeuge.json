@@ -34,7 +34,11 @@
    "imgc": "U. Finke",
    "len": 7.95,
    "gr": "dampf",
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "auf": [
+    "club1889",
+    "dfrhb"
+   ]
   },
   {
    "id": "g34-11",
@@ -66,6 +70,10 @@
    "gr": "dampf",
    "zu": "hrhb",
    "mit": [
+    "dfrhb"
+   ],
+   "auf": [
+    "club1889",
     "dfrhb"
    ]
   },
@@ -793,6 +801,9 @@
    "len": 9.75,
    "zu": "hrhb",
    "mit": [
+    "club1889"
+   ],
+   "auf": [
     "club1889"
    ]
   },
