@@ -102,6 +102,9 @@ main{padding-top:20px}
 .chip.elektro{border-color:var(--elec);color:var(--elec)}
 .chip.voll{background:var(--red);border-color:var(--red);color:#fff}
 .chip.d3{border-style:dashed}
+.btn.it{min-width:9.5em;justify-content:center;text-align:center}.dep a.go{display:inline-block;min-width:8.5em;text-align:center}
+.hrb{display:inline-block;vertical-align:middle;background:var(--red);color:#fff;font:600 12px/1 Barlow,sans-serif;padding:4px 7px;border-radius:4px;margin-left:6px;letter-spacing:.02em;position:relative;top:-2px}
+h2 .hrb{font-size:15px;padding:5px 9px;top:-6px}
 .act{display:flex;flex-direction:column;gap:6px;align-items:stretch;justify-content:start}
 .btn{display:inline-block;text-align:center;text-decoration:none;border-radius:6px;padding:9px 14px;font-weight:600;font-size:15px;white-space:nowrap;border:1px solid var(--ink)}
 .btn.p{background:var(--red);border-color:var(--red);color:#fff}
@@ -373,7 +376,7 @@ const match=t=>{const o=OPS[t.o];
  if(st.th&&!(t.th||[]).includes(st.th))return false;
  if(st.q){const h=(t.t+" "+LT(t,"t")+" "+o.n+" "+t.r+" "+LT(t,"r")+" "+(t.x||"")+" "+(LT(t,"x")||"")).toLowerCase();if(!st.q.toLowerCase().split(/\s+/).every(w=>h.includes(w)))return false}
  return true};
-const chips=t=>{let c=(HR(t.o)?`<span class="chip hr">Historic RhB</span>`:"")+`<span class="chip ${t.tr==="Dampf"?"dampf":t.tr==="Elektro"?"elektro":""}">${TRL(t.tr)}</span>`;
+const chips=t=>{let c=`<span class="chip ${t.tr==="Dampf"?"dampf":t.tr==="Elektro"?"elektro":""}">${TRL(t.tr)}</span>`;
  (t.th||[]).forEach(x=>c+=`<span class="chip">${THL(x)}</span>`);
  if(t.st==="voll")c+=`<span class="chip voll">${L("full")}</span>`;
  if(t.st==="zug")c+=`<span class="chip">${L("train")}</span>`;
@@ -384,9 +387,9 @@ const tm=t=>t.h?(L("h")?t.h+" "+L("h"):t.h):"";
 const more=t=>t.d&&t.d.length>1?`<div class="note">${L("more")}: ${t.d.map(fd).join(", ")}</div>`:"";
 const tripHTML=(oc)=>{const t=T[oc.i],o=OPS[t.o],d=pd(oc.day),past=oc.end<TODAY;
  const date=t.rg?`${fd(t.rg[0])}<small>${L("until")} ${fd(t.rg[1])} · ${WDL(t.wd)}</small>`:`${d.getDate()}.${d.getMonth()+1}.<small>${WD()[d.getDay()]}${t.h?" · "+t.h:""}</small>`;
- const bk=t.st==="voll"?`<a class="btn" href="${t.b}">${L("wait")}</a>`:past?`<a class="btn" href="${t.b}">${L("to_op")}</a>`:`<a class="btn p" href="${t.b}">${L("book")}</a>`;
+ const bk=`<a class="btn p it" href="${t.b}">${L("info_t")}</a>`;
  const x=LT(t,"x"),pr=LT(t,"pr");
- return `<article class="trip${past?" past":""}${HR(t.o)?" hrt":""}"><div class="dt">${date}</div><div><h3><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a></h3><div class="meta">${esc(o.n)} · ${esc(LT(t,"r"))}</div>${x?`<p class="desc">${esc(x)}</p>`:""}<div class="chips">${chips(t)}</div></div><div class="act">${bk}${pr?`<div class="price">${esc(pr)}</div>`:""}</div></article>`};
+ return `<article class="trip${past?" past":""}${HR(t.o)?" hrt":""}"><div class="dt">${date}</div><div><h3><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a>${HR(t.o)?` <span class="hrb">Historic RhB</span>`:""}</h3><div class="meta">${esc(o.n)} · ${esc(LT(t,"r"))}</div>${x?`<p class="desc">${esc(x)}</p>`:""}<div class="chips">${chips(t)}</div></div><div class="act">${bk}</div></article>`};
 const visible=()=>OCC.filter(oc=>match(T[oc.i])&&(st.past||oc.end>=TODAY));
 const vList=()=>{let seen=new Set(),out="",cur="";
  visible().forEach(oc=>{const t=T[oc.i];
@@ -423,11 +426,11 @@ const vDetail=id=>{const i=TID[id];if(i===undefined)return `<p class="empty">${L
  const dates=t.rg?`<span>${fd(t.rg[0])}${pd(t.rg[0]).getFullYear()} ${L("until")} ${fd(t.rg[1])}${pd(t.rg[1]).getFullYear()} · ${WDL(t.wd)}</span>`:t.d.map(x=>`<span class="${x<TODAY?"p":""}">${w[pd(x).getDay()]} ${fd(x)}${pd(x).getFullYear()}</span>`).join("");
  const url=location.href.split("#")[0]+"#fahrt-"+t.id,msg=tt+" ("+o.n+"): "+url;
  return `<div class="det"><a class="back" href="#liste">${L("back")}</a>
- <div class="chips">${chips(t)}</div><h2>${esc(tt)}</h2><div class="meta">${esc(o.n)}</div>
+ <div class="chips">${chips(t)}</div><h2>${esc(tt)}${HR(t.o)?` <span class="hrb">Historic RhB</span>`:""}</h2><div class="meta">${esc(o.n)}</div>
  ${x?`<p class="desc" style="font-size:17px">${esc(x)}</p>`:""}
  <div class="facts"><div><span>${L("route")}</span><b>${esc(LT(t,"r"))}</b></div>${t.h?`<div><span>${L("dep")}</span><b>${tm(t)}</b></div>`:""}<div><span>${L("traction")}</span><b>${TRL(t.tr)}</b></div>${pr?`<div><span>${L("price")}</span><b>${esc(pr)}</b></div>`:""}</div>
  <h3 style="margin:0">${t.rg?L("season"):t.d.length>1?L("dates"):L("date")}</h3><div class="dates">${dates}</div>
- <div class="acts">${past?`<a class="btn" href="${t.b}">${L("to_op")}</a>`:t.st==="voll"?`<a class="btn" href="${t.b}">${L("full_info")}</a>`:`<a class="btn p" href="${t.b}">${L("book")}</a>`}
+ <div class="acts"><a class="btn p it" href="${t.b}">${L("info_t")}</a>
  ${past?"":`<button class="btn" id="icsb">${L("cal")} (${fd(nd)})</button>`}
  <button class="btn" id="cpy">${L("copy")}</button>
  <a class="btn" href="https://wa.me/?text=${encodeURIComponent(msg)}">WhatsApp</a>
@@ -533,7 +536,7 @@ const drawMap=()=>{if(!window.L){document.getElementById("map").innerHTML=`<p cl
  if(!all.length)idle.forEach(([k,o])=>all.push(...o.geo));
  if(all.length)MAP.fitBounds(all,{padding:[30,30],maxZoom:11})};
 const board=()=>{const seen=new Set(),up=OCC.filter(oc=>oc.end>=TODAY).filter(oc=>{if(seen.has(oc.i))return false;seen.add(oc.i);return true}).slice(0,5);
- document.getElementById("board").innerHTML=up.map(oc=>{const t=T[oc.i],d=pd(oc.day),mn=MO()[d.getMonth()];return `<div class="dep"><div class="d">${d.getDate()}${LG==="de"?".":""} ${["de","en"].includes(LG)?mn.charAt(0).toUpperCase()+mn.slice(1,3):mn.slice(0,3)}.<small>${WD()[d.getDay()]}${t.h?" · "+t.h:""}</small></div><div><div class="t"><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a></div><div class="o">${esc(OPS[t.o].n)} · ${esc(LT(t,"r"))}</div></div><div class="act2">${t.st==="voll"?`<span class="full">${L("full")}</span>`:`<a class="go" href="${t.b}">${L("book_s")}</a>`}</div></div>`}).join("")};
+ document.getElementById("board").innerHTML=up.map(oc=>{const t=T[oc.i],d=pd(oc.day),mn=MO()[d.getMonth()];return `<div class="dep"><div class="d">${d.getDate()}${LG==="de"?".":""} ${["de","en"].includes(LG)?mn.charAt(0).toUpperCase()+mn.slice(1,3):mn.slice(0,3)}.<small>${WD()[d.getDay()]}${t.h?" · "+t.h:""}</small></div><div><div class="t"><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a>${HR(t.o)?` <span class="hrb">Historic RhB</span>`:""}</div><div class="o">${esc(OPS[t.o].n)} · ${esc(LT(t,"r"))}</div></div><div class="act2"><a class="go" href="${t.b}">${L("info_t")}</a></div></div>`}).join("")};
 const stats=()=>{const up=OCC.filter(oc=>oc.end>=TODAY);document.getElementById("stats").innerHTML=`<div class="stat"><b>${up.length}</b><span>${L("st_up")}</span></div><div class="stat"><b>${Object.keys(OPS).length}</b><span>${L("st_ops")}</span></div><div class="stat"><b>${new Set(up.filter(oc=>oc.day<"2027-01-01").map(oc=>oc.i)).size}</b><span>${L("st_adv")}</span></div>`};
 const render=()=>{const v=document.getElementById("view");
  document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.v===st.v));
