@@ -1386,6 +1386,38 @@
    ],
    "img": "img/fz/d2-4079",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "f-4",
+   "nr": "F 4 / WN 9805",
+   "n": "Doris & Calvin",
+   "kat": "gep",
+   "bj": "1895",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "betr",
+   "col": "#2f6b3a",
+   "len": 8.88,
+   "gr": "wagen",
+   "p": "Zweiachsiger Gepäckwagen von 1895 in grüner Farbgebung, mit Schiebetür und vergitterten Fenstern. Als Dienstfahrzeug trägt er heute zusätzlich die Nummer WN 9805; in historischen Zügen läuft er weiterhin als Gepäckwagen mit, etwa bei Extrafahrten des Club 1889.",
+   "i18n": {
+    "fr": {
+     "p": "Fourgon à bagages à deux essieux de 1895, de couleur verte, avec porte coulissante et fenêtres grillagées. Comme véhicule de service, il porte aujourd’hui aussi le numéro WN 9805 ; dans les trains historiques, il circule toujours comme fourgon, par exemple lors des voyages spéciaux du Club 1889."
+    },
+    "it": {
+     "p": "Bagagliaio a due assi del 1895, di colore verde, con porta scorrevole e finestre con grate. Come veicolo di servizio porta oggi anche il numero WN 9805; nei treni storici circola ancora come bagagliaio, ad esempio nei viaggi speciali del Club 1889."
+    },
+    "en": {
+     "p": "Two-axle luggage van from 1895 in green livery, with a sliding door and barred windows. As a service vehicle it now also carries the number WN 9805; in historic trains it still runs as a luggage van, for example on Club 1889 specials."
+    }
+   },
+   "m": [
+    "F 4",
+    "WN 9805",
+    "Doris"
+   ],
+   "img": "img/fz/f-4",
+   "imgc": "U. Finke"
   }
  ]
 }
