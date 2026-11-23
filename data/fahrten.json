@@ -2313,7 +2313,7 @@
    "th": [
     "Bergstrecke"
    ],
-   "x": "Historischer Sommerzug über den Berninapass, an zehn Tagen in der Hochsaison jeweils mittwochs und donnerstags; teilweise mit den Bernina-Triebwagen ABe 4/4 I 30 und 34, den «Kessler Zwillingen». Der Zug ist regulär finanziert, es gilt das normale Billett.",
+   "x": "Historischer Sommerzug über den Berninapass, an zehn Tagen in der Hochsaison jeweils mittwochs und donnerstags; teilweise mit den Bernina-Triebwagen ABe 4/4 I 30 und 34, den «Kessler Zwillingen». Es gilt das normale Billett.",
    "pr": "Normales Billett",
    "b": "https://www.rhb.ch/de/nostalgiefahrten",
    "s": "v",
@@ -2322,19 +2322,19 @@
     "fr": {
      "t": "Bernina Glaciers",
      "r": "Saint-Moritz–Poschiavo, retour à Pontresina",
-     "x": "Train historique d’été sur le col de la Bernina, dix jours en haute saison, chaque mercredi et jeudi ; en partie avec les automotrices de la Bernina ABe 4/4 I 30 et 34, les « jumelles Kessler ». Le train est financé régulièrement, le billet normal est valable.",
+     "x": "Train historique d’été sur le col de la Bernina, dix jours en haute saison, chaque mercredi et jeudi ; en partie avec les automotrices de la Bernina ABe 4/4 I 30 et 34, les « jumelles Kessler ». Le billet normal est valable.",
      "pr": "Billet normal"
     },
     "it": {
      "t": "Bernina Glaciers",
      "r": "St. Moritz–Poschiavo, ritorno a Pontresina",
-     "x": "Treno storico estivo sul passo del Bernina, dieci giorni in alta stagione, ogni mercoledì e giovedì; in parte con le automotrici del Bernina ABe 4/4 I 30 e 34, le «gemelle Kessler». Il treno è finanziato regolarmente, vale il biglietto normale.",
+     "x": "Treno storico estivo sul passo del Bernina, dieci giorni in alta stagione, ogni mercoledì e giovedì; in parte con le automotrici del Bernina ABe 4/4 I 30 e 34, le «gemelle Kessler». Vale il biglietto normale.",
      "pr": "Biglietto normale"
     },
     "en": {
      "t": "Bernina Glaciers",
      "r": "St. Moritz–Poschiavo, returning to Pontresina",
-     "x": "Historic summer train over the Bernina Pass on ten days in high season, every Wednesday and Thursday; partly with the Bernina railcars ABe 4/4 I 30 and 34, the «Kessler twins». The train is regularly funded; ordinary tickets are valid.",
+     "x": "Historic summer train over the Bernina Pass on ten days in high season, every Wednesday and Thursday; partly with the Bernina railcars ABe 4/4 I 30 and 34, the «Kessler twins». Ordinary tickets are valid.",
      "pr": "Ordinary ticket"
     }
    }

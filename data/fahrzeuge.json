@@ -311,16 +311,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#c8102e",
-   "p": "Eine der zehn Ge 4/4 I, der ersten Elektroloks der RhB ohne Stangenantrieb; geliefert am 12. März 1953 von SLM, BBC und MFO. Heute fährt sie nur noch in Nostalgiezügen, etwa im Landwasser Express Davos Platz–Filisur durch die Zügenschlucht. Dieser Zug ist regulär finanziert und kann mit gewöhnlichen Billetten benützt werden. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Eine der zehn Ge 4/4 I, der ersten Elektroloks der RhB ohne Stangenantrieb; geliefert am 12. März 1953 von SLM, BBC und MFO. Heute fährt sie nur noch in Nostalgiezügen, etwa im Landwasser Express Davos Platz–Filisur durch die Zügenschlucht. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "L’une des dix Ge 4/4 I, premières locomotives électriques des RhB sans entraînement par bielles ; livrée le 12 mars 1953 par SLM, BBC et MFO. Elle ne circule plus aujourd’hui que dans des trains nostalgiques, par exemple le Landwasser Express Davos Platz–Filisur à travers les gorges de Zügen. Ce train est financé régulièrement et accessible avec des billets ordinaires. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "L’une des dix Ge 4/4 I, premières locomotives électriques des RhB sans entraînement par bielles ; livrée le 12 mars 1953 par SLM, BBC et MFO. Elle ne circule plus aujourd’hui que dans des trains nostalgiques, par exemple le Landwasser Express Davos Platz–Filisur à travers les gorges de Zügen. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Una delle dieci Ge 4/4 I, le prime locomotive elettriche della RhB senza trasmissione a bielle; consegnata il 12 marzo 1953 da SLM, BBC e MFO. Oggi circola solo nei treni nostalgici, ad esempio nel Landwasser Express Davos Platz–Filisur attraverso la gola dello Zügen. Questo treno è finanziato regolarmente e si può usare con biglietti normali. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Una delle dieci Ge 4/4 I, le prime locomotive elettriche della RhB senza trasmissione a bielle; consegnata il 12 marzo 1953 da SLM, BBC e MFO. Oggi circola solo nei treni nostalgici, ad esempio nel Landwasser Express Davos Platz–Filisur attraverso la gola dello Zügen. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "One of the ten Ge 4/4 I, the RhB’s first electric locomotives without rod drive; delivered on 12 March 1953 by SLM, BBC and MFO. Today it runs only in nostalgia trains, such as the Landwasser Express Davos Platz–Filisur through the Zügen gorge. This train is regularly funded and can be used with ordinary tickets. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "One of the ten Ge 4/4 I, the RhB’s first electric locomotives without rod drive; delivered on 12 March 1953 by SLM, BBC and MFO. Today it runs only in nostalgia trains, such as the Landwasser Express Davos Platz–Filisur through the Zügen gorge. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -410,16 +410,19 @@
    "b": "rhb",
    "st": "betr",
    "col": "#d9a521",
-   "p": "Als BCFe 4/4 22 der Berninabahn in Dienst gestellt und 1953 umgebaut. Zusammen mit dem Schwesterwagen 34 bildet er die historischen gelben Bernina-Triebwagen der RhB. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im regulär finanzierten Nostalgiezug «Bernina Glaciers», der mit gewöhnlichen Billetten benützt werden kann. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Als BCFe 4/4 22 der Berninabahn in Dienst gestellt und 1953 umgebaut. Zusammen mit dem Schwesterwagen 34 bildet er die historischen gelben Bernina-Triebwagen der RhB. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im Nostalgiezug «Bernina Glaciers». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Mise en service comme BCFe 4/4 22 du chemin de fer de la Bernina et transformée en 1953. Avec sa sœur 34, elle forme les automotrices historiques jaunes de la Bernina des RhB. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers », financé régulièrement et accessible avec des billets ordinaires. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Mise en service comme BCFe 4/4 22 du chemin de fer de la Bernina et transformée en 1953. Avec sa sœur 34, elle forme les automotrices historiques jaunes de la Bernina des RhB. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
+     "bem": "Appelées « jumelles Kessler » avec l’ABe 4/4 I 34"
     },
     "it": {
-     "p": "Messa in servizio come BCFe 4/4 22 della Ferrovia del Bernina e ricostruita nel 1953. Con la gemella 34 forma le automotrici storiche gialle del Bernina della RhB. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers», finanziato regolarmente e utilizzabile con biglietti normali. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Messa in servizio come BCFe 4/4 22 della Ferrovia del Bernina e ricostruita nel 1953. Con la gemella 34 forma le automotrici storiche gialle del Bernina della RhB. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
+     "bem": "Chiamate «gemelle Kessler» insieme all’ABe 4/4 I 34"
     },
     "en": {
-     "p": "Entered service as Bernina Railway BCFe 4/4 22 and rebuilt in 1953. With its sister no. 34 it forms the RhB’s historic yellow Bernina railcars. In summer the two «Kessler twins» also run in part in the regularly funded «Bernina Glaciers» nostalgia train, which can be used with ordinary tickets. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Entered service as Bernina Railway BCFe 4/4 22 and rebuilt in 1953. With its sister no. 34 it forms the RhB’s historic yellow Bernina railcars. In summer the two «Kessler twins» also run in part in the «Bernina Glaciers» nostalgia train. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
+     "bem": "Together with ABe 4/4 I 34 known as the «Kessler twins»"
     }
    },
    "m": [
@@ -431,7 +434,8 @@
    "imgc": "U. Finke",
    "gr": "bb",
    "zu": "hrhb",
-   "mit": null
+   "mit": null,
+   "bem": "Zusammen mit ABe 4/4 I 34 «Kessler Zwillinge» genannt"
   },
   {
    "id": "abe44-34",
@@ -442,18 +446,18 @@
    "b": "rhb",
    "st": "betr",
    "col": "#d9a521",
-   "p": "Einer der ersten Triebwagen der Berninabahn, die ab 1908 für die steile Passstrecke gebaut wurden. Er fährt zusammen mit dem ABe 4/4 I 30 historische Bernina-Züge. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im regulär finanzierten Nostalgiezug «Bernina Glaciers», der mit gewöhnlichen Billetten benützt werden kann. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Einer der ersten Triebwagen der Berninabahn, die ab 1908 für die steile Passstrecke gebaut wurden. Er fährt zusammen mit dem ABe 4/4 I 30 historische Bernina-Züge. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im Nostalgiezug «Bernina Glaciers». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "L’une des premières automotrices du chemin de fer de la Bernina, construites dès 1908 pour la ligne de col très raide. Elle circule avec l’ABe 4/4 I 30 dans des trains historiques de la Bernina. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers », financé régulièrement et accessible avec des billets ordinaires. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
+     "p": "L’une des premières automotrices du chemin de fer de la Bernina, construites dès 1908 pour la ligne de col très raide. Elle circule avec l’ABe 4/4 I 30 dans des trains historiques de la Bernina. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
      "bem": "Appelées « jumelles Kessler » avec l’ABe 4/4 I 30"
     },
     "it": {
-     "p": "Una delle prime automotrici della Ferrovia del Bernina, costruite dal 1908 per la ripida linea di valico. Circola con l’ABe 4/4 I 30 nei treni storici del Bernina. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers», finanziato regolarmente e utilizzabile con biglietti normali. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
+     "p": "Una delle prime automotrici della Ferrovia del Bernina, costruite dal 1908 per la ripida linea di valico. Circola con l’ABe 4/4 I 30 nei treni storici del Bernina. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
      "bem": "Chiamate «gemelle Kessler» insieme all’ABe 4/4 I 30"
     },
     "en": {
-     "p": "One of the first Bernina Railway railcars, built from 1908 for the steep pass line. It runs historic Bernina trains together with ABe 4/4 I 30. In summer the two «Kessler twins» also run in part in the regularly funded «Bernina Glaciers» nostalgia train, which can be used with ordinary tickets. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
+     "p": "One of the first Bernina Railway railcars, built from 1908 for the steep pass line. It runs historic Bernina trains together with ABe 4/4 I 30. In summer the two «Kessler twins» also run in part in the «Bernina Glaciers» nostalgia train. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
      "bem": "Together with ABe 4/4 I 30 known as the «Kessler twins»"
     }
    },
@@ -773,7 +777,7 @@
   },
   {
    "id": "c-114",
-   "nr": "C 114",
+   "nr": "BC 114 / WN 9800",
    "n": "La Bucunada",
    "kat": "wagen",
    "bj": "1910",
@@ -793,7 +797,9 @@
     }
    },
    "m": [
-    "C 114"
+    "C 114",
+    "BC 114",
+    "WN 9800"
    ],
    "gr": "wagen",
    "img": "img/fz/c-114",
@@ -1023,19 +1029,22 @@
    "col": "#f2d43a",
    "len": 15.93,
    "gr": "wagen",
-   "p": "Offener Aussichtswagen auf Drehgestellen aus dem Jahr 1930, mit 64 Plätzen deutlich grösser als die zweiachsigen Aussichtswagen. Die Anschrift «Carrozza panoramica» weist auf den Einsatz auf der Berninalinie zwischen St. Moritz und Tirano hin, wo die gelben offenen Wagen im Sommer verkehren. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Der 1930 gebaute Wagen auf Drehgestellen wurde später zum offenen Aussichtswagen umgebaut. Er ist mit 64 Plätzen deutlich grösser als die zweiachsigen Aussichtswagen. Die Anschrift «Carrozza panoramica» weist auf den Einsatz auf der Berninalinie zwischen St. Moritz und Tirano hin, wo die gelben offenen Wagen im Sommer verkehren. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Voiture panoramique ouverte sur bogies de 1930, avec 64 places, nettement plus grande que les voitures panoramiques à deux essieux. L’inscription « Carrozza panoramica » rappelle son service sur la ligne de la Bernina entre Saint-Moritz et Tirano, où les voitures jaunes ouvertes circulent en été. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
-     "n": "Voiture panoramique"
+     "p": "Construite en 1930, cette voiture sur bogies a été transformée plus tard en voiture panoramique ouverte. Elle est, avec 64 places, nettement plus grande que les voitures panoramiques à deux essieux. L’inscription « Carrozza panoramica » rappelle son service sur la ligne de la Bernina entre Saint-Moritz et Tirano, où les voitures jaunes ouvertes circulent en été. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
+     "n": "Voiture panoramique",
+     "bem": "transformée plus tard en voiture panoramique"
     },
     "it": {
-     "p": "Carrozza panoramica aperta su carrelli del 1930, con 64 posti, molto più grande delle carrozze panoramiche a due assi. La scritta «Carrozza panoramica» ricorda il servizio sulla linea del Bernina tra St. Moritz e Tirano, dove le carrozze gialle aperte circolano in estate. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
-     "n": "Carrozza panoramica"
+     "p": "Costruita nel 1930, questa carrozza su carrelli è stata trasformata in seguito in carrozza panoramica aperta. È, con 64 posti, molto più grande delle carrozze panoramiche a due assi. La scritta «Carrozza panoramica» ricorda il servizio sulla linea del Bernina tra St. Moritz e Tirano, dove le carrozze gialle aperte circolano in estate. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
+     "n": "Carrozza panoramica",
+     "bem": "trasformata in seguito in carrozza panoramica"
     },
     "en": {
-     "p": "Open bogie observation car from 1930 with 64 seats, much larger than the two-axle observation cars. The lettering «Carrozza panoramica» points to its use on the Bernina line between St. Moritz and Tirano, where the yellow open cars run in summer. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
-     "n": "Observation car"
+     "p": "Built in 1930, this bogie car was later rebuilt as an open observation car. With 64 seats it is much larger than the two-axle observation cars. The lettering «Carrozza panoramica» points to its use on the Bernina line between St. Moritz and Tirano, where the yellow open cars run in summer. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
+     "n": "Observation car",
+     "bem": "later rebuilt as an observation car"
     }
    },
    "m": [
@@ -1044,7 +1053,8 @@
    "img": "img/fz/b-2111",
    "imgc": "U. Finke",
    "zu": "hrhb",
-   "mit": null
+   "mit": null,
+   "bem": "später zum Aussichtswagen umgebaut"
   },
   {
    "id": "a-1225",
