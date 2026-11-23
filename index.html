@@ -545,7 +545,7 @@ const render=()=>{const v=document.getElementById("view");
  document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.v===st.v));
  const isD=st.v.startsWith("fahrt-"),isF=st.v==="fahrzeuge"||st.v.startsWith("fz-"),isO=st.v==="ueber"||st.v.startsWith("org-");
  document.body.classList.toggle("nv",st.v==="news"||isD);document.body.classList.toggle("sec",isF||isO||st.v==="news");document.body.classList.toggle("home",!!st.home);document.body.classList.toggle("opv",st.v==="veranstalter");
- const sec=isF?"fz":isO?"ueber":st.v==="news"?"news":"fahrten";document.querySelectorAll(".tlinks a,.tbrand").forEach(a=>{if(!st.home&&a.dataset.s===sec&&a.closest(".tlinks"))a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
+ const sec=isF?"fz":isO?"ueber":st.v==="news"?"news":"fahrten";setHero(st.home?"def":sec);document.querySelectorAll(".tlinks a,.tbrand").forEach(a=>{if(!st.home&&a.dataset.s===sec&&a.closest(".tlinks"))a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
  if(MAP){MAP.remove();MAP=null}
  v.innerHTML=isD?vDetail(st.v.slice(6)):st.v==="fahrzeuge"?vFz():st.v.startsWith("fz-")?vFzD(st.v.slice(3)):st.v==="ueber"?vUe():st.v.startsWith("org-")?vOrg(st.v.slice(4)):st.v==="liste"?vList():st.v==="kalender"?vCal():st.v==="karte"?vMap():st.v==="news"?vNews():vOps();
  if(st.v==="karte")drawMap();
@@ -559,6 +559,8 @@ const render=()=>{const v=document.getElementById("view");
   document.getElementById("nm").onclick=()=>{st.cm=new Date(st.cm.getFullYear(),st.cm.getMonth()+1,1);render()};
   v.querySelectorAll(".cal button").forEach(b=>b.onclick=()=>{const i=+b.dataset.i,oc=OCC.find(o=>o.i===i&&o.end>=TODAY)||OCC.find(o=>o.i===i);document.getElementById("cdet").innerHTML=tripHTML(oc)+more(T[i]);document.getElementById("cdet").scrollIntoView({behavior:"smooth",block:"nearest"})})}};
 let PEND=null;document.addEventListener("click",e=>{const a=e.target.closest("a[data-g]");if(a)PEND=a.dataset.g},true);
+const HERO={def:{f:"titel",w:[800,1200,2400],c:"credit",pos:"62% 58%"},news:{f:"news",w:[800,1200],c:"credit_news",pos:"50% 60%"}};
+const setHero=sec=>{const h=HERO[sec]||HERO.def,i=document.getElementById("heroimg");const ss=h.w.map(w=>`img/${h.f}-${w}.jpg ${w}w`).join(", ");if(i.getAttribute("srcset")!==ss){i.setAttribute("srcset",ss);i.src=`img/${h.f}-${h.w[1]||h.w[0]}.jpg`}i.style.objectPosition=h.pos;const c=document.querySelector(".hero .credit");c.dataset.i=h.c;c.textContent=L(h.c)};
 const goMain=()=>{const v=document.getElementById("view"),b=document.querySelector(".bar"),off=document.getElementById("top").offsetHeight+(getComputedStyle(b).display==="none"||getComputedStyle(b).position!=="sticky"?0:b.offsetHeight);window.scrollTo({top:v.getBoundingClientRect().top+scrollY-off-8,behavior:"smooth"})};
 const all=()=>{statics();opts();standTxt();board();stats();teaser();render()};
 const setV=v=>{const wasHome=st.home;st.home=false;st.v=v;if(location.hash!=="#"+v)history.replaceState(null,"","#"+v);render();if(wasHome)goMain()};
