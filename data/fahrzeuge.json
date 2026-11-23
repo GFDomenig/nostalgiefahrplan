@@ -328,6 +328,34 @@
    "imgc": "U. Finke"
   },
   {
+   "id": "abe44ii-46",
+   "nr": "ABe 4/4 II 46",
+   "n": "Goldliner",
+   "kat": "tw",
+   "bj": "1965",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#c8102e",
+   "p": "Triebwagen der zweiten Bernina-Generation («Tw II»), 1965 von SWS, SAAS und BBC geliefert. 2021 erhielt er in der Hauptwerkstätte Landquart wieder den roten Anstrich mit goldenen Zierlinien der Anfangsjahre und heisst seither «Goldliner». Heute dient er dem Infrastrukturdienst, fährt aber auch Extrazüge über den Bernina; später soll er ein historisches Fahrzeug werden.",
+   "i18n": {
+    "fr": {
+     "p": "Automotrice de la deuxième génération de la Bernina (« Tw II »), livrée en 1965 par SWS, SAAS et BBC. En 2021, l’atelier principal de Landquart lui a rendu sa livrée rouge à filets dorés des premières années, d’où son surnom « Goldliner ». Elle sert aujourd’hui au service de l’infrastructure, mais circule aussi en trains spéciaux sur la Bernina ; elle doit devenir plus tard un véhicule historique."
+    },
+    "it": {
+     "p": "Automotrice della seconda generazione del Bernina («Tw II»), consegnata nel 1965 da SWS, SAAS e BBC. Nel 2021 l’officina principale di Landquart le ha restituito la livrea rossa con filetti dorati dei primi anni, da cui il nome «Goldliner». Oggi serve il servizio infrastruttura, ma effettua anche treni speciali sul Bernina; in futuro diventerà un veicolo storico."
+    },
+    "en": {
+     "p": "Second-generation Bernina railcar («Tw II»), delivered in 1965 by SWS, SAAS and BBC. In 2021 the Landquart main workshop gave it back the red livery with gold lining of its early years, hence the name «Goldliner». Today it serves the infrastructure department but also runs specials over the Bernina; it is intended to become a historic vehicle later."
+    }
+   },
+   "m": [
+    "ABe 4/4 II 46",
+    "Goldliner"
+   ],
+   "img": "img/fz/abe44ii-46",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "abe44-501",
    "nr": "ABe 4/4 501",
    "n": "Fliegender Rhätier",
