@@ -2036,6 +2036,45 @@
    ]
   },
   {
+   "id": "uh-8101",
+   "nr": "Uh 8101 / WN 9862",
+   "n": "Löschwagen",
+   "kat": "gueter",
+   "bj": "1926",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "betr",
+   "col": "#f2d43a",
+   "len": 7.79,
+   "gr": "gueter",
+   "p": "Zweiachsiger Zisternenwagen der RhB von 1926, heute Dienstwagen WN 9862. Er läuft als Löschwagen in Dampfzügen mit und führt Wasser mit, um bei Funkenflug entstehende Brände entlang der Strecke rasch löschen zu können. Die Skizze zeigt einen Wagen dieser Bauart in Gelb mit rotem Band, der Nummer 9049 und der rätoromanischen Anschrift «Viafier retica». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "n": "Wagon d’extinction",
+     "p": "Wagon-citerne à deux essieux des RhB de 1926, aujourd’hui véhicule de service WN 9862. Il accompagne les trains à vapeur comme wagon d’extinction et transporte de l’eau pour éteindre rapidement les incendies provoqués par les étincelles le long de la ligne. Le dessin montre un wagon de ce type en jaune avec une bande rouge, le numéro 9049 et l’inscription romanche « Viafier retica ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "n": "Carro antincendio",
+     "p": "Carro cisterna a due assi della RhB del 1926, oggi carro di servizio WN 9862. Accompagna i treni a vapore come carro antincendio e trasporta acqua per spegnere rapidamente gli incendi causati dalle scintille lungo la linea. Il disegno mostra un carro di questo tipo in giallo con una fascia rossa, il numero 9049 e la scritta romancia «Viafier retica». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "n": "Fire-fighting wagon",
+     "p": "Two-axle tank wagon of the RhB from 1926, today service wagon WN 9862. It runs with steam trains as a fire-fighting wagon, carrying water to put out fires caused by sparks along the line quickly. The drawing shows a wagon of this type in yellow with a red band, the number 9049 and the Romansh lettering «Viafier retica». The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "Uh 8101",
+    "WN 9862",
+    "9049",
+    "Löschwagen"
+   ],
+   "rel": [
+    "uh-8103"
+   ],
+   "img": "img/fz/uh-8101",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "uh-8103",
    "nr": "Uh 8103 / Xk 979 01",
    "n": "",
@@ -2064,14 +2103,16 @@
    "m": [
     "Uh 8103",
     "Xk 979 01",
-    "Xk 97901",
-    "Uh 8101"
+    "Xk 97901"
    ],
    "img": "img/fz/uh-8103",
    "imgc": "U. Finke",
    "zu": "hrhb",
    "mit": null,
-   "stx": "betriebsfähig"
+   "stx": "betriebsfähig",
+   "rel": [
+    "uh-8101"
+   ]
   },
   {
    "id": "uce-8017",
