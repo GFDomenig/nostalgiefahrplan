@@ -1083,22 +1083,22 @@
    "col": "#f2d43a",
    "len": 15.93,
    "gr": "wagen",
-   "p": "Der 1930 gebaute Wagen auf Drehgestellen lief ursprünglich als B 2227 und wurde im Jahr 2000 zum offenen Aussichtswagen umgebaut. Er ist mit 64 Plätzen deutlich grösser als die zweiachsigen Aussichtswagen. Die Anschrift «Carrozza panoramica» weist auf den Einsatz auf der Berninalinie zwischen St. Moritz und Tirano hin, wo die gelben offenen Wagen im Sommer verkehren. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Der 1930 gebaute Wagen auf Drehgestellen lief ursprünglich als B 2227 und wurde im Jahr 2000 zum offenen Aussichtswagen umgebaut. Mit 64 Plätzen ist er deutlich grösser als die zweiachsigen Aussichtswagen. Die «gelben Cabrios» der RhB fahren im Sommer zwischen Davos und Filisur, zwischen Alvaneu und Filisur sowie zwischen St. Moritz und Tirano. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Construite en 1930, cette voiture sur bogies circulait à l’origine comme B 2227 et a été transformée en 2000 en voiture panoramique ouverte. Elle est, avec 64 places, nettement plus grande que les voitures panoramiques à deux essieux. L’inscription « Carrozza panoramica » rappelle son service sur la ligne de la Bernina entre Saint-Moritz et Tirano, où les voitures jaunes ouvertes circulent en été. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
+     "p": "Construite en 1930, cette voiture sur bogies circulait à l’origine comme B 2227 et a été transformée en 2000 en voiture panoramique ouverte. Avec 64 places, elle est nettement plus grande que les voitures panoramiques à deux essieux. Les « cabriolets jaunes » des RhB circulent en été entre Davos et Filisur, entre Alvaneu et Filisur ainsi qu’entre Saint-Moritz et Tirano. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB.",
      "n": "Voiture panoramique",
-     "bem": "Transformée en 2000 en voiture panoramique à partir de la B 2227"
+     "bem": "Transformée en voiture panoramique en 2000"
     },
     "it": {
-     "p": "Costruita nel 1930, questa carrozza su carrelli circolava in origine come B 2227 ed è stata trasformata nel 2000 in carrozza panoramica aperta. È, con 64 posti, molto più grande delle carrozze panoramiche a due assi. La scritta «Carrozza panoramica» ricorda il servizio sulla linea del Bernina tra St. Moritz e Tirano, dove le carrozze gialle aperte circolano in estate. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
+     "p": "Costruita nel 1930, questa carrozza su carrelli circolava in origine come B 2227 ed è stata trasformata nel 2000 in carrozza panoramica aperta. Con 64 posti è molto più grande delle carrozze panoramiche a due assi. I «cabriolet gialli» della RhB circolano in estate tra Davos e Filisur, tra Alvaneu e Filisur e tra St. Moritz e Tirano. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB.",
      "n": "Carrozza panoramica",
-     "bem": "Trasformata nel 2000 in carrozza panoramica dalla B 2227"
+     "bem": "Trasformata in carrozza panoramica nel 2000"
     },
     "en": {
-     "p": "Built in 1930, this bogie car originally ran as B 2227 and was rebuilt in 2000 as an open observation car. With 64 seats it is much larger than the two-axle observation cars. The lettering «Carrozza panoramica» points to its use on the Bernina line between St. Moritz and Tirano, where the yellow open cars run in summer. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
+     "p": "Built in 1930, this bogie car originally ran as B 2227 and was rebuilt in 2000 as an open observation car. With 64 seats it is much larger than the two-axle observation cars. The RhB’s «yellow convertibles» run in summer between Davos and Filisur, between Alvaneu and Filisur and between St. Moritz and Tirano. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand.",
      "n": "Observation car",
-     "bem": "Rebuilt in 2000 from B 2227 as an observation car"
+     "bem": "Rebuilt as an observation car in 2000"
     }
    },
    "m": [
@@ -1109,7 +1109,7 @@
    "imgc": "U. Finke",
    "zu": "hrhb",
    "mit": null,
-   "bem": "2000 aus dem B 2227 zum Aussichtswagen umgebaut"
+   "bem": "2000 zum Aussichtswagen umgebaut"
   },
   {
    "id": "a-1225",
