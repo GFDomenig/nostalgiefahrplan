@@ -10,16 +10,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#23272b",
-   "p": "Die älteste Lokomotive der RhB, gebaut für die Eröffnung der Schmalspurbahn Landquart–Davos. Die Restaurierung finanzierte eine Projektgruppe aus Club 1889 und Dampffreunden unter dem Dach von Historic RhB; im September 2026 wurde die Lok in Schiers mit einer eigens komponierten Operette neu eingeweiht. Gerettet und aufgearbeitet haben die Lok der Club 1889 und die Dampffreunde der RhB gemeinsam. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Die älteste Lokomotive der RhB, gebaut für die Eröffnung der Schmalspurbahn Landquart–Davos. Die Restaurierung finanzierte eine Projektgruppe aus Club 1889 und Dampffreunden unter dem Dach von Historic RhB; im September 2026 wurde die Lok in Schiers mit einer eigens komponierten Operette neu eingeweiht. Gerettet und aufgearbeitet haben die Lok der Club 1889 und die Dampffreunde der RhB gemeinsam, in Zusammenarbeit mit der Hauptwerkstätte der RhB in Landquart. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "La plus ancienne locomotive des RhB, construite pour l’ouverture de la ligne Landquart–Davos. Sa restauration a été financée par un groupe de projet du Club 1889 et des Dampffreunde sous l’égide de Historic RhB ; elle a été réinaugurée en septembre 2026 à Schiers avec une opérette composée pour l’occasion. La locomotive a été sauvée et restaurée conjointement par le Club 1889 et les Dampffreunde der RhB. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "La plus ancienne locomotive des RhB, construite pour l’ouverture de la ligne Landquart–Davos. Sa restauration a été financée par un groupe de projet du Club 1889 et des Dampffreunde sous l’égide de Historic RhB ; elle a été réinaugurée en septembre 2026 à Schiers avec une opérette composée pour l’occasion. La locomotive a été sauvée et restaurée conjointement par le Club 1889 et les Dampffreunde der RhB, en collaboration avec l’atelier principal des RhB à Landquart. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "La locomotiva più antica della RhB, costruita per l’apertura della Landquart–Davos. Il restauro è stato finanziato da un gruppo di progetto di Club 1889 e Dampffreunde sotto l’egida di Historic RhB; nel settembre 2026 è stata reinaugurata a Schiers con un’operetta composta per l’occasione. La locomotiva è stata salvata e restaurata insieme dal Club 1889 e dai Dampffreunde der RhB. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "La locomotiva più antica della RhB, costruita per l’apertura della Landquart–Davos. Il restauro è stato finanziato da un gruppo di progetto di Club 1889 e Dampffreunde sotto l’egida di Historic RhB; nel settembre 2026 è stata reinaugurata a Schiers con un’operetta composta per l’occasione. La locomotiva è stata salvata e restaurata insieme dal Club 1889 e dai Dampffreunde der RhB, in collaborazione con l’officina principale della RhB a Landquart. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "The RhB’s oldest locomotive, built for the opening of the Landquart–Davos line. Its restoration was funded by a project group of Club 1889 and the Dampffreunde under the Historic RhB umbrella; it was rededicated in Schiers in September 2026 with a specially composed operetta. The locomotive was rescued and restored jointly by Club 1889 and the Dampffreunde der RhB. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "The RhB’s oldest locomotive, built for the opening of the Landquart–Davos line. Its restoration was funded by a project group of Club 1889 and the Dampffreunde under the Historic RhB umbrella; it was rededicated in Schiers in September 2026 with a specially composed operetta. The locomotive was rescued and restored jointly by Club 1889 and the Dampffreunde der RhB, in cooperation with the RhB main workshop in Landquart. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
@@ -45,16 +45,16 @@
    "b": "club1889",
    "st": "betr",
    "col": "#23272b",
-   "p": "Leichte Dampflok derselben Bauart wie die «Rhætia»; sie stand bis 1977 im Plandienst und wird heute mit Öl gefeuert. Sie fährt bei Dampffahrten im Engadin und auf der Albulalinie, oft zusammen mit einer G 4/5. Gerettet und aufgearbeitet haben die Lok der Club 1889 und die Dampffreunde der RhB gemeinsam; sie ist Eigentum des Club 1889 und fährt unter der Marke Historic RhB.",
+   "p": "Leichte Dampflok derselben Bauart wie die «Rhætia»; sie stand bis 1977 im Plandienst und wird heute mit Öl gefeuert. Sie fährt bei Dampffahrten im Engadin und auf der Albulalinie, oft zusammen mit einer G 4/5. Gerettet und aufgearbeitet haben die Lok der Club 1889 und die Dampffreunde der RhB gemeinsam, in Zusammenarbeit mit der Hauptwerkstätte der RhB in Landquart; sie ist Eigentum des Club 1889 und fährt unter der Marke Historic RhB.",
    "i18n": {
     "fr": {
-     "p": "Locomotive à vapeur légère du même type que la « Rhætia » ; en service régulier jusqu’en 1977, elle est aujourd’hui chauffée au mazout. Elle circule lors des voyages à vapeur en Engadine et sur l’Albula, souvent avec une G 4/5. La locomotive a été sauvée et restaurée conjointement par le Club 1889 et les Dampffreunde der RhB ; elle appartient au Club 1889 et circule sous la marque Historic RhB."
+     "p": "Locomotive à vapeur légère du même type que la « Rhætia » ; en service régulier jusqu’en 1977, elle est aujourd’hui chauffée au mazout. Elle circule lors des voyages à vapeur en Engadine et sur l’Albula, souvent avec une G 4/5. La locomotive a été sauvée et restaurée conjointement par le Club 1889 et les Dampffreunde der RhB, en collaboration avec l’atelier principal des RhB à Landquart ; elle appartient au Club 1889 et circule sous la marque Historic RhB."
     },
     "it": {
-     "p": "Locomotiva a vapore leggera dello stesso tipo della «Rhætia»; in servizio regolare fino al 1977, oggi è alimentata a olio. Circola nei viaggi a vapore in Engadina e sull’Albula, spesso insieme a una G 4/5. La locomotiva è stata salvata e restaurata insieme dal Club 1889 e dai Dampffreunde der RhB; è di proprietà del Club 1889 e circola con il marchio Historic RhB."
+     "p": "Locomotiva a vapore leggera dello stesso tipo della «Rhætia»; in servizio regolare fino al 1977, oggi è alimentata a olio. Circola nei viaggi a vapore in Engadina e sull’Albula, spesso insieme a una G 4/5. La locomotiva è stata salvata e restaurata insieme dal Club 1889 e dai Dampffreunde der RhB, in collaborazione con l’officina principale della RhB a Landquart; è di proprietà del Club 1889 e circola con il marchio Historic RhB."
     },
     "en": {
-     "p": "Light steam locomotive of the same type as «Rhætia»; in regular service until 1977, it is now oil-fired. It runs on steam trips in the Engadine and on the Albula line, often together with a G 4/5. The locomotive was rescued and restored jointly by Club 1889 and the Dampffreunde der RhB; it is owned by Club 1889 and runs under the Historic RhB brand."
+     "p": "Light steam locomotive of the same type as «Rhætia»; in regular service until 1977, it is now oil-fired. It runs on steam trips in the Engadine and on the Albula line, often together with a G 4/5. The locomotive was rescued and restored jointly by Club 1889 and the Dampffreunde der RhB, in cooperation with the RhB main workshop in Landquart; it is owned by Club 1889 and runs under the Historic RhB brand."
     }
    },
    "m": [
@@ -772,16 +772,16 @@
    "b": "rhb",
    "st": "betr",
    "col": "#e8b923",
-   "p": "Zweiachsiger Drittklasswagen der früheren Berninabahn von 1910, den der Club 1889 zusammen mit der RhB restauriert hat. Die Skizze zeigt ihn in der gelben Bernina-Farbgebung mit der Anschrift «Veltlin» und 32 Plätzen. Nach der Restaurierung hat der Club 1889 den Wagen der RhB übergeben; er gehört heute der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Zweiachsiger Drittklasswagen der früheren Berninabahn von 1910, den der Club 1889 zusammen mit der Hauptwerkstätte der RhB in Landquart restauriert hat. Die Skizze zeigt ihn in der gelben Bernina-Farbgebung mit der Anschrift «Veltlin» und 32 Plätzen. Nach der Restaurierung hat der Club 1889 den Wagen der RhB übergeben; er gehört heute der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
    "i18n": {
     "fr": {
-     "p": "Voiture de troisième classe à deux essieux de l’ancien chemin de fer de la Bernina, datant de 1910, restaurée par le Club 1889 avec les RhB. Le dessin la montre dans la livrée jaune de la Bernina, avec l’inscription « Veltlin » et 32 places. Après la restauration, le Club 1889 a remis la voiture aux RhB ; elle appartient aujourd’hui aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "Voiture de troisième classe à deux essieux de l’ancien chemin de fer de la Bernina, datant de 1910, restaurée par le Club 1889 avec l’atelier principal des RhB à Landquart. Le dessin la montre dans la livrée jaune de la Bernina, avec l’inscription « Veltlin » et 32 places. Après la restauration, le Club 1889 a remis la voiture aux RhB ; elle appartient aujourd’hui aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
     },
     "it": {
-     "p": "Carrozza di terza classe a due assi dell’ex Ferrovia del Bernina, del 1910, restaurata dal Club 1889 insieme alla RhB. Il disegno la mostra nella livrea gialla del Bernina, con la scritta «Veltlin» e 32 posti. Dopo il restauro il Club 1889 ha consegnato la carrozza alla RhB; oggi appartiene alla Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Carrozza di terza classe a due assi dell’ex Ferrovia del Bernina, del 1910, restaurata dal Club 1889 insieme all’officina principale della RhB a Landquart. Il disegno la mostra nella livrea gialla del Bernina, con la scritta «Veltlin» e 32 posti. Dopo il restauro il Club 1889 ha consegnato la carrozza alla RhB; oggi appartiene alla Ferrovia retica e circola con il suo marchio Historic RhB."
     },
     "en": {
-     "p": "Two-axle third-class coach of the former Bernina Railway from 1910, restored by Club 1889 together with the RhB. The drawing shows it in the yellow Bernina livery with the «Veltlin» lettering and 32 seats. After the restoration Club 1889 handed the coach over to the RhB; it is now owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "Two-axle third-class coach of the former Bernina Railway from 1910, restored by Club 1889 together with the RhB main workshop in Landquart. The drawing shows it in the yellow Bernina livery with the «Veltlin» lettering and 32 seats. After the restoration Club 1889 handed the coach over to the RhB; it is now owned by the Rhaetian Railway and runs under its Historic RhB brand."
     }
    },
    "m": [
