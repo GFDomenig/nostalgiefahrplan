@@ -1937,6 +1937,37 @@
    "imgc": "U. Finke"
   },
   {
+   "id": "haikv-5121",
+   "nr": "Haik-v 5121–5122",
+   "n": "",
+   "kat": "gueter",
+   "bj": "1980",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#c9c9c9",
+   "len": 14.67,
+   "gr": "gueter",
+   "p": "Zwei vierachsige Schiebewandwagen der RhB von 1980. Die Seitenwände lassen sich zur Seite schieben, sodass der Wagen über seine ganze Länge beladen werden kann. Die Skizze zeigt den Haik-v 5121 in Silbergrau mit roten Bändern und grossem RhB-Signet. Die Fahrzeuge sind Eigentum der Rhätischen Bahn und werden unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "p": "Deux wagons à parois coulissantes à quatre essieux des RhB de 1980. Les parois latérales peuvent être coulissées, ce qui permet de charger le wagon sur toute sa longueur. Le dessin montre le Haik-v 5121 en gris argent avec des bandes rouges et un grand logo RhB. Les véhicules appartiennent aux Chemins de fer rhétiques et circulent sous leur marque Historic RhB."
+    },
+    "it": {
+     "p": "Due carri a pareti scorrevoli a quattro assi della RhB del 1980. Le pareti laterali si possono far scorrere, così il carro può essere caricato su tutta la sua lunghezza. Il disegno mostra il Haik-v 5121 in grigio argento con fasce rosse e un grande logo RhB. I veicoli sono di proprietà della Ferrovia retica e circolano con il suo marchio Historic RhB."
+    },
+    "en": {
+     "p": "Two four-axle sliding-wall wagons of the RhB from 1980. The side walls slide open so that the wagon can be loaded along its entire length. The drawing shows Haik-v 5121 in silver grey with red bands and a large RhB logo. The vehicles are owned by the Rhaetian Railway and run under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "Haik-v 5121",
+    "Haik-v 5122"
+   ],
+   "zu": "hrhb",
+   "img": "img/fz/haikv-5121",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "m-8604",
    "nr": "M 8604",
    "n": "",
