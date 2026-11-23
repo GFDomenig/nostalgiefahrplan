@@ -301,21 +301,22 @@
    "b": "rhb",
    "st": "betr",
    "col": "#c8102e",
-   "p": "Eine der zehn Ge 4/4 I, der ersten Elektroloks der RhB ohne Stangenantrieb; geliefert am 12. März 1953 von SLM, BBC und MFO. Sie gilt als historische Lok, fährt aber weiterhin im Plandienst, auch vor Güterzügen. Sind die Krokodile nicht verfügbar, zieht sie den Nostalgiezug Davos–Filisur durch die Zügenschlucht.",
+   "p": "Eine der zehn Ge 4/4 I, der ersten Elektroloks der RhB ohne Stangenantrieb; geliefert am 12. März 1953 von SLM, BBC und MFO. Heute fährt sie nur noch in Nostalgiezügen, etwa im Landwasser Express Davos Platz–Filisur durch die Zügenschlucht. Dieser Zug ist regulär finanziert und kann mit gewöhnlichen Billetten benützt werden.",
    "i18n": {
     "fr": {
-     "p": "L’une des dix Ge 4/4 I, premières locomotives électriques des RhB sans entraînement par bielles ; livrée le 12 mars 1953 par SLM, BBC et MFO. Classée locomotive historique, elle circule encore en service régulier, y compris en tête de trains de marchandises. Quand les crocodiles ne sont pas disponibles, elle tire le train nostalgique Davos–Filisur à travers les gorges de Zügen."
+     "p": "L’une des dix Ge 4/4 I, premières locomotives électriques des RhB sans entraînement par bielles ; livrée le 12 mars 1953 par SLM, BBC et MFO. Elle ne circule plus aujourd’hui que dans des trains nostalgiques, par exemple le Landwasser Express Davos Platz–Filisur à travers les gorges de Zügen. Ce train est financé régulièrement et accessible avec des billets ordinaires."
     },
     "it": {
-     "p": "Una delle dieci Ge 4/4 I, le prime locomotive elettriche della RhB senza trasmissione a bielle; consegnata il 12 marzo 1953 da SLM, BBC e MFO. Classificata come locomotiva storica, circola ancora in servizio regolare, anche con treni merci. Quando i coccodrilli non sono disponibili, traina il treno nostalgico Davos–Filisur attraverso la gola dello Zügen."
+     "p": "Una delle dieci Ge 4/4 I, le prime locomotive elettriche della RhB senza trasmissione a bielle; consegnata il 12 marzo 1953 da SLM, BBC e MFO. Oggi circola solo nei treni nostalgici, ad esempio nel Landwasser Express Davos Platz–Filisur attraverso la gola dello Zügen. Questo treno è finanziato regolarmente e si può usare con biglietti normali."
     },
     "en": {
-     "p": "One of the ten Ge 4/4 I, the RhB’s first electric locomotives without rod drive; delivered on 12 March 1953 by SLM, BBC and MFO. Classed as a historic locomotive, it still runs in regular service, including freight trains. When the Crocodiles are unavailable, it hauls the Davos–Filisur nostalgia train through the Zügen gorge."
+     "p": "One of the ten Ge 4/4 I, the RhB’s first electric locomotives without rod drive; delivered on 12 March 1953 by SLM, BBC and MFO. Today it runs only in nostalgia trains, such as the Landwasser Express Davos Platz–Filisur through the Zügen gorge. This train is regularly funded and can be used with ordinary tickets."
     }
    },
    "m": [
     "Ge 4/4 I 605",
-    "Ge 4/4 I statt"
+    "Ge 4/4 I statt",
+    "Landwasser Express"
    ],
    "img": "img/fz/ge44i-605",
    "imgc": "U. Finke",
@@ -399,21 +400,22 @@
    "b": "rhb",
    "st": "betr",
    "col": "#d9a521",
-   "p": "Als BCFe 4/4 22 der Berninabahn in Dienst gestellt und 1953 umgebaut. Zusammen mit dem Schwesterwagen 34 bildet er die historischen gelben Bernina-Triebwagen der RhB.",
+   "p": "Als BCFe 4/4 22 der Berninabahn in Dienst gestellt und 1953 umgebaut. Zusammen mit dem Schwesterwagen 34 bildet er die historischen gelben Bernina-Triebwagen der RhB. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im regulär finanzierten Nostalgiezug «Bernina Glaciers», der mit gewöhnlichen Billetten benützt werden kann.",
    "i18n": {
     "fr": {
-     "p": "Mise en service comme BCFe 4/4 22 du chemin de fer de la Bernina et transformée en 1953. Avec sa sœur 34, elle forme les automotrices historiques jaunes de la Bernina des RhB."
+     "p": "Mise en service comme BCFe 4/4 22 du chemin de fer de la Bernina et transformée en 1953. Avec sa sœur 34, elle forme les automotrices historiques jaunes de la Bernina des RhB. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers », financé régulièrement et accessible avec des billets ordinaires."
     },
     "it": {
-     "p": "Messa in servizio come BCFe 4/4 22 della Ferrovia del Bernina e ricostruita nel 1953. Con la gemella 34 forma le automotrici storiche gialle del Bernina della RhB."
+     "p": "Messa in servizio come BCFe 4/4 22 della Ferrovia del Bernina e ricostruita nel 1953. Con la gemella 34 forma le automotrici storiche gialle del Bernina della RhB. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers», finanziato regolarmente e utilizzabile con biglietti normali."
     },
     "en": {
-     "p": "Entered service as Bernina Railway BCFe 4/4 22 and rebuilt in 1953. With its sister no. 34 it forms the RhB’s historic yellow Bernina railcars."
+     "p": "Entered service as Bernina Railway BCFe 4/4 22 and rebuilt in 1953. With its sister no. 34 it forms the RhB’s historic yellow Bernina railcars. In summer the two «Kessler twins» also run in part in the regularly funded «Bernina Glaciers» nostalgia train, which can be used with ordinary tickets."
     }
    },
    "m": [
     "ABe 4/4 I 30",
-    "ABe 4/4 30"
+    "ABe 4/4 30",
+    "Bernina Glaciers"
    ],
    "img": "img/fz/abe44-30",
    "imgc": "U. Finke",
@@ -430,24 +432,25 @@
    "b": "rhb",
    "st": "betr",
    "col": "#d9a521",
-   "p": "Einer der ersten Triebwagen der Berninabahn, die ab 1908 für die steile Passstrecke gebaut wurden. Er fährt zusammen mit dem ABe 4/4 I 30 historische Bernina-Züge.",
+   "p": "Einer der ersten Triebwagen der Berninabahn, die ab 1908 für die steile Passstrecke gebaut wurden. Er fährt zusammen mit dem ABe 4/4 I 30 historische Bernina-Züge. Im Sommer fahren die beiden «Kessler Zwillinge» zum Teil auch im regulär finanzierten Nostalgiezug «Bernina Glaciers», der mit gewöhnlichen Billetten benützt werden kann.",
    "i18n": {
     "fr": {
-     "p": "L’une des premières automotrices du chemin de fer de la Bernina, construites dès 1908 pour la ligne de col très raide. Elle circule avec l’ABe 4/4 I 30 dans des trains historiques de la Bernina.",
+     "p": "L’une des premières automotrices du chemin de fer de la Bernina, construites dès 1908 pour la ligne de col très raide. Elle circule avec l’ABe 4/4 I 30 dans des trains historiques de la Bernina. En été, les deux « jumelles Kessler » circulent aussi en partie dans le train nostalgique « Bernina Glaciers », financé régulièrement et accessible avec des billets ordinaires.",
      "bem": "Appelées « jumelles Kessler » avec l’ABe 4/4 I 30"
     },
     "it": {
-     "p": "Una delle prime automotrici della Ferrovia del Bernina, costruite dal 1908 per la ripida linea di valico. Circola con l’ABe 4/4 I 30 nei treni storici del Bernina.",
+     "p": "Una delle prime automotrici della Ferrovia del Bernina, costruite dal 1908 per la ripida linea di valico. Circola con l’ABe 4/4 I 30 nei treni storici del Bernina. In estate le due «gemelle Kessler» circolano in parte anche nel treno nostalgico «Bernina Glaciers», finanziato regolarmente e utilizzabile con biglietti normali.",
      "bem": "Chiamate «gemelle Kessler» insieme all’ABe 4/4 I 30"
     },
     "en": {
-     "p": "One of the first Bernina Railway railcars, built from 1908 for the steep pass line. It runs historic Bernina trains together with ABe 4/4 I 30.",
+     "p": "One of the first Bernina Railway railcars, built from 1908 for the steep pass line. It runs historic Bernina trains together with ABe 4/4 I 30. In summer the two «Kessler twins» also run in part in the regularly funded «Bernina Glaciers» nostalgia train, which can be used with ordinary tickets.",
      "bem": "Together with ABe 4/4 I 30 known as the «Kessler twins»"
     }
    },
    "m": [
     "ABe 4/4 I 34",
-    "ABe 4/4 34"
+    "ABe 4/4 34",
+    "Bernina Glaciers"
    ],
    "img": "img/fz/abe44-34",
    "imgc": "U. Finke",
