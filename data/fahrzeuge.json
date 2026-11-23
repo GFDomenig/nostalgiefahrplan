@@ -818,29 +818,32 @@
   },
   {
    "id": "d-4052",
-   "nr": "D 4052",
+   "nr": "D 4052 II",
    "n": "",
    "kat": "gep",
    "bj": "",
    "b": "vps",
    "st": "",
-   "col": "",
-   "p": "Gepäckwagen, der zum Zugsverband der Salonwagen gehört.",
+   "col": "#2f6b3a",
+   "p": "Zweiachsiger Gepäckwagen in grüner Farbgebung, früher als D 4043 unterwegs. Er gehört zum Zugsverband der Salonwagen des Vereins Pro Salonwagen RhB.",
    "i18n": {
     "fr": {
-     "p": "Fourgon à bagages qui fait partie de la composition des voitures-salons."
+     "p": "Fourgon à bagages à deux essieux de couleur verte, qui circulait autrefois sous le numéro D 4043. Il fait partie de la composition des voitures-salons de l’association Pro Salonwagen RhB."
     },
     "it": {
-     "p": "Bagagliaio che fa parte della composizione delle carrozze salone."
+     "p": "Bagagliaio a due assi di colore verde, un tempo in servizio come D 4043. Fa parte della composizione delle carrozze salone dell’associazione Pro Salonwagen RhB."
     },
     "en": {
-     "p": "Luggage van that forms part of the saloon-car train."
+     "p": "Two-axle luggage van in green livery, formerly running as D 4043. It forms part of the saloon-car train of the Verein Pro Salonwagen RhB."
     }
    },
    "m": [
     "D 4052"
    ],
-   "gr": "wagen"
+   "gr": "wagen",
+   "img": "img/fz/d-4052",
+   "imgc": "U. Finke",
+   "len": 10.64
   },
   {
    "id": "b-2091",
