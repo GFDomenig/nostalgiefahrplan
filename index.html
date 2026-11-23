@@ -127,7 +127,7 @@ h2 .hrb{font-size:15px;padding:5px 9px;top:-6px}
 .note{font-size:14px;color:var(--mut)}
 .chip.hr{background:var(--red);border-color:var(--red);color:#fff;font-weight:600}
 label.hrchk{background:var(--red);border:1px solid var(--red);border-radius:6px;padding:0 12px;color:#fff;font-weight:600;cursor:pointer}label.hrchk input{accent-color:#fff}label.hrchk:has(input:checked){background:#9e0016;box-shadow:inset 0 0 0 2px #fff}
-body.opv #q,body.opv #tr,body.opv #th,body.opv #op,body.opv label.chk:not(.hrchk){display:none!important}
+body.opv #q,body.opv #tr,body.opv #th,body.opv #op{display:none!important}
 body:not(.home) .statsband,body:not(.home) .newsband,body:not(.home) .boardband{display:none}
 .trip h3 a,.dep .t a{text-decoration:none}
 .trip h3 a:hover,.dep .t a:hover{text-decoration:underline}
@@ -284,7 +284,7 @@ footer p{max-width:80ch}
  <select id="th"></select>
  <select id="op"></select>
  <label class="chk hrchk"><input type="checkbox" id="hr"> <span data-i="hr_only"></span></label>
- <label class="chk"><input type="checkbox" id="past"> <span data-i="past"></span></label></span>
+</span>
 </div></nav>
 
 <main class="band" style="padding-top:8px"><div class="wrap" id="view"></div></main>
@@ -360,7 +360,6 @@ OCC.sort((a,b)=>a.day.localeCompare(b.day));
 const st={home:true,v:"liste",q:"",kt:"",tr:"",th:"",op:"",hr:false,past:false,cm:pd(TODAY)};
 const HR=id=>!!(OPS[id]&&OPS[id].hr);
 const TID={};T.forEach((t,i)=>TID[t.id]=i);
-try{const s=JSON.parse(localStorage.getItem("nfp")||"{}");if(s.past)st.past=true}catch(e){}
 const ks=[...new Set(Object.values(OPS).flatMap(o=>o.k.split("/")))].filter(k=>k!=="national").sort();
 const opts=()=>{const sel=(id,first,list)=>{const e=document.getElementById(id);e.innerHTML=`<option value="">${esc(first)}</option>`+list.map(([v,t])=>`<option value="${esc(v)}">${esc(t)}</option>`).join("");e.value=st[id];e.setAttribute("aria-label",first)};
  sel("kt",L("kt_all"),ks.map(k=>[k,k]));
@@ -368,7 +367,6 @@ const opts=()=>{const sel=(id,first,list)=>{const e=document.getElementById(id);
  sel("th",L("th_all"),["Advent","Kulinarik","Familie","Zahnrad","Bergstrecke"].map(k=>[k,THL(k)]));
  sel("op",L("op_all"),Object.entries(OPS).sort((a,b)=>a[1].n.localeCompare(b[1].n,"de")).map(([k,o])=>[k,o.n]))};
 const standTxt=()=>{const p=DATA.stand.split('-');document.getElementById('stand').textContent=L("stand")+' '+(+p[2])+'. '+MO()[p[1]-1]+' '+p[0]};
-document.getElementById("past").checked=st.past;
 const match=t=>{const o=OPS[t.o];
  if(st.kt&&!o.k.split("/").includes(st.kt)&&o.k!=="national")return false;
  if(st.op&&t.o!==st.op)return false;
@@ -567,7 +565,6 @@ document.querySelectorAll(".langs button").forEach(b=>b.onclick=()=>{LG=b.datase
 document.addEventListener("click",e=>{const b=e.target.closest("[data-op]");if(!b)return;e.preventDefault();st.op=b.dataset.op;document.getElementById("op").value=st.op;setV("liste")});
 document.getElementById("hr").onchange=e=>{st.hr=e.target.checked;render()};
 ["q","kt","tr","th","op"].forEach(id=>document.getElementById(id).addEventListener("input",e=>{st[id]=e.target.value;render()}));
-document.getElementById("past").onchange=e=>{st.past=e.target.checked;try{localStorage.setItem("nfp",JSON.stringify({past:st.past}))}catch(x){}render()};
 const fromHash=()=>{const h=location.hash.slice(1);st.home=(h===""||h==="start");if(st.home)st.v="liste";if(["liste","kalender","karte","veranstalter","news","fahrzeuge","ueber"].includes(h)||/^(fahrt|fz|org)-/.test(h))st.v=h;render()};
 document.querySelectorAll(".tlinks a,.tbrand").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();e.stopPropagation();const s2=a.dataset.s;
  const v2=s2==="fahrten"?(["liste","kalender","karte","veranstalter"].includes(st.v)?st.v:"liste"):s2==="news"?"news":s2==="fz"?"fahrzeuge":"ueber";

@@ -53,7 +53,7 @@ Regeln für Aktualisierungen (Fahrten und News):
 1. Nur Fahrten aufnehmen, deren Datum aus einer Quelle stammt; nichts aus Regelmässigkeiten hochrechnen.
 2. Angaben der Veranstalter-Website gehen vor Tourismusportalen. Widersprüche im Pull Request nennen.
 3. Beschreibungen in eigenen Worten, höchstens zwei Sätze.
-4. Vergangene Fahrten bleiben bis Ende des folgenden Jahres in der Datei (Rückblick).
+4. Vergangene Fahrten werden nie gelöscht. Sie bleiben in der Datei und sind über den Kalender jederzeit abrufbar (Archiv); die Fahrtenliste zeigt nur kommende Fahrten.
 5. `stand` auf das Prüfdatum setzen.
 6. News: keine Texte oder Bilder übernehmen, nur eigene Zusammenfassung mit Link. Meldungen älter als 12 Monate entfernen. Bei Meldungen ohne Datum kein Datum erfinden.
 8. Neue oder geänderte Einträge erhalten Übersetzungen in `i18n` (fr, it, en).
