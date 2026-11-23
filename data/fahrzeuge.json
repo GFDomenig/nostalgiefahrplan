@@ -631,20 +631,23 @@
    "kat": "tw",
    "bj": "1988",
    "b": "rhb",
-   "zu": "hrhb",
+   "zu": "bma",
    "col": "#d8322a",
    "len": 18.89,
    "gr": "bb",
-   "p": "Einer der sechs Bernina-Triebwagen der dritten Generation («Tw III»), die 1988 und 1990 in Betrieb genommen wurden und «Motrice Cinquanta» genannt werden; die 53 stammt von 1988. Sie trägt den Namen und das Wappen von Tirano, dem Endpunkt der Berninalinie in Italien. Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "p": "Einer der sechs Bernina-Triebwagen der dritten Generation («Tw III»), die 1988 und 1990 in Betrieb genommen wurden und «Motrice Cinquanta» genannt werden; die 53 stammt von 1988. Sie trägt den Namen und das Wappen von Tirano, dem Endpunkt der Berninalinie in Italien. Heute steht der Triebwagen als Ausstellungsfahrzeug vor dem Bahnmuseum Albula in Bergün. Das Fahrzeug ist Eigentum der Rhätischen Bahn.",
    "i18n": {
     "fr": {
-     "p": "L’une des six automotrices de la Bernina de la troisième génération (« Tw III »), mises en service en 1988 et 1990 et appelées « Motrice Cinquanta » ; la 53 date de 1988. Elle porte le nom et les armoiries de Tirano, terminus de la ligne de la Bernina en Italie. Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+     "p": "L’une des six automotrices de la Bernina de la troisième génération (« Tw III »), mises en service en 1988 et 1990 et appelées « Motrice Cinquanta » ; la 53 date de 1988. Elle porte le nom et les armoiries de Tirano, terminus de la ligne de la Bernina en Italie. Aujourd’hui, l’automotrice est exposée devant le Bahnmuseum Albula à Bergün. Le véhicule appartient aux Chemins de fer rhétiques.",
+     "stx": "devant le Bahnmuseum Albula, Bergün"
     },
     "it": {
-     "p": "Una delle sei automotrici del Bernina della terza generazione («Tw III»), messe in servizio nel 1988 e nel 1990 e chiamate «Motrice Cinquanta»; la 53 è del 1988. Porta il nome e lo stemma di Tirano, capolinea della linea del Bernina in Italia. Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+     "p": "Una delle sei automotrici del Bernina della terza generazione («Tw III»), messe in servizio nel 1988 e nel 1990 e chiamate «Motrice Cinquanta»; la 53 è del 1988. Porta il nome e lo stemma di Tirano, capolinea della linea del Bernina in Italia. Oggi l’automotrice è esposta davanti al Bahnmuseum Albula a Bergün. Il veicolo è di proprietà della Ferrovia retica.",
+     "stx": "davanti al Bahnmuseum Albula, Bergün"
     },
     "en": {
-     "p": "One of the six third-generation Bernina railcars («Tw III») that entered service in 1988 and 1990 and are known as «Motrice Cinquanta»; No. 53 dates from 1988. It bears the name and coat of arms of Tirano, the Italian terminus of the Bernina line. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+     "p": "One of the six third-generation Bernina railcars («Tw III») that entered service in 1988 and 1990 and are known as «Motrice Cinquanta»; No. 53 dates from 1988. It bears the name and coat of arms of Tirano, the Italian terminus of the Bernina line. Today the railcar is on display outside the Bahnmuseum Albula in Bergün. The vehicle is owned by the Rhaetian Railway.",
+     "stx": "outside the Bahnmuseum Albula, Bergün"
     }
    },
    "m": [
@@ -656,7 +659,9 @@
     "abe44iii-54"
    ],
    "img": "img/fz/abe44iii-53",
-   "imgc": "U. Finke"
+   "imgc": "U. Finke",
+   "st": "ausst",
+   "stx": "vor dem Bahnmuseum Albula, Bergün"
   },
   {
    "id": "abe44iii-54",
