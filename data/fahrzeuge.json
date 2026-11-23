@@ -1271,7 +1271,7 @@
   },
   {
    "id": "l-6603",
-   "nr": "L 6603 / WN 9855",
+   "nr": "L3 6603 / WN 9855",
    "n": "",
    "kat": "gueter",
    "bj": "1911",
@@ -1301,10 +1301,50 @@
     }
    },
    "m": [
+    "L3 6603",
     "L 6603",
     "WN 9855"
    ],
    "img": "img/fz/l-6603",
+   "imgc": "U. Finke"
+  },
+  {
+   "id": "k1-5563",
+   "nr": "K1 5563 / WN 9854",
+   "n": "",
+   "kat": "gueter",
+   "bj": "1913",
+   "b": "rhb",
+   "zu": "hrhb",
+   "mit": [
+    "dfrhb"
+   ],
+   "st": "",
+   "col": "#d8d8d4",
+   "len": 8.45,
+   "gr": "gueter",
+   "bem": "Jubiläumswagen «25 Jahre Dampffreunde»",
+   "p": "Zweiachsiger gedeckter Güterwagen von 1913, heute Dienstwagen WN 9854. Die Skizze zeigt ihn hellgrau mit der Bezeichnung Gbk-v 5563 und dem Jubiläumsschmuck «25 Jahre 1977–2002» des Vereins Dampffreunde der Rhätischen Bahn.",
+   "i18n": {
+    "fr": {
+     "bem": "Wagon du jubilé « 25 ans des Dampffreunde »",
+     "p": "Wagon couvert à deux essieux de 1913, aujourd’hui wagon de service WN 9854. Le dessin le montre gris clair, avec la désignation Gbk-v 5563 et la décoration du jubilé « 25 Jahre 1977–2002 » de l’association Dampffreunde der Rhätischen Bahn."
+    },
+    "it": {
+     "bem": "Carro del giubileo «25 anni Dampffreunde»",
+     "p": "Carro coperto a due assi del 1913, oggi carro di servizio WN 9854. Il disegno lo mostra grigio chiaro, con la designazione Gbk-v 5563 e la decorazione del giubileo «25 Jahre 1977–2002» dell’associazione Dampffreunde der Rhätischen Bahn."
+    },
+    "en": {
+     "bem": "Jubilee wagon «25 years of the Dampffreunde»",
+     "p": "Two-axle covered goods wagon from 1913, now service wagon WN 9854. The drawing shows it in light grey with the designation Gbk-v 5563 and the «25 Jahre 1977–2002» jubilee decoration of the Verein Dampffreunde der Rhätischen Bahn."
+    }
+   },
+   "m": [
+    "K1 5563",
+    "WN 9854",
+    "Gbk-v 5563"
+   ],
+   "img": "img/fz/k1-5563",
    "imgc": "U. Finke"
   }
  ]
