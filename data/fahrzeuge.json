@@ -455,6 +455,36 @@
    "len": 16.54
   },
   {
+   "id": "abe44iii-54",
+   "nr": "ABe 4/4 III 54",
+   "n": "Hakone",
+   "kat": "tw",
+   "bj": "1990",
+   "b": "rhb",
+   "st": "betr",
+   "col": "#c8102e",
+   "len": 16.89,
+   "gr": "bb",
+   "p": "Triebwagen der dritten Bernina-Generation («Tw III»); sechs Wagen wurden 1988–1990 von SLM und ABB gebaut, die 54 im Jahr 1990. Ihr Name erinnert an die japanische Hakone Tozan-Bahn, eine Partnerbahn der RhB. Der Wagen soll als betriebsfähiges historisches Fahrzeug für die Berninalinie erhalten bleiben.",
+   "i18n": {
+    "fr": {
+     "p": "Automotrice de la troisième génération de la Bernina (« Tw III ») ; six unités ont été construites en 1988–1990 par SLM et ABB, la 54 en 1990. Son nom rappelle le chemin de fer japonais Hakone Tozan, partenaire des RhB. Elle doit être conservée en état de marche comme véhicule historique de la ligne de la Bernina."
+    },
+    "it": {
+     "p": "Automotrice della terza generazione del Bernina («Tw III»); sei unità furono costruite nel 1988–1990 da SLM e ABB, la 54 nel 1990. Il nome ricorda la ferrovia giapponese Hakone Tozan, ferrovia partner della RhB. Sarà conservata in esercizio come veicolo storico della linea del Bernina."
+    },
+    "en": {
+     "p": "Third-generation Bernina railcar («Tw III»); six were built by SLM and ABB in 1988–1990, no. 54 in 1990. Its name honours Japan’s Hakone Tozan Railway, a partner railway of the RhB. It is to be preserved in working order as a historic vehicle for the Bernina line."
+    }
+   },
+   "m": [
+    "ABe 4/4 III 54",
+    "Hakone"
+   ],
+   "img": "img/fz/abe44iii-54",
+   "imgc": "U. Finke"
+  },
+  {
    "id": "abe44-501",
    "nr": "ABe 4/4 501",
    "n": "Fliegender Rhätier",
