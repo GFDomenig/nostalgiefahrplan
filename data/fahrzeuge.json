@@ -841,7 +841,48 @@
    "img": "img/fz/xrotd-9213",
    "imgc": "U. Finke",
    "len": 14.41,
-   "zu": "hrhb"
+   "zu": "hrhb",
+   "rel": [
+    "x-9132"
+   ]
+  },
+  {
+   "id": "x-9132",
+   "nr": "X 9132",
+   "n": "Schneeräumer",
+   "kat": "schnee",
+   "bj": "1937",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "betr",
+   "col": "#d9481f",
+   "len": 9.05,
+   "gr": "schnee",
+   "p": "Schneeräumer von 1937, der zusammen mit der Dampfschneeschleuder Xrot d 9213 eingesetzt wird. Mit seinem keilförmigen Pflug räumt er den Schnee vor, den die Schleuder anschliessend wegfräst und zur Seite wirft. Die Skizze zeigt ihn als Xk 9132 in Rot mit gelb-schwarzer Warnmarkierung und der Anschrift «Viafier retica». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "n": "Chasse-neige",
+     "p": "Chasse-neige de 1937, utilisé avec le chasse-neige rotatif à vapeur Xrot d 9213. Avec son étrave en forme de coin, il dégage d’abord la neige que la fraise évacue ensuite sur le côté. Le dessin le montre comme Xk 9132, en rouge avec un marquage d’avertissement jaune et noir et l’inscription « Viafier retica ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "n": "Spartineve",
+     "p": "Spartineve del 1937, impiegato insieme allo spazzaneve rotante a vapore Xrot d 9213. Con il suo vomere a cuneo sgombra prima la neve, che la fresa poi rimuove e getta di lato. Il disegno lo mostra come Xk 9132, in rosso con segnaletica di avvertimento gialla e nera e la scritta «Viafier retica». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "n": "Snow plough",
+     "p": "Snow plough from 1937, used together with the steam rotary snow blower Xrot d 9213. With its wedge-shaped plough it clears the snow first, which the blower then cuts away and throws aside. The drawing shows it as Xk 9132 in red with yellow and black warning stripes and the lettering «Viafier retica». The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "X 9132",
+    "Xk 9132",
+    "Schneeräumer"
+   ],
+   "rel": [
+    "xrotd-9213"
+   ],
+   "img": "img/fz/x-9132",
+   "imgc": "U. Finke"
   },
   {
    "id": "ge44ii-611",
