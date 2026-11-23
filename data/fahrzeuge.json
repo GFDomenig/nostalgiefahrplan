@@ -1993,6 +1993,46 @@
    ],
    "img": "img/fz/bc-110",
    "imgc": "U. Finke"
+  },
+  {
+   "id": "wr-3821",
+   "nr": "WR-S 3821",
+   "n": "Stiva Retica",
+   "kat": "wagen",
+   "bj": "1929",
+   "b": "rhb",
+   "zu": "hrhb",
+   "st": "betr",
+   "col": "#1a2a6b",
+   "len": 16.44,
+   "gr": "wagen",
+   "rel": [
+    "as-1161",
+    "b-2111"
+   ],
+   "bem": "ehemals A 1208",
+   "p": "Einer der 30 Stahlwagen, die 1929–1931 an die RhB geliefert wurden; zu dieser Serie gehören auch der Salonwagen As 1161 und der heutige Aussichtswagen B 2111 (ehemals B 2227). Ursprünglich als Erstklasswagen A 1208 in Dienst gestellt, fährt er heute als Bistrowagen «Stiva Retica» und trägt die Werbebemalung «Calanda Land». Das Fahrzeug ist Eigentum der Rhätischen Bahn und wird unter ihrer Marke Historic RhB geführt.",
+   "i18n": {
+    "fr": {
+     "bem": "anciennement A 1208",
+     "p": "L’une des 30 voitures en acier livrées aux RhB en 1929–1931 ; à cette série appartiennent aussi la voiture-salon As 1161 et l’actuelle voiture panoramique B 2111 (ex-B 2227). Mise en service comme voiture de première classe A 1208, elle circule aujourd’hui comme voiture-bistrot « Stiva Retica » et porte la livrée publicitaire « Calanda Land ». Le véhicule appartient aux Chemins de fer rhétiques et circule sous leur marque Historic RhB."
+    },
+    "it": {
+     "bem": "già A 1208",
+     "p": "Una delle 30 carrozze in acciaio consegnate alla RhB nel 1929–1931; della serie fanno parte anche la carrozza salone As 1161 e l’attuale carrozza panoramica B 2111 (ex B 2227). Entrata in servizio come carrozza di prima classe A 1208, oggi circola come carrozza bistrò «Stiva Retica» e porta la livrea pubblicitaria «Calanda Land». Il veicolo è di proprietà della Ferrovia retica e circola con il suo marchio Historic RhB."
+    },
+    "en": {
+     "bem": "formerly A 1208",
+     "p": "One of the 30 steel coaches delivered to the RhB in 1929–1931; the series also includes saloon car As 1161 and today’s observation car B 2111 (formerly B 2227). Originally entering service as first-class coach A 1208, it now runs as the bistro car «Stiva Retica» and carries the «Calanda Land» advertising livery. The vehicle is owned by the Rhaetian Railway and runs under its Historic RhB brand."
+    }
+   },
+   "m": [
+    "WR-S 3821",
+    "A 1208",
+    "Stiva Retica"
+   ],
+   "img": "img/fz/wr-3821",
+   "imgc": "U. Finke"
   }
  ]
 }
