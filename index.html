@@ -524,7 +524,7 @@ const vOrg=k=>{const o=OK[k];if(!o)return `<p class="empty">${L("o_gone")} <a hr
  return `<div class="det" style="max-width:1000px"><a class="back bk" href="#ueber">← ${L("ue_back")}</a>
  <div style="display:flex;gap:22px;align-items:center;flex-wrap:wrap">${logo(o,1)}<div><span class="k" style="font-size:13px;color:var(--red);font-weight:600;text-transform:uppercase;letter-spacing:.04em">${L("otyp")[o.typ]}</span><h2 style="margin:2px 0 0">${esc(o.n)}</h2></div></div>
  <dl class="fx" style="margin-top:18px"><dt>${L("o_rf")}</dt><dd>${L("rf")[o.rf]||""}</dd>${o.g?`<dt>${L("o_g")}</dt><dd>${o.g}</dd>`:""}${o.s?`<dt>${L("o_s")}</dt><dd>${esc(o.s)}</dd>`:""}</dl>
- ${LT(o,"p").split("\n\n").map(x=>`<p style="font-size:18px;max-width:68ch;margin-top:18px">${esc(x)}</p>`).join("")}
+ ${LT(o,"p").split("\n\n").map(x=>x.startsWith("## ")?`<h3 style="margin-top:26px">${esc(x.slice(3))}</h3>`:`<p style="font-size:18px;max-width:68ch;margin-top:12px">${esc(x)}</p>`).join("")}
  ${o.w?`<p><a class="btn p" href="${o.w}">${L("website")}: ${esc(host)}</a></p>`:""}
  ${o.typ==="dach"?`<h3 style="margin-top:26px">${L("ue_members")}</h3><div class="orgg">${ORG.filter(x=>x.typ==="mitglied").map(orgTile).join("")}</div>`:""}
  ${isR?"":`<h3 style="margin-top:26px">${L("o_news3")}</h3>${nw.length?nw.map(nItem).join(""):`<p class="note">${L("o_none_n")}</p>`}`}
