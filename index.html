@@ -607,7 +607,7 @@ document.querySelectorAll(".langs button").forEach(b=>b.onclick=()=>{LG=b.datase
 document.addEventListener("click",e=>{const b=e.target.closest("[data-op]");if(!b)return;e.preventDefault();st.op=b.dataset.op;document.getElementById("op").value=st.op;setV("liste")});
 document.getElementById("hr").onchange=e=>{st.hr=e.target.checked;render()};
 ["q","kt","tr","th","op"].forEach(id=>document.getElementById(id).addEventListener("input",e=>{st[id]=e.target.value;render()}));
-const memSorted=()=>ORG.filter(o=>o.typ==="mitglied").map((o,i)=>[o,i]).sort((a,b)=>((+a[0].g||9999)-(+b[0].g||9999))||a[1]-b[1]).map(x=>x[0]);
+const memSorted=()=>{const m=ORG.filter(o=>o.typ==="mitglied").map((o,i)=>[o,i]).sort((a,b)=>((+a[0].g||9999)-(+b[0].g||9999))||a[1]-b[1]).map(x=>x[0]);if(!m.length)return m;const d=Math.floor((Date.now()+36e5)/864e5)%m.length;return m.slice(d).concat(m.slice(0,d))};
 const fromHash=()=>{const h=location.hash.slice(1);st.home=(h===""||h==="start");if(st.home)st.v="liste";if(["liste","kalender","karte","veranstalter","news","fahrzeuge","ueber","mitglieder"].includes(h)||/^(fahrt|fz|org)-/.test(h))st.v=h;render()};
 document.querySelectorAll(".tlinks a,.tbrand").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();e.stopPropagation();if(!ov.hidden){closeOv(true);ovHist=false}const s2=a.dataset.s;
  const v2=s2==="fahrten"?(["liste","kalender","karte","veranstalter"].includes(st.v)?st.v:"liste"):s2==="news"?"news":s2==="fz"?"fahrzeuge":s2==="mit"?"mitglieder":"ueber";
