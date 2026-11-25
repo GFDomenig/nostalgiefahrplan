@@ -517,7 +517,7 @@ const orgCard=o=>`<a class="orgc" href="#org-${o.k}">${logo(o)}<div><span class=
 const orgTile=o=>`<a class="orgt" href="#org-${o.k}">${logo(o)}<span>${esc(o.n)}</span></a>`;
 const vUe=()=>`<h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L("nav_ueber")}</h2><p style="max-width:62ch">${L("ue_lede")}</p>
  <div class="orgbig">${ORG.filter(o=>o.typ==="stiftung"||o.typ==="dach").map(orgCard).join("")}</div>
- <h2 class="month">${L("ue_members")}</h2><div class="orgg">${ORG.filter(o=>o.typ==="mitglied").map(orgTile).join("")}</div>
+ <h2 class="month">${L("ue_members")}</h2><div class="orgg">${memSorted().map(orgTile).join("")}</div>
  <div class="orgbig" style="margin-top:28px">${ORG.filter(o=>o.typ==="rhb").map(orgCard).join("")}</div>`;
 const vOrg=k=>{const o=OK[k];if(!o)return `<p class="empty">${L("o_gone")} <a href="#ueber">${L("ue_back")}</a></p>`;
  const isR=o.typ==="rhb",isS=o.typ==="stiftung",nw=!isR&&o.nq?NN.filter(n=>n.q.includes(o.nq)).slice(0,3):[];
@@ -530,7 +530,7 @@ const vOrg=k=>{const o=OK[k];if(!o)return `<p class="empty">${L("o_gone")} <a hr
  <div style="display:flex;gap:22px;align-items:center;flex-wrap:wrap">${logo(o,1)}<div><span class="k" style="font-size:13px;color:var(--red);font-weight:600;text-transform:uppercase;letter-spacing:.04em">${L("otyp")[o.typ]}</span><h2 style="margin:2px 0 0">${esc(o.n)}</h2></div></div>
  <dl class="fx" style="margin-top:18px"><dt>${L("o_rf")}</dt><dd>${L("rf")[o.rf]||""}</dd>${o.g?`<dt>${L("o_g")}</dt><dd>${o.g}</dd>`:""}${o.s?`<dt>${L("o_s")}</dt><dd>${esc(o.s)}</dd>`:""}</dl>
  ${(()=>{const ps=LT(o,"p").split("\n\n"),np=ps.filter(x=>!x.startsWith("## ")).length;return `<div class="mtx${np>1?" col":""}">${ps.map(x=>x.startsWith("## ")?`<h3 style="margin-top:26px">${esc(x.slice(3))}</h3>`:`<p style="font-size:18px;max-width:68ch;margin-top:12px">${esc(x)}</p>`).join("")}${np>1?`<button type="button" class="btn p it more">${L("more_read")}</button>`:""}</div>`})()}
- ${o.typ==="dach"?`<h3 style="margin-top:26px">${L("ue_members")}</h3><div class="orgg">${ORG.filter(x=>x.typ==="mitglied").map(orgTile).join("")}</div>`:""}
+ ${o.typ==="dach"?`<h3 style="margin-top:26px">${L("ue_members")}</h3><div class="orgg">${memSorted().map(orgTile).join("")}</div>`:""}
  ${isR?"":`<h3 style="margin-top:26px">${L("o_news3")}</h3>${nw.length?nw.map(nItem).join(""):`<p class="note">${L("o_none_n")}</p>`}`}
  ${isR||isS?"":`<h3 style="margin-top:26px">${L("o_trips3")}</h3>${trips||`<p class="note">${L("o_none_t")}</p>`}${MIT?"":`<p class="note">${L("o_mit_hint")} <a href="#mitglieder">${L("nav_mit")}</a></p>`}`}
  ${o.w?`<p style="margin-top:28px"><a class="btn p it" data-ext="1" href="${o.w}">${L("website")}: ${esc(host)}</a></p>`:""}
@@ -606,6 +606,7 @@ document.querySelectorAll(".langs button").forEach(b=>b.onclick=()=>{LG=b.datase
 document.addEventListener("click",e=>{const b=e.target.closest("[data-op]");if(!b)return;e.preventDefault();st.op=b.dataset.op;document.getElementById("op").value=st.op;setV("liste")});
 document.getElementById("hr").onchange=e=>{st.hr=e.target.checked;render()};
 ["q","kt","tr","th","op"].forEach(id=>document.getElementById(id).addEventListener("input",e=>{st[id]=e.target.value;render()}));
+const memSorted=()=>ORG.filter(o=>o.typ==="mitglied").map((o,i)=>[o,i]).sort((a,b)=>((+a[0].g||9999)-(+b[0].g||9999))||a[1]-b[1]).map(x=>x[0]);
 const fromHash=()=>{const h=location.hash.slice(1);st.home=(h===""||h==="start");if(st.home)st.v="liste";if(["liste","kalender","karte","veranstalter","news","fahrzeuge","ueber","mitglieder"].includes(h)||/^(fahrt|fz|org)-/.test(h))st.v=h;render()};
 document.querySelectorAll(".tlinks a,.tbrand").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();e.stopPropagation();if(!ov.hidden){closeOv(true);ovHist=false}const s2=a.dataset.s;
  const v2=s2==="fahrten"?(["liste","kalender","karte","veranstalter"].includes(st.v)?st.v:"liste"):s2==="news"?"news":s2==="fz"?"fahrzeuge":s2==="mit"?"mitglieder":"ueber";
