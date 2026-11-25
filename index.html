@@ -194,7 +194,7 @@ body.sec .bar{display:none}
 .det{max-width:860px;padding-top:12px}
 .mods{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}.btn.dis{opacity:.6;cursor:default}
 .btn.trs{font-weight:600}
-.back.bk{display:inline-flex;align-items:center;justify-content:center;min-width:9.5em;background:var(--red);color:#fff;padding:9px 14px;border-radius:6px;font-size:15px;font-weight:600;text-decoration:none;font-family:Barlow,sans-serif}.back.bk:hover{background:#a8001a}
+.back.bk{display:inline-flex;align-items:center;justify-content:center;background:var(--red);color:#fff;padding:9px 14px;border-radius:6px;font-size:15px;font-weight:600;text-decoration:none;font-family:Barlow,sans-serif}.back.bk:hover{background:#a8001a}
 .det .back{display:inline-block;margin:6px 0 14px;font-weight:600;text-decoration:none}
 .det h2{font-size:clamp(30px,4vw,44px);line-height:1.05;margin:6px 0 8px}
 .det .meta{font-size:17px}
@@ -519,17 +519,21 @@ const vUe=()=>`<h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L(
  <h2 class="month">${L("ue_members")}</h2><div class="orgg">${ORG.filter(o=>o.typ==="mitglied").map(orgTile).join("")}</div>
  <div class="orgbig" style="margin-top:28px">${ORG.filter(o=>o.typ==="rhb").map(orgCard).join("")}</div>`;
 const vOrg=k=>{const o=OK[k];if(!o)return `<p class="empty">${L("o_gone")} <a href="#ueber">${L("ue_back")}</a></p>`;
- const isR=o.typ==="rhb",nw=!isR&&o.nq?NN.filter(n=>n.q.includes(o.nq)).slice(0,3):[],tr=isR?"":o.typ==="dach"?upList(T.filter(t=>HR(t.o)),3):o.op?upList(T.filter(t=>t.o===o.op),3):"";
+ const isR=o.typ==="rhb",isS=o.typ==="stiftung",nw=!isR&&o.nq?NN.filter(n=>n.q.includes(o.nq)).slice(0,3):[];
+ const pub=isR||isS?[]:o.typ==="dach"?T.filter(t=>HR(t.o)):o.op?T.filter(t=>t.o===o.op):[];
+ const seen=new Set(),poc=OCC.filter(oc=>oc.end>=TODAY&&pub.includes(T[oc.i])&&!seen.has(oc.i)&&seen.add(oc.i)).slice(0,3);
+ const mf=MIT&&!isR&&!isS?MIT.fahrten.filter(f=>o.typ==="dach"||f.o===k):[];
+ const trips=poc.map(tripHTML).join("")+mf.map(mitArt).join("");
  const host=o.w?o.w.replace(/^https?:\/\/(www\.)?/,"").split("/")[0]:"";
  return `<div class="det" style="max-width:1000px"><a class="back bk" href="#ueber">${L("ue_back")}</a>
  <div style="display:flex;gap:22px;align-items:center;flex-wrap:wrap">${logo(o,1)}<div><span class="k" style="font-size:13px;color:var(--red);font-weight:600;text-transform:uppercase;letter-spacing:.04em">${L("otyp")[o.typ]}</span><h2 style="margin:2px 0 0">${esc(o.n)}</h2></div></div>
  <dl class="fx" style="margin-top:18px"><dt>${L("o_rf")}</dt><dd>${L("rf")[o.rf]||""}</dd>${o.g?`<dt>${L("o_g")}</dt><dd>${o.g}</dd>`:""}${o.s?`<dt>${L("o_s")}</dt><dd>${esc(o.s)}</dd>`:""}</dl>
  ${LT(o,"p").split("\n\n").map(x=>x.startsWith("## ")?`<h3 style="margin-top:26px">${esc(x.slice(3))}</h3>`:`<p style="font-size:18px;max-width:68ch;margin-top:12px">${esc(x)}</p>`).join("")}
- ${o.w?`<p><a class="btn p" data-ext="1" href="${o.w}">${L("website")}: ${esc(host)}</a></p>`:""}
  ${o.typ==="dach"?`<h3 style="margin-top:26px">${L("ue_members")}</h3><div class="orgg">${ORG.filter(x=>x.typ==="mitglied").map(orgTile).join("")}</div>`:""}
  ${isR?"":`<h3 style="margin-top:26px">${L("o_news3")}</h3>${nw.length?nw.map(nItem).join(""):`<p class="note">${L("o_none_n")}</p>`}`}
- ${isR||o.typ==="stiftung"?"":`<h3 style="margin-top:26px">${L("o_trips3")}</h3>${tr||`<p class="note">${L("o_none_t")}</p>`}`}
- <p style="margin-top:28px"><a class="back bk" href="#ueber">${L("ue_back")}</a></p></div>`};
+ ${isR||isS?"":`<h3 style="margin-top:26px">${L("o_trips3")}</h3>${trips||`<p class="note">${L("o_none_t")}</p>`}${MIT?"":`<p class="note">${L("o_mit_hint")} <a href="#mitglieder">${L("nav_mit")}</a></p>`}`}
+ ${o.w?`<p style="margin-top:28px"><a class="btn p it" data-ext="1" href="${o.w}">${L("website")}: ${esc(host)}</a></p>`:""}
+ <p style="margin-top:${o.w?"10px":"28px"}"><a class="back bk" href="#ueber">${L("ue_back")}</a></p></div>`};
 let MAP=null;
 const M30=()=>{const e=pd(TODAY);e.setDate(e.getDate()+30);const E=e.getFullYear()+'-'+String(e.getMonth()+1).padStart(2,'0')+'-'+String(e.getDate()).padStart(2,'0');
  return OCC.filter(oc=>oc.end>=TODAY&&oc.day<=E&&match(T[oc.i]))};
@@ -584,14 +588,15 @@ const unlock=async pw=>{const e=await fetch("data/mitglieder.enc.json",{cache:"n
  const key=await crypto.subtle.deriveKey({name:"PBKDF2",salt:b64(e.salt),iterations:e.it,hash:"SHA-256"},km,{name:"AES-GCM",length:256},false,["decrypt"]);
  const pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b64(e.iv)},key,b64(e.ct));return JSON.parse(new TextDecoder().decode(pt))};
 const TL=o=>o?(o[LG]||o.de):"";
+const mitArt=f=>{const d=f.d?pd(f.d):null;const o=OK[f.o];return `<article class="trip hrt"><div class="dt">${d?`${d.getDate()}.${d.getMonth()+1}.<small>${WD()[d.getDay()]}${f.h?" · "+f.h:""}</small>`:esc(TL(f.dl))}</div><div><h3>${esc(TL(f.t))} <span class="hrb">${L("nav_mit")}</span></h3><div class="meta">${o?esc(o.n):""}${f.r?" · "+esc(f.r):""}</div><p class="desc">${esc(TL(f.x))}</p></div><div class="act"><a class="btn p it" href="${f.b}">${L("info_t")}</a></div></article>`};
 const vMit=()=>{if(!MIT)return `<h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L("nav_mit")}</h2><p style="max-width:62ch">${L("mit_lede")}</p>
  <form id="mitf" class="mitf"><label for="mitpw">${L("mit_pw")}</label><span class="pww"><input type="password" id="mitpw" autocomplete="current-password" required><button type="button" class="pwt" id="pwt" aria-pressed="false" aria-label="${L("mit_show")}" title="${L("mit_show")}"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 5C6.5 5 2.7 9.4 1.5 12c1.2 2.6 5 7 10.5 7s9.3-4.4 10.5-7C21.3 9.4 17.5 5 12 5zm0 11.5A4.5 4.5 0 1 1 12 7.5a4.5 4.5 0 0 1 0 9zm0-2.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg></button></span><button class="btn p it" type="submit">${L("mit_go")}</button><p class="note" id="mitmsg" role="status"></p></form>`;
- let cur="";const tr=MIT.fahrten.map(f=>{const d=f.d?pd(f.d):null;const o=OK[f.o];const g=d?(x=>x.charAt(0).toUpperCase()+x.slice(1))(MO()[d.getMonth()])+" "+d.getFullYear():TL(f.grp);const hd=g!==cur?`<h2 class="month">${esc(g)}</h2>`:"";cur=g;return hd+`<article class="trip hrt"><div class="dt">${d?`${d.getDate()}.${d.getMonth()+1}.<small>${WD()[d.getDay()]}${f.h?" · "+f.h:""}</small>`:esc(TL(f.dl))}</div><div><h3>${esc(TL(f.t))} <span class="hrb">${L("nav_mit")}</span></h3><div class="meta">${o?esc(o.n):""}${f.r?" · "+esc(f.r):""}</div><p class="desc">${esc(TL(f.x))}</p></div><div class="act"><a class="btn p it" href="${f.b}">${L("info_t")}</a></div></article>`}).join("");
+ let cur="";const tr=MIT.fahrten.map(f=>{const d=f.d?pd(f.d):null;const o=OK[f.o];const g=d?(x=>x.charAt(0).toUpperCase()+x.slice(1))(MO()[d.getMonth()])+" "+d.getFullYear():TL(f.grp);const hd=g!==cur?`<h2 class="month">${esc(g)}</h2>`:"";cur=g;return hd+mitArt(f)}).join("");
  return `<div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap"><h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L("nav_mit")}</h2><button class="btn" id="mitout">${L("mit_out")}</button></div><p style="max-width:62ch">${esc(TL(MIT.intro))}</p><h3 style="margin:26px 0 0">${L("mit_trips")}</h3>${tr}`};
 const bindMit=()=>{const t=document.getElementById("pwt");if(t)t.onclick=()=>{const i=document.getElementById("mitpw"),sh=i.type==="password";i.type=sh?"text":"password";t.setAttribute("aria-pressed",sh);const lb=L(sh?"mit_hide":"mit_show");t.title=lb;t.setAttribute("aria-label",lb);i.focus()};const f=document.getElementById("mitf");if(f)f.onsubmit=async e=>{e.preventDefault();const m=document.getElementById("mitmsg");m.textContent=L("mit_wait");const pw=document.getElementById("mitpw").value;
   try{MIT=await unlock(pw);try{sessionStorage.setItem("mitpw",pw)}catch(x){}render()}catch(x){m.textContent=L("mit_bad")}};
  const o=document.getElementById("mitout");if(o)o.onclick=()=>{MIT=null;try{sessionStorage.removeItem("mitpw")}catch(x){}render()}};
-try{const pw=sessionStorage.getItem("mitpw");if(pw)unlock(pw).then(d=>{MIT=d;if(st.v==="mitglieder")render()}).catch(()=>{})}catch(e){}
+try{const pw=sessionStorage.getItem("mitpw");if(pw)unlock(pw).then(d=>{MIT=d;if(st.v==="mitglieder"||st.v.startsWith("org-"))render()}).catch(()=>{})}catch(e){}
 const goMain=()=>{const v=document.getElementById("view"),b=document.querySelector(".bar"),off=document.getElementById("top").offsetHeight+(getComputedStyle(b).display==="none"||getComputedStyle(b).position!=="sticky"?0:b.offsetHeight);window.scrollTo({top:v.getBoundingClientRect().top+scrollY-off-8,behavior:"smooth"})};
 const all=()=>{statics();opts();standTxt();board();stats();teaser();render()};
 const setV=v=>{const wasHome=st.home;st.home=false;st.v=v;if(location.hash!=="#"+v)history.replaceState(null,"","#"+v);render();if(wasHome)window.scrollTo({top:0})};
