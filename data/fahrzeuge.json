@@ -300,7 +300,8 @@
      "u": "https://www.ferrosuisse.ch"
     }
    ],
-   "hst": "Schweizerische Lokomotiv- und Maschinenfabrik (SLM), Winterthur / Brown, Boveri & Cie. (BBC), Baden / Maschinenfabrik Oerlikon (MFO)"
+   "hst": "Schweizerische Lokomotiv- und Maschinenfabrik (SLM), Winterthur / Brown, Boveri & Cie. (BBC), Baden / Maschinenfabrik Oerlikon (MFO)",
+   "kern": true
   },
   {
    "id": "ge66-415",
@@ -340,7 +341,8 @@
      "u": "https://www.ferrosuisse.ch"
     }
    ],
-   "hst": "Schweizerische Lokomotiv- und Maschinenfabrik (SLM), Winterthur / Brown, Boveri & Cie. (BBC), Baden / Maschinenfabrik Oerlikon (MFO)"
+   "hst": "Schweizerische Lokomotiv- und Maschinenfabrik (SLM), Winterthur / Brown, Boveri & Cie. (BBC), Baden / Maschinenfabrik Oerlikon (MFO)",
+   "kern": true
   },
   {
    "id": "ge66-407",
