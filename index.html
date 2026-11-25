@@ -180,14 +180,18 @@ body.sec .bar{display:none}
 .orgc h3{margin:0 0 2px;font-size:24px;line-height:1.1}.orgc p{margin:6px 0 0;font-size:15px}
 .orgc .k{font-size:13px;color:var(--red);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
 .orgg{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(46%,190px),1fr));gap:12px;margin-top:12px}
+.spktbd{color:var(--mut,#777);font-style:italic}
 .orgkz.orgspk{margin-top:auto;font-size:12px;color:var(--ink);font-variant-numeric:tabular-nums}
-@media(max-width:700px){.orgkz.orgspk{font-size:11px}}
+.spkn{white-space:nowrap;font-size:11.5px}
+@media(max-width:700px){.orgkz.orgspk{font-size:11px}.spkn{white-space:normal;font-size:11px}}
 .orgkz{font-weight:400;font-size:13px;line-height:1.35;color:var(--mut,#555)}
 .orgt>span{overflow-wrap:anywhere;hyphens:auto}
 .orgt{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;border:1px solid var(--line);border-radius:12px;padding:18px 12px;background:var(--soft);text-decoration:none;color:var(--ink);font-weight:600;font-size:15px;line-height:1.25}
 .lg{flex:none;width:84px;height:84px;border-radius:50%;display:grid;place-items:center;background:#fff;border:3px solid var(--red);font:700 22px "Barlow Condensed",sans-serif;color:var(--ink);overflow:hidden}
 .lg img{width:100%;height:100%;object-fit:contain}
 .lg.im{border:0;background:none}
+.lg.im.lw{width:150px;border-radius:10px;background:#fff;padding:8px;box-sizing:border-box}
+.lg.im.lw.xl{width:220px;height:120px}
 .lg.rhb{background:var(--red);color:#fff;border-color:var(--red)}
 .lg.xl{width:120px;height:120px;font-size:32px}
 .olist{list-style:none;padding:0;margin:8px 0}.olist li{padding:8px 0;border-top:1px solid var(--line)}.olist li span{color:var(--mut);font-size:14px;margin-right:10px}
@@ -515,10 +519,10 @@ const vFzD=id=>{const v=FZ.find(x=>x.id===id);if(!v)return `<p class="empty">${L
  ${tr?`<h3 style="margin-top:26px">${L("fz_trips")}</h3>${tr}`:""}
  <p style="margin-top:28px"><a class="back bk" href="#fahrzeuge" data-g="${G(v)}">${L("fz_back")}</a></p></div>`};
 /* ---------- Über uns ---------- */
-const logo=(o,xl)=>o.lg?`<span class="lg im${xl?" xl":""}"><img src="${o.lg}" alt=""></span>`:`<span class="lg${o.k==="rhb"?" rhb":""}${xl?" xl":""}" aria-hidden="true">${esc(o.ab||o.n.slice(0,2))}</span>`;
+const logo=(o,xl)=>o.lg?`<span class="lg im${o.typ==="mitglied"?" lw":""}${xl?" xl":""}"><img src="${o.lg}" alt="${esc(o.n)}" data-ab="${esc(o.ab||"")}" loading="lazy" onerror="var p=this.parentNode;p.className='lg';p.textContent=this.dataset.ab"></span>`:`<span class="lg${o.k==="rhb"?" rhb":""}${xl?" xl":""}" aria-hidden="true">${esc(o.ab||o.n.slice(0,2))}</span>`;
 const first=s=>{const m=/^.*?[.!?](\s|$)/.exec(s);return m?m[0]:s};
 const orgCard=o=>`<a class="orgc" href="#org-${o.k}">${logo(o)}<div><span class="k">${L("otyp")[o.typ]}</span><h3>${esc(o.n)}</h3><p>${esc(o.kz?LT(o,"kz"):first(LT(o,"p")))}</p><p style="margin:10px 0 0"><span class="btn p it">${L("o_more")}</span></p></div></a>`;
-const orgTile=o=>`<a class="orgt" href="#org-${o.k}">${logo(o)}<span>${esc(o.n)}</span>${o.kz?`<small class="orgkz">${esc(LT(o,"kz"))}</small>`:""}${o.spk?`<small class="orgkz orgspk">${L("o_spk")}<br>${esc(o.spk)}</small>`:""}</a>`;
+const orgTile=o=>`<a class="orgt" href="#org-${o.k}">${logo(o)}<span>${esc(o.n)}</span>${o.kz?`<small class="orgkz">${esc(LT(o,"kz"))}</small>`:""}<small class="orgkz orgspk">${L("o_spk")}<br>${o.spk?`<span class="spkn">${esc(o.spk)}</span>`:`<span class="spktbd">${L("o_spk_tbd")}</span>`}</small></a>`;
 const vUe=()=>`<h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L("nav_ueber")}</h2><p style="max-width:62ch">${L("ue_lede")}</p>
  <div class="orgbig">${ORG.filter(o=>o.typ==="stiftung"||o.typ==="dach").map(orgCard).join("")}</div>
  <h2 class="month">${L("ue_members")}</h2><div class="orgg">${memSorted().map(orgTile).join("")}</div>
