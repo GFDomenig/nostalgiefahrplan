@@ -443,7 +443,7 @@ const vDetail=id=>{const i=TID[id];if(i===undefined)return `<p class="empty">${L
  const t=T[i],o=OPS[t.o],nd=nextDay(t),past=(t.rg?t.rg[1]:t.d[t.d.length-1])<TODAY,w=WD(),x=LT(t,"x"),pr=LT(t,"pr"),tt=LT(t,"t");
  const dates=t.rg?`<span>${fd(t.rg[0])}${pd(t.rg[0]).getFullYear()} ${L("until")} ${fd(t.rg[1])}${pd(t.rg[1]).getFullYear()} · ${WDL(t.wd)}</span>`:t.d.map(x=>`<span class="${x<TODAY?"p":""}">${w[pd(x).getDay()]} ${fd(x)}${pd(x).getFullYear()}</span>`).join("");
  const url=location.href.split("#")[0]+"#fahrt-"+t.id,msg=tt+" ("+o.n+"): "+url;
- return `<div class="det"><a class="back" href="#liste">${L("back")}</a>
+ return `<div class="det"><a class="back bk" href="#liste">${L("back")}</a>
  <div class="chips">${chips(t)}</div><h2>${esc(tt)}${HR(t.o)?` <span class="hrb">Historic RhB</span>`:""}</h2><div class="meta">${esc(o.n)}</div>
  ${x?`<p class="desc" style="font-size:17px">${esc(x)}</p>`:""}
  <div class="facts"><div><span>${L("route")}</span><b>${esc(LT(t,"r"))}</b></div>${t.h?`<div><span>${L("dep")}</span><b>${tm(t)}</b></div>`:""}<div><span>${L("traction")}</span><b>${TRL(t.tr)}</b></div>${pr?`<div><span>${L("price")}</span><b>${esc(pr)}</b></div>`:""}</div>
@@ -521,14 +521,15 @@ const vUe=()=>`<h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L(
 const vOrg=k=>{const o=OK[k];if(!o)return `<p class="empty">${L("o_gone")} <a href="#ueber">${L("ue_back")}</a></p>`;
  const isR=o.typ==="rhb",nw=!isR&&o.nq?NN.filter(n=>n.q.includes(o.nq)).slice(0,3):[],tr=isR?"":o.typ==="dach"?upList(T.filter(t=>HR(t.o)),3):o.op?upList(T.filter(t=>t.o===o.op),3):"";
  const host=o.w?o.w.replace(/^https?:\/\/(www\.)?/,"").split("/")[0]:"";
- return `<div class="det" style="max-width:1000px"><a class="back" href="#ueber">← ${L("ue_back")}</a>
+ return `<div class="det" style="max-width:1000px"><a class="back bk" href="#ueber">← ${L("ue_back")}</a>
  <div style="display:flex;gap:22px;align-items:center;flex-wrap:wrap">${logo(o,1)}<div><span class="k" style="font-size:13px;color:var(--red);font-weight:600;text-transform:uppercase;letter-spacing:.04em">${L("otyp")[o.typ]}</span><h2 style="margin:2px 0 0">${esc(o.n)}</h2></div></div>
  <dl class="fx" style="margin-top:18px"><dt>${L("o_rf")}</dt><dd>${L("rf")[o.rf]||""}</dd>${o.g?`<dt>${L("o_g")}</dt><dd>${o.g}</dd>`:""}${o.s?`<dt>${L("o_s")}</dt><dd>${esc(o.s)}</dd>`:""}</dl>
  ${LT(o,"p").split("\n\n").map(x=>`<p style="font-size:18px;max-width:68ch;margin-top:18px">${esc(x)}</p>`).join("")}
  ${o.w?`<p><a class="btn p" href="${o.w}">${L("website")}: ${esc(host)}</a></p>`:""}
  ${o.typ==="dach"?`<h3 style="margin-top:26px">${L("ue_members")}</h3><div class="orgg">${ORG.filter(x=>x.typ==="mitglied").map(orgTile).join("")}</div>`:""}
  ${isR?"":`<h3 style="margin-top:26px">${L("o_news3")}</h3>${nw.length?nw.map(nItem).join(""):`<p class="note">${L("o_none_n")}</p>`}`}
- ${isR||o.typ==="stiftung"?"":`<h3 style="margin-top:26px">${L("o_trips3")}</h3>${tr||`<p class="note">${L("o_none_t")}</p>`}`}</div>`};
+ ${isR||o.typ==="stiftung"?"":`<h3 style="margin-top:26px">${L("o_trips3")}</h3>${tr||`<p class="note">${L("o_none_t")}</p>`}`}
+ <p style="margin-top:28px"><a class="back bk" href="#ueber">← ${L("ue_back")}</a></p></div>`};
 let MAP=null;
 const M30=()=>{const e=pd(TODAY);e.setDate(e.getDate()+30);const E=e.getFullYear()+'-'+String(e.getMonth()+1).padStart(2,'0')+'-'+String(e.getDate()).padStart(2,'0');
  return OCC.filter(oc=>oc.end>=TODAY&&oc.day<=E&&match(T[oc.i]))};
