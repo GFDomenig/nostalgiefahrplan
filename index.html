@@ -180,7 +180,8 @@ body.sec .bar{display:none}
 .orgc h3{margin:0 0 2px;font-size:24px;line-height:1.1}.orgc p{margin:6px 0 0;font-size:15px}
 .orgc .k{font-size:13px;color:var(--red);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
 .orgg{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(46%,190px),1fr));gap:12px;margin-top:12px}
-.orgt{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;border:1px solid var(--line);border-radius:12px;padding:18px 12px;background:var(--soft);text-decoration:none;color:var(--ink);font-weight:600;font-size:15px;line-height:1.25}
+.orgkz{font-weight:400;font-size:13px;line-height:1.35;color:var(--mut,#555)}
+.orgt{overflow-wrap:anywhere;hyphens:auto;display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;border:1px solid var(--line);border-radius:12px;padding:18px 12px;background:var(--soft);text-decoration:none;color:var(--ink);font-weight:600;font-size:15px;line-height:1.25}
 .lg{flex:none;width:84px;height:84px;border-radius:50%;display:grid;place-items:center;background:#fff;border:3px solid var(--red);font:700 22px "Barlow Condensed",sans-serif;color:var(--ink);overflow:hidden}
 .lg img{width:100%;height:100%;object-fit:contain}
 .lg.im{border:0;background:none}
@@ -514,7 +515,7 @@ const vFzD=id=>{const v=FZ.find(x=>x.id===id);if(!v)return `<p class="empty">${L
 const logo=(o,xl)=>o.lg?`<span class="lg im${xl?" xl":""}"><img src="${o.lg}" alt=""></span>`:`<span class="lg${o.k==="rhb"?" rhb":""}${xl?" xl":""}" aria-hidden="true">${esc(o.ab||o.n.slice(0,2))}</span>`;
 const first=s=>{const m=/^.*?[.!?](\s|$)/.exec(s);return m?m[0]:s};
 const orgCard=o=>`<a class="orgc" href="#org-${o.k}">${logo(o)}<div><span class="k">${L("otyp")[o.typ]}</span><h3>${esc(o.n)}</h3><p>${esc(o.kz?LT(o,"kz"):first(LT(o,"p")))}</p><p style="margin:10px 0 0"><span class="btn p it">${L("o_more")}</span></p></div></a>`;
-const orgTile=o=>`<a class="orgt" href="#org-${o.k}">${logo(o)}<span>${esc(o.n)}</span></a>`;
+const orgTile=o=>`<a class="orgt" href="#org-${o.k}">${logo(o)}<span>${esc(o.n)}</span>${o.kz?`<small class="orgkz">${esc(LT(o,"kz"))}</small>`:""}</a>`;
 const vUe=()=>`<h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L("nav_ueber")}</h2><p style="max-width:62ch">${L("ue_lede")}</p>
  <div class="orgbig">${ORG.filter(o=>o.typ==="stiftung"||o.typ==="dach").map(orgCard).join("")}</div>
  <h2 class="month">${L("ue_members")}</h2><div class="orgg">${memSorted().map(orgTile).join("")}</div>
