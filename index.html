@@ -522,7 +522,7 @@ const vFzD=id=>{const v=FZ.find(x=>x.id===id);if(!v)return `<p class="empty">${L
 const logo=(o,xl)=>o.lg?`<span class="lg im${o.typ==="mitglied"?" lw":""}${xl?" xl":""}"><img src="${o.lg}" alt="${esc(o.n)}" data-ab="${esc(o.ab||"")}" loading="lazy" onerror="var p=this.parentNode;p.className='lg';p.textContent=this.dataset.ab"></span>`:`<span class="lg${o.k==="rhb"?" rhb":""}${xl?" xl":""}" aria-hidden="true">${esc(o.ab||o.n.slice(0,2))}</span>`;
 const first=s=>{const m=/^.*?[.!?](\s|$)/.exec(s);return m?m[0]:s};
 const orgCard=o=>`<a class="orgc" href="#org-${o.k}">${logo(o)}<div><span class="k">${L("otyp")[o.typ]}</span><h3>${esc(o.n)}</h3><p>${esc(o.kz?LT(o,"kz"):first(LT(o,"p")))}</p><p style="margin:10px 0 0"><span class="btn p it">${L("o_more")}</span></p></div></a>`;
-const orgTile=o=>`<a class="orgt" href="#org-${o.k}">${logo(o)}<span>${esc(o.n)}</span>${o.kz?`<small class="orgkz">${esc(LT(o,"kz"))}</small>`:""}<small class="orgkz orgspk">${L("o_spk")}<br>${o.spk?`<span class="spkn">${esc(o.spk)}</span>`:`<span class="spktbd">${L("o_spk_tbd")||"…"}</span>`}</small></a>`;
+const orgTile=o=>`<a class="orgt" href="#org-${o.k}">${logo(o)}<span>${esc(o.n)}</span>${o.kz?`<small class="orgkz">${esc(LT(o,"kz"))}</small>`:""}</a>`;
 const vUe=()=>`<h2 style="font-size:clamp(30px,4vw,42px);margin:16px 0 4px">${L("nav_ueber")}</h2><p style="max-width:62ch">${L("ue_lede")}</p>
  <div class="orgbig">${ORG.filter(o=>o.typ==="stiftung"||o.typ==="dach").map(orgCard).join("")}</div>
  <h2 class="month">${L("ue_members")}</h2><div class="orgg">${memSorted().map(orgTile).join("")}</div>
@@ -536,7 +536,7 @@ const vOrg=k=>{const o=OK[k];if(!o)return `<p class="empty">${L("o_gone")} <a hr
  const host=o.w?o.w.replace(/^https?:\/\/(www\.)?/,"").split("/")[0]:"";
  return `<div class="det" style="max-width:1000px"><a class="back bk" href="#ueber">${L("ue_back")}</a>
  <div style="display:flex;gap:22px;align-items:center;flex-wrap:wrap">${logo(o,1)}<div><span class="k" style="font-size:13px;color:var(--red);font-weight:600;text-transform:uppercase;letter-spacing:.04em">${L("otyp")[o.typ]}</span><h2 style="margin:2px 0 0">${esc(o.n)}</h2></div></div>
- <dl class="fx" style="margin-top:18px"><dt>${L("o_rf")}</dt><dd>${L("rf")[o.rf]||""}</dd>${o.g?`<dt>${L("o_g")}</dt><dd>${o.g}</dd>`:""}${o.s?`<dt>${L("o_s")}</dt><dd>${esc(o.s)}</dd>`:""}</dl>
+ <dl class="fx" style="margin-top:18px"><dt>${L("o_rf")}</dt><dd>${L("rf")[o.rf]||""}</dd>${o.g?`<dt>${L("o_g")}</dt><dd>${o.g}</dd>`:""}${o.s?`<dt>${L("o_s")}</dt><dd>${esc(o.s)}</dd>`:""}${o.typ==="mitglied"?`<dt>${L("o_spk")}</dt><dd>${o.spk?esc(o.spk):`<span class="spktbd">${L("o_spk_tbd")||"…"}</span>`}</dd>`:""}</dl>
  ${(()=>{const ps=LT(o,"p").split("\n\n"),np=ps.filter(x=>!x.startsWith("## ")).length;return `<div class="mtx${np>1?" col":""}">${ps.map(x=>x.startsWith("## ")?`<h3 style="margin-top:26px">${esc(x.slice(3))}</h3>`:`<p style="font-size:18px;max-width:68ch;margin-top:12px">${esc(x)}</p>`).join("")}${np>1?`<button type="button" class="btn p it more">${L("more_read")}</button>`:""}</div>`})()}
  ${o.typ==="dach"?`<h3 style="margin-top:26px">${L("ue_members")}</h3><div class="orgg">${memSorted().map(orgTile).join("")}</div>`:""}
  ${isR?"":`<h3 style="margin-top:26px">${L("o_news3")}</h3>${nw.length?nw.map(nItem).join(""):`<p class="note">${L("o_none_n")}</p>`}`}
