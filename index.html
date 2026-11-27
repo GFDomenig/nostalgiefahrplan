@@ -258,7 +258,7 @@ footer p{max-width:80ch}
 @media(max-width:720px){.tlinks{flex:1 1 auto!important;justify-content:space-between}.tlinks a{font-size:20px;padding:9px 2px}.tlinks a.mitl{padding:5px 5px;border-color:rgba(255,255,255,.25)}.tbrand img{width:32px!important;height:32px!important}.topin{gap:10px!important}}@media(max-width:410px){.tlinks a{font-size:19px;padding:9px 1px}}
 @media(max-width:380px){.tlinks a{font-size:18px;padding:9px 0}.tbrand img{width:28px!important;height:28px!important}.topin{gap:7px!important}}
 .tov{display:flex;gap:8px;align-items:center;flex:none}.tov[hidden]{display:none}.tov .btn{margin:0;padding:7px 12px;font-size:15px;line-height:1.2;font-family:Barlow,sans-serif;font-weight:600;border-radius:6px;cursor:pointer;color:#fff}.tov .btn:hover{background:#a8001a;border-color:#a8001a}@media(max-width:1100px){.topin{flex-wrap:wrap;align-content:center}.topin:has(.tov:not([hidden])){padding-top:6px}.tov{order:3;width:100%;padding:0 0 8px}}@media(max-width:720px){.tov .btn{flex:1 1 0;white-space:normal;padding:7px 8px}}body:not(.home) .hero .lede{display:none}.mtx .more{display:none;margin-top:12px}@media(max-width:700px){.mtx.col p~p,.mtx.col p~h3{display:none}.mtx.col .more{display:inline-block}.mtx.open p~p,.mtx.open p~h3{display:block}.mtx.open .more{display:none}}.mtx.kern p~p{display:none}.mtx.kern .more{display:inline-block}.mtx.kern.open p~p{display:block}.mtx.kern.open .more{display:none}</style>
-<script src="js/i18n.js?v=20261125b"></script>
+<script src="js/i18n.js?v=20261127a"></script>
 </head>
 <body>
 <nav class="top" id="top" data-ia="nav_aria"><div class="topin">
@@ -291,8 +291,9 @@ footer p{max-width:80ch}
 </div></section>
 
 <section class="boardband" aria-labelledby="bh"><div class="wrap">
- <div class="boardhead"><h2 id="bh" data-i="next30"></h2><span><span id="stand"></span> · <a href="#liste" class="more" data-i="all_trips2"></a></span></div>
+ <div class="boardhead"><h2 id="bh"></h2><span><span id="stand"></span> · <a href="#liste" class="more" data-i="all_trips2"></a></span></div>
  <div id="board"></div>
+ <p style="margin:16px 0 0"><button type="button" class="btn p" id="ball"></button></p>
 </div></section>
 
 <nav class="bar" aria-label="Filter"><div class="wrap">
@@ -567,7 +568,8 @@ const drawMap=()=>{if(!window.L){document.getElementById("map").innerHTML=`<p cl
   window.L.marker(o.geo[0],{icon:ic,title:o.n}).bindPopup(pop,{maxWidth:320}).bindTooltip(o.n).addTo(MAP);all.push(...o.geo)});
  if(!all.length)idle.forEach(([k,o])=>all.push(...o.geo));
  if(all.length)MAP.fitBounds(all,{padding:[30,30],maxZoom:11})};
-const board=()=>{const seen=new Set(),_e=pd(TODAY);_e.setDate(_e.getDate()+30);const E=_e.getFullYear()+"-"+String(_e.getMonth()+1).padStart(2,"0")+"-"+String(_e.getDate()).padStart(2,"0"),up=OCC.filter(oc=>oc.end>=TODAY&&oc.day<=E).filter(oc=>{if(seen.has(oc.i))return false;seen.add(oc.i);return true});
+let BALL=false;
+const board=()=>{const seen=new Set(),_e=pd(TODAY);_e.setDate(_e.getDate()+(BALL?30:60));document.getElementById("bh").textContent=L(BALL?"next30":"next60");const bb=document.getElementById("ball");bb.textContent=L(BALL?"b_hr":"b_all");bb.onclick=()=>{BALL=!BALL;board()};const E=_e.getFullYear()+"-"+String(_e.getMonth()+1).padStart(2,"0")+"-"+String(_e.getDate()).padStart(2,"0"),up=OCC.filter(oc=>oc.end>=TODAY&&oc.day<=E&&(BALL||HR(T[oc.i].o))).filter(oc=>{if(seen.has(oc.i))return false;seen.add(oc.i);return true});
  document.getElementById("board").innerHTML=up.map(oc=>{const t=T[oc.i],d=pd(oc.day),mn=MO()[d.getMonth()];return `<div class="dep"><div class="d">${d.getDate()}${LG==="de"?".":""} ${["de","en"].includes(LG)?mn.charAt(0).toUpperCase()+mn.slice(1,3):mn.slice(0,3)}.<small>${WD()[d.getDay()]}${t.h?" · "+t.h:""}</small></div><div><div class="t"><a href="#fahrt-${t.id}">${esc(LT(t,"t"))}</a>${HR(t.o)?` <span class="hrb">Historic RhB</span>`:""}</div><div class="o">${esc(OPS[t.o].n)} · ${esc(LT(t,"r"))}</div></div><div class="act2"><a class="go" href="${t.b}">${L("info_t")}</a></div></div>`}).join("")};
 const stats=()=>{const up=OCC.filter(oc=>oc.end>=TODAY);document.getElementById("stats").innerHTML=`<div class="stat"><b>${up.length}</b><span>${L("st_up")}</span></div><div class="stat"><b>${Object.keys(OPS).length}</b><span>${L("st_ops")}</span></div><div class="stat"><b>${new Set(up.filter(oc=>oc.day<"2027-01-01").map(oc=>oc.i)).size}</b><span>${L("st_adv")}</span></div>`};
 const render=()=>{const v=document.getElementById("view");
